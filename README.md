@@ -21,6 +21,9 @@ No high-level behavior selector or imitation policy counts as achieving the goal
   with unit tests and open-loop replay of recorded MaleCNS motor activity.
 - Named proprioceptor perturbations through the full graph: expected relative
   motor preferences, but incomplete signed responses. [Assay and caveats](PROPRIOCEPTION.md).
+- A physical foreleg muscle feedback loop through the full CNS, with both
+  candidate sensory polarities and matched disconnected controls.
+  [Mechanism, evidence and assumptions](MUSCLE_FEEDBACK.md).
 
 ## What the evidence does **not** show
 
@@ -53,7 +56,7 @@ git clone https://github.com/emberian/chreatures.git ../chreatures
 git -C ../chreatures checkout c30fbccb541ae5bc2cbdb88f7ef38848c611a8e6
 git clone https://github.com/gizemozd/FlyMimic.git ../FlyMimic
 git -C ../FlyMimic checkout 9ea1131626cd76f7203b74076ef8f0e9cab30bef
-.venv/bin/python -m unittest -v test_neuromuscular
+.venv/bin/python -m unittest -v test_neuromuscular test_muscle_feedback
 ```
 
 Download the V5 garden archive linked in `sources.json`, verify its SHA256, and

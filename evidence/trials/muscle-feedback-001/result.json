@@ -1,0 +1,126 @@
+{
+  "completed": true,
+  "kind": "exploratory fixed-base muscle feedback loop",
+  "runner_sha256": "c83d8295c5a4cf637aa232b672b00d14bea92d578a9c82bad74f762389f53034",
+  "model_manifest_sha256": "61ba02739072cbe53382b85c76eca617960627a162d241fffa607d8e4a644742",
+  "input_sha256": {
+    "mapping": "65544f43d7681f287701cb48c3e4a3aa34791ceda75ea6a4cdd7acb1ee22d4ad",
+    "sensory": "54b6c1e98cc2e2f4d63b7c8e032183a418b1bcb04454329cf96658fac8ddc444",
+    "xml": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b"
+  },
+  "conditions": [
+    [
+      "feedback",
+      1
+    ],
+    [
+      "frozen-sensory",
+      1
+    ],
+    [
+      "zero-motor",
+      1
+    ],
+    [
+      "feedback",
+      -1
+    ],
+    [
+      "frozen-sensory",
+      -1
+    ],
+    [
+      "zero-motor",
+      -1
+    ]
+  ],
+  "steps": 200,
+  "simulated_seconds": 2.0,
+  "wall_seconds": 17.755360472016037,
+  "amplitude_model_units": 0.2,
+  "joint": "joint_LFTibia_pitch",
+  "joint_range_radians": [
+    0.4789,
+    2.502
+  ],
+  "afferents": [
+    [
+      {
+        "cns_row": 162053,
+        "bodyId": 912317,
+        "type": "SNpp50",
+        "instance": null,
+        "superclass": "vnc_sensory",
+        "class": "mechanosensory_proprioceptive",
+        "subclass": "chordotonal organ",
+        "somaSide": null,
+        "rootSide": "L",
+        "entryNerve": "ProLN",
+        "mancType": "SNpp50"
+      }
+    ],
+    [
+      {
+        "cns_row": 155342,
+        "bodyId": 815843,
+        "type": "SNpp51",
+        "instance": null,
+        "superclass": "vnc_sensory",
+        "class": "mechanosensory_proprioceptive",
+        "subclass": "chordotonal organ",
+        "somaSide": null,
+        "rootSide": "L",
+        "entryNerve": "ProLN",
+        "mancType": "SNpp51"
+      },
+      {
+        "cns_row": 156513,
+        "bodyId": 817680,
+        "type": "SNpp51",
+        "instance": null,
+        "superclass": "vnc_sensory",
+        "class": "mechanosensory_proprioceptive",
+        "subclass": "chordotonal organ",
+        "somaSide": null,
+        "rootSide": "L",
+        "entryNerve": "ProLN",
+        "mancType": "SNpp51"
+      },
+      {
+        "cns_row": 162923,
+        "bodyId": 935383,
+        "type": "SNpp51",
+        "instance": null,
+        "superclass": "vnc_sensory",
+        "class": "mechanosensory_proprioceptive",
+        "subclass": "chordotonal organ",
+        "somaSide": null,
+        "rootSide": "L",
+        "entryNerve": "ProLN",
+        "mancType": "SNpp51"
+      }
+    ]
+  ],
+  "comparisons": {
+    "1": {
+      "feedback_vs_frozen_qpos_max_rad": 0.0008662669541861373,
+      "feedback_vs_zero_motor_qpos_max_rad": 0.5319228453816875,
+      "feedback_vs_frozen_motor_rate_max": 0.0011201053857803345,
+      "sensory_current_change_max": 0.06414907525761895
+    },
+    "-1": {
+      "feedback_vs_frozen_qpos_max_rad": 0.0006938416535776995,
+      "feedback_vs_zero_motor_qpos_max_rad": 0.5313431643707548,
+      "feedback_vs_frozen_motor_rate_max": 0.0010823756456375122,
+      "sensory_current_change_max": 0.06414890748940721
+    }
+  },
+  "assumptions": [
+    "SNpp50/51 opponent clipped-linear position currents; both polarity hypotheses retained.",
+    "All cells within each subtype share tuning; no strain mechanics or physiological calibration.",
+    "Equal mean normalized MN rates drive six named muscle cohorts; nine muscles unresolved.",
+    "Other CNS inputs stay at model neutral values; no learned body decoder or external context.",
+    "No external perturbation: initial-state motion arises from gravity, muscle and passive mechanics.",
+    "Fixed-base foreleg only. No walking, whole-fly behavior or biological validation claimed."
+  ]
+}

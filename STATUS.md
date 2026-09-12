@@ -208,3 +208,27 @@ extensor motor group. This is partial anatomical-circuit agreement, not reflex
 or behavior validation. Inputs are arbitrary model currents, not calibrated
 physical joint stimuli. Detailed evidence, limitations and reporting corrections
 are in PROPRIOCEPTION.md; original artifacts are retained.
+
+## First physical muscle feedback loop
+
+Implemented `run_muscle_feedback.py`: fixed-base foreleg angle feeds candidate
+SNpp50/51 claw-population currents, through the full CNS, back into the existing
+six named muscle cohorts. Two opposite position-tuning hypotheses are retained,
+each with frozen-sensory and zero-motor controls. No behavioral controller or
+learned motor decoder participates. Sensory transduction remains uncalibrated
+and bypasses organ strain mechanics; nine muscles remain unresolved.
+
+Executed six-lane 2-second and 10-second trials on Vast. Sensory feedback affects
+both neural rates and subsequent physical motion, but the maximum joint effect
+relative to frozen sensory input is under 0.000867 radians. The driven foreleg
+largely settles rather than generating a sustained motor pattern. All trace
+values remained finite; recorded sensory transforms and motor-to-muscle commands
+were verified directly. Six unit tests pass locally and remotely. See
+MUSCLE_FEEDBACK.md and evidence/trials/muscle-feedback-{001,002} for assumptions,
+controls, runner provenance and raw numeric traces.
+
+This closes a previously absent component feedback path, not the requested
+whole-fly loop. Priorities remain a defensible whole-body muscle interface,
+explicit sensory-organ transduction and neural dynamics that reproduce more
+than qualitative circuit preferences. Keep these partial assays subordinate
+to the whole-body objective; settling in a fixed foreleg is not success.
