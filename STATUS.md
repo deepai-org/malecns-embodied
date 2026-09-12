@@ -1,5 +1,11 @@
 # MaleCNS embodiment experiment
 
+Latest sensory gate: physical moving-screen input changes retinal samples but
+produces only very small steering/motor responses. The limited-field, fixed-body
+assay uses no DN injection and is not behavioral evidence. See
+[SCREEN_VISION.md](SCREEN_VISION.md). This qualifies the encouraging direct-DN
+result: visually driven useful control remains unestablished. All finite runs ended.
+
 Latest neural evidence: direct DNa02 and DNg13 pulse assays yield distinct,
 consistent same-side versus opposite-side motor-response biases across three
 amplitudes and both signs. See [STEERING_CIRCUIT.md](STEERING_CIRCUIT.md).

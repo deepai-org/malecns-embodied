@@ -1,0 +1,143 @@
+{
+  "kind": "Physical screen and eye-ray input to full CNS, with body pose held fixed.\n\nAn open-loop sensory diagnostic, not an embodied behavioral demonstration.\n",
+  "completed": true,
+  "runner_sha256": "32bd519a9ed5b4b356fa3e0a61dac885fee08c48bdebc1494d1ba303f7c1f12a",
+  "model_manifest_sha256": "61ba02739072cbe53382b85c76eca617960627a162d241fffa607d8e4a644742",
+  "binary_sha256": "41312b441a1627c1fbee1db7792d684f6a1cf24b7ad583f73e023fb90e616efa",
+  "scene_sha256": "accd5e86a918987ad7b39be0cba070e5ef5fa214101a0927d0f424a90edb60ef",
+  "steering_receipt_sha256": "3419fc3b0f9b490f8ffad4d776478cc356a1fa71e2c70515b42aae6ddd68e930",
+  "world_client_sha256": "1db479c8baeea45242d5496c35fe04a08f5f182a02f2f9998f93681358b88474",
+  "conditions": [
+    "gray",
+    "static-grating",
+    "positive-phase",
+    "negative-phase"
+  ],
+  "neurons": [
+    {
+      "cns_row": 130496,
+      "bodyId": 523769,
+      "type": "DNa02",
+      "instance": "DNa02_L",
+      "somaSide": "L",
+      "rootSide": null,
+      "superclass": "descending_neuron",
+      "subclass": "xl",
+      "mancType": "DNa02"
+    },
+    {
+      "cns_row": 332,
+      "bodyId": 10360,
+      "type": "DNa02",
+      "instance": "DNa02_R",
+      "somaSide": "R",
+      "rootSide": null,
+      "superclass": "descending_neuron",
+      "subclass": "xl",
+      "mancType": "DNa02"
+    },
+    {
+      "cns_row": 993,
+      "bodyId": 11074,
+      "type": "DNg13",
+      "instance": "DNg13_L",
+      "somaSide": "L",
+      "rootSide": null,
+      "superclass": "descending_neuron",
+      "subclass": "xl",
+      "mancType": "DNg13"
+    },
+    {
+      "cns_row": 124419,
+      "bodyId": 512006,
+      "type": "DNg13",
+      "instance": "DNg13_R",
+      "somaSide": "R",
+      "rootSide": null,
+      "superclass": "descending_neuron",
+      "subclass": "xl",
+      "mancType": "DNg13"
+    }
+  ],
+  "world_time": 0,
+  "neural_seconds": 2,
+  "screen": {
+    "width": 128,
+    "height": 64,
+    "cycles_across_width": 4,
+    "cycles_per_second": 2,
+    "mean": 0.5,
+    "amplitude": 0.45
+  },
+  "receptor_channel_counts": {
+    "1": 4107
+  },
+  "wall_seconds": 76.27002980932593,
+  "results": [
+    {
+      "condition": "static-grating",
+      "peak_retinal_difference_from_gray": 0.4494633078575134,
+      "retinal_sites_changed_from_gray": 123,
+      "peak_motor_difference_from_gray": 7.152557373046875e-07,
+      "peak_dn_difference_from_gray": [
+        8.940696716308594e-08,
+        1.1920928955078125e-07,
+        1.4901161193847656e-08,
+        5.960464477539063e-08
+      ],
+      "peak_motor_difference_from_static": 0.0,
+      "peak_dn_difference_from_static": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "condition": "positive-phase",
+      "peak_retinal_difference_from_gray": 0.44982779026031494,
+      "retinal_sites_changed_from_gray": 123,
+      "peak_motor_difference_from_gray": 3.5762786865234375e-07,
+      "peak_dn_difference_from_gray": [
+        4.470348358154297e-08,
+        4.470348358154297e-08,
+        1.4901161193847656e-08,
+        5.960464477539063e-08
+      ],
+      "peak_motor_difference_from_static": 1.0579824447631836e-06,
+      "peak_dn_difference_from_static": [
+        1.341104507446289e-07,
+        1.4901161193847656e-07,
+        1.4901161193847656e-08,
+        7.450580596923828e-08
+      ]
+    },
+    {
+      "condition": "negative-phase",
+      "peak_retinal_difference_from_gray": 0.44982779026031494,
+      "retinal_sites_changed_from_gray": 123,
+      "peak_motor_difference_from_gray": 3.8743019104003906e-07,
+      "peak_dn_difference_from_gray": [
+        4.470348358154297e-08,
+        2.9802322387695312e-08,
+        1.4901161193847656e-08,
+        2.9802322387695312e-08
+      ],
+      "peak_motor_difference_from_static": 1.087784767150879e-06,
+      "peak_dn_difference_from_static": [
+        1.1920928955078125e-07,
+        1.341104507446289e-07,
+        2.9802322387695312e-08,
+        7.450580596923828e-08
+      ]
+    }
+  ],
+  "caveats": [
+    "Four separate world instances with identical initial seed/pose; physics is never advanced.",
+    "Retinal rays encounter the physical screen and scene, including occlusion; inputs are not painted directly onto neural rows.",
+    "Only optic input varies; BODY is at model mean and external context is zero.",
+    "Neural clock advances while body is fixed: prescribed visual presentation, not closed-loop behavior.",
+    "No DN injection, motor control, strength adjustment or parameter fitting.",
+    "Response differences are descriptive, not a calibrated visual behavior or physiology benchmark."
+  ]
+}

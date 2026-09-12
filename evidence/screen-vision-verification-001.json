@@ -1,0 +1,7 @@
+{
+  "checked": true,
+  "verifier_sha256": "dbbafc2effa28c71b3eaf03c4632fbb506d58b74bee09eca1549fac7333c6769",
+  "trace_sha256": "0bf95accd5c3e83da91b08b65e5835a4191b834b8d85145f2b6a173131438ac8",
+  "maximum_prestimulus_contrast": 0.0,
+  "caveat": "Reconstructs saved contrasts and matching before stimulation; not independent physics/neural replay or visual behavior."
+}
