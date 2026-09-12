@@ -1,0 +1,130 @@
+{
+  "kind": "fixed one-axis coxa approximation at rig rest",
+  "groups": [
+    {
+      "leg": "lf",
+      "joint": "c_thorax-lf_coxa-roll",
+      "positive_protraction_sign": -1,
+      "candidates": [
+        {
+          "joint": "c_thorax-lf_coxa-yaw",
+          "forward_derivative_mm_per_rad": 0.006040235163151664
+        },
+        {
+          "joint": "c_thorax-lf_coxa-pitch",
+          "forward_derivative_mm_per_rad": 0.01796293845474084
+        },
+        {
+          "joint": "c_thorax-lf_coxa-roll",
+          "forward_derivative_mm_per_rad": -0.2383988257598224
+        }
+      ]
+    },
+    {
+      "leg": "lm",
+      "joint": "c_thorax-lm_coxa-roll",
+      "positive_protraction_sign": -1,
+      "candidates": [
+        {
+          "joint": "c_thorax-lm_coxa-yaw",
+          "forward_derivative_mm_per_rad": 0.014009238514800515
+        },
+        {
+          "joint": "c_thorax-lm_coxa-pitch",
+          "forward_derivative_mm_per_rad": 0.4001960334817922
+        },
+        {
+          "joint": "c_thorax-lm_coxa-roll",
+          "forward_derivative_mm_per_rad": -0.5073900364266359
+        }
+      ]
+    },
+    {
+      "leg": "lh",
+      "joint": "c_thorax-lh_coxa-roll",
+      "positive_protraction_sign": -1,
+      "candidates": [
+        {
+          "joint": "c_thorax-lh_coxa-yaw",
+          "forward_derivative_mm_per_rad": 0.013228957901345595
+        },
+        {
+          "joint": "c_thorax-lh_coxa-pitch",
+          "forward_derivative_mm_per_rad": 0.3233925810885996
+        },
+        {
+          "joint": "c_thorax-lh_coxa-roll",
+          "forward_derivative_mm_per_rad": -0.5076994684893865
+        }
+      ]
+    },
+    {
+      "leg": "rf",
+      "joint": "c_thorax-rf_coxa-roll",
+      "positive_protraction_sign": -1,
+      "candidates": [
+        {
+          "joint": "c_thorax-rf_coxa-yaw",
+          "forward_derivative_mm_per_rad": 0.006040235163151664
+        },
+        {
+          "joint": "c_thorax-rf_coxa-pitch",
+          "forward_derivative_mm_per_rad": 0.01796293845474084
+        },
+        {
+          "joint": "c_thorax-rf_coxa-roll",
+          "forward_derivative_mm_per_rad": -0.23839882575538152
+        }
+      ]
+    },
+    {
+      "leg": "rm",
+      "joint": "c_thorax-rm_coxa-roll",
+      "positive_protraction_sign": -1,
+      "candidates": [
+        {
+          "joint": "c_thorax-rm_coxa-yaw",
+          "forward_derivative_mm_per_rad": 0.014009238514800515
+        },
+        {
+          "joint": "c_thorax-rm_coxa-pitch",
+          "forward_derivative_mm_per_rad": 0.4001960334862331
+        },
+        {
+          "joint": "c_thorax-rm_coxa-roll",
+          "forward_derivative_mm_per_rad": -0.5073900364269135
+        }
+      ]
+    },
+    {
+      "leg": "rh",
+      "joint": "c_thorax-rh_coxa-roll",
+      "positive_protraction_sign": -1,
+      "candidates": [
+        {
+          "joint": "c_thorax-rh_coxa-yaw",
+          "forward_derivative_mm_per_rad": 0.013228957901345595
+        },
+        {
+          "joint": "c_thorax-rh_coxa-pitch",
+          "forward_derivative_mm_per_rad": 0.3233925810841587
+        },
+        {
+          "joint": "c_thorax-rh_coxa-roll",
+          "forward_derivative_mm_per_rad": -0.5076994684938274
+        }
+      ]
+    }
+  ],
+  "scene_sha256": "accd5e86a918987ad7b39be0cba070e5ef5fa214101a0927d0f424a90edb60ef",
+  "scene_xml_sha256": "c880facc75d6a2ac3bcbfa18ae30320f5a6110a77176268157963ba3889fbb6a",
+  "mujoco": "3.12.0",
+  "runner_sha256": "eef3f7533437a760a42b629ed027f0f5c1133eb829d4de8d77c3f8ce5750f9c7",
+  "forward_definition": "unit vector thorax origin to head origin at original keyframe",
+  "epsilon_radians": 0.0001,
+  "caveats": [
+    "One selected coordinate per coxa, not anatomical muscle insertion geometry.",
+    "Local protraction sign at rig rest need not hold over every posture.",
+    "No online axis selection, body-pose feedback controller or target trajectory."
+  ]
+}

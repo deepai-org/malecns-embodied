@@ -19,6 +19,9 @@ installed as a fix.
 A separate [named leg-position adapter](NAMED_LEG_SENSES.md) now replaces the
 projection onto 91 identified claw afferents in whole-body trials; this has not
 yet produced useful behavior.
+The latest [coxa-muscle extension](COXA_MUSCLES.md) adds named leg-swing drive on
+six more joints (18 of 42 leg channels total). It also has not demonstrated
+useful behavior; remaining mechanics and recruitment are still approximate.
 
 ## What currently works
 

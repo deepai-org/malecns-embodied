@@ -1,5 +1,11 @@
 # MaleCNS embodiment experiment
 
+Latest actuation update: 34 named coxa rotator neurons now drive fixed,
+geometry-checked protraction/retraction coordinates across six legs. Coverage
+is 18 of 42 leg channels. Driven/frozen/zero two-second trials completed;
+driven bodies still tip, with worse final posture than some previous trials.
+This is not behavioral improvement. See [COXA_MUSCLES.md](COXA_MUSCLES.md).
+
 Latest implementation: named leg-position transduction replaces the random
 projection onto 91 claw afferents spanning six legs, with one missing subtype
 explicitly retained as a gap. Both polarity hypotheses and frozen/zero controls
