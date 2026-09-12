@@ -44,6 +44,13 @@ has been performed, so this does not establish overall biological validity.
   runner checksum. SNpp50's flexor signs are deliberately not scored. Original
   records are preserved unchanged so the correction is auditable.
 
+The repeat is not bitwise identical: comparing `001` and `004`, motor rates
+differ by at most 1.4901161193847656e-08; motor-row IDs and timestamps match
+exactly. An exact-equality reproducibility assertion therefore failed. This
+small discrepancy is consistent with floating-point execution variability,
+but its cause has not been isolated. The `004` runner checksum matches the
+published script. All four neuromuscular unit tests pass independently.
+
 ## Consequence for the experiment
 
 The initialized model is not devoid of structured sensorimotor responses.
