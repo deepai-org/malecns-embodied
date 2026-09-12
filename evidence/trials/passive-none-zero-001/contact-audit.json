@@ -1,0 +1,37 @@
+{
+  "kind": "geometric thorax/abdomen contact reconstruction; not contact-force measurement",
+  "scene_sha256": "28154bd0a2e15c58844a594f7ca6e8eee9f9702aa59bcc34c3989eda0e4db415",
+  "trace_sha256": "ea63c251b37d287fb519f8a72bc37d63ab874a2887073104127e0ae97fbc19a1",
+  "runner_sha256": "5b250b1d9e8301140d4b1f1df32075896ced3da6cda821e291f1b53f26e71385",
+  "first_core_terrain_contact_seconds": {
+    "resident00": null,
+    "resident01": null,
+    "resident02": null,
+    "resident03": null
+  },
+  "last_second_core_contact_fraction": {
+    "resident00": 0.0,
+    "resident01": 0.0,
+    "resident02": 0.0,
+    "resident03": 0.0
+  },
+  "final_core_contacts": {
+    "resident00": [],
+    "resident01": [],
+    "resident02": [],
+    "resident03": []
+  },
+  "initial_thorax_height_mm": [
+    2.1,
+    2.1,
+    2.1,
+    2.1
+  ],
+  "final_thorax_height_mm": [
+    0.5786396077671817,
+    0.5215924830332415,
+    0.479905721995309,
+    0.490382576255472
+  ],
+  "caveat": "Original scene meshes are used; dynamic ecology geometry changes are not reconstructed."
+}

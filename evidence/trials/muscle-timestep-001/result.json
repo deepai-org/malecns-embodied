@@ -1,0 +1,32 @@
+{
+  "kind": "physical force-update timing diagnostic, not CNS behavior",
+  "results": {
+    "held-10ms": {
+      "failed_or_reset": true,
+      "completed_steps": 320,
+      "completed_seconds": 0.032,
+      "maximum_recorded_speed": 123937.35695010108
+    },
+    "updated-0.1ms": {
+      "failed_or_reset": false,
+      "completed_steps": 2000,
+      "completed_seconds": 0.2,
+      "maximum_recorded_speed": 981.4685837898471
+    },
+    "zero": {
+      "failed_or_reset": false,
+      "completed_steps": 2000,
+      "completed_seconds": 0.2,
+      "maximum_recorded_speed": 1082.1801818725548
+    }
+  },
+  "runner_sha256": "7dea965d022df5f5d1c648ae9e864b51d7cc3fdb09797e0055b8bb9da90a1014",
+  "scene_sha256": "28154bd0a2e15c58844a594f7ca6e8eee9f9702aa59bcc34c3989eda0e4db415",
+  "source_trace_sha256": "4383b144b89694a366a1359445db122bc33ddbf7d73e6fba7a8ed5558a2aef44",
+  "caveats": [
+    "Static scene: no native aerodynamics or ecology updates.",
+    "Recorded activation prefix is replayed, then last activation held.",
+    "Force uses original capacity, not native metabolic capacity scaling.",
+    "Updated forces are still explicit; this does not prove numerical convergence."
+  ]
+}

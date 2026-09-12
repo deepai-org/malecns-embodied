@@ -256,3 +256,19 @@ and damping 0.5, including fixed neutral leg spring references. These built-in
 passive mechanics remain even after servo removal and must be tested explicitly
 before attributing posture or weak responsiveness to neural dynamics alone.
 See AGGREGATE_BODY.md, the public patch and evidence/aggregate-body-comparison-001.json.
+
+## Passive-mechanics diagnostics and route reassessment
+
+Executed four-second original versus spring-free trials with driven and zero
+motor input. All four completed; removing springs changes settling but produces
+no demonstrated walking. Removing damping as well leaves the zero-motor run
+finite but makes the driven run fail at about 30 ms. A separate physical replay
+reproduces failure with 10-ms held torque and completes 0.2 s when muscle force
+is recomputed every 0.1-ms physics step. This identifies a concrete numerical
+repair to implement, not a recovered biological behavior.
+
+See PASSIVE_MECHANICS.md for controls and limitations, including the failed run.
+The user requested a reassessment of the overall route. REASSESSMENT.md records
+why further component sweeps alone are too indirect: most motor output remains
+tonic, leg actuation is incomplete, and CNS behavioral feasibility is unproven.
+The full objective remains unchanged. No new unattended experiment is running.

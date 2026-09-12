@@ -1,0 +1,649 @@
+{
+  "condition": "zero-motor",
+  "polarity": 1,
+  "steps": 400,
+  "model_manifest_sha256": "61ba02739072cbe53382b85c76eca617960627a162d241fffa607d8e4a644742",
+  "runner_sha256": "982d2ae3d28d41d39f68c150ba687fb33b0ce0084c10a14d705a31f9db256a48",
+  "muscle_code_sha256": "1087c04418384241673e3c4e026f09f5ec3016070c6b0b80bd608efb3bc03241",
+  "binary_sha256": "5737983afbe43b7ed92708e4c01c06cdd820095ca277989ce8b3543ebd88a3a1",
+  "scene_sha256": "28154bd0a2e15c58844a594f7ca6e8eee9f9702aa59bcc34c3989eda0e4db415",
+  "motor_annotation_sha256": "2fd32180d5b8a7688bc813440bf2c2f1d0a35fad635ab0d42ca4f536d11403ca",
+  "muscle_groups": [
+    {
+      "joint": "lf_coxa-lf_trochanterfemur-pitch",
+      "channel": 3,
+      "cohorts": [
+        [
+          468,
+          502,
+          547,
+          590,
+          591,
+          610,
+          808,
+          809
+        ],
+        [
+          269,
+          424
+        ]
+      ],
+      "body_ids": [
+        [
+          810639,
+          814489,
+          818389,
+          823168,
+          823281,
+          828939,
+          1051367796,
+          1051670893
+        ],
+        [
+          803412,
+          807906
+        ]
+      ],
+      "addresses": [
+        [
+          70,
+          69
+        ],
+        [
+          203,
+          201
+        ],
+        [
+          336,
+          333
+        ],
+        [
+          469,
+          465
+        ]
+      ],
+      "rest": -2.42601
+    },
+    {
+      "joint": "lf_trochanterfemur-lf_tibia-pitch",
+      "channel": 5,
+      "cohorts": [
+        [
+          398,
+          457,
+          542,
+          558,
+          702
+        ],
+        [
+          130,
+          512
+        ]
+      ],
+      "body_ids": [
+        [
+          807165,
+          809912,
+          818057,
+          819384,
+          909831
+        ],
+        [
+          800636,
+          815344
+        ]
+      ],
+      "addresses": [
+        [
+          72,
+          71
+        ],
+        [
+          205,
+          203
+        ],
+        [
+          338,
+          335
+        ],
+        [
+          471,
+          467
+        ]
+      ],
+      "rest": 1.36136
+    },
+    {
+      "joint": "lm_coxa-lm_trochanterfemur-pitch",
+      "channel": 10,
+      "cohorts": [
+        [
+          126,
+          218,
+          291,
+          650,
+          651,
+          655,
+          799
+        ],
+        [
+          341,
+          696
+        ]
+      ],
+      "body_ids": [
+        [
+          800589,
+          802232,
+          803829,
+          903158,
+          903159,
+          903579,
+          1050669248
+        ],
+        [
+          805477,
+          909078
+        ]
+      ],
+      "addresses": [
+        [
+          81,
+          80
+        ],
+        [
+          214,
+          212
+        ],
+        [
+          347,
+          344
+        ],
+        [
+          480,
+          476
+        ]
+      ],
+      "rest": -2.42601
+    },
+    {
+      "joint": "lm_trochanterfemur-lm_tibia-pitch",
+      "channel": 12,
+      "cohorts": [
+        [
+          222,
+          545,
+          594,
+          595,
+          724
+        ],
+        [
+          145,
+          161
+        ]
+      ],
+      "body_ids": [
+        [
+          802295,
+          818295,
+          823739,
+          824041,
+          927808
+        ],
+        [
+          800911,
+          801234
+        ]
+      ],
+      "addresses": [
+        [
+          83,
+          82
+        ],
+        [
+          216,
+          214
+        ],
+        [
+          349,
+          346
+        ],
+        [
+          482,
+          478
+        ]
+      ],
+      "rest": 1.79769
+    },
+    {
+      "joint": "lh_coxa-lh_trochanterfemur-pitch",
+      "channel": 17,
+      "cohorts": [
+        [
+          774
+        ],
+        [
+          626
+        ]
+      ],
+      "body_ids": [
+        [
+          1050194310
+        ],
+        [
+          840981
+        ]
+      ],
+      "addresses": [
+        [
+          92,
+          91
+        ],
+        [
+          225,
+          223
+        ],
+        [
+          358,
+          355
+        ],
+        [
+          491,
+          487
+        ]
+      ],
+      "rest": -1.93732
+    },
+    {
+      "joint": "lh_trochanterfemur-lh_tibia-pitch",
+      "channel": 19,
+      "cohorts": [
+        [
+          260,
+          327,
+          555,
+          588,
+          695,
+          728,
+          755,
+          759,
+          771
+        ],
+        [
+          129,
+          488
+        ]
+      ],
+      "body_ids": [
+        [
+          803147,
+          804919,
+          819112,
+          822945,
+          908762,
+          929376,
+          1050088257,
+          1050100010,
+          1050166426
+        ],
+        [
+          800621,
+          812953
+        ]
+      ],
+      "addresses": [
+        [
+          94,
+          93
+        ],
+        [
+          227,
+          225
+        ],
+        [
+          360,
+          357
+        ],
+        [
+          493,
+          489
+        ]
+      ],
+      "rest": 1.76278
+    },
+    {
+      "joint": "rf_coxa-rf_trochanterfemur-pitch",
+      "channel": 24,
+      "cohorts": [
+        [
+          524,
+          535,
+          552,
+          565,
+          569,
+          646,
+          713
+        ],
+        [
+          553,
+          623
+        ]
+      ],
+      "body_ids": [
+        [
+          816648,
+          817640,
+          818719,
+          820130,
+          820668,
+          903010,
+          914655
+        ],
+        [
+          818842,
+          838321
+        ]
+      ],
+      "addresses": [
+        [
+          103,
+          102
+        ],
+        [
+          236,
+          234
+        ],
+        [
+          369,
+          366
+        ],
+        [
+          502,
+          498
+        ]
+      ],
+      "rest": -2.42601
+    },
+    {
+      "joint": "rf_trochanterfemur-rf_tibia-pitch",
+      "channel": 26,
+      "cohorts": [
+        [
+          462,
+          579,
+          607,
+          748,
+          773
+        ],
+        [
+          309,
+          514
+        ]
+      ],
+      "body_ids": [
+        [
+          810098,
+          821635,
+          827188,
+          1050031705,
+          1050189039
+        ],
+        [
+          804257,
+          815678
+        ]
+      ],
+      "addresses": [
+        [
+          105,
+          104
+        ],
+        [
+          238,
+          236
+        ],
+        [
+          371,
+          368
+        ],
+        [
+          504,
+          500
+        ]
+      ],
+      "rest": 1.36136
+    },
+    {
+      "joint": "rm_coxa-rm_trochanterfemur-pitch",
+      "channel": 31,
+      "cohorts": [
+        [
+          151,
+          152,
+          537,
+          556,
+          598,
+          703,
+          718
+        ],
+        [
+          503,
+          624
+        ]
+      ],
+      "body_ids": [
+        [
+          801057,
+          801058,
+          817681,
+          819203,
+          824315,
+          910095,
+          924142
+        ],
+        [
+          814942,
+          840530
+        ]
+      ],
+      "addresses": [
+        [
+          114,
+          113
+        ],
+        [
+          247,
+          245
+        ],
+        [
+          380,
+          377
+        ],
+        [
+          513,
+          509
+        ]
+      ],
+      "rest": -2.42601
+    },
+    {
+      "joint": "rm_trochanterfemur-rm_tibia-pitch",
+      "channel": 33,
+      "cohorts": [
+        [
+          315,
+          331,
+          521,
+          581,
+          653
+        ],
+        [
+          615,
+          726
+        ]
+      ],
+      "body_ids": [
+        [
+          804405,
+          805010,
+          816222,
+          822013,
+          903363
+        ],
+        [
+          830514,
+          928579
+        ]
+      ],
+      "addresses": [
+        [
+          116,
+          115
+        ],
+        [
+          249,
+          247
+        ],
+        [
+          382,
+          379
+        ],
+        [
+          515,
+          511
+        ]
+      ],
+      "rest": 1.79769
+    },
+    {
+      "joint": "rh_coxa-rh_trochanterfemur-pitch",
+      "channel": 38,
+      "cohorts": [
+        [
+          186,
+          410,
+          679,
+          758,
+          803
+        ],
+        [
+          434,
+          675
+        ]
+      ],
+      "body_ids": [
+        [
+          801721,
+          807640,
+          905928,
+          1050098047,
+          1050938258
+        ],
+        [
+          808453,
+          905661
+        ]
+      ],
+      "addresses": [
+        [
+          125,
+          124
+        ],
+        [
+          258,
+          256
+        ],
+        [
+          391,
+          388
+        ],
+        [
+          524,
+          520
+        ]
+      ],
+      "rest": -1.93732
+    },
+    {
+      "joint": "rh_trochanterfemur-rh_tibia-pitch",
+      "channel": 40,
+      "cohorts": [
+        [
+          255,
+          440,
+          593,
+          608,
+          625,
+          704,
+          744,
+          787
+        ],
+        [
+          105,
+          458
+        ]
+      ],
+      "body_ids": [
+        [
+          803072,
+          808685,
+          823665,
+          827968,
+          840740,
+          910178,
+          1050013311,
+          1050303231
+        ],
+        [
+          800158,
+          809935
+        ]
+      ],
+      "addresses": [
+        [
+          127,
+          126
+        ],
+        [
+          260,
+          258
+        ],
+        [
+          393,
+          390
+        ],
+        [
+          526,
+          522
+        ]
+      ],
+      "rest": 1.76278
+    }
+  ],
+  "caveats": [
+    "24 aggregate muscle units across 12 hinges; 72 other joint actuators unpowered.",
+    "Fixed rig-rest angle and contractile/stiffness/damping gains are uncalibrated assumptions.",
+    "Flexor/extensor coordinate sign is a hypothesis, not validated muscle geometry.",
+    "Native adhesion and oral channels zero. Native passive mechanics and aerodynamics remain.",
+    "Native ecological work/capacity model was designed for servos; not a validated torque metabolism.",
+    "Original broad sensory adapter remains; no learned motor decoder contributes to actuation.",
+    "Four residents share one scene, not independent replicates."
+  ],
+  "completed": true,
+  "wall_seconds": 159.57349729165435,
+  "simulated_seconds": 3.9999999999999587,
+  "final_thorax_up": [
+    0.2222317748934065,
+    0.2838346980038791,
+    0.41146291649143935,
+    0.5561144217201657
+  ],
+  "displacement_mm": [
+    1.5222785436842872,
+    1.6822067197023831,
+    1.6825158124325557,
+    1.628105824621915
+  ],
+  "maximum_command": 0.0,
+  "behavior_claim": "none"
+}

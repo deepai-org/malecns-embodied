@@ -9,6 +9,8 @@ muscles/body → changed sensory input.**
 the full curated MaleCNS graph in a physical feedback loop, but the initialized
 model has not demonstrated useful walking, feeding, grooming, or flight.
 No high-level behavior selector or imitation policy counts as achieving the goal.
+See the current [route reassessment](REASSESSMENT.md) and
+[passive-mechanics diagnostics](PASSIVE_MECHANICS.md) before extending the setup.
 
 ## What currently works
 

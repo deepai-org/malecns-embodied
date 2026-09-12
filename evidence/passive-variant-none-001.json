@@ -1,0 +1,5556 @@
+{
+  "kind": "passive-mechanics diagnostic, not physiological calibration",
+  "source_scene_sha256": "accd5e86a918987ad7b39be0cba070e5ef5fa214101a0927d0f424a90edb60ef",
+  "source_xml_sha256": "c880facc75d6a2ac3bcbfa18ae30320f5a6110a77176268157963ba3889fbb6a",
+  "derived_xml_sha256": "cc0a41603de3633beaad29f569d1881eabbdf71dc8457c3ee86dfc66ca5bb17f",
+  "stiffness_scale": 0.0,
+  "damping_scale": 0.0,
+  "changes": [
+    {
+      "joint": "resident00/c_thorax-c_head-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-c_head-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-c_head-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-c_rostrum-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-c_rostrum-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-c_rostrum-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_rostrum-c_haustellum-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_rostrum-c_haustellum-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_rostrum-c_haustellum-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-l_eye-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-l_eye-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-l_eye-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-r_eye-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-r_eye-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-r_eye-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-l_pedicel-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-l_pedicel-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-l_pedicel-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/l_pedicel-l_funiculus-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/l_pedicel-l_funiculus-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/l_pedicel-l_funiculus-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/l_funiculus-l_arista-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/l_funiculus-l_arista-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/l_funiculus-l_arista-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-r_pedicel-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-r_pedicel-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_head-r_pedicel-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/r_pedicel-r_funiculus-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/r_pedicel-r_funiculus-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/r_pedicel-r_funiculus-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/r_funiculus-r_arista-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/r_funiculus-r_arista-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/r_funiculus-r_arista-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-c_abdomen12-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-c_abdomen12-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-c_abdomen12-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_abdomen12-c_abdomen3-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_abdomen12-c_abdomen3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_abdomen12-c_abdomen3-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_abdomen3-c_abdomen4-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_abdomen3-c_abdomen4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_abdomen3-c_abdomen4-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_abdomen4-c_abdomen5-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_abdomen4-c_abdomen5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_abdomen4-c_abdomen5-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_abdomen5-c_abdomen6-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_abdomen5-c_abdomen6-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_abdomen5-c_abdomen6-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-l_wing-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-l_wing-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-l_wing-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-r_wing-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-r_wing-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-r_wing-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-l_haltere-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-l_haltere-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-l_haltere-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-r_haltere-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-r_haltere-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-r_haltere-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-lf_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-lf_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-lf_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lf_coxa-lf_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lf_coxa-lf_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lf_trochanterfemur-lf_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lf_tibia-lf_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lf_tarsus1-lf_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lf_tarsus2-lf_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lf_tarsus3-lf_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lf_tarsus4-lf_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-lm_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-lm_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-lm_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lm_coxa-lm_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lm_coxa-lm_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lm_trochanterfemur-lm_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lm_tibia-lm_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lm_tarsus1-lm_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lm_tarsus2-lm_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lm_tarsus3-lm_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lm_tarsus4-lm_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-lh_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-lh_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-lh_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lh_coxa-lh_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lh_coxa-lh_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lh_trochanterfemur-lh_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lh_tibia-lh_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lh_tarsus1-lh_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lh_tarsus2-lh_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lh_tarsus3-lh_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/lh_tarsus4-lh_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-rf_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-rf_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-rf_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rf_coxa-rf_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rf_coxa-rf_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rf_trochanterfemur-rf_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rf_tibia-rf_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rf_tarsus1-rf_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rf_tarsus2-rf_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rf_tarsus3-rf_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rf_tarsus4-rf_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-rm_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-rm_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-rm_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rm_coxa-rm_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rm_coxa-rm_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rm_trochanterfemur-rm_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rm_tibia-rm_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rm_tarsus1-rm_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rm_tarsus2-rm_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rm_tarsus3-rm_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rm_tarsus4-rm_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-rh_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-rh_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/c_thorax-rh_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rh_coxa-rh_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rh_coxa-rh_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rh_trochanterfemur-rh_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rh_tibia-rh_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rh_tarsus1-rh_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rh_tarsus2-rh_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rh_tarsus3-rh_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident00/rh_tarsus4-rh_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-c_head-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-c_head-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-c_head-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-c_rostrum-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-c_rostrum-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-c_rostrum-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_rostrum-c_haustellum-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_rostrum-c_haustellum-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_rostrum-c_haustellum-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-l_eye-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-l_eye-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-l_eye-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-r_eye-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-r_eye-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-r_eye-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-l_pedicel-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-l_pedicel-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-l_pedicel-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/l_pedicel-l_funiculus-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/l_pedicel-l_funiculus-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/l_pedicel-l_funiculus-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/l_funiculus-l_arista-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/l_funiculus-l_arista-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/l_funiculus-l_arista-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-r_pedicel-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-r_pedicel-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_head-r_pedicel-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/r_pedicel-r_funiculus-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/r_pedicel-r_funiculus-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/r_pedicel-r_funiculus-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/r_funiculus-r_arista-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/r_funiculus-r_arista-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/r_funiculus-r_arista-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-c_abdomen12-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-c_abdomen12-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-c_abdomen12-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_abdomen12-c_abdomen3-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_abdomen12-c_abdomen3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_abdomen12-c_abdomen3-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_abdomen3-c_abdomen4-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_abdomen3-c_abdomen4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_abdomen3-c_abdomen4-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_abdomen4-c_abdomen5-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_abdomen4-c_abdomen5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_abdomen4-c_abdomen5-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_abdomen5-c_abdomen6-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_abdomen5-c_abdomen6-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_abdomen5-c_abdomen6-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-l_wing-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-l_wing-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-l_wing-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-r_wing-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-r_wing-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-r_wing-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-l_haltere-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-l_haltere-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-l_haltere-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-r_haltere-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-r_haltere-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-r_haltere-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-lf_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-lf_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-lf_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lf_coxa-lf_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lf_coxa-lf_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lf_trochanterfemur-lf_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lf_tibia-lf_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lf_tarsus1-lf_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lf_tarsus2-lf_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lf_tarsus3-lf_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lf_tarsus4-lf_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-lm_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-lm_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-lm_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lm_coxa-lm_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lm_coxa-lm_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lm_trochanterfemur-lm_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lm_tibia-lm_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lm_tarsus1-lm_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lm_tarsus2-lm_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lm_tarsus3-lm_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lm_tarsus4-lm_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-lh_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-lh_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-lh_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lh_coxa-lh_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lh_coxa-lh_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lh_trochanterfemur-lh_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lh_tibia-lh_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lh_tarsus1-lh_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lh_tarsus2-lh_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lh_tarsus3-lh_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/lh_tarsus4-lh_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-rf_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-rf_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-rf_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rf_coxa-rf_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rf_coxa-rf_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rf_trochanterfemur-rf_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rf_tibia-rf_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rf_tarsus1-rf_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rf_tarsus2-rf_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rf_tarsus3-rf_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rf_tarsus4-rf_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-rm_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-rm_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-rm_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rm_coxa-rm_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rm_coxa-rm_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rm_trochanterfemur-rm_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rm_tibia-rm_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rm_tarsus1-rm_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rm_tarsus2-rm_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rm_tarsus3-rm_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rm_tarsus4-rm_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-rh_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-rh_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/c_thorax-rh_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rh_coxa-rh_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rh_coxa-rh_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rh_trochanterfemur-rh_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rh_tibia-rh_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rh_tarsus1-rh_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rh_tarsus2-rh_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rh_tarsus3-rh_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident01/rh_tarsus4-rh_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-c_head-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-c_head-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-c_head-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-c_rostrum-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-c_rostrum-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-c_rostrum-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_rostrum-c_haustellum-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_rostrum-c_haustellum-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_rostrum-c_haustellum-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-l_eye-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-l_eye-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-l_eye-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-r_eye-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-r_eye-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-r_eye-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-l_pedicel-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-l_pedicel-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-l_pedicel-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/l_pedicel-l_funiculus-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/l_pedicel-l_funiculus-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/l_pedicel-l_funiculus-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/l_funiculus-l_arista-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/l_funiculus-l_arista-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/l_funiculus-l_arista-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-r_pedicel-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-r_pedicel-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_head-r_pedicel-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/r_pedicel-r_funiculus-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/r_pedicel-r_funiculus-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/r_pedicel-r_funiculus-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/r_funiculus-r_arista-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/r_funiculus-r_arista-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/r_funiculus-r_arista-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-c_abdomen12-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-c_abdomen12-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-c_abdomen12-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_abdomen12-c_abdomen3-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_abdomen12-c_abdomen3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_abdomen12-c_abdomen3-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_abdomen3-c_abdomen4-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_abdomen3-c_abdomen4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_abdomen3-c_abdomen4-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_abdomen4-c_abdomen5-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_abdomen4-c_abdomen5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_abdomen4-c_abdomen5-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_abdomen5-c_abdomen6-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_abdomen5-c_abdomen6-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_abdomen5-c_abdomen6-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-l_wing-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-l_wing-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-l_wing-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-r_wing-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-r_wing-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-r_wing-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-l_haltere-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-l_haltere-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-l_haltere-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-r_haltere-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-r_haltere-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-r_haltere-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-lf_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-lf_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-lf_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lf_coxa-lf_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lf_coxa-lf_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lf_trochanterfemur-lf_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lf_tibia-lf_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lf_tarsus1-lf_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lf_tarsus2-lf_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lf_tarsus3-lf_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lf_tarsus4-lf_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-lm_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-lm_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-lm_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lm_coxa-lm_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lm_coxa-lm_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lm_trochanterfemur-lm_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lm_tibia-lm_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lm_tarsus1-lm_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lm_tarsus2-lm_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lm_tarsus3-lm_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lm_tarsus4-lm_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-lh_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-lh_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-lh_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lh_coxa-lh_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lh_coxa-lh_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lh_trochanterfemur-lh_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lh_tibia-lh_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lh_tarsus1-lh_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lh_tarsus2-lh_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lh_tarsus3-lh_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/lh_tarsus4-lh_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-rf_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-rf_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-rf_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rf_coxa-rf_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rf_coxa-rf_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rf_trochanterfemur-rf_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rf_tibia-rf_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rf_tarsus1-rf_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rf_tarsus2-rf_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rf_tarsus3-rf_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rf_tarsus4-rf_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-rm_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-rm_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-rm_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rm_coxa-rm_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rm_coxa-rm_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rm_trochanterfemur-rm_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rm_tibia-rm_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rm_tarsus1-rm_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rm_tarsus2-rm_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rm_tarsus3-rm_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rm_tarsus4-rm_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-rh_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-rh_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/c_thorax-rh_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rh_coxa-rh_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rh_coxa-rh_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rh_trochanterfemur-rh_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rh_tibia-rh_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rh_tarsus1-rh_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rh_tarsus2-rh_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rh_tarsus3-rh_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident02/rh_tarsus4-rh_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-c_head-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-c_head-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-c_head-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-c_rostrum-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-c_rostrum-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-c_rostrum-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_rostrum-c_haustellum-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_rostrum-c_haustellum-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_rostrum-c_haustellum-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-l_eye-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-l_eye-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-l_eye-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-r_eye-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-r_eye-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-r_eye-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-l_pedicel-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-l_pedicel-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-l_pedicel-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/l_pedicel-l_funiculus-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/l_pedicel-l_funiculus-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/l_pedicel-l_funiculus-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/l_funiculus-l_arista-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/l_funiculus-l_arista-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/l_funiculus-l_arista-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-r_pedicel-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-r_pedicel-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_head-r_pedicel-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/r_pedicel-r_funiculus-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/r_pedicel-r_funiculus-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/r_pedicel-r_funiculus-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/r_funiculus-r_arista-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/r_funiculus-r_arista-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/r_funiculus-r_arista-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-c_abdomen12-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-c_abdomen12-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-c_abdomen12-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_abdomen12-c_abdomen3-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_abdomen12-c_abdomen3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_abdomen12-c_abdomen3-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_abdomen3-c_abdomen4-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_abdomen3-c_abdomen4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_abdomen3-c_abdomen4-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_abdomen4-c_abdomen5-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_abdomen4-c_abdomen5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_abdomen4-c_abdomen5-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_abdomen5-c_abdomen6-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_abdomen5-c_abdomen6-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_abdomen5-c_abdomen6-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-l_wing-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-l_wing-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-l_wing-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-r_wing-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-r_wing-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-r_wing-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-l_haltere-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-l_haltere-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-l_haltere-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-r_haltere-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-r_haltere-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-r_haltere-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-lf_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-lf_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-lf_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lf_coxa-lf_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lf_coxa-lf_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lf_trochanterfemur-lf_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lf_tibia-lf_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lf_tarsus1-lf_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lf_tarsus2-lf_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lf_tarsus3-lf_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lf_tarsus4-lf_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-lm_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-lm_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-lm_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lm_coxa-lm_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lm_coxa-lm_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lm_trochanterfemur-lm_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lm_tibia-lm_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lm_tarsus1-lm_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lm_tarsus2-lm_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lm_tarsus3-lm_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lm_tarsus4-lm_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-lh_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-lh_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-lh_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lh_coxa-lh_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lh_coxa-lh_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lh_trochanterfemur-lh_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lh_tibia-lh_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lh_tarsus1-lh_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lh_tarsus2-lh_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lh_tarsus3-lh_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/lh_tarsus4-lh_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-rf_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-rf_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-rf_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rf_coxa-rf_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rf_coxa-rf_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rf_trochanterfemur-rf_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rf_tibia-rf_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rf_tarsus1-rf_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rf_tarsus2-rf_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rf_tarsus3-rf_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rf_tarsus4-rf_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-rm_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-rm_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-rm_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rm_coxa-rm_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rm_coxa-rm_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rm_trochanterfemur-rm_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rm_tibia-rm_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rm_tarsus1-rm_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rm_tarsus2-rm_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rm_tarsus3-rm_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rm_tarsus4-rm_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-rh_coxa-yaw",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-rh_coxa-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/c_thorax-rh_coxa-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rh_coxa-rh_trochanterfemur-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rh_coxa-rh_trochanterfemur-roll",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rh_trochanterfemur-rh_tibia-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rh_tibia-rh_tarsus1-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rh_tarsus1-rh_tarsus2-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rh_tarsus2-rh_tarsus3-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rh_tarsus3-rh_tarsus4-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    },
+    {
+      "joint": "resident03/rh_tarsus4-rh_tarsus5-pitch",
+      "before": {
+        "stiffness": 10.0,
+        "damping": 0.5
+      },
+      "after": {
+        "stiffness": 0.0,
+        "damping": 0.0
+      }
+    }
+  ],
+  "generator_sha256": "93223a20f6d5cb565a83d8d1c77ab121562ecb37a41534a4d0675f0c0d3ae877",
+  "derived_scene_sha256": "28154bd0a2e15c58844a594f7ca6e8eee9f9702aa59bcc34c3989eda0e4db415"
+}
