@@ -1,0 +1,283 @@
+{
+  "kind": "pose-specific ideal foot-contact muscle equilibrium; not behavior",
+  "runner_sha256": "09ac4d7314dc5f11167b98a39994a4ca6e0b94bb7d6d0a2e5f58a8427c7288e8",
+  "inputs": {
+    "xml": "51518a616e594a8a2333987326d3af592f9f0784573b7858f0d13af9d0bea1f1",
+    "poses": "ae84a860ca62c9cd804e7a12c20b11e800a0c1c0b1fdfad6a0c0479d6064fb97",
+    "motor": "2fd32180d5b8a7688bc813440bf2c2f1d0a35fad635ab0d42ca4f536d11403ca"
+  },
+  "pooling_sha256": "0969f13e5c881fdae674eea24720b4209ad211d0e9c575e61e53e63662599e5c",
+  "mujoco": "3.12.0",
+  "results": [
+    {
+      "pose_index": 0,
+      "maximum_penetration": 1.834498056935141e-10,
+      "affine_error": 8.881784197001252e-16,
+      "supports": [
+        {
+          "leg": "lf",
+          "point": [
+            0.5341332066970628,
+            0.6307964476765525,
+            8.81239525796218e-16
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "lm",
+          "point": [
+            0.2018067407691518,
+            0.9067716440039255,
+            -4.85722573273506e-16
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "lh",
+          "point": [
+            -1.563502859236209,
+            0.917760219437683,
+            1.249000902703301e-16
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "rf",
+          "point": [
+            0.52971167663111,
+            -0.6106128366457302,
+            -3.0531133177191805e-16
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "rm",
+          "point": [
+            -0.3025811966697037,
+            -1.165322331960874,
+            2.0122792321330962e-16
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "rh",
+          "point": [
+            -1.243712358783203,
+            -0.9255390688076052,
+            -6.38378239159465e-16
+          ],
+          "friction": 1.0
+        }
+      ],
+      "conditions": {
+        "passive": {
+          "status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "feasible": false,
+          "residual": null,
+          "activations": null,
+          "support_ray_weights": null
+        },
+        "independent90": {
+          "status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "feasible": false,
+          "residual": null,
+          "activations": null,
+          "support_ray_weights": null
+        },
+        "named_pools": {
+          "status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "feasible": false,
+          "residual": null,
+          "activations": null,
+          "support_ray_weights": null
+        }
+      }
+    },
+    {
+      "pose_index": 1,
+      "maximum_penetration": 2.002497258724728e-09,
+      "affine_error": 1.7763568394002505e-15,
+      "supports": [
+        {
+          "leg": "lf",
+          "point": [
+            0.4706692598301423,
+            0.6675925981717428,
+            6.203371150093062e-15
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "lm",
+          "point": [
+            -0.4860036551423832,
+            1.013898316394023,
+            -6.185330025942903e-14
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "lh",
+          "point": [
+            -2.2067987756557126,
+            0.7164617615303077,
+            -6.573908084561708e-14
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "rf",
+          "point": [
+            0.4650193325732686,
+            -0.6440463075316346,
+            7.36216643204557e-15
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "rm",
+          "point": [
+            -0.6200392652172366,
+            -0.7673934970485006,
+            1.9878543255913428e-13
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "rh",
+          "point": [
+            0.07305487521319416,
+            -0.43423476112815274,
+            1.3836154444391013e-14
+          ],
+          "friction": 1.0
+        }
+      ],
+      "conditions": {
+        "passive": {
+          "status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "feasible": false,
+          "residual": null,
+          "activations": null,
+          "support_ray_weights": null
+        },
+        "independent90": {
+          "status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "feasible": false,
+          "residual": null,
+          "activations": null,
+          "support_ray_weights": null
+        },
+        "named_pools": {
+          "status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "feasible": false,
+          "residual": null,
+          "activations": null,
+          "support_ray_weights": null
+        }
+      }
+    },
+    {
+      "pose_index": 2,
+      "maximum_penetration": 1.3688360033566743e-08,
+      "affine_error": 2.6645352591003757e-15,
+      "supports": [
+        {
+          "leg": "lf",
+          "point": [
+            0.6314250246612563,
+            0.6094501392042035,
+            1.7439711341715736e-09
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "lm",
+          "point": [
+            -0.6776714949904241,
+            1.0853517504830592,
+            -9.070744155792454e-10
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "lh",
+          "point": [
+            -2.2736170491889043,
+            0.621653990534982,
+            1.3067104620567704e-09
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "rf",
+          "point": [
+            0.6286243863553557,
+            -0.5847684307529025,
+            1.7435193983006414e-09
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "rm",
+          "point": [
+            -0.6144566607471993,
+            -0.771999681278394,
+            2.0452513294078045e-09
+          ],
+          "friction": 1.0
+        },
+        {
+          "leg": "rh",
+          "point": [
+            0.08510412266750969,
+            -0.4387836487393626,
+            -5.37060543953638e-09
+          ],
+          "friction": 1.0
+        }
+      ],
+      "conditions": {
+        "passive": {
+          "status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "feasible": false,
+          "residual": null,
+          "activations": null,
+          "support_ray_weights": null
+        },
+        "independent90": {
+          "status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "feasible": false,
+          "residual": null,
+          "activations": null,
+          "support_ray_weights": null
+        },
+        "named_pools": {
+          "status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "feasible": false,
+          "residual": null,
+          "activations": null,
+          "support_ray_weights": null
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    "All 48 velocity coordinates balanced at zero velocity; passive forces retained.",
+    "One ideal contact at the lowest mesh vertex on each distal tarsus; no torso or self-contact support.",
+    "Conservative four-ray tangential friction cone, no adhesion or contact moments.",
+    "Ideal hard contacts; not proof of equilibrium under the runtime soft-contact solver.",
+    "Independent muscle or named-pool inputs may choose any value in [0,1]; no CNS reachability constraint.",
+    "No forces or fitted activations are installed in a runtime controller.",
+    "Infeasibility concerns these poses and point-contact assumptions, not every possible stance."
+  ]
+}

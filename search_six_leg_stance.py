@@ -18,6 +18,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     for name in ('xml', 'body-receipt', 'output'):
         p.add_argument('--' + name, type=Path, required=True)
+    p.add_argument('--refine', type=Path, help='Prior search receipt; refine its poses without pose regularization')
     a = p.parse_args()
     receipt = json.loads(a.body_receipt.read_text())
     assert sha(a.xml) == receipt['xml_sha256']
@@ -62,12 +63,21 @@ def main():
     _, _, target_xy = evaluate(np.r_[1.7, initial[7:]])
     began = time.monotonic()
     results = []
+    if a.refine:
+        previous = json.loads(a.refine.read_text())
+        assert previous['xml_sha256'] == sha(a.xml)
+        starts = [np.r_[r['qpos'][2], r['qpos'][7:]] for r in previous['results']]
+    else:
+        starts = [np.r_[height, initial[7:]] for height in (1.3, 1.7, 2.1)]
     # Fixed starts, not a search over model parameters or neural gains.
-    for height in (1.3, 1.7, 2.1):
-        start = np.clip(np.r_[height, initial[7:]], lower + 1e-8, upper - 1e-8)
+    for start in starts:
+        height = float(start[0])
+        start = np.clip(start, lower + 1e-8, upper - 1e-8)
 
         def objective(x):
             penetration, bottom, xy = evaluate(x)
+            if a.refine:
+                return np.r_[10 * penetration, 10 * bottom]
             return np.r_[10 * penetration, 10 * bottom,
                          .01 * (xy - target_xy).ravel(), .001 * (x[1:] - initial[7:])]
 
@@ -87,6 +97,7 @@ def main():
                                                'foot_bottom_z', 'geometric_candidate')}), flush=True)
     report = dict(kind='offline initial-pose search; not standing or behavior',
         runner_sha256=sha(Path(__file__)), xml_sha256=sha(a.xml),
+        refine_sha256=sha(a.refine) if a.refine else None,
         body_receipt_sha256=sha(a.body_receipt), mujoco=mujoco.__version__,
         wall_seconds=time.monotonic() - began, results=results,
         search_joint_ranges=m.jnt_range[joint_ids].tolist(),
