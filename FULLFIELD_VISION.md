@@ -49,6 +49,14 @@ or physiological recording comparison has been performed.
 
 ## Evidence and next decision
 
+The subsequent `analyze_motion_selectivity.py` analysis separates T4/T5 subtypes
+and sides and compares AC RMS over the last complete stimulus cycle. Saved
+results are in `evidence/motion-selectivity-001.json`. Median absolute
+opposite-phase asymmetries across groups are about 0.026–0.102; these are not
+physiological direction-selectivity indices. Stimuli remain unregistered to
+preferred world directions, so this test cannot establish absence of motion
+tuning. It changes no dynamics or stimulus parameters.
+
 `evidence/trials/fullfield-vision-001/` records the full stimuli, selected-neuron
 time series, exact body IDs/row indices and source hashes. The trace is about
 60 MB compressed; it is experiment evidence, not a bulk source dataset.

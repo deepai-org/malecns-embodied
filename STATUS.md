@@ -1,5 +1,21 @@
 # MaleCNS embodiment experiment
 
+## Current stopping point — 2026-09-12
+
+Paused at the user's request; see [HANDOFF.md](HANDOFF.md). Completed results
+and source are preserved. No experiment process was running at the final host
+check; all GPUs were idle. No full-fly behavior is established.
+
+Most recent evidence: the published mCNS subnetwork rhythm result survives a
+tenfold tolerance refinement. Its graph differs from our full artifact; applying
+the documented five-synapse threshold reduces official induced connections
+from 527,288 to 144,025, still above the reference's 118,920. See
+[PUBLISHED_CPG.md](PUBLISHED_CPG.md). This is a promising dynamics reference,
+not an installed controller. The full-CNS physical disturbance test still shows
+negligible useful feedback; see [LEG_DISTURBANCE.md](LEG_DISTURBANCE.md).
+
+## Historical diagnostic updates
+
 Latest visual diagnostic: full-field retinal stimuli produce clear receptor and
 named visual-neuron responses, but steering/motor responses remain small. Screen
 coverage alone does not explain the weak visual-to-motor result. See

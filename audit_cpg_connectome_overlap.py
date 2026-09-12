@@ -38,6 +38,15 @@ def main():
     reference=np.abs(matrix[:,1:])
     union=(sub!=0)|(reference!=0)
     changed=(sub!=reference)&union
+    thresholded=np.where(sub>=5,sub,0)
+    threshold_union=(thresholded!=0)|(reference!=0)
+    threshold_comparison=dict(threshold=5,
+        official_nonzero_edges=int(np.count_nonzero(thresholded)),
+        changed_pairs=int(np.count_nonzero((thresholded!=reference)&threshold_union)),
+        only_official_edges=int(np.count_nonzero((thresholded!=0)&(reference==0))),
+        only_reference_edges=int(np.count_nonzero((reference!=0)&(thresholded==0))),
+        identical_nonzero_counts=int(np.count_nonzero((thresholded==reference)&threshold_union)),
+        published_minimum_nonzero_count=float(reference[reference!=0].min()))
     examples=[]
     for i,j in np.argwhere(changed)[:20]:
         examples.append(dict(pre=int(ids[i]),post=int(ids[j]),
@@ -52,7 +61,7 @@ def main():
         changed_pairs=int(changed.sum()),
         only_reference_edges=int(np.count_nonzero((reference!=0)&(sub==0))),
         only_official_edges=int(np.count_nonzero((reference==0)&(sub!=0))),
-        examples=examples,runner_sha256=sha(Path(__file__)),
+        examples=examples,threshold_comparison=threshold_comparison,runner_sha256=sha(Path(__file__)),
         caveats=['Absolute weights only: neurotransmitter sign agreement is not tested.',
             'Published filename says vncRoisOnly; official edges span the volume.',
             'Count differences do not by themselves imply erroneous data or identify their cause.',

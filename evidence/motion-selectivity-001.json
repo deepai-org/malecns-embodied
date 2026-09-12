@@ -1,0 +1,192 @@
+{
+  "kind": "Descriptive opposite-grating response asymmetry, separated by cell side.",
+  "runner_sha256": "ed9ccf9bd556750c891536ba0b925b542b193b0b422c21885003c6abbf8e74ac",
+  "trace_sha256": "880362f6a897925a4c6b59ddb5929cf60b2d4a071ed4ba9655aa60548f5bb23e",
+  "annotations_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "results": [
+    {
+      "type": "T4a",
+      "side": "L",
+      "count": 835,
+      "above_floor": 834,
+      "mean_positive_rms": 0.0003008325488849903,
+      "mean_negative_rms": 0.00031368053536530097,
+      "median_asymmetry": -0.015981201721817072,
+      "median_absolute_asymmetry": 0.0894760360267436,
+      "fraction_absolute_asymmetry_above_half": 0.039568345323741004
+    },
+    {
+      "type": "T4a",
+      "side": "R",
+      "count": 849,
+      "above_floor": 849,
+      "mean_positive_rms": 0.0004391733741287608,
+      "mean_negative_rms": 0.00045356003126632713,
+      "median_asymmetry": -0.010805733470195998,
+      "median_absolute_asymmetry": 0.05859855954844514,
+      "fraction_absolute_asymmetry_above_half": 0.028268551236749116
+    },
+    {
+      "type": "T4b",
+      "side": "L",
+      "count": 844,
+      "above_floor": 844,
+      "mean_positive_rms": 0.0003331041406626696,
+      "mean_negative_rms": 0.0003280858232040634,
+      "median_asymmetry": 0.0056272623261305905,
+      "median_absolute_asymmetry": 0.07185447532676428,
+      "fraction_absolute_asymmetry_above_half": 0.03317535545023697
+    },
+    {
+      "type": "T4b",
+      "side": "R",
+      "count": 846,
+      "above_floor": 846,
+      "mean_positive_rms": 0.00047666346481166995,
+      "mean_negative_rms": 0.0004690685376751483,
+      "median_asymmetry": 0.01079147195035116,
+      "median_absolute_asymmetry": 0.04862337094750621,
+      "fraction_absolute_asymmetry_above_half": 0.01773049645390071
+    },
+    {
+      "type": "T4c",
+      "side": "L",
+      "count": 895,
+      "above_floor": 891,
+      "mean_positive_rms": 0.00030684076144448164,
+      "mean_negative_rms": 0.0003450858430840444,
+      "median_asymmetry": -0.04521206052523282,
+      "median_absolute_asymmetry": 0.10247529505675486,
+      "fraction_absolute_asymmetry_above_half": 0.05499438832772166
+    },
+    {
+      "type": "T4c",
+      "side": "R",
+      "count": 883,
+      "above_floor": 883,
+      "mean_positive_rms": 0.00047745415997579426,
+      "mean_negative_rms": 0.0004994052955644625,
+      "median_asymmetry": -0.013744311360213384,
+      "median_absolute_asymmetry": 0.06513301188232744,
+      "fraction_absolute_asymmetry_above_half": 0.028312570781426953
+    },
+    {
+      "type": "T4d",
+      "side": "L",
+      "count": 850,
+      "above_floor": 848,
+      "mean_positive_rms": 0.0003379459409330808,
+      "mean_negative_rms": 0.0003100176475080467,
+      "median_asymmetry": 0.026960620221036454,
+      "median_absolute_asymmetry": 0.09244383916116047,
+      "fraction_absolute_asymmetry_above_half": 0.06132075471698113
+    },
+    {
+      "type": "T4d",
+      "side": "R",
+      "count": 859,
+      "above_floor": 858,
+      "mean_positive_rms": 0.00047848567426757283,
+      "mean_negative_rms": 0.0004555207205972671,
+      "median_asymmetry": 0.018185347966336224,
+      "median_absolute_asymmetry": 0.08299398939975905,
+      "fraction_absolute_asymmetry_above_half": 0.04079254079254079
+    },
+    {
+      "type": "T5a",
+      "side": "L",
+      "count": 826,
+      "above_floor": 826,
+      "mean_positive_rms": 0.0002568527746706909,
+      "mean_negative_rms": 0.00025711040371427323,
+      "median_asymmetry": -0.0005122623706365688,
+      "median_absolute_asymmetry": 0.06010854675348223,
+      "fraction_absolute_asymmetry_above_half": 0.02784503631961259
+    },
+    {
+      "type": "T5a",
+      "side": "R",
+      "count": 838,
+      "above_floor": 838,
+      "mean_positive_rms": 0.000396504590562301,
+      "mean_negative_rms": 0.00039667838292265135,
+      "median_asymmetry": 0.00031457562249845696,
+      "median_absolute_asymmetry": 0.029788107062215956,
+      "fraction_absolute_asymmetry_above_half": 0.02028639618138425
+    },
+    {
+      "type": "T5b",
+      "side": "L",
+      "count": 863,
+      "above_floor": 863,
+      "mean_positive_rms": 0.00028478287820774044,
+      "mean_negative_rms": 0.0002836287945807009,
+      "median_asymmetry": -0.0023455536223921025,
+      "median_absolute_asymmetry": 0.05007123712647988,
+      "fraction_absolute_asymmetry_above_half": 0.0220162224797219
+    },
+    {
+      "type": "T5b",
+      "side": "R",
+      "count": 852,
+      "above_floor": 852,
+      "mean_positive_rms": 0.0004154335207262099,
+      "mean_negative_rms": 0.0004130300023044197,
+      "median_asymmetry": 0.002549836926098534,
+      "median_absolute_asymmetry": 0.02757821493015259,
+      "fraction_absolute_asymmetry_above_half": 0.007042253521126761
+    },
+    {
+      "type": "T5c",
+      "side": "L",
+      "count": 862,
+      "above_floor": 862,
+      "mean_positive_rms": 0.00027807427138677374,
+      "mean_negative_rms": 0.0002776081135084202,
+      "median_asymmetry": 0.0025330074788307132,
+      "median_absolute_asymmetry": 0.058899629194845954,
+      "fraction_absolute_asymmetry_above_half": 0.031322505800464036
+    },
+    {
+      "type": "T5c",
+      "side": "R",
+      "count": 858,
+      "above_floor": 858,
+      "mean_positive_rms": 0.0004188010014847457,
+      "mean_negative_rms": 0.0004226144841406718,
+      "median_asymmetry": -0.001799311457657573,
+      "median_absolute_asymmetry": 0.03145155137647222,
+      "fraction_absolute_asymmetry_above_half": 0.01048951048951049
+    },
+    {
+      "type": "T5d",
+      "side": "L",
+      "count": 812,
+      "above_floor": 812,
+      "mean_positive_rms": 0.0002941731751143356,
+      "mean_negative_rms": 0.0002949225825022309,
+      "median_asymmetry": -0.007108701713713544,
+      "median_absolute_asymmetry": 0.052887401924893315,
+      "fraction_absolute_asymmetry_above_half": 0.02586206896551724
+    },
+    {
+      "type": "T5d",
+      "side": "R",
+      "count": 808,
+      "above_floor": 808,
+      "mean_positive_rms": 0.0004432994238701561,
+      "mean_negative_rms": 0.00043926562464670376,
+      "median_asymmetry": 0.0021505719242066322,
+      "median_absolute_asymmetry": 0.026047129635695533,
+      "fraction_absolute_asymmetry_above_half": 0.008663366336633664
+    }
+  ],
+  "method": "Per-cell AC RMS over last complete cycle; (positive-negative)/(positive+negative), sum floor 1e-6.",
+  "caveats": [
+    "AC RMS is not a calcium-response direction-selectivity index or a validated physiological metric.",
+    "Camera-local phase directions have not been registered to each subtype preferred world direction.",
+    "Only two horizontal phase directions, one spatial/temporal frequency, one resting state.",
+    "Separate sides avoid cancellation, but a small difference here does not prove global absence of direction selectivity.",
+    "No model or stimulus parameter is changed by this analysis."
+  ]
+}

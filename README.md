@@ -1,5 +1,10 @@
 # MaleCNS embodied fly experiment
 
+**Paused at the user's request, 2026-09-12.** See [HANDOFF.md](HANDOFF.md) for
+the current state and next experiment. No autonomous fly is demonstrated.
+The latest promising result is a [published subnetwork rhythm reference](PUBLISHED_CPG.md),
+not a full-CNS or embodied success.
+
 An attempt to run a biologically grounded fly on a four-RTX-3090 machine:
 
 **Physical environment → sensory organs → MaleCNS dynamics → motor neurons →

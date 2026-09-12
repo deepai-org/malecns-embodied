@@ -1,0 +1,160 @@
+{
+  "kind": "published subnetwork versus pinned whole-volume counts; not a replacement graph",
+  "raw_sha256": {
+    "annotations.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "edges.feather": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+  },
+  "reference_sha256": {
+    "wTable_20260210_vncRoisOnly.csv": "593a75c53f1c69600cac747364b8b623655699b1b83e16b41eeef6fe93dd5b2d",
+    "W_20260210_vncRoisOnly.csv": "255236baca7a24ead7360636a4ee98fd54d5423026c6ec864bbd717b8d58d3b4"
+  },
+  "neurons": 4310,
+  "matched_traced_neurons": 4309,
+  "missing_body_ids": [
+    825433
+  ],
+  "reference_nonzero_edges": 118920,
+  "official_induced_nonzero_edges": 527288,
+  "identical_nonzero_counts": 116382,
+  "changed_pairs": 411064,
+  "only_reference_edges": 158,
+  "only_official_edges": 408526,
+  "examples": [
+    {
+      "pre": 10001,
+      "post": 10010,
+      "published_absolute_weight": 0.0,
+      "official_count": 1
+    },
+    {
+      "pre": 10001,
+      "post": 10091,
+      "published_absolute_weight": 0.0,
+      "official_count": 5
+    },
+    {
+      "pre": 10001,
+      "post": 10106,
+      "published_absolute_weight": 0.0,
+      "official_count": 9
+    },
+    {
+      "pre": 10001,
+      "post": 10117,
+      "published_absolute_weight": 0.0,
+      "official_count": 8
+    },
+    {
+      "pre": 10001,
+      "post": 10151,
+      "published_absolute_weight": 0.0,
+      "official_count": 1
+    },
+    {
+      "pre": 10001,
+      "post": 10283,
+      "published_absolute_weight": 0.0,
+      "official_count": 18
+    },
+    {
+      "pre": 10001,
+      "post": 10440,
+      "published_absolute_weight": 0.0,
+      "official_count": 1
+    },
+    {
+      "pre": 10001,
+      "post": 10580,
+      "published_absolute_weight": 0.0,
+      "official_count": 8
+    },
+    {
+      "pre": 10001,
+      "post": 10584,
+      "published_absolute_weight": 0.0,
+      "official_count": 9
+    },
+    {
+      "pre": 10001,
+      "post": 10649,
+      "published_absolute_weight": 0.0,
+      "official_count": 1
+    },
+    {
+      "pre": 10001,
+      "post": 10654,
+      "published_absolute_weight": 0.0,
+      "official_count": 1
+    },
+    {
+      "pre": 10001,
+      "post": 10923,
+      "published_absolute_weight": 0.0,
+      "official_count": 10
+    },
+    {
+      "pre": 10001,
+      "post": 10924,
+      "published_absolute_weight": 0.0,
+      "official_count": 8
+    },
+    {
+      "pre": 10001,
+      "post": 10957,
+      "published_absolute_weight": 0.0,
+      "official_count": 2
+    },
+    {
+      "pre": 10001,
+      "post": 11133,
+      "published_absolute_weight": 0.0,
+      "official_count": 13
+    },
+    {
+      "pre": 10001,
+      "post": 11257,
+      "published_absolute_weight": 0.0,
+      "official_count": 1
+    },
+    {
+      "pre": 10001,
+      "post": 11334,
+      "published_absolute_weight": 0.0,
+      "official_count": 2
+    },
+    {
+      "pre": 10001,
+      "post": 11687,
+      "published_absolute_weight": 0.0,
+      "official_count": 1
+    },
+    {
+      "pre": 10001,
+      "post": 12628,
+      "published_absolute_weight": 0.0,
+      "official_count": 9
+    },
+    {
+      "pre": 10001,
+      "post": 12771,
+      "published_absolute_weight": 0.0,
+      "official_count": 1
+    }
+  ],
+  "threshold_comparison": {
+    "threshold": 5,
+    "official_nonzero_edges": 144025,
+    "changed_pairs": 27883,
+    "only_official_edges": 25345,
+    "only_reference_edges": 240,
+    "identical_nonzero_counts": 116382,
+    "published_minimum_nonzero_count": 5.0
+  },
+  "runner_sha256": "676c678fe678627c256d94c97da1422b635f128d516a1cc9786e0efd699567c1",
+  "caveats": [
+    "Absolute weights only: neurotransmitter sign agreement is not tested.",
+    "Published filename says vncRoisOnly; official edges span the volume.",
+    "Count differences do not by themselves imply erroneous data or identify their cause.",
+    "Neuron ID overlap is not proof of equivalent connectivity or behavior."
+  ]
+}

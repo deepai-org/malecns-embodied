@@ -100,6 +100,16 @@ Therefore the next full-CNS candidate must explicitly separate dynamics from
 connectivity selection. Do not describe the reference as our existing MaleCNS
 graph with only a different activation function. Preserve all current pins.
 
+The completed follow-up (`evidence/cpg-connectome-overlap-002.json`) applies
+the paper's documented five-synapse minimum to the official induced graph.
+It leaves 144,025 pairs, versus the reference's 118,920, and reduces differing
+pairs from 411,064 to 27,883. Thus thresholding explains much, but not all, of
+the difference. The reference's smallest nonzero absolute count is indeed five.
+VNC-only scope and transmitter-based exclusions still need separate tests.
+No threshold was applied to the full-CNS artifact. A drafted additional
+signed-weight comparison was not executed and was removed at the stopping point;
+the committed audit now matches the completed receipt's source hash.
+
 ### Tolerance refinement completed
 
 Trial 004 reran the same source, mean parameters, input and 1-ms maximum step
