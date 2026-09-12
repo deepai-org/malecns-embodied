@@ -1,0 +1,37 @@
+{
+  "checked": true,
+  "replay_max_motor_error": 1.4901161193847656e-08,
+  "analyzer_sha256": "afe9087d8b338804b882d28293f77c3b64161a84b6949104a32ba6b442ed4a41",
+  "trace_sha256": "f4f386a4c73aa5d95c05db00d929a737dbf146d65f37a71c08e7cee863f1975e",
+  "late_window_seconds": [
+    3.0,
+    4.0
+  ],
+  "results": [
+    {
+      "body_current_gain": 0.0,
+      "maximum_antagonist_separation": 2.3990869522094727e-06,
+      "late_maximum_antagonist_separation": 1.5944242477416992e-06,
+      "late_maximum_antagonist_temporal_std": 2.9280291968802885e-08
+    },
+    {
+      "body_current_gain": 1.0,
+      "maximum_antagonist_separation": 0.0005214661359786987,
+      "late_maximum_antagonist_separation": 0.0002830773591995239,
+      "late_maximum_antagonist_temporal_std": 6.656508048763499e-05
+    },
+    {
+      "body_current_gain": 10.0,
+      "maximum_antagonist_separation": 0.0026363134384155273,
+      "late_maximum_antagonist_separation": 0.0018630772829055786,
+      "late_maximum_antagonist_temporal_std": 0.0004814861749764532
+    },
+    {
+      "body_current_gain": 100.0,
+      "maximum_antagonist_separation": 0.005310520529747009,
+      "late_maximum_antagonist_separation": 0.004582226276397705,
+      "late_maximum_antagonist_temporal_std": 0.0008444642880931497
+    }
+  ],
+  "caveat": "Named mean motor-rate differences before muscle recruitment; no behavior or calibrated strength claim."
+}

@@ -13,6 +13,9 @@ See the current [route reassessment](REASSESSMENT.md) and
 [passive-mechanics diagnostics](PASSIVE_MECHANICS.md) before extending the setup.
 The identified force-update bug is now repaired and checked in a separate
 [physics-step muscle host](PHYSICS_MUSCLES.md); useful behavior remains unproven.
+The subsequent [sensory-transfer test](SENSORY_TRANSFER.md) finds responsive CNS
+motor output but weak antagonist separation; global input amplification is not
+installed as a fix.
 
 ## What currently works
 

@@ -1,5 +1,11 @@
 # MaleCNS embodiment experiment
 
+Subsequent diagnostic: four-second physical sensory replay reproduces motor
+rates within 1.49e-8 and separates body-driven from vision-only output. Stronger
+body-afferent currents increase motor responses but saturate inputs while named
+antagonist separation remains small. See [SENSORY_TRANSFER.md](SENSORY_TRANSFER.md).
+No neural parameter or embodied controller setting was changed by this assay.
+
 Latest update: the physics-step muscle repair passed bounded full-CNS trials
 (four seconds driven, two seconds each zero-motor and frozen-sensory). No useful
 behavior was demonstrated. See [PHYSICS_MUSCLES.md](PHYSICS_MUSCLES.md) for evidence

@@ -1,0 +1,54 @@
+{
+  "kind": "open-loop physical sensory transfer diagnostic",
+  "completed": true,
+  "model_manifest_sha256": "61ba02739072cbe53382b85c76eca617960627a162d241fffa607d8e4a644742",
+  "runner_sha256": "43a3488640eb3817a5bfd6cf714ab175af4c09883c7c8f4cc7191b4322259c8c",
+  "source_trace_sha256": "62f0b542a8593550cc40cc0c96976c06e49c80ef688b160c2897d20a5ca164ef",
+  "source_receipt_sha256": "ea4936e56bd742274d749f40770ddc3ba7de35aee52c748310bf3a579eaea8a2",
+  "simulated_seconds": 4.0,
+  "wall_seconds": 8.078796861693263,
+  "resident": 0,
+  "external_context": "zero",
+  "neural_parameters": "unchanged",
+  "original_replay_max_motor_error": 1.4901161193847656e-08,
+  "results": [
+    {
+      "body_current_gain": 0.0,
+      "maximum_motor_difference_from_body_neutral": 0.0,
+      "late_maximum_individual_motor_temporal_std": 2.857100867004192e-07,
+      "late_mean_body_current_rms": 0.0,
+      "late_mean_body_rate_rms": 5.53991014839994e-07,
+      "maximum_body_current_clipped_fraction": 0.0
+    },
+    {
+      "body_current_gain": 1.0,
+      "maximum_motor_difference_from_body_neutral": 0.004159092903137207,
+      "late_maximum_individual_motor_temporal_std": 0.001041361945681274,
+      "late_mean_body_current_rms": 0.015410304069519043,
+      "late_mean_body_rate_rms": 0.01297708135098219,
+      "maximum_body_current_clipped_fraction": 0.0
+    },
+    {
+      "body_current_gain": 10.0,
+      "maximum_motor_difference_from_body_neutral": 0.020358160138130188,
+      "late_maximum_individual_motor_temporal_std": 0.003630691673606634,
+      "late_mean_body_current_rms": 0.12917816638946533,
+      "late_mean_body_rate_rms": 0.06118864566087723,
+      "maximum_body_current_clipped_fraction": 0.25606033205986023
+    },
+    {
+      "body_current_gain": 100.0,
+      "maximum_motor_difference_from_body_neutral": 0.03013896942138672,
+      "late_maximum_individual_motor_temporal_std": 0.00417762715369463,
+      "late_mean_body_current_rms": 0.4165642261505127,
+      "late_mean_body_rate_rms": 0.09684889763593674,
+      "maximum_body_current_clipped_fraction": 0.5665366649627686
+    }
+  ],
+  "caveats": [
+    "Recorded physical senses, not closed-loop behavior.",
+    "Gains are deliberately uncalibrated diagnostic perturbations, not installed controller settings.",
+    "Body current alone is scaled around neutral and bounded to [0,1]; optic input is identical in every lane.",
+    "One recorded resident and one trajectory; not a general feasibility proof."
+  ]
+}
