@@ -1,5 +1,11 @@
 # MaleCNS embodiment experiment
 
+Latest bounded test: joint pose-and-muscle optimization did not find a supported,
+collision-consistent stance within three local searches. Normalized named-pool
+inputs remained bounded, and no strengths or wiring changed. See
+[SUPPORTED_STANCE_SEARCH.md](SUPPORTED_STANCE_SEARCH.md). No candidate was
+promoted; this is not proof of global infeasibility or CNS failure.
+
 Latest integrated trial: full-CNS feedback now runs from an authenticated,
 clearance-checked feet-on-floor initial pose. Matched two-second conditions all
 end supported by torso/abdomen contacts, not standing. Thirty physical replay
