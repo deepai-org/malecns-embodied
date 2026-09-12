@@ -1,0 +1,223 @@
+{
+  "checked": true,
+  "verifier_sha256": "4100a2674980c161b0ea8d005bd6f9d6db594033d72dcf90f673a398896eeab1",
+  "reports": [
+    {
+      "trial": "steering-circuit-001",
+      "amplitude": 0.2,
+      "trace_sha256": "bd74ad45ea2f88ae69906741310f0f6236faa062c124be0f988bd637ca6912e8",
+      "maximum_prestimulus_difference": 0.0,
+      "cases": [
+        {
+          "type": "DNa02",
+          "side": "L",
+          "sign": 1,
+          "target_rate_change": 0.14821495115756989,
+          "ipsilateral_fraction": 0.9210694896437726,
+          "peak_motor_change": 0.0028831958770751953
+        },
+        {
+          "type": "DNa02",
+          "side": "L",
+          "sign": -1,
+          "target_rate_change": -0.1482149213552475,
+          "ipsilateral_fraction": 0.9210706209150464,
+          "peak_motor_change": 0.0028831958770751953
+        },
+        {
+          "type": "DNa02",
+          "side": "R",
+          "sign": 1,
+          "target_rate_change": 0.1482151448726654,
+          "ipsilateral_fraction": 0.945808832396781,
+          "peak_motor_change": 0.009044170379638672
+        },
+        {
+          "type": "DNa02",
+          "side": "R",
+          "sign": -1,
+          "target_rate_change": -0.14821510016918182,
+          "ipsilateral_fraction": 0.9458089474696862,
+          "peak_motor_change": 0.009044170379638672
+        },
+        {
+          "type": "DNg13",
+          "side": "L",
+          "sign": 1,
+          "target_rate_change": 0.14824774861335754,
+          "ipsilateral_fraction": 0.12528890701806045,
+          "peak_motor_change": 0.001502498984336853
+        },
+        {
+          "type": "DNg13",
+          "side": "L",
+          "sign": -1,
+          "target_rate_change": -0.14824776351451874,
+          "ipsilateral_fraction": 0.1252879951264556,
+          "peak_motor_change": 0.0015024691820144653
+        },
+        {
+          "type": "DNg13",
+          "side": "R",
+          "sign": 1,
+          "target_rate_change": 0.14825014770030975,
+          "ipsilateral_fraction": 0.14396721664092113,
+          "peak_motor_change": 0.0010806620121002197
+        },
+        {
+          "type": "DNg13",
+          "side": "R",
+          "sign": -1,
+          "target_rate_change": -0.14825019240379333,
+          "ipsilateral_fraction": 0.1439677870326214,
+          "peak_motor_change": 0.0010806620121002197
+        }
+      ]
+    },
+    {
+      "trial": "steering-circuit-002",
+      "amplitude": 0.05,
+      "trace_sha256": "6f89f12d9f13fd26c7a0e165387157784c1de6372138dc4a340658df9f1f82e2",
+      "maximum_prestimulus_difference": 0.0,
+      "cases": [
+        {
+          "type": "DNa02",
+          "side": "L",
+          "sign": 1,
+          "target_rate_change": 0.04630718752741814,
+          "ipsilateral_fraction": 0.9208941668185598,
+          "peak_motor_change": 0.0009282529354095459
+        },
+        {
+          "type": "DNa02",
+          "side": "L",
+          "sign": -1,
+          "target_rate_change": -0.04630718380212784,
+          "ipsilateral_fraction": 0.9208941187997994,
+          "peak_motor_change": 0.0009282529354095459
+        },
+        {
+          "type": "DNa02",
+          "side": "R",
+          "sign": 1,
+          "target_rate_change": 0.04630732536315918,
+          "ipsilateral_fraction": 0.9457283944682269,
+          "peak_motor_change": 0.0029133856296539307
+        },
+        {
+          "type": "DNa02",
+          "side": "R",
+          "sign": -1,
+          "target_rate_change": -0.046307314187288284,
+          "ipsilateral_fraction": 0.9457281389570995,
+          "peak_motor_change": 0.0029133856296539307
+        },
+        {
+          "type": "DNg13",
+          "side": "L",
+          "sign": 1,
+          "target_rate_change": 0.04632826894521713,
+          "ipsilateral_fraction": 0.12536399469900747,
+          "peak_motor_change": 0.000484466552734375
+        },
+        {
+          "type": "DNg13",
+          "side": "L",
+          "sign": -1,
+          "target_rate_change": -0.04632826894521713,
+          "ipsilateral_fraction": 0.1253628084519045,
+          "peak_motor_change": 0.000484466552734375
+        },
+        {
+          "type": "DNg13",
+          "side": "R",
+          "sign": 1,
+          "target_rate_change": 0.04632985591888428,
+          "ipsilateral_fraction": 0.1439682060004067,
+          "peak_motor_change": 0.00034840404987335205
+        },
+        {
+          "type": "DNg13",
+          "side": "R",
+          "sign": -1,
+          "target_rate_change": -0.046329859644174576,
+          "ipsilateral_fraction": 0.14396867470953495,
+          "peak_motor_change": 0.00034840404987335205
+        }
+      ]
+    },
+    {
+      "trial": "steering-circuit-003",
+      "amplitude": 0.5,
+      "trace_sha256": "6697616536f12138ebda9dc58755da72558f90977fcd2595fe69f114aca1b74d",
+      "maximum_prestimulus_difference": 0.0,
+      "cases": [
+        {
+          "type": "DNa02",
+          "side": "L",
+          "sign": 1,
+          "target_rate_change": 0.1965610682964325,
+          "ipsilateral_fraction": 0.9211590324955876,
+          "peak_motor_change": 0.0037472397089004517
+        },
+        {
+          "type": "DNa02",
+          "side": "L",
+          "sign": -1,
+          "target_rate_change": -0.1965610384941101,
+          "ipsilateral_fraction": 0.9211588429600127,
+          "peak_motor_change": 0.0037472397089004517
+        },
+        {
+          "type": "DNa02",
+          "side": "R",
+          "sign": 1,
+          "target_rate_change": 0.1965610682964325,
+          "ipsilateral_fraction": 0.9458905525252894,
+          "peak_motor_change": 0.011748582124710083
+        },
+        {
+          "type": "DNa02",
+          "side": "R",
+          "sign": -1,
+          "target_rate_change": -0.1965610533952713,
+          "ipsilateral_fraction": 0.945890804568487,
+          "peak_motor_change": 0.011748582124710083
+        },
+        {
+          "type": "DNg13",
+          "side": "L",
+          "sign": 1,
+          "target_rate_change": 0.1965651661157608,
+          "ipsilateral_fraction": 0.1252167167649455,
+          "peak_motor_change": 0.001950487494468689
+        },
+        {
+          "type": "DNg13",
+          "side": "L",
+          "sign": -1,
+          "target_rate_change": -0.1965651661157608,
+          "ipsilateral_fraction": 0.12521540359508382,
+          "peak_motor_change": 0.0019504576921463013
+        },
+        {
+          "type": "DNg13",
+          "side": "R",
+          "sign": 1,
+          "target_rate_change": 0.1965654045343399,
+          "ipsilateral_fraction": 0.14390066904703647,
+          "peak_motor_change": 0.0014029741287231445
+        },
+        {
+          "type": "DNg13",
+          "side": "R",
+          "sign": -1,
+          "target_rate_change": -0.19656537473201752,
+          "ipsilateral_fraction": 0.14390129072948313,
+          "peak_motor_change": 0.0014029741287231445
+        }
+      ]
+    }
+  ],
+  "caveat": "Reconstructs descriptive metrics and input identities, not independent neural recurrence or behavioral validity."
+}

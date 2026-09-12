@@ -1,5 +1,12 @@
 # MaleCNS embodiment experiment
 
+Latest neural evidence: direct DNa02 and DNg13 pulse assays yield distinct,
+consistent same-side versus opposite-side motor-response biases across three
+amplitudes and both signs. See [STEERING_CIRCUIT.md](STEERING_CIRCUIT.md).
+This is an encouraging neural diagnostic, not observed steering or walking.
+The CNS rate envelope also limits the current mean-rate muscle drive to about
+0.4; recruitment calibration remains unresolved. No DN controller was installed.
+
 Latest bounded test: joint pose-and-muscle optimization did not find a supported,
 collision-consistent stance within three local searches. Normalized named-pool
 inputs remained bounded, and no strengths or wiring changed. See

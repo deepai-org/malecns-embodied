@@ -1,0 +1,1229 @@
+{
+  "kind": "Full-CNS steering-neuron pulse assay; no body or runtime DN controller.",
+  "completed": true,
+  "runner_sha256": "3ab5a6bafdfed96ef2dc9f97aee53763d3da21a538e1c01a08f39e0d55061492",
+  "model_manifest_sha256": "61ba02739072cbe53382b85c76eca617960627a162d241fffa607d8e4a644742",
+  "annotation_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "motor_sha256": "2fd32180d5b8a7688bc813440bf2c2f1d0a35fad635ab0d42ca4f536d11403ca",
+  "conditions": [
+    {
+      "kind": "control",
+      "sign": 0,
+      "neuron": null
+    },
+    {
+      "kind": "pulse",
+      "sign": 1,
+      "neuron": {
+        "cns_row": 130496,
+        "bodyId": 523769,
+        "type": "DNa02",
+        "instance": "DNa02_L",
+        "somaSide": "L",
+        "rootSide": null,
+        "superclass": "descending_neuron",
+        "subclass": "xl",
+        "mancType": "DNa02"
+      }
+    },
+    {
+      "kind": "pulse",
+      "sign": -1,
+      "neuron": {
+        "cns_row": 130496,
+        "bodyId": 523769,
+        "type": "DNa02",
+        "instance": "DNa02_L",
+        "somaSide": "L",
+        "rootSide": null,
+        "superclass": "descending_neuron",
+        "subclass": "xl",
+        "mancType": "DNa02"
+      }
+    },
+    {
+      "kind": "pulse",
+      "sign": 1,
+      "neuron": {
+        "cns_row": 332,
+        "bodyId": 10360,
+        "type": "DNa02",
+        "instance": "DNa02_R",
+        "somaSide": "R",
+        "rootSide": null,
+        "superclass": "descending_neuron",
+        "subclass": "xl",
+        "mancType": "DNa02"
+      }
+    },
+    {
+      "kind": "pulse",
+      "sign": -1,
+      "neuron": {
+        "cns_row": 332,
+        "bodyId": 10360,
+        "type": "DNa02",
+        "instance": "DNa02_R",
+        "somaSide": "R",
+        "rootSide": null,
+        "superclass": "descending_neuron",
+        "subclass": "xl",
+        "mancType": "DNa02"
+      }
+    },
+    {
+      "kind": "pulse",
+      "sign": 1,
+      "neuron": {
+        "cns_row": 993,
+        "bodyId": 11074,
+        "type": "DNg13",
+        "instance": "DNg13_L",
+        "somaSide": "L",
+        "rootSide": null,
+        "superclass": "descending_neuron",
+        "subclass": "xl",
+        "mancType": "DNg13"
+      }
+    },
+    {
+      "kind": "pulse",
+      "sign": -1,
+      "neuron": {
+        "cns_row": 993,
+        "bodyId": 11074,
+        "type": "DNg13",
+        "instance": "DNg13_L",
+        "somaSide": "L",
+        "rootSide": null,
+        "superclass": "descending_neuron",
+        "subclass": "xl",
+        "mancType": "DNg13"
+      }
+    },
+    {
+      "kind": "pulse",
+      "sign": 1,
+      "neuron": {
+        "cns_row": 124419,
+        "bodyId": 512006,
+        "type": "DNg13",
+        "instance": "DNg13_R",
+        "somaSide": "R",
+        "rootSide": null,
+        "superclass": "descending_neuron",
+        "subclass": "xl",
+        "mancType": "DNg13"
+      }
+    },
+    {
+      "kind": "pulse",
+      "sign": -1,
+      "neuron": {
+        "cns_row": 124419,
+        "bodyId": 512006,
+        "type": "DNg13",
+        "instance": "DNg13_R",
+        "somaSide": "R",
+        "rootSide": null,
+        "superclass": "descending_neuron",
+        "subclass": "xl",
+        "mancType": "DNg13"
+      }
+    }
+  ],
+  "interneurons": [
+    {
+      "cns_row": 143127,
+      "bodyId": 800461,
+      "type": "IN19A003",
+      "instance": "IN19A003_L",
+      "somaSide": "L",
+      "rootSide": null,
+      "superclass": "vnc_intrinsic",
+      "subclass": "IR",
+      "mancType": "IN19A003"
+    },
+    {
+      "cns_row": 143166,
+      "bodyId": 800511,
+      "type": "IN08A006",
+      "instance": "IN08A006_L",
+      "somaSide": "L",
+      "rootSide": null,
+      "superclass": "vnc_intrinsic",
+      "subclass": "IR",
+      "mancType": "IN08A006"
+    },
+    {
+      "cns_row": 143207,
+      "bodyId": 800561,
+      "type": "IN08A006",
+      "instance": "IN08A006_L",
+      "somaSide": "L",
+      "rootSide": null,
+      "superclass": "vnc_intrinsic",
+      "subclass": "IR",
+      "mancType": "IN08A006"
+    },
+    {
+      "cns_row": 143237,
+      "bodyId": 800596,
+      "type": "IN19A003",
+      "instance": "IN19A003_R",
+      "somaSide": "R",
+      "rootSide": null,
+      "superclass": "vnc_intrinsic",
+      "subclass": "IR",
+      "mancType": "IN19A003"
+    },
+    {
+      "cns_row": 143253,
+      "bodyId": 800622,
+      "type": "IN19A003",
+      "instance": "IN19A003_L",
+      "somaSide": "L",
+      "rootSide": null,
+      "superclass": "vnc_intrinsic",
+      "subclass": "IR",
+      "mancType": "IN19A003"
+    },
+    {
+      "cns_row": 143296,
+      "bodyId": 800687,
+      "type": "IN19A003",
+      "instance": "IN19A003_R",
+      "somaSide": "R",
+      "rootSide": null,
+      "superclass": "vnc_intrinsic",
+      "subclass": "IR",
+      "mancType": "IN19A003"
+    },
+    {
+      "cns_row": 143326,
+      "bodyId": 800722,
+      "type": "IN08A006",
+      "instance": "IN08A006_R",
+      "somaSide": "R",
+      "rootSide": null,
+      "superclass": "vnc_intrinsic",
+      "subclass": "IR",
+      "mancType": "IN08A006"
+    },
+    {
+      "cns_row": 143424,
+      "bodyId": 800856,
+      "type": "IN08A006",
+      "instance": "IN08A006_L",
+      "somaSide": "L",
+      "rootSide": null,
+      "superclass": "vnc_intrinsic",
+      "subclass": "IR",
+      "mancType": "IN08A006"
+    },
+    {
+      "cns_row": 143545,
+      "bodyId": 801027,
+      "type": "IN19A003",
+      "instance": "IN19A003_R",
+      "somaSide": "R",
+      "rootSide": null,
+      "superclass": "vnc_intrinsic",
+      "subclass": "IR",
+      "mancType": "IN19A003"
+    },
+    {
+      "cns_row": 143862,
+      "bodyId": 801437,
+      "type": "IN08A006",
+      "instance": "IN08A006_R",
+      "somaSide": "R",
+      "rootSide": null,
+      "superclass": "vnc_intrinsic",
+      "subclass": "IR",
+      "mancType": "IN08A006"
+    },
+    {
+      "cns_row": 159462,
+      "bodyId": 903602,
+      "type": "IN19A003",
+      "instance": "IN19A003_L",
+      "somaSide": "L",
+      "rootSide": null,
+      "superclass": "vnc_intrinsic",
+      "subclass": "IR",
+      "mancType": "IN19A003"
+    },
+    {
+      "cns_row": 159905,
+      "bodyId": 905009,
+      "type": "IN08A006",
+      "instance": "IN08A006_R",
+      "somaSide": "R",
+      "rootSide": null,
+      "superclass": "vnc_intrinsic",
+      "subclass": "IR",
+      "mancType": "IN08A006"
+    }
+  ],
+  "motor_groups": [
+    {
+      "side": "L",
+      "leg": "fl",
+      "indices": [
+        103,
+        130,
+        158,
+        183,
+        196,
+        225,
+        230,
+        233,
+        263,
+        269,
+        288,
+        317,
+        324,
+        328,
+        337,
+        345,
+        350,
+        379,
+        392,
+        398,
+        400,
+        424,
+        439,
+        457,
+        467,
+        468,
+        477,
+        491,
+        499,
+        502,
+        510,
+        512,
+        520,
+        522,
+        529,
+        536,
+        542,
+        547,
+        550,
+        557,
+        558,
+        563,
+        575,
+        582,
+        583,
+        586,
+        590,
+        591,
+        602,
+        610,
+        635,
+        652,
+        700,
+        702,
+        706,
+        707,
+        710,
+        717,
+        733,
+        761,
+        762,
+        789,
+        793,
+        797,
+        798,
+        805,
+        808,
+        809
+      ]
+    },
+    {
+      "side": "L",
+      "leg": "ml",
+      "indices": [
+        121,
+        126,
+        145,
+        161,
+        189,
+        218,
+        222,
+        227,
+        256,
+        262,
+        271,
+        283,
+        291,
+        300,
+        341,
+        427,
+        455,
+        493,
+        497,
+        518,
+        545,
+        561,
+        568,
+        570,
+        576,
+        578,
+        584,
+        587,
+        594,
+        595,
+        599,
+        601,
+        603,
+        606,
+        614,
+        617,
+        640,
+        643,
+        650,
+        651,
+        654,
+        655,
+        659,
+        663,
+        669,
+        687,
+        688,
+        690,
+        696,
+        724,
+        725,
+        752,
+        763,
+        767,
+        796,
+        799,
+        804,
+        807
+      ]
+    },
+    {
+      "side": "L",
+      "leg": "hl",
+      "indices": [
+        106,
+        120,
+        125,
+        129,
+        140,
+        178,
+        179,
+        185,
+        187,
+        217,
+        238,
+        248,
+        260,
+        301,
+        318,
+        323,
+        327,
+        397,
+        454,
+        470,
+        488,
+        513,
+        523,
+        531,
+        548,
+        555,
+        566,
+        574,
+        585,
+        588,
+        592,
+        596,
+        611,
+        612,
+        626,
+        627,
+        632,
+        633,
+        638,
+        639,
+        641,
+        642,
+        662,
+        695,
+        711,
+        728,
+        734,
+        736,
+        741,
+        750,
+        754,
+        755,
+        759,
+        764,
+        766,
+        771,
+        774,
+        775,
+        779,
+        780,
+        783,
+        785,
+        786,
+        801,
+        806,
+        810
+      ]
+    },
+    {
+      "side": "R",
+      "leg": "fl",
+      "indices": [
+        153,
+        175,
+        193,
+        197,
+        207,
+        266,
+        282,
+        292,
+        309,
+        326,
+        338,
+        340,
+        351,
+        390,
+        422,
+        429,
+        462,
+        466,
+        474,
+        492,
+        514,
+        516,
+        524,
+        528,
+        530,
+        533,
+        534,
+        535,
+        552,
+        553,
+        564,
+        565,
+        569,
+        572,
+        579,
+        604,
+        607,
+        613,
+        618,
+        621,
+        622,
+        623,
+        634,
+        646,
+        699,
+        701,
+        713,
+        720,
+        722,
+        742,
+        745,
+        747,
+        748,
+        757,
+        765,
+        768,
+        773,
+        781,
+        782,
+        784,
+        788,
+        790,
+        791,
+        792,
+        802,
+        811,
+        813
+      ]
+    },
+    {
+      "side": "R",
+      "leg": "ml",
+      "indices": [
+        109,
+        138,
+        148,
+        151,
+        152,
+        176,
+        188,
+        190,
+        200,
+        231,
+        243,
+        272,
+        273,
+        315,
+        331,
+        343,
+        370,
+        403,
+        469,
+        483,
+        486,
+        503,
+        504,
+        521,
+        537,
+        540,
+        554,
+        556,
+        567,
+        580,
+        581,
+        589,
+        598,
+        600,
+        615,
+        624,
+        628,
+        631,
+        636,
+        644,
+        653,
+        660,
+        665,
+        667,
+        668,
+        670,
+        671,
+        686,
+        689,
+        694,
+        697,
+        698,
+        703,
+        718,
+        726,
+        770,
+        800,
+        812
+      ]
+    },
+    {
+      "side": "R",
+      "leg": "hl",
+      "indices": [
+        105,
+        112,
+        113,
+        114,
+        122,
+        154,
+        156,
+        162,
+        168,
+        171,
+        181,
+        184,
+        186,
+        198,
+        255,
+        321,
+        410,
+        420,
+        434,
+        440,
+        446,
+        458,
+        487,
+        494,
+        507,
+        517,
+        519,
+        577,
+        593,
+        608,
+        609,
+        625,
+        629,
+        637,
+        645,
+        647,
+        656,
+        657,
+        673,
+        675,
+        677,
+        678,
+        679,
+        682,
+        685,
+        704,
+        705,
+        714,
+        715,
+        737,
+        744,
+        749,
+        756,
+        758,
+        760,
+        769,
+        772,
+        776,
+        777,
+        787,
+        794,
+        795,
+        803,
+        814
+      ]
+    }
+  ],
+  "amplitude": 0.5,
+  "stimulation_interval": [
+    0.3,
+    1.3
+  ],
+  "late_readout": "last 20 stimulated updates",
+  "wall_seconds": 3.9215035773813725,
+  "results": [
+    {
+      "condition": {
+        "kind": "pulse",
+        "sign": 1,
+        "neuron": {
+          "cns_row": 130496,
+          "bodyId": 523769,
+          "type": "DNa02",
+          "instance": "DNa02_L",
+          "somaSide": "L",
+          "rootSide": null,
+          "superclass": "descending_neuron",
+          "subclass": "xl",
+          "mancType": "DNa02"
+        }
+      },
+      "peak_motor_change": 0.0037472397089004517,
+      "late_leg_groups": [
+        {
+          "side": "L",
+          "leg": "fl",
+          "mean_change": 0.00019587263523135334,
+          "mean_absolute_change": 0.00022697834356222302,
+          "maximum_absolute_change": 0.0035837492905557156
+        },
+        {
+          "side": "L",
+          "leg": "ml",
+          "mean_change": 4.897482358501293e-05,
+          "mean_absolute_change": 0.00011385506513761356,
+          "maximum_absolute_change": 0.0019284046720713377
+        },
+        {
+          "side": "L",
+          "leg": "hl",
+          "mean_change": 7.940117211546749e-05,
+          "mean_absolute_change": 0.0001312776585109532,
+          "maximum_absolute_change": 0.0019877247978001833
+        },
+        {
+          "side": "R",
+          "leg": "fl",
+          "mean_change": 1.6704879612916557e-07,
+          "mean_absolute_change": 9.732416401675437e-06,
+          "maximum_absolute_change": 4.77150097140111e-05
+        },
+        {
+          "side": "R",
+          "leg": "ml",
+          "mean_change": 5.173413683223771e-06,
+          "mean_absolute_change": 8.786816579231527e-06,
+          "maximum_absolute_change": 9.484887414146215e-05
+        },
+        {
+          "side": "R",
+          "leg": "hl",
+          "mean_change": 1.3541989574150648e-05,
+          "mean_absolute_change": 2.1888223272981122e-05,
+          "maximum_absolute_change": 0.0003656730114016682
+        }
+      ],
+      "ipsilateral_mean_absolute_change": 0.00015737035573692992,
+      "contralateral_mean_absolute_change": 1.3469152084629362e-05,
+      "ipsilateral_fraction": 0.9211590324955876
+    },
+    {
+      "condition": {
+        "kind": "pulse",
+        "sign": -1,
+        "neuron": {
+          "cns_row": 130496,
+          "bodyId": 523769,
+          "type": "DNa02",
+          "instance": "DNa02_L",
+          "somaSide": "L",
+          "rootSide": null,
+          "superclass": "descending_neuron",
+          "subclass": "xl",
+          "mancType": "DNa02"
+        }
+      },
+      "peak_motor_change": 0.0037472397089004517,
+      "late_leg_groups": [
+        {
+          "side": "L",
+          "leg": "fl",
+          "mean_change": -0.00019587227143347263,
+          "mean_absolute_change": 0.0002269771066494286,
+          "maximum_absolute_change": 0.0035837553441524506
+        },
+        {
+          "side": "L",
+          "leg": "ml",
+          "mean_change": -4.8974990932038054e-05,
+          "mean_absolute_change": 0.000113852926006075,
+          "maximum_absolute_change": 0.00192837486974895
+        },
+        {
+          "side": "L",
+          "leg": "hl",
+          "mean_change": -7.940055365907028e-05,
+          "mean_absolute_change": 0.00013127567945048213,
+          "maximum_absolute_change": 0.0019877224694937468
+        },
+        {
+          "side": "R",
+          "leg": "fl",
+          "mean_change": -1.6715993922389316e-07,
+          "mean_absolute_change": 9.732215403346345e-06,
+          "maximum_absolute_change": 4.771128442371264e-05
+        },
+        {
+          "side": "R",
+          "leg": "ml",
+          "mean_change": -5.173490535526071e-06,
+          "mean_absolute_change": 8.786817488726228e-06,
+          "maximum_absolute_change": 9.484887414146215e-05
+        },
+        {
+          "side": "R",
+          "leg": "hl",
+          "mean_change": -1.3541837688535452e-05,
+          "mean_absolute_change": 2.1888070477871224e-05,
+          "maximum_absolute_change": 0.0003656730114016682
+        }
+      ],
+      "ipsilateral_mean_absolute_change": 0.00015736857070199525,
+      "contralateral_mean_absolute_change": 1.3469034456647933e-05,
+      "ipsilateral_fraction": 0.9211588429600127
+    },
+    {
+      "condition": {
+        "kind": "pulse",
+        "sign": 1,
+        "neuron": {
+          "cns_row": 332,
+          "bodyId": 10360,
+          "type": "DNa02",
+          "instance": "DNa02_R",
+          "somaSide": "R",
+          "rootSide": null,
+          "superclass": "descending_neuron",
+          "subclass": "xl",
+          "mancType": "DNa02"
+        }
+      },
+      "peak_motor_change": 0.011748582124710083,
+      "late_leg_groups": [
+        {
+          "side": "L",
+          "leg": "fl",
+          "mean_change": 4.484099008550402e-06,
+          "mean_absolute_change": 1.3898214092478156e-05,
+          "maximum_absolute_change": 0.0001495227188570425
+        },
+        {
+          "side": "L",
+          "leg": "ml",
+          "mean_change": 2.5736362658790313e-06,
+          "mean_absolute_change": 8.120027814584319e-06,
+          "maximum_absolute_change": 7.031634595477954e-05
+        },
+        {
+          "side": "L",
+          "leg": "hl",
+          "mean_change": 6.980640591791598e-06,
+          "mean_absolute_change": 1.4625184121541679e-05,
+          "maximum_absolute_change": 0.0001265592873096466
+        },
+        {
+          "side": "R",
+          "leg": "fl",
+          "mean_change": 0.00031690578907728195,
+          "mean_absolute_change": 0.00036370454472489655,
+          "maximum_absolute_change": 0.011236043646931648
+        },
+        {
+          "side": "R",
+          "leg": "ml",
+          "mean_change": 7.831217226339504e-05,
+          "mean_absolute_change": 0.00014093493518885225,
+          "maximum_absolute_change": 0.0028161644004285336
+        },
+        {
+          "side": "R",
+          "leg": "hl",
+          "mean_change": 7.894753071013838e-05,
+          "mean_absolute_change": 0.0001359264861093834,
+          "maximum_absolute_change": 0.002306148409843445
+        }
+      ],
+      "ipsilateral_mean_absolute_change": 0.0002135219886743774,
+      "contralateral_mean_absolute_change": 1.221447534286805e-05,
+      "ipsilateral_fraction": 0.9458905525252894
+    },
+    {
+      "condition": {
+        "kind": "pulse",
+        "sign": -1,
+        "neuron": {
+          "cns_row": 332,
+          "bodyId": 10360,
+          "type": "DNa02",
+          "instance": "DNa02_R",
+          "somaSide": "R",
+          "rootSide": null,
+          "superclass": "descending_neuron",
+          "subclass": "xl",
+          "mancType": "DNa02"
+        }
+      },
+      "peak_motor_change": 0.011748582124710083,
+      "late_leg_groups": [
+        {
+          "side": "L",
+          "leg": "fl",
+          "mean_change": -4.484033070184523e-06,
+          "mean_absolute_change": 1.3898214092478156e-05,
+          "maximum_absolute_change": 0.0001495227188570425
+        },
+        {
+          "side": "L",
+          "leg": "ml",
+          "mean_change": -2.5735846520547057e-06,
+          "mean_absolute_change": 8.11997688288102e-06,
+          "maximum_absolute_change": 7.031559653114527e-05
+        },
+        {
+          "side": "L",
+          "leg": "hl",
+          "mean_change": -6.980494163144613e-06,
+          "mean_absolute_change": 1.4625060430262238e-05,
+          "maximum_absolute_change": 0.00012655854516196996
+        },
+        {
+          "side": "R",
+          "leg": "fl",
+          "mean_change": -0.00031690584728494287,
+          "mean_absolute_change": 0.000363704573828727,
+          "maximum_absolute_change": 0.011236043646931648
+        },
+        {
+          "side": "R",
+          "leg": "ml",
+          "mean_change": -7.831217953935266e-05,
+          "mean_absolute_change": 0.00014093492063693702,
+          "maximum_absolute_change": 0.0028161644004285336
+        },
+        {
+          "side": "R",
+          "leg": "hl",
+          "mean_change": -7.894745795056224e-05,
+          "mean_absolute_change": 0.00013592657342087477,
+          "maximum_absolute_change": 0.002306148409843445
+        }
+      ],
+      "ipsilateral_mean_absolute_change": 0.00021352202262884626,
+      "contralateral_mean_absolute_change": 1.2214417135207137e-05,
+      "ipsilateral_fraction": 0.945890804568487
+    },
+    {
+      "condition": {
+        "kind": "pulse",
+        "sign": 1,
+        "neuron": {
+          "cns_row": 993,
+          "bodyId": 11074,
+          "type": "DNg13",
+          "instance": "DNg13_L",
+          "somaSide": "L",
+          "rootSide": null,
+          "superclass": "descending_neuron",
+          "subclass": "xl",
+          "mancType": "DNg13"
+        }
+      },
+      "peak_motor_change": 0.001950487494468689,
+      "late_leg_groups": [
+        {
+          "side": "L",
+          "leg": "fl",
+          "mean_change": 6.364987257256871e-06,
+          "mean_absolute_change": 9.682620657258667e-06,
+          "maximum_absolute_change": 8.53613018989563e-05
+        },
+        {
+          "side": "L",
+          "leg": "ml",
+          "mean_change": 1.0846516488527413e-05,
+          "mean_absolute_change": 1.5552945114905015e-05,
+          "maximum_absolute_change": 0.00012528225488495082
+        },
+        {
+          "side": "L",
+          "leg": "hl",
+          "mean_change": 1.7166103134513833e-05,
+          "mean_absolute_change": 3.0304046958917752e-05,
+          "maximum_absolute_change": 0.00024208947434090078
+        },
+        {
+          "side": "R",
+          "leg": "fl",
+          "mean_change": 1.350711272607441e-06,
+          "mean_absolute_change": 0.00021275432663969696,
+          "maximum_absolute_change": 0.00182875688187778
+        },
+        {
+          "side": "R",
+          "leg": "ml",
+          "mean_change": -6.370293704094365e-05,
+          "mean_absolute_change": 0.00013633808703161776,
+          "maximum_absolute_change": 0.0014459543162956834
+        },
+        {
+          "side": "R",
+          "leg": "hl",
+          "mean_change": -9.02594820217928e-06,
+          "mean_absolute_change": 3.8915881305001676e-05,
+          "maximum_absolute_change": 0.00025063156499527395
+        }
+      ],
+      "ipsilateral_mean_absolute_change": 1.851320424369381e-05,
+      "contralateral_mean_absolute_change": 0.0001293360983254388,
+      "ipsilateral_fraction": 0.1252167167649455
+    },
+    {
+      "condition": {
+        "kind": "pulse",
+        "sign": -1,
+        "neuron": {
+          "cns_row": 993,
+          "bodyId": 11074,
+          "type": "DNg13",
+          "instance": "DNg13_L",
+          "somaSide": "L",
+          "rootSide": null,
+          "superclass": "descending_neuron",
+          "subclass": "xl",
+          "mancType": "DNg13"
+        }
+      },
+      "peak_motor_change": 0.0019504576921463013,
+      "late_leg_groups": [
+        {
+          "side": "L",
+          "leg": "fl",
+          "mean_change": -6.365107310557505e-06,
+          "mean_absolute_change": 9.682456948212348e-06,
+          "maximum_absolute_change": 8.536055975127965e-05
+        },
+        {
+          "side": "L",
+          "leg": "ml",
+          "mean_change": -1.0846272743947338e-05,
+          "mean_absolute_change": 1.555272683617659e-05,
+          "maximum_absolute_change": 0.00012528225488495082
+        },
+        {
+          "side": "L",
+          "leg": "hl",
+          "mean_change": -1.716609222057741e-05,
+          "mean_absolute_change": 3.03034048556583e-05,
+          "maximum_absolute_change": 0.00024208947434090078
+        },
+        {
+          "side": "R",
+          "leg": "fl",
+          "mean_change": -1.351878040622978e-06,
+          "mean_absolute_change": 0.0002127511688740924,
+          "maximum_absolute_change": 0.0018286562990397215
+        },
+        {
+          "side": "R",
+          "leg": "ml",
+          "mean_change": 6.370379560394213e-05,
+          "mean_absolute_change": 0.00013633831986226141,
+          "maximum_absolute_change": 0.0014459609519690275
+        },
+        {
+          "side": "R",
+          "leg": "hl",
+          "mean_change": 9.026389307109639e-06,
+          "mean_absolute_change": 3.89163033105433e-05,
+          "maximum_absolute_change": 0.00025063156499527395
+        }
+      ],
+      "ipsilateral_mean_absolute_change": 1.8512862880015746e-05,
+      "contralateral_mean_absolute_change": 0.00012933526401563236,
+      "ipsilateral_fraction": 0.12521540359508382
+    },
+    {
+      "condition": {
+        "kind": "pulse",
+        "sign": 1,
+        "neuron": {
+          "cns_row": 124419,
+          "bodyId": 512006,
+          "type": "DNg13",
+          "instance": "DNg13_R",
+          "somaSide": "R",
+          "rootSide": null,
+          "superclass": "descending_neuron",
+          "subclass": "xl",
+          "mancType": "DNg13"
+        }
+      },
+      "peak_motor_change": 0.0014029741287231445,
+      "late_leg_groups": [
+        {
+          "side": "L",
+          "leg": "fl",
+          "mean_change": 5.984880044707097e-05,
+          "mean_absolute_change": 0.00015135909779928625,
+          "maximum_absolute_change": 0.0012069500517100096
+        },
+        {
+          "side": "L",
+          "leg": "ml",
+          "mean_change": -6.813783693360165e-05,
+          "mean_absolute_change": 0.00010847491648746654,
+          "maximum_absolute_change": 0.0013138562208041549
+        },
+        {
+          "side": "L",
+          "leg": "hl",
+          "mean_change": -9.83413337962702e-06,
+          "mean_absolute_change": 3.107095471932553e-05,
+          "maximum_absolute_change": 0.00023128018074203283
+        },
+        {
+          "side": "R",
+          "leg": "fl",
+          "mean_change": 3.2124235076480545e-06,
+          "mean_absolute_change": 6.7659498199645896e-06,
+          "maximum_absolute_change": 2.735406087595038e-05
+        },
+        {
+          "side": "R",
+          "leg": "ml",
+          "mean_change": 6.657402536802692e-06,
+          "mean_absolute_change": 1.1031303074560128e-05,
+          "maximum_absolute_change": 6.115436553955078e-05
+        },
+        {
+          "side": "R",
+          "leg": "hl",
+          "mean_change": 2.2043484932510182e-05,
+          "mean_absolute_change": 3.110060060862452e-05,
+          "maximum_absolute_change": 0.00022561996593140066
+        }
+      ],
+      "ipsilateral_mean_absolute_change": 1.6299284501049744e-05,
+      "contralateral_mean_absolute_change": 9.696832300202611e-05,
+      "ipsilateral_fraction": 0.14390066904703647
+    },
+    {
+      "condition": {
+        "kind": "pulse",
+        "sign": -1,
+        "neuron": {
+          "cns_row": 124419,
+          "bodyId": 512006,
+          "type": "DNg13",
+          "instance": "DNg13_R",
+          "somaSide": "R",
+          "rootSide": null,
+          "superclass": "descending_neuron",
+          "subclass": "xl",
+          "mancType": "DNg13"
+        }
+      },
+      "peak_motor_change": 0.0014029741287231445,
+      "late_leg_groups": [
+        {
+          "side": "L",
+          "leg": "fl",
+          "mean_change": -5.984805466141552e-05,
+          "mean_absolute_change": 0.0001513577881269157,
+          "maximum_absolute_change": 0.0012069500517100096
+        },
+        {
+          "side": "L",
+          "leg": "ml",
+          "mean_change": 6.813772779423743e-05,
+          "mean_absolute_change": 0.00010847368685062975,
+          "maximum_absolute_change": 0.0013138435315340757
+        },
+        {
+          "side": "L",
+          "leg": "hl",
+          "mean_change": 9.833739568421151e-06,
+          "mean_absolute_change": 3.107031079707667e-05,
+          "maximum_absolute_change": 0.0002312742144567892
+        },
+        {
+          "side": "R",
+          "leg": "fl",
+          "mean_change": -3.212412366337958e-06,
+          "mean_absolute_change": 6.765960733901011e-06,
+          "maximum_absolute_change": 2.735331690928433e-05
+        },
+        {
+          "side": "R",
+          "leg": "ml",
+          "mean_change": -6.65729885440669e-06,
+          "mean_absolute_change": 1.1031251233362127e-05,
+          "maximum_absolute_change": 6.115362339187413e-05
+        },
+        {
+          "side": "R",
+          "leg": "hl",
+          "mean_change": -2.2043333956389688e-05,
+          "mean_absolute_change": 3.1100353226065636e-05,
+          "maximum_absolute_change": 0.0002256162406411022
+        }
+      ],
+      "ipsilateral_mean_absolute_change": 1.629918839777626e-05,
+      "contralateral_mean_absolute_change": 9.696726192487404e-05,
+      "ipsilateral_fraction": 0.14390129072948313
+    }
+  ],
+  "references": [
+    "https://pubmed.ncbi.nlm.nih.gov/39293446/",
+    "https://elifesciences.org/articles/96084"
+  ],
+  "caveats": [
+    "Direct diagnostic DN current, not physical sensory transduction or an installed behavior controller.",
+    "Experimental DNa02/DNg13 effects concern leg kinematics, not mean motor-rate magnitudes.",
+    "Side-bias summaries are exploratory neural diagnostics, not a biological pass/fail score.",
+    "Model current/rates are not calibrated to injected picoamps or recorded hertz.",
+    "Neutral resting context is not the walking state used in biological perturbations.",
+    "No body, muscles, neural decoder, learned policy or parameter fitting runs in this assay."
+  ]
+}
