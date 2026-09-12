@@ -1,0 +1,473 @@
+{
+  "kind": "full-graph named proprioceptor perturbation; no behavioral claim",
+  "model_manifest_sha256": "61ba02739072cbe53382b85c76eca617960627a162d241fffa607d8e4a644742",
+  "amplitude_model_units": 0.5,
+  "neuron_count": 165122,
+  "edge_count": 25563197,
+  "source_annotation_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "simulated_seconds": 1.5,
+  "wall_seconds": 2.582465583458543,
+  "stimulation_interval_seconds": [
+    0.3,
+    1.0
+  ],
+  "comparison": "unstimulated matched lane",
+  "readout_interval_seconds": [
+    0.8,
+    1.0
+  ],
+  "external_context": "zero",
+  "motor_targets": {
+    "flexor": [
+      {
+        "cns_row": 148412,
+        "bodyId": 807165,
+        "type": "Ti flexor MN",
+        "instance": "Ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Ti flexor MN"
+      },
+      {
+        "cns_row": 150721,
+        "bodyId": 809912,
+        "type": "Ti flexor MN",
+        "instance": "Ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Ti flexor MN"
+      },
+      {
+        "cns_row": 156725,
+        "bodyId": 818057,
+        "type": "Ti flexor MN",
+        "instance": "Ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Ti flexor MN"
+      },
+      {
+        "cns_row": 157314,
+        "bodyId": 819384,
+        "type": "Ti flexor MN",
+        "instance": "Ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Ti flexor MN"
+      },
+      {
+        "cns_row": 161464,
+        "bodyId": 909831,
+        "type": "Ti flexor MN",
+        "instance": "Ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Ti flexor MN"
+      }
+    ],
+    "extensor": [
+      {
+        "cns_row": 143259,
+        "bodyId": 800636,
+        "type": "Ti extensor MN",
+        "instance": "Ti extensor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Ti extensor MN"
+      },
+      {
+        "cns_row": 154980,
+        "bodyId": 815344,
+        "type": "Ti extensor MN",
+        "instance": "Ti extensor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Ti extensor MN"
+      }
+    ],
+    "accessory_flexor": [
+      {
+        "cns_row": 147938,
+        "bodyId": 806599,
+        "type": "Acc. ti flexor MN",
+        "instance": "Acc. ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Acc. ti flexor MN"
+      },
+      {
+        "cns_row": 154915,
+        "bodyId": 815246,
+        "type": "Acc. ti flexor MN",
+        "instance": "Acc. ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Acc. ti flexor MN"
+      },
+      {
+        "cns_row": 155602,
+        "bodyId": 816215,
+        "type": "Acc. ti flexor MN",
+        "instance": "Acc. ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Acc. ti flexor MN"
+      },
+      {
+        "cns_row": 155724,
+        "bodyId": 816404,
+        "type": "Acc. ti flexor MN",
+        "instance": "Acc. ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Acc. ti flexor MN"
+      },
+      {
+        "cns_row": 156258,
+        "bodyId": 817283,
+        "type": "Acc. ti flexor MN",
+        "instance": "Acc. ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Acc. ti flexor MN"
+      },
+      {
+        "cns_row": 157492,
+        "bodyId": 819869,
+        "type": "Acc. ti flexor MN",
+        "instance": "Acc. ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Acc. ti flexor MN"
+      },
+      {
+        "cns_row": 158293,
+        "bodyId": 825516,
+        "type": "Acc. ti flexor MN",
+        "instance": "Acc. ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Acc. ti flexor MN"
+      },
+      {
+        "cns_row": 158857,
+        "bodyId": 867630,
+        "type": "Acc. ti flexor MN",
+        "instance": "Acc. ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Acc. ti flexor MN"
+      },
+      {
+        "cns_row": 159328,
+        "bodyId": 903298,
+        "type": "Acc. ti flexor MN",
+        "instance": "Acc. ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Acc. ti flexor MN"
+      },
+      {
+        "cns_row": 164629,
+        "bodyId": 1050115387,
+        "type": "Acc. ti flexor MN",
+        "instance": "Acc. ti flexor MN_L",
+        "superclass": "vnc_motor",
+        "class": null,
+        "subclass": "fl",
+        "somaSide": "L",
+        "rootSide": null,
+        "entryNerve": null,
+        "exitNerve": "ProLN",
+        "mancType": "Acc. ti flexor MN"
+      }
+    ]
+  },
+  "source_hypothesis": "https://elifesciences.org/reviewed-preprints/97766v1 Figure 59",
+  "caveats": [
+    "MANC cross-specimen circuit prediction, not measured MaleCNS reflex physiology.",
+    "Positive model-current pulses, not calibrated sensory transduction.",
+    "Different types contain different numbers of stimulated reconstructed cells.",
+    "Relative preference does not prove inhibition of the opposing motor group.",
+    "Dominant-sign summary does not test all predicted delayed or transient effects.",
+    "No body, muscle feedback or learned motor decoder participates."
+  ],
+  "results": {
+    "SNpp50": {
+      "stimulated_neurons": [
+        {
+          "cns_row": 162053,
+          "bodyId": 912317,
+          "type": "SNpp50",
+          "instance": null,
+          "superclass": "vnc_sensory",
+          "class": "mechanosensory_proprioceptive",
+          "subclass": "chordotonal organ",
+          "somaSide": null,
+          "rootSide": "L",
+          "entryNerve": "ProLN",
+          "mancType": "SNpp50"
+        }
+      ],
+      "late_stimulation_motor_rate_change": {
+        "flexor": -0.00014952138008084148,
+        "extensor": 0.00015410743071697652,
+        "accessory_flexor": -2.9582082788692787e-05
+      },
+      "expected_preference": "extensor",
+      "observed_preference": "extensor",
+      "matches_relative_preference": true,
+      "expected_dominant_signs": {
+        "flexor": -1,
+        "extensor": 1,
+        "accessory_flexor": -1
+      },
+      "matches_dominant_signs": {
+        "flexor": true,
+        "extensor": true,
+        "accessory_flexor": true
+      },
+      "all_dominant_signs_match": true
+    },
+    "SNpp51": {
+      "stimulated_neurons": [
+        {
+          "cns_row": 155342,
+          "bodyId": 815843,
+          "type": "SNpp51",
+          "instance": null,
+          "superclass": "vnc_sensory",
+          "class": "mechanosensory_proprioceptive",
+          "subclass": "chordotonal organ",
+          "somaSide": null,
+          "rootSide": "L",
+          "entryNerve": "ProLN",
+          "mancType": "SNpp51"
+        },
+        {
+          "cns_row": 156513,
+          "bodyId": 817680,
+          "type": "SNpp51",
+          "instance": null,
+          "superclass": "vnc_sensory",
+          "class": "mechanosensory_proprioceptive",
+          "subclass": "chordotonal organ",
+          "somaSide": null,
+          "rootSide": "L",
+          "entryNerve": "ProLN",
+          "mancType": "SNpp51"
+        },
+        {
+          "cns_row": 162923,
+          "bodyId": 935383,
+          "type": "SNpp51",
+          "instance": null,
+          "superclass": "vnc_sensory",
+          "class": "mechanosensory_proprioceptive",
+          "subclass": "chordotonal organ",
+          "somaSide": null,
+          "rootSide": "L",
+          "entryNerve": "ProLN",
+          "mancType": "SNpp51"
+        }
+      ],
+      "late_stimulation_motor_rate_change": {
+        "flexor": 0.002045027446001768,
+        "extensor": 0.00014017410285305232,
+        "accessory_flexor": 0.0002621460589580238
+      },
+      "expected_preference": "flexor",
+      "observed_preference": "flexor",
+      "matches_relative_preference": true,
+      "expected_dominant_signs": {
+        "flexor": 1,
+        "extensor": -1,
+        "accessory_flexor": 1
+      },
+      "matches_dominant_signs": {
+        "flexor": true,
+        "extensor": false,
+        "accessory_flexor": true
+      },
+      "all_dominant_signs_match": false
+    },
+    "SNpp39": {
+      "stimulated_neurons": [
+        {
+          "cns_row": 155136,
+          "bodyId": 815569,
+          "type": "SNpp39",
+          "instance": null,
+          "superclass": "vnc_sensory",
+          "class": "mechanosensory_proprioceptive",
+          "subclass": "chordotonal organ",
+          "somaSide": null,
+          "rootSide": "L",
+          "entryNerve": "ProLN",
+          "mancType": "SNpp39"
+        },
+        {
+          "cns_row": 159537,
+          "bodyId": 903843,
+          "type": "SNpp39",
+          "instance": null,
+          "superclass": "vnc_sensory",
+          "class": "mechanosensory_proprioceptive",
+          "subclass": "chordotonal organ",
+          "somaSide": null,
+          "rootSide": "L",
+          "entryNerve": "ProLN",
+          "mancType": "SNpp39"
+        },
+        {
+          "cns_row": 162937,
+          "bodyId": 935541,
+          "type": "SNpp39",
+          "instance": null,
+          "superclass": "vnc_sensory",
+          "class": "mechanosensory_proprioceptive",
+          "subclass": "chordotonal organ",
+          "somaSide": null,
+          "rootSide": "L",
+          "entryNerve": "ProLN",
+          "mancType": "SNpp39"
+        }
+      ],
+      "late_stimulation_motor_rate_change": {
+        "flexor": 0.0002122962469002232,
+        "extensor": -0.00011305026418995112,
+        "accessory_flexor": 0.0006679753423668444
+      },
+      "expected_preference": "flexor",
+      "observed_preference": "flexor",
+      "matches_relative_preference": true,
+      "expected_dominant_signs": {
+        "flexor": 1,
+        "extensor": -1,
+        "accessory_flexor": 1
+      },
+      "matches_dominant_signs": {
+        "flexor": true,
+        "extensor": true,
+        "accessory_flexor": true
+      },
+      "all_dominant_signs_match": true
+    },
+    "SNpp41": {
+      "stimulated_neurons": [
+        {
+          "cns_row": 156269,
+          "bodyId": 817298,
+          "type": "SNpp41",
+          "instance": null,
+          "superclass": "vnc_sensory",
+          "class": "mechanosensory_proprioceptive",
+          "subclass": "chordotonal organ",
+          "somaSide": null,
+          "rootSide": "L",
+          "entryNerve": "ProLN",
+          "mancType": "SNpp41"
+        }
+      ],
+      "late_stimulation_motor_rate_change": {
+        "flexor": -2.8461217880249023e-06,
+        "extensor": 3.238394810978207e-06,
+        "accessory_flexor": -2.045638939307537e-05
+      },
+      "expected_preference": "extensor",
+      "observed_preference": "extensor",
+      "matches_relative_preference": true,
+      "expected_dominant_signs": {
+        "flexor": -1,
+        "extensor": 1,
+        "accessory_flexor": -1
+      },
+      "matches_dominant_signs": {
+        "flexor": true,
+        "extensor": true,
+        "accessory_flexor": true
+      },
+      "all_dominant_signs_match": true
+    }
+  }
+}

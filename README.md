@@ -19,6 +19,8 @@ No high-level behavior selector or imitation policy counts as achieving the goal
 - Fifteen anatomy-based left-foreleg muscle actuators tested independently.
 - A six-muscle candidate interface restricted to named motor-neuron groups,
   with unit tests and open-loop replay of recorded MaleCNS motor activity.
+- Named proprioceptor perturbations through the full graph: expected relative
+  motor preferences, but incomplete signed responses. [Assay and caveats](PROPRIOCEPTION.md).
 
 ## What the evidence does **not** show
 

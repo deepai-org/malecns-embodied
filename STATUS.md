@@ -197,3 +197,14 @@ has been changed yet. Existing joint-to-sensory adapter uses broad leg cohorts.
 Next useful assay: test separately stimulating these named sensory subtypes
 against the predicted motor-neuron effects in the full graph before inventing
 a position-to-current mapping.
+
+## Full-graph proprioceptor assay
+
+Implemented `probe_proprioceptive_circuit.py` and executed amplitudes 0.05, 0.2,
+0.5 in five independent states per run (control plus four subtype perturbations).
+All four subtypes produced expected relative flexor/extensor preferences at all
+three amplitudes. SNpp51 nevertheless excited, rather than inhibited, the
+extensor motor group. This is partial anatomical-circuit agreement, not reflex
+or behavior validation. Inputs are arbitrary model currents, not calibrated
+physical joint stimuli. Detailed evidence, limitations and reporting corrections
+are in PROPRIOCEPTION.md; original artifacts are retained.
