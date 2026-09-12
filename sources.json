@@ -1,5 +1,12 @@
 {
   "chreatures": {"url": "https://github.com/emberian/chreatures", "commit": "c30fbccb541ae5bc2cbdb88f7ef38848c611a8e6", "license": "AGPL-3.0-or-later"},
+  "chreatures_experimental_torque": {
+    "base": "chreatures",
+    "patch": "patches/experimental-torque.patch",
+    "patch_sha256": "72635e2be1a346c3c41265b85496a06141ca281275a899f23b6485e43dddadc6",
+    "tested_binary_sha256": "5737983afbe43b7ed92708e4c01c06cdd820095ca277989ce8b3543ebd88a3a1",
+    "status": "separate experimental build; original source and baseline binary preserved"
+  },
   "flymimic": {"url": "https://github.com/gizemozd/FlyMimic", "commit": "9ea1131626cd76f7203b74076ef8f0e9cab30bef", "license": "Apache-2.0"},
   "flybrain_audit_only": {"url": "https://github.com/mehrantsi/flyBrain", "commit": "cdd3a127766ec184e19c4988fe12b6fd2cbc64fd"},
   "v5_release": {

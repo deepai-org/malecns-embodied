@@ -1,0 +1,124 @@
+diff --git a/native/fly-world/src/host.rs b/native/fly-world/src/host.rs
+index 92985ec..087f162 100644
+--- a/native/fly-world/src/host.rs
++++ b/native/fly-world/src/host.rs
+@@ -224,6 +224,7 @@ pub struct ResearchSample {
+     pub geom_colors: Vec<f64>,
+     pub sensor_data: Vec<f64>,
+     pub controls: Vec<f64>,
++    pub actuator_forces: Vec<f64>,
+     pub entity_ids: Vec<String>,
+     pub entity_positions: Vec<f32>,
+     pub body_map: Value,
+@@ -1877,6 +1878,7 @@ impl NativeFlyWorld {
+             geom_colors: self.colors()?,
+             sensor_data: self.physics.num(crate::ffi::NumField::SensorData)?,
+             controls: self.physics.num(crate::ffi::NumField::Ctrl)?,
++            actuator_forces: self.physics.num(crate::ffi::NumField::ActuatorForce)?,
+             entity_ids,
+             entity_positions,
+             body_map: json!({"bodies":self.fixture_value["bodies"],"residents":self.host.residents}),
+@@ -1886,7 +1888,7 @@ impl NativeFlyWorld {
+             time: self.time(),
+         })
+     }
+-    fn apply_controls(&mut self, commands: &[f64]) -> Result<(), String> {
++    fn apply_controls(&mut self, commands: &[f64], torque_mode: bool) -> Result<(), String> {
+         let controls = self.core.actuation(commands)?;
+         let capacity = self.core.actuator_capacity()?;
+         if controls.len() != self.residents() * PHYSICAL_CONTROLS
+@@ -1908,7 +1910,22 @@ impl NativeFlyWorld {
+                 ctrl[actuator] = controls[row * PHYSICAL_CONTROLS + k];
+                 if k < 84 {
+                     force[actuator * 2] *= c;
+-                    force[actuator * 2 + 1] *= c
++                    force[actuator * 2 + 1] *= c;
++                    if torque_mode {
++                        // Experimental normalized torque, NOT a position target.
++                        // Collapse the enabled force clamp onto the requested
++                        // signed force. This also cancels the affine servo bias.
++                        let command = commands[row * MOTOR_CHANNELS + k];
++                        let limit = if command >= 0.0 {
++                            force[actuator * 2 + 1]
++                        } else {
++                            -force[actuator * 2]
++                        };
++                        let requested = command * limit;
++                        force[actuator * 2] = requested;
++                        force[actuator * 2 + 1] = requested;
++                        ctrl[actuator] = 0.0;
++                    }
+                 } else {
+                     for j in 0..gain_width {
+                         gain[actuator * gain_width + j] *= c
+@@ -2324,6 +2341,17 @@ impl NativeFlyWorld {
+         self.aero_forces.resize(nbody * 6, 0.0);
+     }
+     pub fn advance(&mut self, commands: &[f64], dt: f64) -> Result<(), String> {
++        self.advance_mode(commands, dt, false)
++    }
++    pub fn advance_torque(&mut self, commands: &[f64], dt: f64) -> Result<(), String> {
++        // Leave adhesion and oral channels off until their muscle interfaces
++        // exist. No unsupported action can supply hidden support in this mode.
++        if commands.iter().enumerate().any(|(i, v)| i % MOTOR_CHANNELS >= 84 && *v != 0.0) {
++            return Err("experimental torque mode requires channels 84..92 zero".into());
++        }
++        self.advance_mode(commands, dt, true)
++    }
++    fn advance_mode(&mut self, commands: &[f64], dt: f64, torque_mode: bool) -> Result<(), String> {
+         if self.paused {
+             return Err("native world paused after failed mutation".into());
+         }
+@@ -2344,7 +2372,7 @@ impl NativeFlyWorld {
+         let result = (|| {
+             self.measure_routes_if_due()?;
+             self.prepare_growth(dt)?;
+-            self.apply_controls(commands)?;
++            self.apply_controls(commands, torque_mode)?;
+             let mut samples = Vec::with_capacity(CONTACT_SAMPLES);
+             let mut aero = AeroStats::default();
+             for step in 0..PHYSICS_STEPS {
+diff --git a/native/fly-world/src/protocol.rs b/native/fly-world/src/protocol.rs
+index 59ba670..5222dcf 100644
+--- a/native/fly-world/src/protocol.rs
++++ b/native/fly-world/src/protocol.rs
+@@ -101,6 +101,7 @@ fn packet(sample: ResearchSample) -> Value {
+         "bodyQuaternions": encode_f64(&sample.body_quaternions),
+         "bodyRotations": encode_f64(&sample.body_rotations),
+         "sensordata": encode_f64(&sample.sensor_data), "ctrl": encode_f64(&sample.controls),
++        "actuatorForce": encode_f64(&sample.actuator_forces),
+         "entityIds": sample.entity_ids, "entityPosition": encode_f32(&sample.entity_positions),
+         "bodyMap": sample.body_map, "ecology": sample.ecology,
+         "actuatorState": sample.actuator_state, "time": sample.time,
+@@ -118,6 +119,7 @@ pub fn serve_stdio(world: &mut NativeFlyWorld) -> Result<(), String> {
+         "ok":true, "event":"ready", "residents":world.residents(), "engine":world.engine(),
+         "fixture_sha256":world.fixture_sha256(), "scene_xml_sha256":world.scene_sha256(),
+         "native_host":"chreatures-native-fly-world-v2",
++        "experimental_torque_mode":"normalized-force-clamp-v1",
+         "initial_snapshot_sha256":sha256(&snapshot), "fixture":world.ready_fixture(),
+     });
+     let stdin = io::stdin();
+@@ -134,16 +136,18 @@ pub fn serve_stdio(world: &mut NativeFlyWorld) -> Result<(), String> {
+                     json!({"id":id,"ok":true,"interaction":interaction,"sample":packet(sample)})
+                 })
+             }),
+-            Some("advance") => (|| {
++            Some("advance") | Some("advance_torque") => (|| {
+                 let encoded = request
+                     .get("motor92_base64")
+                     .and_then(Value::as_str)
+                     .ok_or("advance motor missing")?;
+                 let motor = decode_f32(encoded, world.residents() * 92)?;
+-                world.advance(
+-                    &motor.iter().map(|v| f64::from(*v)).collect::<Vec<_>>(),
+-                    0.01,
+-                )?;
++                let values = motor.iter().map(|v| f64::from(*v)).collect::<Vec<_>>();
++                if request.get("command").and_then(Value::as_str) == Some("advance_torque") {
++                    world.advance_torque(&values, 0.01)?;
++                } else {
++                    world.advance(&values, 0.01)?;
++                }
+                 Ok(json!({"id":id,"ok":true,"time":world.time()}))
+             })(),
+             Some("stimulus") => (|| {

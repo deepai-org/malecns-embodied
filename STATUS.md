@@ -232,3 +232,27 @@ whole-fly loop. Priorities remain a defensible whole-body muscle interface,
 explicit sensory-organ transduction and neural dynamics that reproduce more
 than qualitative circuit preferences. Keep these partial assays subordinate
 to the whole-body objective; settling in a fixed foreleg is not success.
+
+## Whole-body actuator boundary and aggregate muscle trial
+
+Built a separate patched Chreatures host with experimental `advance_torque`.
+Original source, baseline binary and default position-control operation remain
+unchanged. The patch is public, hashed in sources.json, and adds measured
+actuator forces to samples. Zero torque gives exactly zero actuator force;
+an isolated pulse powers only its requested joint. The old zero-position
+command still produces up to 3.0078 model force units in the matched host test.
+
+Added 24 approximate antagonist muscle units spanning twelve hinges across
+all six legs, driven only by named Tr/Ti motor-neuron cohorts. Ran intact,
+zero-motor, frozen-sensory and reverse-sign trials for two seconds on Vast.
+All completed, but mostly settled: intact final-second horizontal paths are
+only 0.0064–0.0117 mm. Max thorax differences from intact are 0.00613 mm for
+zero-motor and 0.00344 mm for frozen sensory input. No rich behavior demonstrated.
+
+Verified all recorded muscle commands exactly, finite traces and exact zero
+force on unsupported actuators. The zero-motor body nevertheless remains
+upright. A physical XML audit identifies 504 non-free joints with stiffness 10
+and damping 0.5, including fixed neutral leg spring references. These built-in
+passive mechanics remain even after servo removal and must be tested explicitly
+before attributing posture or weak responsiveness to neural dynamics alone.
+See AGGREGATE_BODY.md, the public patch and evidence/aggregate-body-comparison-001.json.

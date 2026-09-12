@@ -1,0 +1,22 @@
+{
+  "completed": true,
+  "runner_sha256": "5fecf7fa5e5f0e8a2fe79096dba758be6941e91fe673c1d270e53f5351913978",
+  "binary_sha256": "5737983afbe43b7ed92708e4c01c06cdd820095ca277989ce8b3543ebd88a3a1",
+  "scene_sha256": "accd5e86a918987ad7b39be0cba070e5ef5fa214101a0927d0f424a90edb60ef",
+  "steps": 100,
+  "results": {
+    "zero-torque": {
+      "maximum_actuator_force": 0.0,
+      "final_time": 1.0000000000000007
+    },
+    "pulse-torque": {
+      "maximum_actuator_force": 0.249788559738708,
+      "final_time": 1.0000000000000007
+    },
+    "zero-position-command": {
+      "maximum_actuator_force": 3.0077761567715653,
+      "final_time": 1.0000000000000007
+    }
+  },
+  "caveat": "Host force-contract test only, no neural or behavioral claim"
+}

@@ -24,12 +24,18 @@ No high-level behavior selector or imitation policy counts as achieving the goal
 - A physical foreleg muscle feedback loop through the full CNS, with both
   candidate sensory polarities and matched disconnected controls.
   [Mechanism, evidence and assumptions](MUSCLE_FEEDBACK.md).
+- A separate whole-body torque host and approximate named antagonist muscles
+  spanning twelve joints across all six legs. Servo force removal and matched
+  CNS trials are verified. [Results and unresolved mechanics](AGGREGATE_BODY.md).
 
 ## What the evidence does **not** show
 
 The whole-body baseline uses effective joint-position servos, not identified
 muscles. All conditions stay upright, including clamped motor output. Initial
 motion is predominantly vertical settling; neural contributions are tiny.
+The new experimental torque mode removes those servo forces, but the original
+body's strong passive joint springs remain. Its muscle approximation also
+mostly settles. Neither version has demonstrated useful locomotion.
 
 The separate muscle model has a fixed body and only one muscle-driven foreleg.
 Six mappings are anatomical-name correspondences across specimens, not measured
@@ -56,7 +62,7 @@ git clone https://github.com/emberian/chreatures.git ../chreatures
 git -C ../chreatures checkout c30fbccb541ae5bc2cbdb88f7ef38848c611a8e6
 git clone https://github.com/gizemozd/FlyMimic.git ../FlyMimic
 git -C ../FlyMimic checkout 9ea1131626cd76f7203b74076ef8f0e9cab30bef
-.venv/bin/python -m unittest -v test_neuromuscular test_muscle_feedback
+.venv/bin/python -m unittest -v test_neuromuscular test_muscle_feedback test_aggregate_leg_muscles
 ```
 
 Download the V5 garden archive linked in `sources.json`, verify its SHA256, and

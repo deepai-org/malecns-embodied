@@ -1,0 +1,63 @@
+{
+  "checked": true,
+  "trials": {
+    "aggregate-body-001": {
+      "maximum_command_recomputation_error": 0.0,
+      "horizontal_path_after_one_second_mm": [
+        0.006379447449477472,
+        0.01170799737400765,
+        0.010125011917195314,
+        0.008539879375686225
+      ],
+      "minimum_thorax_up": 0.9950990647316805,
+      "wall_seconds": 51.3647988345474
+    },
+    "aggregate-body-zero-001": {
+      "maximum_command_recomputation_error": 0.0,
+      "horizontal_path_after_one_second_mm": [
+        0.005359575352231021,
+        0.008297748222608285,
+        0.008850154837721289,
+        0.008140147278570478
+      ],
+      "minimum_thorax_up": 0.9948710441962227,
+      "wall_seconds": 48.985502620227635,
+      "maximum_thorax_difference_from_intact_mm": 0.006134320965901469
+    },
+    "aggregate-body-frozen-001": {
+      "maximum_command_recomputation_error": 0.0,
+      "horizontal_path_after_one_second_mm": [
+        0.0060215852342595105,
+        0.011707884682712683,
+        0.013578342858898116,
+        0.008539718829460067
+      ],
+      "minimum_thorax_up": 0.9950990261000366,
+      "wall_seconds": 49.197664867155254,
+      "maximum_thorax_difference_from_intact_mm": 0.003443129482601692
+    },
+    "aggregate-body-reverse-001": {
+      "maximum_command_recomputation_error": 0.0,
+      "horizontal_path_after_one_second_mm": [
+        0.00609936686983237,
+        0.011624463481626964,
+        0.012501971448818022,
+        0.00870772972546033
+      ],
+      "minimum_thorax_up": 0.9950926070670566,
+      "wall_seconds": 59.73810527194291,
+      "maximum_thorax_difference_from_intact_mm": 0.0039006123085516637
+    }
+  },
+  "passive_joint_audit": {
+    "joints": 504,
+    "stiffness_values": [
+      10.0
+    ],
+    "damping_values": [
+      0.5
+    ]
+  },
+  "note": "Force boundaries and recorded transformations checked; not evidence of useful behavior.",
+  "verifier_sha256": "fd413c67dc0d2eab15adcb535940bc1a02ec8a6aaf6f7b9ca3ae183556533767"
+}
