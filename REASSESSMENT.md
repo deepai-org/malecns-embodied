@@ -51,3 +51,10 @@ as every parameter being freshly uniform. Exact training lineage is unresolved;
 neither that label nor near-tonic embodied output proves the CNS cannot generate
 richer dynamics. Test sensory input strength, CNS responses and neuromuscular
 scaling separately before replacing or increasing neural gains.
+
+Subsequent whole-body integration added named claw transduction and six coxa
+rotator coordinates, without useful behavior. The [static-support test](STATIC_SUPPORT.md)
+now gives a concrete reason to prioritize coherent mechanics: existing actuation
+cannot balance sampled upright poses even under favorable assumptions, whereas
+all leg coordinates can. Avoid more neural-gain or partial-actuation behavioral
+sweeps until missing joint reactions have a defensible physical implementation.

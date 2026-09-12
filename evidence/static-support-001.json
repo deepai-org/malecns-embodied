@@ -1,0 +1,1017 @@
+{
+  "kind": "pose-specific static support relaxation",
+  "runner_sha256": "59bc97f6f1fa841b9a08dbbc9201451dbbdd387e1abb92345a6e50dc88231db6",
+  "scene_sha256": "accd5e86a918987ad7b39be0cba070e5ef5fa214101a0927d0f424a90edb60ef",
+  "trace_sha256": "dee70dd8b1c3a5ca69b55b04ef4339b6aede35c8fbc3acfdd0f101f19567de9d",
+  "muscle_receipt_sha256": "23b10f5bdf5e92a6caee36b44a4acdaad26fa086b8f8015cbc28cf0fb324e509",
+  "mujoco": "3.12.0",
+  "results": [
+    {
+      "time": 1.0000000000000007,
+      "resident": "resident00",
+      "contacts": [
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/c_abdomen6"
+          ],
+          "dist": 0.0019762224962465136,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/c_abdomen6"
+          ],
+          "dist": 0.0019762224962465136,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident00/lf_tarsus5"
+          ],
+          "dist": 0.0011235464127006892,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/lm_tarsus1"
+          ],
+          "dist": 0.001956795939619843,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident00/lm_tarsus5"
+          ],
+          "dist": 0.001936331191153072,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/lh_coxa"
+          ],
+          "dist": 0.001988217839242177,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident00/lh_tarsus5"
+          ],
+          "dist": 0.0018880799019629427,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/rf_tarsus5"
+          ],
+          "dist": 0.001377790448828464,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/rm_tarsus3"
+          ],
+          "dist": 0.001766986752724156,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/rm_tarsus5"
+          ],
+          "dist": 0.0013382940523715017,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/rh_coxa"
+          ],
+          "dist": 0.0019957442445038454,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/rh_tarsus5"
+          ],
+          "dist": 0.0019062247044633266,
+          "margin": 0.002,
+          "dim": 3
+        }
+      ],
+      "cases": {
+        "none": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "current18": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "all42": {
+          "feasible": true,
+          "status": 0,
+          "maximum_balance_residual": 6.767618213470238e-11,
+          "maximum_motor_torque": 3.6869519293856094
+        }
+      }
+    },
+    {
+      "time": 1.0000000000000007,
+      "resident": "resident01",
+      "contacts": [
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/c_abdomen6"
+          ],
+          "dist": 0.0019618228016154426,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/lf_tarsus5"
+          ],
+          "dist": 0.0009078702515076219,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/lm_tarsus5"
+          ],
+          "dist": 0.001996618975598788,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/lh_coxa"
+          ],
+          "dist": 0.00198877471902012,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/lh_tarsus5"
+          ],
+          "dist": 0.0018919510484314145,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/rf_tarsus5"
+          ],
+          "dist": 0.001961600281251901,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/rm_tarsus3"
+          ],
+          "dist": 0.0019177131618895032,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/rm_tarsus5"
+          ],
+          "dist": 0.0019004420556145915,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/rh_coxa"
+          ],
+          "dist": 0.001991846019453375,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/rh_tarsus5"
+          ],
+          "dist": 0.0018634673663075543,
+          "margin": 0.002,
+          "dim": 3
+        }
+      ],
+      "cases": {
+        "none": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "current18": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "all42": {
+          "feasible": true,
+          "status": 0,
+          "maximum_balance_residual": 6.217248937900877e-15,
+          "maximum_motor_torque": 4.562164664329581
+        }
+      }
+    },
+    {
+      "time": 1.0000000000000007,
+      "resident": "resident02",
+      "contacts": [
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/c_abdomen6"
+          ],
+          "dist": 0.001973885366686856,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/lf_tarsus5"
+          ],
+          "dist": 0.0017370829448930883,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/lm_tarsus3"
+          ],
+          "dist": 0.001938564118835237,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/lm_tarsus5"
+          ],
+          "dist": 0.0019211624145830733,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/lh_coxa"
+          ],
+          "dist": 0.0019934589547552783,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/lh_tarsus5"
+          ],
+          "dist": 0.0019191877322626352,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/rf_tarsus5"
+          ],
+          "dist": 0.0007560904610873706,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/rm_tarsus3"
+          ],
+          "dist": 0.001975709727119912,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/rm_tarsus5"
+          ],
+          "dist": 0.0019666901885394827,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/rh_coxa"
+          ],
+          "dist": 0.0019833910359360607,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/rh_tarsus5"
+          ],
+          "dist": 0.0019116760201975738,
+          "margin": 0.002,
+          "dim": 3
+        }
+      ],
+      "cases": {
+        "none": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "current18": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "all42": {
+          "feasible": true,
+          "status": 0,
+          "maximum_balance_residual": 1.0127749333621594e-14,
+          "maximum_motor_torque": 4.0615911352936696
+        }
+      }
+    },
+    {
+      "time": 1.0000000000000007,
+      "resident": "resident03",
+      "contacts": [
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/c_abdomen6"
+          ],
+          "dist": 0.001971092540292485,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-00",
+            "resident03/lf_tarsus5"
+          ],
+          "dist": 0.0019301463675316464,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-00",
+            "resident03/lm_trochanterfemur"
+          ],
+          "dist": 0.001959078634070768,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-00",
+            "resident03/lm_tarsus3"
+          ],
+          "dist": 0.0015408681176920938,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-00",
+            "resident03/lm_tarsus5"
+          ],
+          "dist": 0.0011862036467357915,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-00",
+            "resident03/lh_tarsus5"
+          ],
+          "dist": 0.0018504499143788859,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/rf_tarsus5"
+          ],
+          "dist": 0.000906539018912654,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/rf_tarsus5"
+          ],
+          "dist": 0.0010189542713703523,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/rf_tarsus5"
+          ],
+          "dist": 0.0010202519429277634,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/rm_tarsus3"
+          ],
+          "dist": 0.0018968219216838333,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/rm_tarsus5"
+          ],
+          "dist": 0.0016409832849052057,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/rh_tarsus5"
+          ],
+          "dist": 0.0018623528034539608,
+          "margin": 0.002,
+          "dim": 3
+        }
+      ],
+      "cases": {
+        "none": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "current18": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "all42": {
+          "feasible": true,
+          "status": 0,
+          "maximum_balance_residual": 1.0658141036401503e-14,
+          "maximum_motor_torque": 6.301312272244744
+        }
+      }
+    },
+    {
+      "time": 2.0000000000000013,
+      "resident": "resident00",
+      "contacts": [
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/c_abdomen6"
+          ],
+          "dist": 0.00198462393426556,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident00/lf_tarsus5"
+          ],
+          "dist": 0.0009510797604199844,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/lm_tarsus1"
+          ],
+          "dist": 0.0019840040632545493,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident00/lm_tarsus5"
+          ],
+          "dist": 0.001961266383981128,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/lh_coxa"
+          ],
+          "dist": 0.0019921758857028575,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident00/lh_tarsus5"
+          ],
+          "dist": 0.0018791317059287452,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/rf_tarsus5"
+          ],
+          "dist": 0.0019351415412217428,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/rm_tarsus3"
+          ],
+          "dist": 0.0012745770150467673,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/rm_tarsus5"
+          ],
+          "dist": 0.0007175252169285718,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/rh_coxa"
+          ],
+          "dist": 0.001998407577841873,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-01",
+            "resident00/rh_tarsus5"
+          ],
+          "dist": 0.0018706148826386525,
+          "margin": 0.002,
+          "dim": 3
+        }
+      ],
+      "cases": {
+        "none": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "current18": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "all42": {
+          "feasible": true,
+          "status": 0,
+          "maximum_balance_residual": 1.7763568394002505e-14,
+          "maximum_motor_torque": 7.874021678947961
+        }
+      }
+    },
+    {
+      "time": 2.0000000000000013,
+      "resident": "resident01",
+      "contacts": [
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/c_abdomen6"
+          ],
+          "dist": 0.001991809134723077,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/lf_tarsus5"
+          ],
+          "dist": 0.0016007402619326976,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/lm_tarsus3"
+          ],
+          "dist": 0.0019517208374091807,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/lm_tarsus5"
+          ],
+          "dist": 0.0019320045865383675,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/lh_coxa"
+          ],
+          "dist": 0.0019996394912507043,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/lh_tarsus5"
+          ],
+          "dist": 0.001955304223532725,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/rf_tarsus5"
+          ],
+          "dist": 0.0008120142469044758,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/rm_tarsus3"
+          ],
+          "dist": 0.001930514592642374,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/rm_tarsus5"
+          ],
+          "dist": 0.0019208292979903466,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/rh_coxa"
+          ],
+          "dist": 0.0019953480417414238,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident01/rh_tarsus5"
+          ],
+          "dist": 0.0018943788185272897,
+          "margin": 0.002,
+          "dim": 3
+        }
+      ],
+      "cases": {
+        "none": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "current18": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "all42": {
+          "feasible": true,
+          "status": 0,
+          "maximum_balance_residual": 1.6167622796103842e-15,
+          "maximum_motor_torque": 5.399532612183391
+        }
+      }
+    },
+    {
+      "time": 2.0000000000000013,
+      "resident": "resident02",
+      "contacts": [
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/c_abdomen6"
+          ],
+          "dist": 0.0019617406689929617,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/lf_tarsus5"
+          ],
+          "dist": 0.0009172001890948994,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/lh_coxa"
+          ],
+          "dist": 0.001985057672204249,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/lh_tarsus5"
+          ],
+          "dist": 0.001910381341099783,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/rf_tarsus5"
+          ],
+          "dist": 0.0019625100415900897,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/rm_tarsus3"
+          ],
+          "dist": 0.0019598103138801296,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/rm_tarsus5"
+          ],
+          "dist": 0.0019078683350553863,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/rh_coxa"
+          ],
+          "dist": 0.0019909635073910303,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident02/rh_tarsus5"
+          ],
+          "dist": 0.0018761191888682915,
+          "margin": 0.002,
+          "dim": 3
+        }
+      ],
+      "cases": {
+        "none": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "current18": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "all42": {
+          "feasible": true,
+          "status": 0,
+          "maximum_balance_residual": 1.7763568394002505e-15,
+          "maximum_motor_torque": 1.6306637442297043
+        }
+      }
+    },
+    {
+      "time": 2.0000000000000013,
+      "resident": "resident03",
+      "contacts": [
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/c_abdomen6"
+          ],
+          "dist": 0.001996484039145374,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-00",
+            "resident03/lf_tarsus5"
+          ],
+          "dist": 0.0012755176324666054,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-00",
+            "resident03/lm_trochanterfemur"
+          ],
+          "dist": 0.0019832333547095396,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-00",
+            "resident03/lm_tarsus3"
+          ],
+          "dist": 0.0018694274615372343,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-00",
+            "resident03/lm_tarsus5"
+          ],
+          "dist": 0.0015944951593611853,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/moist-patch-00",
+            "resident03/lh_tarsus5"
+          ],
+          "dist": 0.001828802632760184,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/rf_tarsus5"
+          ],
+          "dist": 0.001542751511747785,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/rf_tarsus5"
+          ],
+          "dist": 0.0016163251435053066,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/rf_tarsus5"
+          ],
+          "dist": 0.001618646175562094,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/rm_tarsus3"
+          ],
+          "dist": 0.001268024069298615,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/rm_tarsus5"
+          ],
+          "dist": 0.0011307478899308457,
+          "margin": 0.002,
+          "dim": 3
+        },
+        {
+          "geoms": [
+            "ecology/ground",
+            "resident03/rh_tarsus5"
+          ],
+          "dist": 0.0018714851432853757,
+          "margin": 0.002,
+          "dim": 3
+        }
+      ],
+      "cases": {
+        "none": {
+          "feasible": false,
+          "status": 4,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "current18": {
+          "feasible": false,
+          "status": 2,
+          "maximum_balance_residual": null,
+          "maximum_motor_torque": null
+        },
+        "all42": {
+          "feasible": true,
+          "status": 0,
+          "maximum_balance_residual": 1.8281098856931521e-09,
+          "maximum_motor_torque": 4.922463150292903
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    "Recorded pose frozen at zero velocity; no CNS or controller runs.",
+    "Gravity balance on root and 42 leg actuator coordinates; other joints assumed ideally locked.",
+    "No passive spring forces; actuators may choose arbitrary signed torque up to original capacity.",
+    "Fixed generated ground/ecology contact locations, including positive margins; pyramidal friction rays.",
+    "Feasibility is not behavioral competence; infeasibility is limited to these poses and assumptions."
+  ]
+}

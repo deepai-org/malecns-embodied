@@ -1,5 +1,12 @@
 # MaleCNS embodiment experiment
 
+Latest diagnosis: static gravity/contact balance at eight recorded upright poses
+is infeasible with the current 18-coordinate actuation under original limits;
+six cases remain infeasible with unlimited torque (two numerically inconclusive).
+All-42-coordinate solutions exist under the diagnostic's ideal-lock assumptions.
+See [STATIC_SUPPORT.md](STATIC_SUPPORT.md). Complete missing mechanical support
+before interpreting further collapse as CNS failure. Runtime settings unchanged.
+
 Latest actuation update: 34 named coxa rotator neurons now drive fixed,
 geometry-checked protraction/retraction coordinates across six legs. Coverage
 is 18 of 42 leg channels. Driven/frozen/zero two-second trials completed;

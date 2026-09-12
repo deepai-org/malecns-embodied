@@ -22,6 +22,8 @@ yet produced useful behavior.
 The latest [coxa-muscle extension](COXA_MUSCLES.md) adds named leg-swing drive on
 six more joints (18 of 42 leg channels total). It also has not demonstrated
 useful behavior; remaining mechanics and recruitment are still approximate.
+The [static-support diagnostic](STATIC_SUPPORT.md) now identifies missing leg
+reactions as a concrete confound, even when existing motor torques are enlarged.
 
 ## What currently works
 
