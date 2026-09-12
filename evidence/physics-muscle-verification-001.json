@@ -1,0 +1,27 @@
+{
+  "checked": true,
+  "results": {
+    "physics-muscle-none-driven-001": {
+      "simulated_seconds": 3.9999999999999587,
+      "coefficient_recomputation_max_error": 0.0,
+      "maximum_recorded_joint_or_root_speed": 1055.856713943615,
+      "wall_seconds": 153.02241935487837
+    },
+    "physics-muscle-none-zero-001": {
+      "simulated_seconds": 2.0000000000000013,
+      "coefficient_recomputation_max_error": 0.0,
+      "maximum_recorded_joint_or_root_speed": 780.3741226425399,
+      "wall_seconds": 73.8690335471183
+    },
+    "physics-muscle-none-frozen-001": {
+      "simulated_seconds": 2.0000000000000013,
+      "coefficient_recomputation_max_error": 0.0,
+      "maximum_recorded_joint_or_root_speed": 1055.8569965976258,
+      "wall_seconds": 72.71154862362891
+    },
+    "zero_mode_regression_max_qpos_difference": 0.0,
+    "driven_vs_frozen_max_thorax_difference_mm": 0.12097519319832571
+  },
+  "caveat": "Checks transforms, timing and force boundaries, not biological competence or timestep convergence.",
+  "verifier_sha256": "06e26dc66591c62529df63f5114df71cf0b7888ce046f9f27d52ceee14040353"
+}

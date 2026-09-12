@@ -1,5 +1,12 @@
 # MaleCNS embodiment experiment
 
+Latest update: the physics-step muscle repair passed bounded full-CNS trials
+(four seconds driven, two seconds each zero-motor and frozen-sensory). No useful
+behavior was demonstrated. See [PHYSICS_MUSCLES.md](PHYSICS_MUSCLES.md) for evidence
+and the actual artifact's heterogeneous CNS parameter audit, and
+[REASSESSMENT.md](REASSESSMENT.md) for revised priorities. Entries below preserve
+the chronological investigation; no simulator is currently left running.
+
 Objective: physical environment → sensory organs → MaleCNS dynamics → motor
 neurons → muscles/body → changed sensory input, with rich emergent fly behavior.
 No scripted behavior selector or separate action policy qualifies as success.

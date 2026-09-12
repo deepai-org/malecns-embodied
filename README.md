@@ -11,6 +11,8 @@ model has not demonstrated useful walking, feeding, grooming, or flight.
 No high-level behavior selector or imitation policy counts as achieving the goal.
 See the current [route reassessment](REASSESSMENT.md) and
 [passive-mechanics diagnostics](PASSIVE_MECHANICS.md) before extending the setup.
+The identified force-update bug is now repaired and checked in a separate
+[physics-step muscle host](PHYSICS_MUSCLES.md); useful behavior remains unproven.
 
 ## What currently works
 
@@ -38,6 +40,8 @@ motion is predominantly vertical settling; neural contributions are tiny.
 The new experimental torque mode removes those servo forces, but the original
 body's strong passive joint springs remain. Its muscle approximation also
 mostly settles. Neither version has demonstrated useful locomotion.
+The latest physics-step muscle trials remove joint springs and damping and
+remain finite for four seconds, but still do not demonstrate useful behavior.
 
 The separate muscle model has a fixed body and only one muscle-driven foreleg.
 Six mappings are anatomical-name correspondences across specimens, not measured

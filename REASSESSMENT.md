@@ -36,6 +36,18 @@ Recommended priorities:
 Parameter fitting to biological data and mechanistic approximation are allowed;
 rewarding a trajectory or adding a behavior selector is not equivalent evidence.
 No current result justifies expecting rich behavior to emerge merely from running
-this initialized graph longer. This reassessment is a recommendation and record
-of the evidence; it does not claim the numerical repair or interface completion
-has already been implemented.
+this graph longer.
+
+Update: priority 1's force-update repair is implemented and checked over four
+seconds, with matched two-second controls; see [PHYSICS_MUSCLES.md](PHYSICS_MUSCLES.md).
+That is not a convergence proof or behavioral improvement. Interface completion
+and the CNS feasibility gate remain outstanding.
+
+The operating-point audit also sharpens the diagnosis: the actual artifact has
+heterogeneous recurrent gains and time constants, unlike the uniform initializer
+defaults. Its exporter inherits earlier parameters while initializing new
+interfaces. The release's `initialized-untrained` label must not be interpreted
+as every parameter being freshly uniform. Exact training lineage is unresolved;
+neither that label nor near-tonic embodied output proves the CNS cannot generate
+richer dynamics. Test sensory input strength, CNS responses and neuromuscular
+scaling separately before replacing or increasing neural gains.

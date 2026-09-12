@@ -1,0 +1,9 @@
+{
+  "completed": true,
+  "zero_force_exact": true,
+  "constant_force_first_tick_equivalent": true,
+  "invalid_coefficients_rejected_without_time_advance": true,
+  "runner_sha256": "60bd76af48bf905bb2f0483f36418982715adf9c902d4aed1029986fb28a304e",
+  "binary_sha256": "c2c829c0a5a2d6b2f7f63179b871164e57b93e7d7493936c744f8318609860da",
+  "caveat": "One-tick constant-force equivalence does not test dynamic muscle convergence or metabolism."
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "initialized CNS operating-point audit; no behavior claim",
+  "model_manifest_sha256": "61ba02739072cbe53382b85c76eca617960627a162d241fffa607d8e4a644742",
+  "runner_sha256": "04459c123539926635fd26271115f475f3375df38ce99a727afed813ee46d98c",
+  "upstream_model_code_sha256": "2d99894e5b358a2b3c2b4e99042beba8c2b07d1c1b6eb0323f20f03b0b8d26da",
+  "effective_parameters": {
+    "baseline_raw": {
+      "parameter_count": 11752,
+      "minimum": 0.19999999904030985,
+      "maximum": 0.19999999904030985,
+      "distinct_values": 1
+    },
+    "recurrent_gain_raw": {
+      "parameter_count": 11752,
+      "minimum": 0.6967270483870015,
+      "maximum": 1.5488373702606213,
+      "distinct_values": 11655
+    },
+    "tau_raw": {
+      "parameter_count": 11752,
+      "minimum": 0.03228337571950014,
+      "maximum": 0.15755029307399132,
+      "distinct_values": 11600
+    },
+    "adaptation_gain_raw": {
+      "parameter_count": 11752,
+      "minimum": 0.15000000137720498,
+      "maximum": 0.15000000137720498,
+      "distinct_values": 1
+    },
+    "adaptation_tau_raw": {
+      "parameter_count": 11752,
+      "minimum": 1.4999999648559788,
+      "maximum": 1.4999999648559788,
+      "distinct_values": 1
+    }
+  },
+  "fast_recurrent_maximum_absolute_row_sum": 1.00042724609375,
+  "fast_recurrent_gain_weighted_infinity_norm_bound": 1.5491564209274078,
+  "source_channel_edge_counts": {
+    "0": 301305,
+    "1": 24624743,
+    "2": 244694,
+    "3": 205129,
+    "4": 187326
+  },
+  "body_weight_standard_deviation": 0.019994055852293968,
+  "interpretation": [
+    "At exact neutral input and initialized state, all recurrent deviations, adaptation and modulation are zero; the deterministic update remains at baseline.",
+    "The row-sum bound concerns only the fast recurrent operator at initialization. It is not a stability proof for the full adaptive, modulated, plastic or embodied system.",
+    "Identical effective values across parameter slots are initialization choices, not cell-specific physiological calibration.",
+    "This audit does not prove the model cannot behave under suitable inputs or different biologically justified parameters."
+  ]
+}

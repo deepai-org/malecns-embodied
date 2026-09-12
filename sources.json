@@ -9,10 +9,17 @@
   },
   "flymimic": {"url": "https://github.com/gizemozd/FlyMimic", "commit": "9ea1131626cd76f7203b74076ef8f0e9cab30bef", "license": "Apache-2.0"},
   "flybrain_audit_only": {"url": "https://github.com/mehrantsi/flyBrain", "commit": "cdd3a127766ec184e19c4988fe12b6fd2cbc64fd"},
+  "chreatures_experimental_muscle_step": {
+    "base": "chreatures",
+    "patch": "patches/experimental-muscle-step.patch",
+    "patch_sha256": "d17506c27d7452ecd3d829ed18321e9277f4677d9aa12665dd4b195c430abb3d",
+    "tested_binary_sha256": "c2c829c0a5a2d6b2f7f63179b871164e57b93e7d7493936c744f8318609860da",
+    "status": "cumulative alternative patch against original source, not applied on top of experimental-torque.patch"
+  },
   "v5_release": {
     "url": "https://github.com/emberian/chreatures/releases/download/v5-garden-2c040fd/chreatures-v5-garden.tar.gz",
     "sha256": "505456e9b214bb23865c8193c5af441d0409a36ca3634d0b5c0155ac958977e4",
-    "status": "initialized; not trained behavioral competence"
+    "status": "marked initialized-untrained; includes inherited heterogeneous dynamics and new untrained interfaces; no demonstrated behavioral competence"
   },
   "malecns_annotations": {
     "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
