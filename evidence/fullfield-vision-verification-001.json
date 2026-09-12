@@ -1,0 +1,8 @@
+{
+  "checked": true,
+  "group_summaries": 44,
+  "maximum_prestimulus_difference": 0.0,
+  "verifier_sha256": "c046cdd18bbdae3a74364c78189812991aa998773789b9466c579e2060815c97",
+  "trace_sha256": "880362f6a897925a4c6b59ddb5929cf60b2d4a071ed4ba9655aa60548f5bb23e",
+  "caveat": "Reconstructs recorded group metrics, not independent neural recurrence, anatomical pathways or behavior."
+}

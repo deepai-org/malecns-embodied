@@ -1,5 +1,11 @@
 # MaleCNS embodiment experiment
 
+Latest visual diagnostic: full-field retinal stimuli produce clear receptor and
+named visual-neuron responses, but steering/motor responses remain small. Screen
+coverage alone does not explain the weak visual-to-motor result. See
+[FULLFIELD_VISION.md](FULLFIELD_VISION.md). This synthetic input assay is not a
+physical feedback loop or behavioral success; no parameters were changed.
+
 Latest sensory gate: physical moving-screen input changes retinal samples but
 produces only very small steering/motor responses. The limited-field, fixed-body
 assay uses no DN injection and is not behavioral evidence. See
