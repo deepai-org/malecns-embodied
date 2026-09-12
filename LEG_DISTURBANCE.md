@@ -71,6 +71,9 @@ the new biological interpretation. This experiment ended; no service was added.
 The next intervention should address the uncalibrated sensorimotor transfer,
 using physiological response and recruitment evidence, rather than run this
 same system longer or promote its mechanically produced recovery as a reflex.
+The [calibration source index](REFLEX_CALIBRATION.md) registers physiological
+records and exclusions while keeping unavailable measurements and unresolved
+motor-cell identities explicit.
 
 The first launch, `leg-disturbance-001`, stopped before simulation because the
 mapping file was not present at the requested remote path. After transferring

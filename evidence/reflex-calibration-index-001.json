@@ -1,0 +1,705 @@
+{
+  "kind": "physiology calibration record index, not fitted parameters",
+  "dataset_doi": "10.5061/dryad.76hdr7stb",
+  "dataset_version": 105831,
+  "source_repository": "https://github.com/tony-azevedo/FlyAnalysis",
+  "source_revision": "c68159f1f7a4ecc957c708ae8411fd2550482f63",
+  "source_record": "Records/Azevedo_2020_Records/Dataset2_SlowInterFast_SensoryFeedback.m",
+  "source_sha256": "ee0076d6da75d6f5b5f380c09ead0b9e2029e55c6041a49744496e91e498b27a",
+  "metadata_pages": [
+    {
+      "url": "https://datadryad.org/api/v2/versions/105831/files?page=1",
+      "sha256": "1b3d741b746d5bde70f285613a56b053f05f81f8b3600828cf0ea01af2812bf8"
+    },
+    {
+      "url": "https://datadryad.org/api/v2/versions/105831/files?page=2",
+      "sha256": "ffaf9039590a4e0fc76b6a98bf7899d1aa2f36d59c0a4c94b94263cada57533c"
+    },
+    {
+      "url": "https://datadryad.org/api/v2/versions/105831/files?page=3",
+      "sha256": "9d4452eafbadd724e33b3574787643e917ed08a74ed964a8b12fd1dc346ff3b7"
+    }
+  ],
+  "cells": [
+    {
+      "cell_id": "171101_F1_C1",
+      "genotype": "81A07/ChR",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "171101_F1_C1.zip",
+        "bytes": 779878231,
+        "metadata_url": "https://datadryad.org/api/v2/files/585421",
+        "api_download_url": "https://datadryad.org/api/v2/files/585421/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "171102_F2_C1",
+      "genotype": "81A07/ChR",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "171102_F2_C1.zip",
+        "bytes": 369295693,
+        "metadata_url": "https://datadryad.org/api/v2/files/585422",
+        "api_download_url": "https://datadryad.org/api/v2/files/585422/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "171103_F1_C1",
+      "genotype": "81A07/ChR",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "171103_F1_C1.zip",
+        "bytes": 524538785,
+        "metadata_url": "https://datadryad.org/api/v2/files/585423",
+        "api_download_url": "https://datadryad.org/api/v2/files/585423/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180308_F3_C1",
+      "genotype": "81A07/ChR",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "180308_F3_C1.zip",
+        "bytes": 819868420,
+        "metadata_url": "https://datadryad.org/api/v2/files/585427",
+        "api_download_url": "https://datadryad.org/api/v2/files/585427/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180404_F1_C1",
+      "genotype": "81A07/iav-LexA",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "180404_F1_C1.zip",
+        "bytes": 696348376,
+        "metadata_url": "https://datadryad.org/api/v2/files/585432",
+        "api_download_url": "https://datadryad.org/api/v2/files/585432/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180410_F1_C1",
+      "genotype": "81A07/iav-LexA",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "180410_F1_C1.zip",
+        "bytes": 1031778177,
+        "metadata_url": "https://datadryad.org/api/v2/files/585434",
+        "api_download_url": "https://datadryad.org/api/v2/files/585434/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180703_F3_C1",
+      "genotype": "81A07/iav-LexA",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "180703_F3_C1.zip",
+        "bytes": 375160558,
+        "metadata_url": "https://datadryad.org/api/v2/files/585438",
+        "api_download_url": "https://datadryad.org/api/v2/files/585438/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "190116_F1_C1",
+      "genotype": "81A07",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "190116_F1_C1.zip",
+        "bytes": 1039643670,
+        "metadata_url": "https://datadryad.org/api/v2/files/585453",
+        "api_download_url": "https://datadryad.org/api/v2/files/585453/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "190116_F3_C1",
+      "genotype": "81A07",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "190116_F3_C1.zip",
+        "bytes": 1151886868,
+        "metadata_url": "https://datadryad.org/api/v2/files/585454",
+        "api_download_url": "https://datadryad.org/api/v2/files/585454/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "190227_F1_C1",
+      "genotype": "81A07",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "190227_F1_C1.zip",
+        "bytes": 960242951,
+        "metadata_url": "https://datadryad.org/api/v2/files/585455",
+        "api_download_url": "https://datadryad.org/api/v2/files/585455/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "190228_F1_C1",
+      "genotype": "81A07/iav-LexA",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "190228_F1_C1.zip",
+        "bytes": 1029882526,
+        "metadata_url": "https://datadryad.org/api/v2/files/585456",
+        "api_download_url": "https://datadryad.org/api/v2/files/585456/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "190527_F1_C1",
+      "genotype": "81A07",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "190527_F1_C1.zip",
+        "bytes": 1650858009,
+        "metadata_url": "https://datadryad.org/api/v2/files/585457",
+        "api_download_url": "https://datadryad.org/api/v2/files/585457/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "190605_F1_C1",
+      "genotype": "81A07",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "190605_F1_C1.zip",
+        "bytes": 1025930650,
+        "metadata_url": "https://datadryad.org/api/v2/files/585458",
+        "api_download_url": "https://datadryad.org/api/v2/files/585458/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "190619_F1_C1",
+      "genotype": "81A07",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "190619_F1_C1.zip",
+        "bytes": 163845740,
+        "metadata_url": "https://datadryad.org/api/v2/files/585459",
+        "api_download_url": "https://datadryad.org/api/v2/files/585459/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "190619_F3_C1",
+      "genotype": "81A07",
+      "motor_class": "fast",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "190619_F3_C1.zip",
+        "bytes": 249249360,
+        "metadata_url": "https://datadryad.org/api/v2/files/585460",
+        "api_download_url": "https://datadryad.org/api/v2/files/585460/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180222_F1_C1",
+      "genotype": "22A08",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "180222_F1_C1.zip",
+        "bytes": 199758273,
+        "metadata_url": "https://datadryad.org/api/v2/files/585425",
+        "api_download_url": "https://datadryad.org/api/v2/files/585425/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180223_F1_C1",
+      "genotype": "22A08",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "180223_F1_C1.zip",
+        "bytes": 313531942,
+        "metadata_url": "https://datadryad.org/api/v2/files/585426",
+        "api_download_url": "https://datadryad.org/api/v2/files/585426/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180320_F1_C1",
+      "genotype": "22A08",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "180320_F1_C1.zip",
+        "bytes": 845122020,
+        "metadata_url": "https://datadryad.org/api/v2/files/585428",
+        "api_download_url": "https://datadryad.org/api/v2/files/585428/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180328_F4_C1",
+      "genotype": "22A08/iav-LexA",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "180328_F4_C1.zip",
+        "bytes": 494655816,
+        "metadata_url": "https://datadryad.org/api/v2/files/585430",
+        "api_download_url": "https://datadryad.org/api/v2/files/585430/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180405_F3_C1",
+      "genotype": "22A08/ChR",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "180405_F3_C1.zip",
+        "bytes": 450813051,
+        "metadata_url": "https://datadryad.org/api/v2/files/585433",
+        "api_download_url": "https://datadryad.org/api/v2/files/585433/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180807_F1_C1",
+      "genotype": "22A08/ChR",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "180807_F1_C1.zip",
+        "bytes": 1044842909,
+        "metadata_url": "https://datadryad.org/api/v2/files/585440",
+        "api_download_url": "https://datadryad.org/api/v2/files/585440/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180821_F1_C1",
+      "genotype": "22A08/iav-LexA",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "180821_F1_C1.zip",
+        "bytes": 964845268,
+        "metadata_url": "https://datadryad.org/api/v2/files/585441",
+        "api_download_url": "https://datadryad.org/api/v2/files/585441/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180822_F1_C1",
+      "genotype": "22A08/iav-LexA",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "180822_F1_C1.zip",
+        "bytes": 710598590,
+        "metadata_url": "https://datadryad.org/api/v2/files/585442",
+        "api_download_url": "https://datadryad.org/api/v2/files/585442/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "181118_F1_C1",
+      "genotype": "22A08",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "181118_F1_C1.zip",
+        "bytes": 659935110,
+        "metadata_url": "https://datadryad.org/api/v2/files/585446",
+        "api_download_url": "https://datadryad.org/api/v2/files/585446/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "181205_F1_C1",
+      "genotype": "22A08",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "181205_F1_C1.zip",
+        "bytes": 1487891476,
+        "metadata_url": "https://datadryad.org/api/v2/files/585451",
+        "api_download_url": "https://datadryad.org/api/v2/files/585451/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "181220_F1_C1",
+      "genotype": "22A08/iav-LexA",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "181220_F1_C1.zip",
+        "bytes": 2028023035,
+        "metadata_url": "https://datadryad.org/api/v2/files/585452",
+        "api_download_url": "https://datadryad.org/api/v2/files/585452/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "190827_F1_C1",
+      "genotype": "22A08",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "190827_F1_C1.zip",
+        "bytes": 320799632,
+        "metadata_url": "https://datadryad.org/api/v2/files/585461",
+        "api_download_url": "https://datadryad.org/api/v2/files/585461/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "190903_F1_C1",
+      "genotype": "22A08",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "190903_F1_C1.zip",
+        "bytes": 404410279,
+        "metadata_url": "https://datadryad.org/api/v2/files/585462",
+        "api_download_url": "https://datadryad.org/api/v2/files/585462/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "190905_F2_C1",
+      "genotype": "22A08",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "190905_F2_C1.zip",
+        "bytes": 432580826,
+        "metadata_url": "https://datadryad.org/api/v2/files/585463",
+        "api_download_url": "https://datadryad.org/api/v2/files/585463/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "190908_F1_C1",
+      "genotype": "22A08",
+      "motor_class": "intermediate",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "190908_F1_C1.zip",
+        "bytes": 294234277,
+        "metadata_url": "https://datadryad.org/api/v2/files/585464",
+        "api_download_url": "https://datadryad.org/api/v2/files/585464/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180111_F2_C1",
+      "genotype": "35C09",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "180111_F2_C1.zip",
+        "bytes": 291303979,
+        "metadata_url": "https://datadryad.org/api/v2/files/585424",
+        "api_download_url": "https://datadryad.org/api/v2/files/585424/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180328_F1_C1",
+      "genotype": "35C09/iav-LexA",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "180328_F1_C1.zip",
+        "bytes": 970936970,
+        "metadata_url": "https://datadryad.org/api/v2/files/585429",
+        "api_download_url": "https://datadryad.org/api/v2/files/585429/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180329_F1_C1",
+      "genotype": "35C09/iav-LexA",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "180329_F1_C1.zip",
+        "bytes": 1063789232,
+        "metadata_url": "https://datadryad.org/api/v2/files/585431",
+        "api_download_url": "https://datadryad.org/api/v2/files/585431/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180621_F1_C1",
+      "genotype": "35C09",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "180621_F1_C1.zip",
+        "bytes": 1091311819,
+        "metadata_url": "https://datadryad.org/api/v2/files/585435",
+        "api_download_url": "https://datadryad.org/api/v2/files/585435/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180628_F2_C1",
+      "genotype": "35C09",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "180628_F2_C1.zip",
+        "bytes": 1350709843,
+        "metadata_url": "https://datadryad.org/api/v2/files/585436",
+        "api_download_url": "https://datadryad.org/api/v2/files/585436/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180702_F1_C1",
+      "genotype": "35C09/iav-LexA",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "180702_F1_C1.zip",
+        "bytes": 1106367157,
+        "metadata_url": "https://datadryad.org/api/v2/files/585437",
+        "api_download_url": "https://datadryad.org/api/v2/files/585437/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "180806_F2_C1",
+      "genotype": "35C09/iav-LexA",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": false,
+      "archive": {
+        "name": "180806_F2_C1.zip",
+        "bytes": 1007033138,
+        "metadata_url": "https://datadryad.org/api/v2/files/585439",
+        "api_download_url": "https://datadryad.org/api/v2/files/585439/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "181014_F1_C1",
+      "genotype": "35C09",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "181014_F1_C1.zip",
+        "bytes": 2525140154,
+        "metadata_url": "https://datadryad.org/api/v2/files/585443",
+        "api_download_url": "https://datadryad.org/api/v2/files/585443/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "181021_F1_C1",
+      "genotype": "35C09",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "181021_F1_C1.zip",
+        "bytes": 817502293,
+        "metadata_url": "https://datadryad.org/api/v2/files/585444",
+        "api_download_url": "https://datadryad.org/api/v2/files/585444/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "181024_F2_C1",
+      "genotype": "35C09",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "181024_F2_C1.zip",
+        "bytes": 1619528602,
+        "metadata_url": "https://datadryad.org/api/v2/files/585445",
+        "api_download_url": "https://datadryad.org/api/v2/files/585445/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "181127_F1_C1",
+      "genotype": "35C09",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "181127_F1_C1.zip",
+        "bytes": 1160638264,
+        "metadata_url": "https://datadryad.org/api/v2/files/585447",
+        "api_download_url": "https://datadryad.org/api/v2/files/585447/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "181127_F2_C1",
+      "genotype": "35C09",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "181127_F2_C1.zip",
+        "bytes": 1466324135,
+        "metadata_url": "https://datadryad.org/api/v2/files/585448",
+        "api_download_url": "https://datadryad.org/api/v2/files/585448/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "181128_F1_C1",
+      "genotype": "35C09",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "181128_F1_C1.zip",
+        "bytes": 926633868,
+        "metadata_url": "https://datadryad.org/api/v2/files/585449",
+        "api_download_url": "https://datadryad.org/api/v2/files/585449/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    },
+    {
+      "cell_id": "181128_F2_C1",
+      "genotype": "35C09",
+      "motor_class": "slow",
+      "protocol": "PiezoRamp2T",
+      "in_main_membrane_potential_comparison": true,
+      "archive": {
+        "name": "181128_F2_C1.zip",
+        "bytes": 1697323059,
+        "metadata_url": "https://datadryad.org/api/v2/files/585450",
+        "api_download_url": "https://datadryad.org/api/v2/files/585450/download"
+      },
+      "measurements_loaded": false,
+      "malecns_body_id": null
+    }
+  ],
+  "counts": {
+    "fast": {
+      "indexed": 15,
+      "main_comparison": 7
+    },
+    "intermediate": {
+      "indexed": 15,
+      "main_comparison": 11
+    },
+    "slow": {
+      "indexed": 14,
+      "main_comparison": 10
+    }
+  },
+  "limitations": [
+    "Index inclusion is not final trial acceptance or figure sample size.",
+    "Raw data downloads returned HTTP 401/403; no measurements extracted.",
+    "Genetic motor classes have not been registered to individual MaleCNS body IDs.",
+    "No rates-to-Hz mapping, physiological fit, or behavioral success established."
+  ]
+}
