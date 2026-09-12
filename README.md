@@ -24,6 +24,9 @@ six more joints (18 of 42 leg channels total). It also has not demonstrated
 useful behavior; remaining mechanics and recruitment are still approximate.
 The [static-support diagnostic](STATIC_SUPPORT.md) now identifies missing leg
 reactions as a concrete confound, even when existing motor torques are enlarged.
+The [pooled foreleg mapping](POOLED_MUSCLES.md) restores the published muscle
+asset's seven-coordinate directional coverage, preparing a geometry-based
+whole-body integration. It remains fixed-base and has not produced useful behavior.
 
 ## What currently works
 

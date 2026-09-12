@@ -1,0 +1,470 @@
+{
+  "kind": "foreleg muscle authority at fixed keyframe; not a behavioral trial",
+  "runner_sha256": "512ac3e5d28097ab2aebda88452735bb57fc3c15a17051ffa0adecae8cf0a145",
+  "xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "mapping_sha256": {
+    "original_mapping": "65544f43d7681f287701cb48c3e4a3aa34791ceda75ea6a4cdd7acb1ee22d4ad",
+    "pooled_mapping": "ecd5db16c80424a06de7de486a786a3d75e0d163e5ab881d17da3f7c0db68e8e"
+  },
+  "mujoco": "3.12.0",
+  "joint_names": [
+    "joint_LFCoxa_yaw",
+    "joint_LFCoxa_pitch",
+    "joint_LFCoxa_roll",
+    "joint_LFTrochanter_yaw",
+    "joint_LFTrochanter_pitch",
+    "joint_LFTrochanter_roll",
+    "joint_LFTibia_pitch"
+  ],
+  "actuator_names": [
+    "LFC_tergopleural_promotor_a",
+    "LFC_tergopleural_promotor_b",
+    "LFC_pleural_remotor_and_abductor",
+    "LFC_pleural_promotor",
+    "LFC_sternal_anterior_rotator",
+    "LFC_sternal_posterior_rotator",
+    "LFC_sternal_adductor",
+    "LFF_trochanter_flexor_b",
+    "LFF_sterno-tergo-trochanter_extensor_a",
+    "LFF_sterno-tergo-trochanter_extensor_b",
+    "LFF_accesory_trochanter_flexor",
+    "LFF_trochanter_extensor",
+    "LFF_trochanter_flexor_a",
+    "LFTibia_flex_93434",
+    "LFTibia_extensor_93932"
+  ],
+  "active_torque_per_unit_activation": [
+    [
+      -0.5636884859156275,
+      -0.5328866390954223,
+      0.9718075692119651,
+      -0.778564260317862,
+      -0.572509536405587,
+      -1.3023115637339389,
+      -1.4537227768225438,
+      2.220446049250313e-16,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      2.220446049250313e-16
+    ],
+    [
+      -0.3253220427698795,
+      -1.147712572112164,
+      0.6092925918668443,
+      -0.5928556937043409,
+      -0.0387670878822204,
+      6.435437092197278,
+      0.6972333841571706,
+      0.0,
+      -1.6514567491299204e-15,
+      3.760880495917718e-15,
+      0.0,
+      -2.7755575615628914e-16,
+      0.0,
+      -4.315992008230296e-15,
+      1.111610803405938e-14
+    ],
+    [
+      0.33664556223582964,
+      0.3108377235392361,
+      -0.11612152429200315,
+      -0.4918581687864908,
+      -0.06140192857850146,
+      5.827009040132445,
+      -0.775718759755781,
+      -5.828670879282072e-16,
+      6.661338147750939e-16,
+      1.1934897514720433e-15,
+      1.6653345369377348e-16,
+      -6.106226635438361e-16,
+      -3.0531133177191805e-16,
+      2.0261570199409107e-15,
+      -3.3029134982598407e-15
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.25174073982080547,
+      -0.5895933406551176,
+      -3.672806740157059,
+      -0.3936538295343662,
+      0.5656380000235487,
+      -0.17743533250208868,
+      -2.1111584702637742e-15,
+      1.3681764055029078e-14
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.6604743011269254,
+      4.624027071950617,
+      3.720280326950534,
+      -0.4963722314707957,
+      0.4123665360486896,
+      -1.5117593848141586,
+      5.7870375158586285e-15,
+      -1.0260889360402814e-14
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.888347953780645,
+      -0.9612972106468468,
+      1.778187693187,
+      0.39047220328045495,
+      -0.5813197387737884,
+      0.5881012597328702,
+      -2.0669230216263657e-15,
+      1.2828280104848488e-15
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0376789470262098,
+      -8.192835887824383
+    ]
+  ],
+  "passive_actuator_torque": [
+    -1.0169824963988587,
+    -0.10163186936772613,
+    -0.13134242680929734,
+    -0.010265496012337354,
+    0.015198839026401642,
+    0.003474923330062482,
+    -0.34984660409491664
+  ],
+  "conditions": {
+    "original_six": {
+      "actuators": [
+        2,
+        4,
+        5,
+        6,
+        10,
+        11
+      ],
+      "independent_variables": 6,
+      "rank": 5,
+      "singular_values": [
+        8.784214524427176,
+        1.9593427319845123,
+        1.1659384173677594,
+        0.9627083419607083,
+        0.1494323389848623,
+        6.736208672199715e-32
+      ],
+      "directions": {
+        "0:-1": {
+          "status": 2,
+          "feasible": false,
+          "residual": null
+        },
+        "0:1": {
+          "status": 2,
+          "feasible": false,
+          "residual": null
+        },
+        "1:-1": {
+          "status": 2,
+          "feasible": false,
+          "residual": null
+        },
+        "1:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 1.6653345369377348e-16
+        },
+        "2:-1": {
+          "status": 2,
+          "feasible": false,
+          "residual": null
+        },
+        "2:1": {
+          "status": 2,
+          "feasible": false,
+          "residual": null
+        },
+        "3:-1": {
+          "status": 2,
+          "feasible": false,
+          "residual": null
+        },
+        "3:1": {
+          "status": 2,
+          "feasible": false,
+          "residual": null
+        },
+        "4:-1": {
+          "status": 2,
+          "feasible": false,
+          "residual": null
+        },
+        "4:1": {
+          "status": 2,
+          "feasible": false,
+          "residual": null
+        },
+        "5:-1": {
+          "status": 2,
+          "feasible": false,
+          "residual": null
+        },
+        "5:1": {
+          "status": 2,
+          "feasible": false,
+          "residual": null
+        },
+        "6:-1": {
+          "status": 2,
+          "feasible": false,
+          "residual": null
+        },
+        "6:1": {
+          "status": 2,
+          "feasible": false,
+          "residual": null
+        }
+      }
+    },
+    "pooled_fifteen": {
+      "actuators": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "independent_variables": 15,
+      "rank": 7,
+      "singular_values": [
+        8.826682099058209,
+        8.258289016613828,
+        6.91485675919208,
+        3.600654185711492,
+        2.216334653388094,
+        1.5937711108260448,
+        0.1398091577288357
+      ],
+      "directions": {
+        "0:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 8.326672684688674e-17
+        },
+        "0:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 1.8041124150158794e-16
+        },
+        "1:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 2.7755575615628914e-17
+        },
+        "1:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 1.5265566588595902e-16
+        },
+        "2:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 2.220446049250313e-16
+        },
+        "2:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 6.661338147750939e-16
+        },
+        "3:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 2.5643467209960025e-15
+        },
+        "3:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 5.0354397739853005e-15
+        },
+        "4:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 1.0710035570557832e-15
+        },
+        "4:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 1.6321002449341571e-15
+        },
+        "5:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 3.4617259055863795e-15
+        },
+        "5:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 4.929393501383925e-15
+        },
+        "6:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 1.6699668151978917e-15
+        },
+        "6:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 5.576905585723962e-15
+        }
+      }
+    },
+    "pooled_shared_neurons": {
+      "actuators": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "independent_variables": 39,
+      "rank": 7,
+      "singular_values": [
+        5.8117669827542,
+        4.437770324652285,
+        3.948476985079005,
+        1.9802895774330205,
+        1.278753325829263,
+        1.1414429371760602,
+        0.049051466084158106
+      ],
+      "directions": {
+        "0:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 5.551115123125783e-17
+        },
+        "0:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 4.440892098500626e-16
+        },
+        "1:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 0.0
+        },
+        "1:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 1.6653345369377348e-16
+        },
+        "2:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 1.3322676295501878e-15
+        },
+        "2:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 2.220446049250313e-16
+        },
+        "3:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 2.6645352591003757e-15
+        },
+        "3:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 1.2106607061672963e-14
+        },
+        "4:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 1.1148246880098402e-15
+        },
+        "4:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 4.592075010809095e-15
+        },
+        "5:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 3.8932470535478645e-15
+        },
+        "5:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 1.3987057147803057e-14
+        },
+        "6:-1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 1.6699668151978917e-15
+        },
+        "6:1": {
+          "status": 0,
+          "feasible": true,
+          "residual": 5.576905585723962e-15
+        }
+      }
+    }
+  },
+  "caveats": [
+    "Static zero-velocity keyframe; no motor neurons run.",
+    "Cone test allows activation above one; feasibility establishes direction coverage only.",
+    "First two cases vary actuators independently; third includes shared-pool recruitment but not CNS trajectory constraints.",
+    "Published geometry/parameters are approximate and foreleg-only; no whole-body transfer is established."
+  ]
+}

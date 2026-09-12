@@ -1,0 +1,324 @@
+{
+  "kind": "candidate pooled recruitment; not a mechanical trial",
+  "actuators": 15,
+  "xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "neuron_source_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "muscles": [
+    {
+      "muscle": "LFC_tergopleural_promotor_a",
+      "muscle_id": 0,
+      "candidate_motor_rows": [
+        142836,
+        143654,
+        148512,
+        162856
+      ],
+      "candidate_body_ids": [
+        800061,
+        801173,
+        807281,
+        934091
+      ],
+      "annotation_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFC_tergopleural_promotor_b",
+      "muscle_id": 1,
+      "candidate_motor_rows": [
+        142836,
+        143654,
+        148512,
+        162856
+      ],
+      "candidate_body_ids": [
+        800061,
+        801173,
+        807281,
+        934091
+      ],
+      "annotation_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFC_pleural_remotor_and_abductor",
+      "muscle_id": 2,
+      "candidate_motor_rows": [
+        144657,
+        145652
+      ],
+      "candidate_body_ids": [
+        802509,
+        803803
+      ],
+      "annotation_labels": [
+        "Pleural remotor/abductor MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFC_pleural_promotor",
+      "muscle_id": 3,
+      "candidate_motor_rows": [
+        142836,
+        143654,
+        148512,
+        162856
+      ],
+      "candidate_body_ids": [
+        800061,
+        801173,
+        807281,
+        934091
+      ],
+      "annotation_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFC_sternal_anterior_rotator",
+      "muscle_id": 4,
+      "candidate_motor_rows": [
+        148218,
+        162458
+      ],
+      "candidate_body_ids": [
+        806923,
+        919509
+      ],
+      "annotation_labels": [
+        "Sternal anterior rotator MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFC_sternal_posterior_rotator",
+      "muscle_id": 5,
+      "candidate_motor_rows": [
+        144222,
+        146498,
+        149652,
+        164685
+      ],
+      "candidate_body_ids": [
+        801915,
+        804851,
+        808640,
+        1050335829
+      ],
+      "annotation_labels": [
+        "Sternal posterior rotator MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFC_sternal_adductor",
+      "muscle_id": 6,
+      "candidate_motor_rows": [
+        153568
+      ],
+      "candidate_body_ids": [
+        813480
+      ],
+      "annotation_labels": [
+        "Sternal adductor MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFF_trochanter_flexor_b",
+      "muscle_id": 7,
+      "candidate_motor_rows": [
+        151305,
+        154353,
+        156881,
+        158106,
+        158122,
+        158475,
+        164791,
+        164805
+      ],
+      "candidate_body_ids": [
+        810639,
+        814489,
+        818389,
+        823168,
+        823281,
+        828939,
+        1051367796,
+        1051670893
+      ],
+      "annotation_labels": [
+        "Tr flexor MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFF_sterno-tergo-trochanter_extensor_a",
+      "muscle_id": 8,
+      "candidate_motor_rows": [
+        144049,
+        144538,
+        144687,
+        145217,
+        146190,
+        147228
+      ],
+      "candidate_body_ids": [
+        801685,
+        802361,
+        802552,
+        803237,
+        804465,
+        805741
+      ],
+      "annotation_labels": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFF_sterno-tergo-trochanter_extensor_b",
+      "muscle_id": 9,
+      "candidate_motor_rows": [
+        144049,
+        144538,
+        144687,
+        145217,
+        146190,
+        147228
+      ],
+      "candidate_body_ids": [
+        801685,
+        802361,
+        802552,
+        803237,
+        804465,
+        805741
+      ],
+      "annotation_labels": [
+        "Sternotrochanter MN",
+        "Tergotr. MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFF_accesory_trochanter_flexor",
+      "muscle_id": 10,
+      "candidate_motor_rows": [
+        157849,
+        161399,
+        161783
+      ],
+      "candidate_body_ids": [
+        821291,
+        909618,
+        911134
+      ],
+      "annotation_labels": [
+        "Acc. tr flexor MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFF_trochanter_extensor",
+      "muscle_id": 11,
+      "candidate_motor_rows": [
+        145351,
+        149040
+      ],
+      "candidate_body_ids": [
+        803412,
+        807906
+      ],
+      "annotation_labels": [
+        "Tr extensor MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFF_trochanter_flexor_a",
+      "muscle_id": 12,
+      "candidate_motor_rows": [
+        151305,
+        154353,
+        156881,
+        158106,
+        158122,
+        158475,
+        164791,
+        164805
+      ],
+      "candidate_body_ids": [
+        810639,
+        814489,
+        818389,
+        823168,
+        823281,
+        828939,
+        1051367796,
+        1051670893
+      ],
+      "annotation_labels": [
+        "Tr flexor MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFTibia_flex_93434",
+      "muscle_id": 13,
+      "candidate_motor_rows": [
+        148412,
+        150721,
+        156725,
+        157314,
+        161464
+      ],
+      "candidate_body_ids": [
+        807165,
+        809912,
+        818057,
+        819384,
+        909831
+      ],
+      "annotation_labels": [
+        "Ti flexor MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    },
+    {
+      "muscle": "LFTibia_extensor_93932",
+      "muscle_id": 14,
+      "candidate_motor_rows": [
+        143259,
+        154980
+      ],
+      "candidate_body_ids": [
+        800636,
+        815344
+      ],
+      "annotation_labels": [
+        "Ti extensor MN"
+      ],
+      "mapping_status": "shared named-pool approximation; no subdivision-specific wiring claim"
+    }
+  ],
+  "assumptions": [
+    "All modeled subdivisions with the same pool receive its mean normalized rate.",
+    "Composite sterno/tergo units share the union of the two named pools.",
+    "No motor-unit-specific recruitment thresholds, strengths or subdivision assignments are known.",
+    "No muscle force capacity is changed; underlying geometry is still incomplete foreleg-only anatomy.",
+    "Accessory tibia flexor and other muscles absent from this asset remain unmodeled."
+  ],
+  "input_sha256": {
+    "inventory": "65544f43d7681f287701cb48c3e4a3aa34791ceda75ea6a4cdd7acb1ee22d4ad",
+    "annotation": "2fd32180d5b8a7688bc813440bf2c2f1d0a35fad635ab0d42ca4f536d11403ca"
+  },
+  "runner_sha256": "0969f13e5c881fdae674eea24720b4209ad211d0e9c575e61e53e63662599e5c"
+}

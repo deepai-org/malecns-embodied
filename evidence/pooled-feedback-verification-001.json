@@ -1,0 +1,17 @@
+{
+  "checked": true,
+  "verifier_sha256": "9a02549cbe8efd37f2f2f2b0bdbb2a2ebf5bedf2825f7480362ed5d1b13517bf",
+  "trials": {
+    "pooled-feedback-001": {
+      "maximum_control_reconstruction_error": 2.9802322387695312e-08,
+      "simulated_seconds": 2.0,
+      "late_feedback_joint_range_rad": 0.00011589762337860243
+    },
+    "pooled-feedback-002": {
+      "maximum_control_reconstruction_error": 2.9802322387695312e-08,
+      "simulated_seconds": 2.0,
+      "late_feedback_joint_range_rad": 0.00011393803123865842
+    }
+  },
+  "caveat": "Recomputes transforms and raw matrix rank, not biological competence or all LP direction results."
+}

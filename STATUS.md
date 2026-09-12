@@ -1,5 +1,12 @@
 # MaleCNS embodiment experiment
 
+Latest muscle integration preparation: a shared named-pool approximation connects
+all 15 published foreleg muscle units to 39 motor neurons. Static directional
+coverage increases from rank five to seven, including shared-pool constraints.
+Full-CNS foreleg feedback still settles. Source/target joint topology differs,
+so direct index copying into the whole-body rig is invalid. See
+[POOLED_MUSCLES.md](POOLED_MUSCLES.md). This does not resolve whole-body support yet.
+
 Latest diagnosis: static gravity/contact balance at eight recorded upright poses
 is infeasible with the current 18-coordinate actuation under original limits;
 six cases remain infeasible with unlimited torque (two numerically inconclusive).
