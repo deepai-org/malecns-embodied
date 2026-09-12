@@ -2,6 +2,12 @@
 
 Experiment code in this repository is distributed under AGPL-3.0-or-later.
 
+The independent `probe_published_cpg.py` numerical probe implements the rate
+equation and uses separately downloaded data from **Pugliese et al.**, *Connectome
+simulations identify a central pattern generator circuit for fly walking*,
+bioRxiv 10.1101/2025.09.12.675944v2. Source/data revision and assumptions are in
+`PUBLISHED_CPG.md`. Their source and bulk connectivity matrices are not vendored.
+
 The neural and whole-body baselines execute **Chreatures**, by emberian and
 contributors, under AGPL-3.0-or-later. Its source is pinned but not vendored here.
 The model/physics interface and array shapes in the experiment scripts follow

@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "trial_receipt_sha256": "d625dadc9841789e44be6c3bb1969dfaa3a286b8121f6d3c56db35f9051b4510",
+  "verifier_sha256": "289392aae99a9c65751981833664d4b2eba50cb08cfdce08357cc3d8c4ab4ae0",
+  "motor_peak_counts": [
+    0,
+    8,
+    19
+  ],
+  "caveat": "Trace reconstruction only; not solver-convergence proof, biological validation, or embodied behavior."
+}

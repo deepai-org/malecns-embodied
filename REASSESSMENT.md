@@ -2,6 +2,14 @@
 
 ## Current execution priority
 
+A newly checked [published CPG reference](PUBLISHED_CPG.md) provides a more
+direct dynamics candidate: a supplied mCNS subnetwork generates repeated motor
+peaks under constant descending input in our independent mean-parameter probe.
+Prioritize numerical convergence and comparison with our full MaleCNS dynamics
+before more anatomical identity searches or whole-body sweeps. This reference
+is not yet a full-CNS or embodied result and must not become an external gait
+oscillator. The sensorimotor and mechanical gates below still apply.
+
 The newer six-leg integration and neural assays have not established either
 muscle-supported posture or useful sensory-driven movement. Freeze environment
 expansion and repeated whole-body sweeps. The immediate gate is one physically
