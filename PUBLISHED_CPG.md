@@ -76,6 +76,29 @@ python3 verify_published_cpg.py --trial runs/published-cpg \
 
 ## Scope of the next decision
 
+### Tolerance refinement completed
+
+Trial 004 reran the same source, mean parameters, input and 1-ms maximum step
+on Vast with `rtol=2e-9, atol=5e-12` (ten times tighter than trial 003).
+The silent control remained exactly zero. Repeated-peak motor counts remained
+8 and 19. Comparing all recorded motor samples, maximum differences were
+0.01835 and 0.36310 model-rate units; RMS differences were 0.000470 and 0.002914.
+The larger maximum is about 0.182% of the 200-unit rate cap, not necessarily
+0.182% of each neuron's response. Negative undershoots decreased to -2.36e-8
+and -3.26e-9. There was no clipping or substitution of failed results.
+
+This supports the repeated-peak observation under tolerance refinement; it is
+not exact trajectory agreement, an asymptotic convergence proof, or biological
+validation. Both complete traces are retained. `compare_cpg_tolerances.py`
+authenticates matching source/input identities and computes samplewise errors.
+Results are in `evidence/cpg-tolerance-comparison-001.json`; trace verification
+for the refined run is `evidence/published-cpg-verification-004.json`.
+
+The next comparison should separate two source-confirmed changes: direct signed
+synaptic-count scaling versus per-target input normalization, and rectified
+absolute rates versus baseline-centered dynamics. Do not interpret the reference
+as evidence that one arbitrary global-gain increase will repair the current fly.
+
 If this reference produces numerically stable rhythms, compare its signed
 synaptic-count scaling and rectified dynamics with our current normalized,
 baseline-centered dynamics. Preserve cell identities and connectivity when

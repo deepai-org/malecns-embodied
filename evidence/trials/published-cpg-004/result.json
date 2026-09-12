@@ -1,0 +1,3184 @@
+{
+  "completed": true,
+  "source_repository": "https://github.com/smpuglie/Pugliese_2026",
+  "source_revision": "faee4b06869855ae0164cbf217fb6ec28ef3521b",
+  "runner_sha256": "a635f7df73f54b2a408affb17e1610b0b9ea07bbfdf83f0abcc4cf0ded42e3f6",
+  "input_sha256": {
+    "data/imac t1 connectome data/wTable_20260210_vncRoisOnly.csv": "593a75c53f1c69600cac747364b8b623655699b1b83e16b41eeef6fe93dd5b2d",
+    "data/imac t1 connectome data/W_20260210_vncRoisOnly.csv": "255236baca7a24ead7360636a4ee98fd54d5423026c6ec864bbd717b8d58d3b4",
+    "src/simulation/vnc_sim.py": "58518185d43cd1a723f4ad1278753bc6e54fc5c086575206e82e493e9d960a5c",
+    "configs/neuron_params/default.yaml": "b63a37b84e056035d638bb8a36baf53e199d37feb4ddca9d044af3c521247298"
+  },
+  "neurons": 4310,
+  "edges": 118920,
+  "motors": 130,
+  "rtol": 2e-09,
+  "atol": 5e-12,
+  "max_step": 0.001,
+  "parameters": {
+    "tau": 0.02,
+    "gain": 1,
+    "threshold": 7.5,
+    "rate_cap": 200,
+    "synapse_multiplier": 0.03,
+    "current": 250
+  },
+  "wall_seconds": 145.40140550862998,
+  "conditions": [
+    {
+      "stimulated_body_id": null,
+      "function_evaluations": 11894,
+      "min_rate": 0.0,
+      "max_rate": 0.0,
+      "motor_metrics": [
+        {
+          "body_id": 800061,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 800636,
+          "type": "Ti extensor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801079,
+          "type": "Sternotrochanter MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801173,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801469,
+          "type": "Sternal anterior rotator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801685,
+          "type": "Sternotrochanter MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801824,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801915,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801918,
+          "type": "Sternal anterior rotator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 802072,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 802361,
+          "type": "Sternotrochanter MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 802509,
+          "type": "Pleural remotor/abductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 802552,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803237,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803314,
+          "type": "Pleural remotor/abductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803412,
+          "type": "Tr extensor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803698,
+          "type": "Sternotrochanter MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803803,
+          "type": "Pleural remotor/abductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803830,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 804257,
+          "type": "Ti extensor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 804465,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 804851,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 804866,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 804941,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805309,
+          "type": "ltm2-femur MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805313,
+          "type": "Pleural remotor/abductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805410,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805598,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805741,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805745,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 806599,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 806898,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 806923,
+          "type": "Sternal anterior rotator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 807165,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 807281,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 807873,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 807906,
+          "type": "Tr extensor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 808011,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 808640,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 809912,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 810098,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 810535,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 810541,
+          "type": "Ta levator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 810639,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 811652,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 812111,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 813480,
+          "type": "Sternal adductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 813566,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 814163,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 814489,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 815246,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 815344,
+          "type": "Ti extensor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 815678,
+          "type": "Ti extensor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 815854,
+          "type": "Sternal adductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 816215,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 816404,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 816648,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817210,
+          "type": "Ta levator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817283,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817347,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817509,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817595,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817640,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817655,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818057,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818389,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818553,
+          "type": "ltm1-tibia MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818719,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818842,
+          "type": "Tr extensor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 819278,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 819384,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 819869,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 820110,
+          "type": "Ta levator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 820130,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 820668,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 820896,
+          "type": "Ta levator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 821291,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 821635,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 822047,
+          "type": "ltm1-tibia MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 822092,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 822274,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 823168,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 823281,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 825516,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 825721,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 827188,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 828939,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 830039,
+          "type": "ltm2-femur MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 833140,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 835074,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 837745,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 838321,
+          "type": "Tr extensor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 860084,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 867630,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 903010,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 903298,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 909521,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 909618,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 909713,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 909831,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 910334,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 911134,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 911453,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 914655,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 919509,
+          "type": "Sternal anterior rotator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 924189,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 924716,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 934091,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050005026,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050013851,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050015101,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050031705,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050091581,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050111955,
+          "type": "Ta levator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050115387,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050126678,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050189039,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050248133,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050251718,
+          "type": "ltm2-femur MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050268065,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050306082,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050335829,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050340850,
+          "type": "",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050349786,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050403926,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050615112,
+          "type": "ltm2-femur MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050660827,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1051062549,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1051670893,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1057471940,
+          "type": "ltm1-tibia MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        }
+      ],
+      "motors_with_at_least_3_peaks": 0
+    },
+    {
+      "stimulated_body_id": 10045,
+      "function_evaluations": 210230,
+      "min_rate": -2.3555111970699937e-08,
+      "max_rate": 199.99999999999972,
+      "motor_metrics": [
+        {
+          "body_id": 800061,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 199.99997533375134,
+          "peak_count": 1,
+          "mean_rate": 49.703473045382665,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 800636,
+          "type": "Ti extensor MN",
+          "peak_to_peak": 199.96635920323249,
+          "peak_count": 2,
+          "mean_rate": 47.45327655999729,
+          "mean_peak_frequency_hz": 5.4054054054054035
+        },
+        {
+          "body_id": 801079,
+          "type": "Sternotrochanter MN",
+          "peak_to_peak": 157.8205031982535,
+          "peak_count": 0,
+          "mean_rate": 195.25302122895172,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801173,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 199.99849617791608,
+          "peak_count": 1,
+          "mean_rate": 42.38429287026114,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801469,
+          "type": "Sternal anterior rotator MN",
+          "peak_to_peak": 199.9999918289249,
+          "peak_count": 1,
+          "mean_rate": 122.21929482232801,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801685,
+          "type": "Sternotrochanter MN",
+          "peak_to_peak": 198.35966385924328,
+          "peak_count": 5,
+          "mean_rate": 134.42548208562403,
+          "mean_peak_frequency_hz": 4.454342984409799
+        },
+        {
+          "body_id": 801824,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 198.97549623412905,
+          "peak_count": 0,
+          "mean_rate": 110.41612868765212,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801915,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 199.99980633683268,
+          "peak_count": 1,
+          "mean_rate": 156.5558046306891,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801918,
+          "type": "Sternal anterior rotator MN",
+          "peak_to_peak": 198.62608236513304,
+          "peak_count": 0,
+          "mean_rate": 108.78429050947466,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 802072,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 199.40604952638597,
+          "peak_count": 0,
+          "mean_rate": 109.73124906000068,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 802361,
+          "type": "Sternotrochanter MN",
+          "peak_to_peak": 199.68384410512468,
+          "peak_count": 2,
+          "mean_rate": 172.39942836072206,
+          "mean_peak_frequency_hz": 2.7397260273972597
+        },
+        {
+          "body_id": 802509,
+          "type": "Pleural remotor/abductor MN",
+          "peak_to_peak": 199.999996584879,
+          "peak_count": 0,
+          "mean_rate": 155.65238880585488,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 802552,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 199.9900291228947,
+          "peak_count": 0,
+          "mean_rate": 152.94471985367795,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803237,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 199.9998055505216,
+          "peak_count": 0,
+          "mean_rate": 153.6415243356762,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803314,
+          "type": "Pleural remotor/abductor MN",
+          "peak_to_peak": 16.436302403058004,
+          "peak_count": 1,
+          "mean_rate": 0.47803802659507794,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803412,
+          "type": "Tr extensor MN",
+          "peak_to_peak": 198.91545192441333,
+          "peak_count": 3,
+          "mean_rate": 49.53723867633872,
+          "mean_peak_frequency_hz": 3.9525691699604732
+        },
+        {
+          "body_id": 803698,
+          "type": "Sternotrochanter MN",
+          "peak_to_peak": 199.84011901711708,
+          "peak_count": 0,
+          "mean_rate": 156.70398921038787,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803803,
+          "type": "Pleural remotor/abductor MN",
+          "peak_to_peak": 199.99971649941793,
+          "peak_count": 0,
+          "mean_rate": 153.21792718242384,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803830,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 1.6998315585050733e-09,
+          "peak_count": 0,
+          "mean_rate": 2.3235752857340945e-11,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 804257,
+          "type": "Ti extensor MN",
+          "peak_to_peak": 1.645652075065163e-08,
+          "peak_count": 0,
+          "mean_rate": 2.2495149424695338e-10,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 804465,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 199.9972089786549,
+          "peak_count": 0,
+          "mean_rate": 153.10349825596577,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 804851,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 199.99983081544278,
+          "peak_count": 0,
+          "mean_rate": 148.76373871278557,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 804866,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 79.92519566377938,
+          "peak_count": 0,
+          "mean_rate": 194.00765160641765,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 804941,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 102.8994769567973,
+          "peak_count": 1,
+          "mean_rate": 3.4606280201319746,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805309,
+          "type": "ltm2-femur MN",
+          "peak_to_peak": 2.54852321271098e-07,
+          "peak_count": 0,
+          "mean_rate": 3.4836896176834976e-09,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805313,
+          "type": "Pleural remotor/abductor MN",
+          "peak_to_peak": 3.4655913332775867e-09,
+          "peak_count": 0,
+          "mean_rate": 4.7372707796647456e-11,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805410,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 199.18388212261138,
+          "peak_count": 1,
+          "mean_rate": 160.4842560592761,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805598,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 2.509624082705054,
+          "peak_count": 1,
+          "mean_rate": 0.05596499628198755,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805741,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 189.64821657621917,
+          "peak_count": 1,
+          "mean_rate": 24.6652063177843,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805745,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 2.386829667911285e-11,
+          "peak_count": 0,
+          "mean_rate": 3.262663526786747e-13,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 806599,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 194.1720184611553,
+          "peak_count": 3,
+          "mean_rate": 156.49281992037723,
+          "mean_peak_frequency_hz": 6.578947368421057
+        },
+        {
+          "body_id": 806898,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 8.616157893682025e-10,
+          "peak_count": 0,
+          "mean_rate": 1.177780906559309e-11,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 806923,
+          "type": "Sternal anterior rotator MN",
+          "peak_to_peak": 169.29173309450854,
+          "peak_count": 1,
+          "mean_rate": 4.920424598759053,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 807165,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 199.89177833360347,
+          "peak_count": 0,
+          "mean_rate": 138.38027693905488,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 807281,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 807873,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 807906,
+          "type": "Tr extensor MN",
+          "peak_to_peak": 136.01116491695487,
+          "peak_count": 1,
+          "mean_rate": 14.626986437532056,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 808011,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 808640,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 199.9987038787216,
+          "peak_count": 0,
+          "mean_rate": 153.34046650156608,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 809912,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 199.99454750301086,
+          "peak_count": 1,
+          "mean_rate": 147.82561254326865,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 810098,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 2.604298898929585,
+          "peak_count": 1,
+          "mean_rate": 198.7337366567054,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 810535,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 810541,
+          "type": "Ta levator MN",
+          "peak_to_peak": 173.80149627646955,
+          "peak_count": 2,
+          "mean_rate": 12.421620057643851,
+          "mean_peak_frequency_hz": 9.900990099009903
+        },
+        {
+          "body_id": 810639,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 29.371877539220492,
+          "peak_count": 0,
+          "mean_rate": 0.4014972448550255,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 811652,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 121.65684202117504,
+          "peak_count": 0,
+          "mean_rate": 68.58218848578186,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 812111,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 813480,
+          "type": "Sternal adductor MN",
+          "peak_to_peak": 0.006091633643289183,
+          "peak_count": 0,
+          "mean_rate": 8.326924695845287e-05,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 813566,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 1.3686530337761057e-06,
+          "peak_count": 0,
+          "mean_rate": 1.8708726450660598e-08,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 814163,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 61.2517446944283,
+          "peak_count": 1,
+          "mean_rate": 2.4228999738340606,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 814489,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 16.86853230209484,
+          "peak_count": 0,
+          "mean_rate": 0.23058346321223364,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 815246,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 125.62230692379305,
+          "peak_count": 1,
+          "mean_rate": 75.20945036227512,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 815344,
+          "type": "Ti extensor MN",
+          "peak_to_peak": 199.99640196567043,
+          "peak_count": 1,
+          "mean_rate": 41.640853213132246,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 815678,
+          "type": "Ti extensor MN",
+          "peak_to_peak": 4.089027373237924e-07,
+          "peak_count": 0,
+          "mean_rate": 5.589473203745962e-09,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 815854,
+          "type": "Sternal adductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 816215,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 64.27215831392877,
+          "peak_count": 1,
+          "mean_rate": 27.843896591387914,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 816404,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 119.0211201992469,
+          "peak_count": 1,
+          "mean_rate": 77.66220470352712,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 816648,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817210,
+          "type": "Ta levator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817283,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 76.86327167193629,
+          "peak_count": 1,
+          "mean_rate": 7.626359195769471,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817347,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 27.98076145461451,
+          "peak_count": 0,
+          "mean_rate": 198.65607151961473,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817509,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817595,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 1.04095594676547e-08,
+          "peak_count": 0,
+          "mean_rate": 1.4229289363055207e-10,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817640,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 2.132576111265186e-06,
+          "peak_count": 0,
+          "mean_rate": 2.915113042989147e-08,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817655,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818057,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 167.58517230790113,
+          "peak_count": 1,
+          "mean_rate": 111.5260271751572,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818389,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 3.888199795049316,
+          "peak_count": 0,
+          "mean_rate": 0.053149530637720516,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818553,
+          "type": "ltm1-tibia MN",
+          "peak_to_peak": 22.126540452846932,
+          "peak_count": 1,
+          "mean_rate": 0.7132806179314103,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818719,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818842,
+          "type": "Tr extensor MN",
+          "peak_to_peak": 2.7330719989341486e-06,
+          "peak_count": 0,
+          "mean_rate": 3.7359575536062216e-08,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 819278,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 14.407301974013228,
+          "peak_count": 1,
+          "mean_rate": 1.092350393941639,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 819384,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 819869,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 65.26562684860258,
+          "peak_count": 3,
+          "mean_rate": 5.00851073695078,
+          "mean_peak_frequency_hz": 6.060606060606061
+        },
+        {
+          "body_id": 820110,
+          "type": "Ta levator MN",
+          "peak_to_peak": 2.1780192937935386e-09,
+          "peak_count": 0,
+          "mean_rate": 2.9772313483586745e-11,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 820130,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 2.6085126255000955e-06,
+          "peak_count": 0,
+          "mean_rate": 3.5656918115273865e-08,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 820668,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 4.035562760812945e-05,
+          "peak_count": 0,
+          "mean_rate": 5.516390049435492e-07,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 820896,
+          "type": "Ta levator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 821291,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 3.2534817981206947e-11,
+          "peak_count": 0,
+          "mean_rate": 4.447328831421035e-13,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 821635,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 53.6620493190145,
+          "peak_count": 2,
+          "mean_rate": 56.612903718132024,
+          "mean_peak_frequency_hz": 4.048582995951415
+        },
+        {
+          "body_id": 822047,
+          "type": "ltm1-tibia MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 822092,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 822274,
+          "type": "ltm MN",
+          "peak_to_peak": 59.7958094037297,
+          "peak_count": 3,
+          "mean_rate": 7.127284895266191,
+          "mean_peak_frequency_hz": 10.05025125628141
+        },
+        {
+          "body_id": 823168,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 16.967582443611693,
+          "peak_count": 0,
+          "mean_rate": 0.23193742360745906,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 823281,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.9409367400665435,
+          "peak_count": 0,
+          "mean_rate": 0.012862082385272413,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 825516,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 72.32787039115917,
+          "peak_count": 3,
+          "mean_rate": 35.14191323709261,
+          "mean_peak_frequency_hz": 3.4013605442176877
+        },
+        {
+          "body_id": 825721,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 827188,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 15.12182074080467,
+          "peak_count": 2,
+          "mean_rate": 4.9576699719473405,
+          "mean_peak_frequency_hz": 2.7397260273972597
+        },
+        {
+          "body_id": 828939,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 78.43418601238156,
+          "peak_count": 2,
+          "mean_rate": 2.0195186687825073,
+          "mean_peak_frequency_hz": 24.390243902439003
+        },
+        {
+          "body_id": 830039,
+          "type": "ltm2-femur MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 833140,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 835074,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 837745,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 838321,
+          "type": "Tr extensor MN",
+          "peak_to_peak": 198.69907034455656,
+          "peak_count": 0,
+          "mean_rate": 184.1924693308028,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 860084,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 867630,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 8.583325515487505e-08,
+          "peak_count": 0,
+          "mean_rate": 1.173292902900184e-09,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 903010,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 7.357294152518046e-07,
+          "peak_count": 0,
+          "mean_rate": 1.0057012282853129e-08,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 903298,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 196.60120470234654,
+          "peak_count": 1,
+          "mean_rate": 156.94338471237717,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 909521,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 187.89114696886458,
+          "peak_count": 0,
+          "mean_rate": 185.78780439130296,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 909618,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 909713,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 909831,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 148.71042695504798,
+          "peak_count": 1,
+          "mean_rate": 95.3735611674729,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 910334,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 911134,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 911453,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 914655,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 5.2513768742638135e-06,
+          "peak_count": 0,
+          "mean_rate": 7.178340383235411e-08,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 919509,
+          "type": "Sternal anterior rotator MN",
+          "peak_to_peak": 199.98508207826575,
+          "peak_count": 2,
+          "mean_rate": 38.54275949279569,
+          "mean_peak_frequency_hz": 13.157894736842094
+        },
+        {
+          "body_id": 924189,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 924716,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 168.16607714624394,
+          "peak_count": 0,
+          "mean_rate": 191.9382753949549,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 934091,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050005026,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050013851,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050015101,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050031705,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050091581,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 80.20203912724517,
+          "peak_count": 4,
+          "mean_rate": 111.80271680984677,
+          "mean_peak_frequency_hz": 7.462686567164178
+        },
+        {
+          "body_id": 1050111955,
+          "type": "Ta levator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050115387,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050126678,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050189039,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 63.70301946916583,
+          "peak_count": 4,
+          "mean_rate": 61.84060147251206,
+          "mean_peak_frequency_hz": 5.9171597633136095
+        },
+        {
+          "body_id": 1050248133,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050251718,
+          "type": "ltm2-femur MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050268065,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050306082,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050335829,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 162.47347975124472,
+          "peak_count": 1,
+          "mean_rate": 104.94298148553001,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050340850,
+          "type": "",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050349786,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 9.234508590729946e-08,
+          "peak_count": 0,
+          "mean_rate": 1.2623060108490878e-09,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050403926,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050615112,
+          "type": "ltm2-femur MN",
+          "peak_to_peak": 157.39230968963415,
+          "peak_count": 2,
+          "mean_rate": 109.88912486569123,
+          "mean_peak_frequency_hz": 3.731343283582089
+        },
+        {
+          "body_id": 1050660827,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1051062549,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 32.88724668701138,
+          "peak_count": 1,
+          "mean_rate": 0.9347321691696439,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1051670893,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1057471940,
+          "type": "ltm1-tibia MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        }
+      ],
+      "motors_with_at_least_3_peaks": 8
+    },
+    {
+      "stimulated_body_id": 10056,
+      "function_evaluations": 226280,
+      "min_rate": -3.2566969412560685e-09,
+      "max_rate": 199.99999999993642,
+      "motor_metrics": [
+        {
+          "body_id": 800061,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 199.60356685620093,
+          "peak_count": 1,
+          "mean_rate": 12.789782442586267,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 800636,
+          "type": "Ti extensor MN",
+          "peak_to_peak": 162.9663916821198,
+          "peak_count": 1,
+          "mean_rate": 5.609577016602009,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801079,
+          "type": "Sternotrochanter MN",
+          "peak_to_peak": 198.73311527906506,
+          "peak_count": 0,
+          "mean_rate": 186.43449778554952,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801173,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 199.8605540786061,
+          "peak_count": 1,
+          "mean_rate": 15.417534912337144,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801469,
+          "type": "Sternal anterior rotator MN",
+          "peak_to_peak": 101.01139108300784,
+          "peak_count": 0,
+          "mean_rate": 1.3807695869751369,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801685,
+          "type": "Sternotrochanter MN",
+          "peak_to_peak": 0.001770039069916766,
+          "peak_count": 0,
+          "mean_rate": 2.4195450525875966e-05,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801824,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 117.36435576841318,
+          "peak_count": 0,
+          "mean_rate": 1.6043055273517108,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801915,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 198.9993308317547,
+          "peak_count": 0,
+          "mean_rate": 187.15771685890655,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 801918,
+          "type": "Sternal anterior rotator MN",
+          "peak_to_peak": 17.2556404190004,
+          "peak_count": 0,
+          "mean_rate": 0.23587501606383335,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 802072,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 148.1012581156045,
+          "peak_count": 0,
+          "mean_rate": 2.3510121051266504,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 802361,
+          "type": "Sternotrochanter MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 802509,
+          "type": "Pleural remotor/abductor MN",
+          "peak_to_peak": 198.37850167008344,
+          "peak_count": 0,
+          "mean_rate": 188.75806153874092,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 802552,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803237,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803314,
+          "type": "Pleural remotor/abductor MN",
+          "peak_to_peak": 199.88449789811744,
+          "peak_count": 0,
+          "mean_rate": 196.81216617737908,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803412,
+          "type": "Tr extensor MN",
+          "peak_to_peak": 0.9098488678434754,
+          "peak_count": 0,
+          "mean_rate": 0.012437128446529883,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803698,
+          "type": "Sternotrochanter MN",
+          "peak_to_peak": 172.941635197489,
+          "peak_count": 7,
+          "mean_rate": 119.47102312472387,
+          "mean_peak_frequency_hz": 5.004170141784821
+        },
+        {
+          "body_id": 803803,
+          "type": "Pleural remotor/abductor MN",
+          "peak_to_peak": 2.0115422201490807,
+          "peak_count": 0,
+          "mean_rate": 0.027496664393185693,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 803830,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 12.266019263423408,
+          "peak_count": 1,
+          "mean_rate": 0.26594306328206957,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 804257,
+          "type": "Ti extensor MN",
+          "peak_to_peak": 188.30353186312502,
+          "peak_count": 6,
+          "mean_rate": 172.12779065197023,
+          "mean_peak_frequency_hz": 4.821600771456124
+        },
+        {
+          "body_id": 804465,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 804851,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 3.8301661490097496,
+          "peak_count": 0,
+          "mean_rate": 0.05235624294361378,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 804866,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 168.04730178603623,
+          "peak_count": 6,
+          "mean_rate": 100.75880133286697,
+          "mean_peak_frequency_hz": 4.359197907585004
+        },
+        {
+          "body_id": 804941,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 41.25708166238538,
+          "peak_count": 0,
+          "mean_rate": 0.5639613809491854,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805309,
+          "type": "ltm2-femur MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805313,
+          "type": "Pleural remotor/abductor MN",
+          "peak_to_peak": 199.91657754646502,
+          "peak_count": 6,
+          "mean_rate": 194.94858452797277,
+          "mean_peak_frequency_hz": 4.545454545454545
+        },
+        {
+          "body_id": 805410,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 199.83526430031085,
+          "peak_count": 6,
+          "mean_rate": 169.30123105719107,
+          "mean_peak_frequency_hz": 4.23728813559322
+        },
+        {
+          "body_id": 805598,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 23.314228820652392,
+          "peak_count": 0,
+          "mean_rate": 0.31869255293080806,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805741,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 805745,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 3.5569312233762327,
+          "peak_count": 0,
+          "mean_rate": 0.04862127333900612,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 806599,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 195.77333213313952,
+          "peak_count": 0,
+          "mean_rate": 188.62819557076514,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 806898,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 41.02570037367842,
+          "peak_count": 1,
+          "mean_rate": 0.8138350174111614,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 806923,
+          "type": "Sternal anterior rotator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 807165,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0927149196615146,
+          "peak_count": 0,
+          "mean_rate": 0.001267361432754268,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 807281,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 3.721528919454557e-12,
+          "peak_count": 0,
+          "mean_rate": 5.087123238218329e-14,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 807873,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 807906,
+          "type": "Tr extensor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 808011,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 196.56904091860582,
+          "peak_count": 7,
+          "mean_rate": 86.7178563432307,
+          "mean_peak_frequency_hz": 4.979253112033195
+        },
+        {
+          "body_id": 808640,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 194.2565230960254,
+          "peak_count": 5,
+          "mean_rate": 176.21562743136892,
+          "mean_peak_frequency_hz": 4.618937644341801
+        },
+        {
+          "body_id": 809912,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 91.47285123361792,
+          "peak_count": 6,
+          "mean_rate": 74.4172059776647,
+          "mean_peak_frequency_hz": 4.721435316336165
+        },
+        {
+          "body_id": 810098,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 810535,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 13.50173486287653,
+          "peak_count": 0,
+          "mean_rate": 0.1845612130491479,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 810541,
+          "type": "Ta levator MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 810639,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 187.03586118632506,
+          "peak_count": 6,
+          "mean_rate": 172.00292552367844,
+          "mean_peak_frequency_hz": 4.329004329004329
+        },
+        {
+          "body_id": 811652,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 152.12449880283668,
+          "peak_count": 1,
+          "mean_rate": 4.401378945792278,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 812111,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 813480,
+          "type": "Sternal adductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 813566,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 23.203830701270057,
+          "peak_count": 1,
+          "mean_rate": 0.4776365154789468,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 814163,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 3.2574710827596784,
+          "peak_count": 1,
+          "mean_rate": 0.05774204810230346,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 814489,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 69.30527752954612,
+          "peak_count": 1,
+          "mean_rate": 1.6967769626801956,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 815246,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 815344,
+          "type": "Ti extensor MN",
+          "peak_to_peak": 127.63458418630987,
+          "peak_count": 1,
+          "mean_rate": 3.1349553512803983,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 815678,
+          "type": "Ti extensor MN",
+          "peak_to_peak": 196.34354609882186,
+          "peak_count": 5,
+          "mean_rate": 173.87839626931986,
+          "mean_peak_frequency_hz": 4.629629629629629
+        },
+        {
+          "body_id": 815854,
+          "type": "Sternal adductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 816215,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 8.89538064993681e-06,
+          "peak_count": 0,
+          "mean_rate": 1.2159491057703113e-07,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 816404,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 816648,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817210,
+          "type": "Ta levator MN",
+          "peak_to_peak": 0.4611710035842365,
+          "peak_count": 0,
+          "mean_rate": 0.006303951359511899,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817283,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 27.23348605582979,
+          "peak_count": 6,
+          "mean_rate": 17.79533305823528,
+          "mean_peak_frequency_hz": 4.4326241134751765
+        },
+        {
+          "body_id": 817347,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 194.1999505426536,
+          "peak_count": 6,
+          "mean_rate": 161.44192581557465,
+          "mean_peak_frequency_hz": 4.520795660036166
+        },
+        {
+          "body_id": 817509,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 9.521650602861998,
+          "peak_count": 1,
+          "mean_rate": 0.22781916491606566,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817595,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.12731491479048815,
+          "peak_count": 0,
+          "mean_rate": 0.001740324139943548,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817640,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.011407160095464162,
+          "peak_count": 0,
+          "mean_rate": 0.00015592953987367576,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 817655,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818057,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818389,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 25.461828248754443,
+          "peak_count": 0,
+          "mean_rate": 0.34804904375362716,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818553,
+          "type": "ltm1-tibia MN",
+          "peak_to_peak": 1.0584191412675698e-07,
+          "peak_count": 0,
+          "mean_rate": 1.4468001528002341e-09,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818719,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 818842,
+          "type": "Tr extensor MN",
+          "peak_to_peak": 112.44837384619449,
+          "peak_count": 7,
+          "mean_rate": 82.10621462961878,
+          "mean_peak_frequency_hz": 5.029337803855825
+        },
+        {
+          "body_id": 819278,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 819384,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 819869,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 820110,
+          "type": "Ta levator MN",
+          "peak_to_peak": 2.858225795605178,
+          "peak_count": 0,
+          "mean_rate": 0.03907035839191933,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 820130,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.0036326494342483555,
+          "peak_count": 0,
+          "mean_rate": 4.965629920719243e-05,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 820668,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.1028900035479872,
+          "peak_count": 0,
+          "mean_rate": 0.0014064491754803986,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 820896,
+          "type": "Ta levator MN",
+          "peak_to_peak": 1.322641651145302,
+          "peak_count": 0,
+          "mean_rate": 0.018079776417169107,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 821291,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 4.354832217253119,
+          "peak_count": 0,
+          "mean_rate": 0.05952813655463183,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 821635,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 822047,
+          "type": "ltm1-tibia MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 822092,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 822274,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 823168,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 80.07189354795452,
+          "peak_count": 1,
+          "mean_rate": 1.274707401602371,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 823281,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 25.563754575993325,
+          "peak_count": 0,
+          "mean_rate": 0.34944232000944936,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 825516,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 46.6195145334001,
+          "peak_count": 0,
+          "mean_rate": 54.45059732993181,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 825721,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 827188,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 828939,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 121.95647911739836,
+          "peak_count": 6,
+          "mean_rate": 105.47659874679125,
+          "mean_peak_frequency_hz": 4.233700254022015
+        },
+        {
+          "body_id": 830039,
+          "type": "ltm2-femur MN",
+          "peak_to_peak": 10.403354771043423,
+          "peak_count": 0,
+          "mean_rate": 0.14351886044967174,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 833140,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 835074,
+          "type": "Fe reductor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 837745,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 838321,
+          "type": "Tr extensor MN",
+          "peak_to_peak": 148.16379304288552,
+          "peak_count": 6,
+          "mean_rate": 147.43802221936787,
+          "mean_peak_frequency_hz": 4.355400696864112
+        },
+        {
+          "body_id": 860084,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 867630,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 13.687487355736678,
+          "peak_count": 1,
+          "mean_rate": 0.416536399416736,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 903010,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.00455730584629772,
+          "peak_count": 0,
+          "mean_rate": 6.229583855488953e-05,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 903298,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 178.0874069390078,
+          "peak_count": 5,
+          "mean_rate": 162.48527403283055,
+          "mean_peak_frequency_hz": 4.509582863585118
+        },
+        {
+          "body_id": 909521,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 184.8451552512708,
+          "peak_count": 6,
+          "mean_rate": 150.38273840020778,
+          "mean_peak_frequency_hz": 4.397537379067722
+        },
+        {
+          "body_id": 909618,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 909713,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 909831,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 62.06238296011079,
+          "peak_count": 2,
+          "mean_rate": 54.8956223622515,
+          "mean_peak_frequency_hz": 1.1428571428571428
+        },
+        {
+          "body_id": 910334,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 911134,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 911453,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 914655,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 0.152807917253012,
+          "peak_count": 0,
+          "mean_rate": 0.0020887993178767875,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 919509,
+          "type": "Sternal anterior rotator MN",
+          "peak_to_peak": 139.22168089026067,
+          "peak_count": 1,
+          "mean_rate": 3.504449174126894,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 924189,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 924716,
+          "type": "Tergotr. MN",
+          "peak_to_peak": 193.51334311491573,
+          "peak_count": 5,
+          "mean_rate": 163.63133240976208,
+          "mean_peak_frequency_hz": 3.683241252302026
+        },
+        {
+          "body_id": 934091,
+          "type": "Tergopleural/Pleural promotor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050005026,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050013851,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050015101,
+          "type": "ltm MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050031705,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050091581,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050111955,
+          "type": "Ta levator MN",
+          "peak_to_peak": 83.11111029266313,
+          "peak_count": 0,
+          "mean_rate": 1.136082695243171,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050115387,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050126678,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050189039,
+          "type": "Ti flexor MN",
+          "peak_to_peak": 26.729027163003153,
+          "peak_count": 0,
+          "mean_rate": 0.5607485897400065,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050248133,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050251718,
+          "type": "ltm2-femur MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050268065,
+          "type": "Acc. ti flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050306082,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050335829,
+          "type": "Sternal posterior rotator MN",
+          "peak_to_peak": 0.20067965836333954,
+          "peak_count": 0,
+          "mean_rate": 0.0027431794179030213,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050340850,
+          "type": "",
+          "peak_to_peak": 2.037356585814292,
+          "peak_count": 0,
+          "mean_rate": 10.757526332661698,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050349786,
+          "type": "Acc. tr flexor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050403926,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050615112,
+          "type": "ltm2-femur MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1050660827,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1051062549,
+          "type": "Ta depressor MN",
+          "peak_to_peak": 0.0,
+          "peak_count": 0,
+          "mean_rate": 0.0,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1051670893,
+          "type": "Tr flexor MN",
+          "peak_to_peak": 1.3889177464651447e-08,
+          "peak_count": 0,
+          "mean_rate": 1.898573381246825e-10,
+          "mean_peak_frequency_hz": null
+        },
+        {
+          "body_id": 1057471940,
+          "type": "ltm1-tibia MN",
+          "peak_to_peak": 25.327336391645336,
+          "peak_count": 6,
+          "mean_rate": 9.58064390761091,
+          "mean_peak_frequency_hz": 4.468275245755137
+        }
+      ],
+      "motors_with_at_least_3_peaks": 19
+    }
+  ],
+  "trace_sha256": "46a74da945330121dc5637dede4e0428290bc931a0f844c73edc9e55908ee4f1",
+  "caveats": [
+    "Published mCNS front-leg subnetwork, not our full 165122-cell artifact.",
+    "Mean parameters, no cell-size scaling or random draws; not the published ensemble.",
+    "Constant DN input over recorded interval; zero initial state at pulse onset .02s.",
+    "Peak criterion is descriptive: >=3 late peaks with 1 model-rate-unit prominence.",
+    "No external oscillator, body, muscle commands, or rich-behavior claim."
+  ]
+}
