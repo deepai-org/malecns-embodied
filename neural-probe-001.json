@@ -1,0 +1,19 @@
+{
+  "kind": "neural-only diagnostic; NOT embodied behavior",
+  "model_manifest_sha256": "61ba02739072cbe53382b85c76eca617960627a162d241fffa607d8e4a644742",
+  "neurons": 165122,
+  "edges": 25563197,
+  "steps": 50,
+  "batch": 2,
+  "simulated_seconds_per_state": 0.5,
+  "wall_seconds": 1.6865795208141208,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.8.0+cu128",
+  "peak_allocated_bytes": 1666230784,
+  "external_context": "zero",
+  "all_finite": true,
+  "motor_min": -2.9178474960644962e-06,
+  "motor_max": 0.02000001259148121,
+  "light_dark_motor_max_difference": 2.8760082386725117e-06,
+  "light_dark_rate_max_difference": 0.186001718044281
+}

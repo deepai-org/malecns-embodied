@@ -1,0 +1,181 @@
+# MaleCNS embodiment experiment
+
+Objective: physical environment → sensory organs → MaleCNS dynamics → motor
+neurons → muscles/body → changed sensory input, with rich emergent fly behavior.
+No scripted behavior selector or separate action policy qualifies as success.
+
+## Source audit (2026-09-12)
+
+- Chreatures c30fbccb541ae5bc2cbdb88f7ef38848c611a8e6: full curated
+  165,122-neuron graph; Torch CNS V5 reference provides a CUDA port candidate.
+  Its 92 outputs depend on 815 motor neurons. However, the decoder is a learned
+  masked joint-servo interface, NOT a measured muscle recruitment map.
+  Its separate private resident supplies descending-neuron context; disable this
+  by supplying zero context in the strict experiment. Initialized published
+  weights do not establish useful locomotion. Even trained upstream assessments
+  only show short upright survival, not rich behavior.
+- FlyBrain cdd3a127766ec184e19c4988fe12b6fd2cbc64fd: stronger demonstrations,
+  but direct odor guidance and engineered gait/flight stabilization are not
+  evidence of behavior emerging solely through MaleCNS motor neurons.
+
+## Machine
+
+Existing 4×3090 Vast host is reachable; old experiment is removed. Official
+MaleCNS annotation, transmitter and edge files exist under /opt/malecns/data/raw.
+New isolated Python 3.12 environment has NumPy, SciPy, Arrow and MuJoCo.
+CUDA Torch 2.8.0+cu128 is installed; pinned source and release are transferred.
+No running embodied fly and no demonstrated behavior yet.
+
+## Verified neural execution
+
+`probe_cns.py` authenticates every released tensor against its transport and raw
+hash, validates the upstream array contract, and runs the upstream Torch V5
+recurrence on GPU0. Published archive SHA256:
+505456e9b214bb23865c8193c5af441d0409a36ca3634d0b5c0155ac958977e4.
+
+Remote receipt: /opt/malecns/neural-probe-001.json. Two neural states (dark/light),
+zero external context, 50 steps = 0.5 simulated seconds each, 1.687 wall seconds,
+1,666,230,784 peak allocated CUDA bytes, all fields finite. Maximum light/dark
+rate difference 0.1860; motor difference only 2.876e-6. This is a synthetic neural
+diagnostic, NOT a physical closed loop or behavioral competence demonstration.
+The initialized motor readout is nearly insensitive in this test.
+
+Next integration location identified:
+`research/fly_learning/native_host.py` (NativeActualFlyWorld, TorchFullCNS),
+`native/fly-world` (Rust native MuJoCo host), and
+`research/fly_learning/native_assessment.py` (closed-loop assessment).
+Audit these and use their physical bridge with no private resident controller.
+Native host declares MuJoCo 3.12.0; environment currently has 3.13.0, so check
+and pin exact build compatibility before compiling rather than changing receipts.
+
+## Next evidence required
+
+1. Authenticate published CNS tensors and reproduce full-graph CUDA recurrence.
+2. Join actual body sensors to afferents and motor activity to physical actuation,
+   with zero external context and no behavior-controller bypasses.
+3. Record physical trajectories, senses and neural/motor state; compare intact,
+   sensory-disconnected and motor-disconnected runs.
+4. Establish multiple meaningful behaviors and transitions across varied starts.
+5. Audit and improve muscle/sensory/dynamics assumptions against biological
+   evidence. A learned servo adapter is an explicit approximation, not ab initio
+   muscle physiology. Keep failed trials and do not relabel upright-only success.
+
+Raw wiring does not supply all physiological parameters or a measured complete
+neuromuscular interface. This remains an integration/research task, not a claim
+that installing an existing demo fulfills the objective.
+
+## Physical loop and ablations (2026-09-12)
+
+Native Rust host compiled with locked Cargo dependencies and MuJoCo 3.12.0.
+`run_embodied.py` joins authenticated V5 tensors to protocol v2 world samples,
+checking sensory, actuator and body-schema identities. Only optic/BODY807 enter
+the CNS; external context stays zero, and only motor-neuron-derived MOTOR92 is
+sent to the physics host. Records retain senses, motor neuron rates, requested
+and delivered motor commands, joint positions, root positions and uprightness.
+No teacher/private resident controller is instantiated.
+
+Completed 200-step (2-second), four-resident trials:
+- /opt/malecns/trials/intact-002 (GPU0, ~50.7 wall seconds)
+- /opt/malecns/trials/sensory-disconnected-001 (GPU1)
+- /opt/malecns/trials/motor-disconnected-001 (GPU2)
+All are terminal, no simulation is currently left running. The failed
+intact-001 remains: a recording index dtype error stopped it before any advance;
+the corrected runner casts motor row indices to long.
+
+`compare_trials.py` produced /opt/malecns/trials/comparison-001.json. Bodies
+remained upright in ALL conditions. Initial ~1 mm displacement was predominantly
+vertical settling, not walking. After the first second, intact horizontal path
+was only ~0.0024–0.0025 mm per resident. Sensory disconnection changed root
+trajectories by at most 0.00379 mm; motor command clamping by 0.00188 mm.
+Maximum intact joint command magnitude was only 6.97e-5. These are evidence
+AGAINST claiming useful behavior from this initialized model.
+
+Important: `motor-disconnected` means neural commands clamped to zero, NOT
+muscle paralysis. Upstream position servos still hold neutral joint targets.
+This intrinsic servo feedback is a substantial nonbiological shortcut, even
+without an explicit high-level controller. Do not claim uprightness is neural.
+Four residents in one shared world are not four independent trials.
+
+## Next mechanistic component
+
+FlyMimic source audited at /home/ubuntu/malecns-flymimic-audit,
+commit 9ea1131626cd76f7203b74076ef8f0e9cab30bef (no AGENTS.md).
+https://github.com/gizemozd/FlyMimic
+https://arxiv.org/abs/2509.06426
+Contains anatomy-derived Hill-type leg muscle models converted to MuJoCo.
+Inspect/reuse physical assets, NOT its PPO imitation policy. The paper's model
+omits some muscles and its demonstrations are not free-moving whole-fly CNS
+behavior. Original parameter work: https://github.com/gizemozd/neuromechfly-muscles
+Next: inspect muscle assets and map measured MaleCNS/MANC motor identities to
+muscle targets, preserving unresolved mappings rather than inventing them.
+
+Relevant caution: https://faculty.washington.edu/tuthill/docs/TheSphinx_2026.pdf
+shows realistic fly walking can be learned through an implausible worm-to-fly
+decoder. Behavioral appearance alone cannot validate our neural/body interface.
+
+## Muscle component execution and mapping audit
+
+`audit_motor_annotations.py` authenticated the raw annotations and exported
+all 815 motor neurons with exact body IDs, descriptive labels and full-CNS row
+indices. Output: /opt/malecns/motor-annotations.json (also copied locally).
+The row convention is all 165122 Traced neurons sorted by bodyId.
+
+FlyMimic physical assets + license deployed at /opt/malecns/flymimic.
+`probe_muscles.py` ran all 15 left-foreleg Hill-type actuators, separately,
+comparing 0.05 activation against zero command from the identical keyframe
+for 100 physical substeps (0.01 seconds). All 15 yielded finite state and
+nonzero joint responses. Six anatomical-name candidate correspondences are
+listed in muscle-probe-002.json; remaining nine are unresolved rather than
+arbitrarily distributing neuron activity across muscle subdivisions.
+Candidate correspondences remain cross-specimen inferences, not measured
+neuromuscular recruitment weights. Do not claim these are validated junctions.
+
+The model has NO free body joint, only left-foreleg muscle actuation, and locks
+the opposite foreleg. Current FlyGym's muscle wrapper explicitly has the same
+limitation: https://neuromechfly.org/api_reference/flygym/compose/fly/musculoskeletal/
+Therefore it cannot replace the whole-body model without further physical
+integration. This is a component test, not a smaller substitute goal.
+
+First muscle-probe-001 computed/wrote its result but its console summary failed
+on numpy-int JSON serialization. Fixed casting; muscle-probe-002 exited cleanly.
+Original muscle-development repository linked from FlyMimic:
+https://github.com/gizemozd/neuromechfly-muscles returned Repository not found
+on unauthenticated clone. No credentials requested or transferred.
+
+The MANC primary paper supports motor target assignments through inter-specimen
+matching and states important exceptions to serial leg homology:
+https://elifesciences.org/articles/96084 (Leg MNs, Figure 7).
+Next work must resolve whole-body muscle geometry/actuation and remaining
+sensory/motor physiology, rather than training a behavior decoder. Existing
+whole-body baseline and all failed/negative trials remain intact.
+
+## Named efferent interface implemented
+
+`neuromuscular.py` implements NamedMuscleDrive, a fixed anatomical support
+matrix from the six name-matched motor-neuron cohorts to their muscle targets.
+It receives ONLY normalized motor rates; no target joint angles, sensory/world
+state, time, reward, or behavior labels. Equal averaging within a muscle cohort
+is an explicit UNCALIBRATED recruitment hypothesis. Unresolved muscles have zero
+neural drive. Four unit tests passed on Vast (isolation, zero input, nonmotor
+rejection, invalid-rate rejection).
+
+`replay_motor_to_muscle.py` authenticated the CNS model and the earlier intact
+trace, then drove those muscles using recorded motor rates for one resident.
+Paired zero-neural-drive replay started from the same physical keyframe.
+/opt/malecns/trials/muscle-replay-001/result.json: completed 200 steps/2 seconds,
+finite state, maximum joint difference 0.5306746338 radians. This establishes a
+candidate efferent component ONLY. It is open-loop replay: the muscle movement
+does not feed the source neural state. No behavioral competence is demonstrated.
+
+Checked original OpenSim `best_combined_full.osim`: its 15 muscles are likewise
+left-foreleg only. The authors' project site's ground-walking example explicitly
+uses direct torque control for middle/hind legs:
+https://gizemozd.github.io/fly_mimic/ (Ground Locomotion).
+No complete six-leg muscle asset was found in this release.
+
+Also inspected original NeuroMechFly spring-damper muscle implementation:
+https://github.com/NeLy-EPFL/NeuroMechFly/blob/main/NeuroMechFly/control/spring_damper_muscles.py
+Its active inputs use sin(oscillator phase); using that controller unchanged
+would prescribe locomotor rhythm outside MaleCNS. The passive/contractile law
+could be reused as an explicitly approximate actuator, but not its oscillator
+policy. Do not equate generic joint antagonist pairs with identified fly muscles.

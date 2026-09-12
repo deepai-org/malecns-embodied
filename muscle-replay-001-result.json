@@ -1,0 +1,12 @@
+{
+  "kind": "open-loop replay of one resident motor activity into six named muscle candidates",
+  "source_trace_sha256": "912b83fe988e334d9899c62e3a340a48290a5091e9602dd6a050ce0b7ca986a3",
+  "mapping_sha256": "65544f43d7681f287701cb48c3e4a3aa34791ceda75ea6a4cdd7acb1ee22d4ad",
+  "completed": true,
+  "steps": 200,
+  "simulated_seconds": 2.0,
+  "maximum_joint_difference_radians": 0.5306746338381046,
+  "assumption": "equal mean normalized motor rate drives muscle activation; uncalibrated",
+  "unresolved_muscles": "zero neural drive; upstream minimum activation and passive mechanics remain",
+  "behavior_claim": "none; no feedback from this muscle component to the source neural trial"
+}

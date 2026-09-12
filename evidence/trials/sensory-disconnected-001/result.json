@@ -1,0 +1,26 @@
+{
+  "condition": "sensory-disconnected",
+  "model_manifest_sha256": "61ba02739072cbe53382b85c76eca617960627a162d241fffa607d8e4a644742",
+  "binary_sha256": "41312b441a1627c1fbee1db7792d684f6a1cf24b7ad583f73e023fb90e616efa",
+  "scene_sha256": "accd5e86a918987ad7b39be0cba070e5ef5fa214101a0927d0f424a90edb60ef",
+  "steps": 200,
+  "seed": 23,
+  "external_context": "zero",
+  "caveat": "Effective joint servos, not identified muscles; initialized weights",
+  "completed": true,
+  "wall_seconds": 40.541756614111364,
+  "simulated_seconds": 2.0000000000000013,
+  "final_thorax_up": [
+    0.9972985765614307,
+    0.9980442574932162,
+    0.9980442663565482,
+    0.9973045782933104
+  ],
+  "displacement_mm": [
+    0.9773572462855311,
+    1.0213240686376324,
+    1.0213247856960064,
+    0.977381195643199
+  ],
+  "behavior_claim": "none; execution and trajectories only"
+}

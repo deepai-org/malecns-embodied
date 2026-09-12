@@ -1,0 +1,434 @@
+{
+  "kind": "open-loop muscle component assay; NOT MaleCNS behavior",
+  "xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "neuron_source_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "mujoco": "3.12.0",
+  "actuators": 15,
+  "joints": 14,
+  "constraints": 7,
+  "free_joints": 0,
+  "muscles": [
+    {
+      "muscle": "LFC_tergopleural_promotor_a",
+      "muscle_id": 0,
+      "candidate_motor_rows": [],
+      "candidate_body_ids": [],
+      "annotation_label": null,
+      "mapping_status": "unresolved",
+      "pulse_minus_baseline_joint_radians": [
+        -0.0014695625764125225,
+        -0.0008954600386778533,
+        0.0010129029786169474,
+        5.007912899923639e-07,
+        -5.862287784097475e-07,
+        -6.004913595869521e-06,
+        2.2456109036728122e-06,
+        -4.550684509123729e-19,
+        -3.5998900258307764e-19,
+        -1.73429995950318e-19,
+        1.9190590211230242e-20,
+        -7.927698990708217e-21,
+        -9.695170702232364e-22,
+        4.236819097496608e-21
+      ],
+      "peak_force_model_units": 1.4414954226173642
+    },
+    {
+      "muscle": "LFC_tergopleural_promotor_b",
+      "muscle_id": 1,
+      "candidate_motor_rows": [],
+      "candidate_body_ids": [],
+      "annotation_label": null,
+      "mapping_status": "unresolved",
+      "pulse_minus_baseline_joint_radians": [
+        -0.0022552609098651644,
+        -0.004899652766961637,
+        0.0014953944398103935,
+        -4.706630103989973e-06,
+        1.8777119275892318e-05,
+        -2.0743324114197437e-05,
+        2.063010289510281e-05,
+        -5.012317465377322e-19,
+        -4.919143841179349e-19,
+        -1.2176098616780567e-20,
+        4.9922004328800326e-20,
+        -1.2076836943274204e-20,
+        4.458697372116886e-23,
+        1.3483043984614351e-21
+      ],
+      "peak_force_model_units": 6.771165874244784
+    },
+    {
+      "muscle": "LFC_pleural_remotor_and_abductor",
+      "muscle_id": 2,
+      "candidate_motor_rows": [
+        144657,
+        145652
+      ],
+      "candidate_body_ids": [
+        802509,
+        803803
+      ],
+      "annotation_label": "Pleural remotor/abductor MN",
+      "mapping_status": "cross-specimen anatomical-name candidate; not calibrated",
+      "pulse_minus_baseline_joint_radians": [
+        0.005166390015223302,
+        0.0033428990556818583,
+        -0.0009548933955569328,
+        5.427459151552405e-07,
+        1.354064498526597e-05,
+        3.6653976417860834e-05,
+        -6.47727577862689e-06,
+        -1.7237120476625012e-19,
+        -1.0185571190732962e-19,
+        7.983285527871781e-20,
+        -4.812205931588494e-20,
+        -3.2359305563074443e-21,
+        6.372295708727353e-22,
+        -2.3541560233259168e-21
+      ],
+      "peak_force_model_units": 2.7784376392343124
+    },
+    {
+      "muscle": "LFC_pleural_promotor",
+      "muscle_id": 3,
+      "candidate_motor_rows": [],
+      "candidate_body_ids": [],
+      "annotation_label": null,
+      "mapping_status": "unresolved",
+      "pulse_minus_baseline_joint_radians": [
+        -0.0019164985149440483,
+        -0.0016066874937086806,
+        -0.0011909652300812756,
+        -2.9914280317289155e-06,
+        -9.973474456526077e-06,
+        -2.3908907072295316e-05,
+        2.8763593729053127e-06,
+        -7.43059652978835e-19,
+        -4.806911975668154e-19,
+        1.7724164421296235e-19,
+        4.4998625322884706e-20,
+        -2.9229254125173786e-20,
+        1.6602322687506212e-21,
+        1.464109684218859e-21
+      ],
+      "peak_force_model_units": 3.9868653262997746
+    },
+    {
+      "muscle": "LFC_sternal_anterior_rotator",
+      "muscle_id": 4,
+      "candidate_motor_rows": [
+        148218,
+        162458
+      ],
+      "candidate_body_ids": [
+        806923,
+        919509
+      ],
+      "annotation_label": "Sternal anterior rotator MN",
+      "mapping_status": "cross-specimen anatomical-name candidate; not calibrated",
+      "pulse_minus_baseline_joint_radians": [
+        -0.0005192452653462326,
+        -3.6411986058304535e-05,
+        -1.6997838325483183e-05,
+        5.1754458441077844e-08,
+        -3.37323978394366e-06,
+        -3.4548607085738148e-06,
+        -9.030071772553327e-07,
+        -8.000226186816867e-19,
+        -6.126165791016727e-19,
+        3.6422416731934915e-20,
+        4.751325438504591e-20,
+        -2.0871421215937994e-20,
+        6.168893288570271e-22,
+        3.192917164454687e-21
+      ],
+      "peak_force_model_units": 12.245143786814472
+    },
+    {
+      "muscle": "LFC_sternal_posterior_rotator",
+      "muscle_id": 5,
+      "candidate_motor_rows": [
+        144222,
+        146498,
+        149652,
+        164685
+      ],
+      "candidate_body_ids": [
+        801915,
+        804851,
+        808640,
+        1050335829
+      ],
+      "annotation_label": "Sternal posterior rotator MN",
+      "mapping_status": "cross-specimen anatomical-name candidate; not calibrated",
+      "pulse_minus_baseline_joint_radians": [
+        -0.004651910032790488,
+        0.01726716684341506,
+        0.01597389159917284,
+        4.930408932163344e-05,
+        -5.2906522426621194e-05,
+        0.00012101497301650332,
+        -8.067114348064841e-05,
+        -5.709002064493984e-19,
+        -4.027641664194198e-19,
+        3.6581235409545096e-19,
+        4.836028733230021e-20,
+        -2.954689148039415e-20,
+        2.779385019314993e-21,
+        -3.6561383074843823e-22
+      ],
+      "peak_force_model_units": 15.581770841601008
+    },
+    {
+      "muscle": "LFC_sternal_adductor",
+      "muscle_id": 6,
+      "candidate_motor_rows": [
+        153568
+      ],
+      "candidate_body_ids": [
+        813480
+      ],
+      "annotation_label": "Sternal adductor MN",
+      "mapping_status": "cross-specimen anatomical-name candidate; not calibrated",
+      "pulse_minus_baseline_joint_radians": [
+        -0.002097380763510015,
+        0.0011884932226503553,
+        -0.0011241736897686372,
+        1.4752776815174506e-06,
+        -2.5809020879119515e-05,
+        -1.560241275508356e-05,
+        -1.1138317977499312e-05,
+        -8.125163546536876e-19,
+        -3.2864878353466853e-19,
+        2.4511015911171316e-19,
+        7.641825371009891e-20,
+        -2.7363134663254155e-20,
+        2.3959318754341124e-21,
+        3.523789409475898e-22
+      ],
+      "peak_force_model_units": 1.2359740858628987
+    },
+    {
+      "muscle": "LFF_trochanter_flexor_b",
+      "muscle_id": 7,
+      "candidate_motor_rows": [],
+      "candidate_body_ids": [],
+      "annotation_label": null,
+      "mapping_status": "unresolved",
+      "pulse_minus_baseline_joint_radians": [
+        -3.057994064550873e-05,
+        5.193401521069729e-05,
+        -1.7242398829719896e-05,
+        -0.0012134724955204512,
+        -0.007858915584474602,
+        0.004246280643509959,
+        2.8345219257985832e-05,
+        -8.034107504707039e-19,
+        -5.922877883675695e-19,
+        1.2567851354885681e-19,
+        6.323630346845386e-20,
+        -2.4835270711292103e-20,
+        1.2616927722134511e-21,
+        2.0844951436336297e-22
+      ],
+      "peak_force_model_units": 6.784532463154154
+    },
+    {
+      "muscle": "LFF_sterno-tergo-trochanter_extensor_a",
+      "muscle_id": 8,
+      "candidate_motor_rows": [],
+      "candidate_body_ids": [],
+      "annotation_label": null,
+      "mapping_status": "unresolved",
+      "pulse_minus_baseline_joint_radians": [
+        0.00010727739789966051,
+        -0.00011408108363852865,
+        6.530704013879562e-05,
+        -0.002359380440411285,
+        0.01883338595952333,
+        -0.003989809276509049,
+        -6.725002985374928e-05,
+        -2.0837010502455788e-19,
+        1.1074955785349977e-19,
+        6.246867986000465e-20,
+        -6.220398206398768e-20,
+        6.485096002415737e-22,
+        8.323601849042875e-22,
+        -4.006862887206866e-21
+      ],
+      "peak_force_model_units": 15.91887370229745
+    },
+    {
+      "muscle": "LFF_sterno-tergo-trochanter_extensor_b",
+      "muscle_id": 9,
+      "candidate_motor_rows": [],
+      "candidate_body_ids": [],
+      "annotation_label": null,
+      "mapping_status": "unresolved",
+      "pulse_minus_baseline_joint_radians": [
+        0.00015147482084967856,
+        -7.94438384928986e-05,
+        9.227064096689608e-05,
+        -0.015267458375064769,
+        0.015363066022788363,
+        0.007332787564062915,
+        -5.230754758933642e-05,
+        -1.2091395322055137e-18,
+        -6.818615225397118e-19,
+        2.5305109299222223e-20,
+        1.266314256145179e-19,
+        -3.566141056838613e-20,
+        1.0198652276638663e-21,
+        4.370822356730198e-21
+      ],
+      "peak_force_model_units": 12.411234416259848
+    },
+    {
+      "muscle": "LFF_accesory_trochanter_flexor",
+      "muscle_id": 10,
+      "candidate_motor_rows": [
+        157849,
+        161399,
+        161783
+      ],
+      "candidate_body_ids": [
+        821291,
+        909618,
+        911134
+      ],
+      "annotation_label": "Acc. tr flexor MN",
+      "mapping_status": "cross-specimen anatomical-name candidate; not calibrated",
+      "pulse_minus_baseline_joint_radians": [
+        -4.950148946886168e-06,
+        1.524504552657957e-05,
+        -3.8108367314548808e-06,
+        -0.0018964685755487043,
+        -0.002376497283755441,
+        0.0018777091062472384,
+        8.658960056528997e-06,
+        -7.964227286558559e-19,
+        -6.602621823847271e-19,
+        2.880970811848689e-19,
+        5.78364684297077e-20,
+        -3.3067372167419834e-20,
+        2.264122583528348e-21,
+        1.5799149699762829e-21
+      ],
+      "peak_force_model_units": 2.360887119050228
+    },
+    {
+      "muscle": "LFF_trochanter_extensor",
+      "muscle_id": 11,
+      "candidate_motor_rows": [
+        145351,
+        149040
+      ],
+      "candidate_body_ids": [
+        803412,
+        807906
+      ],
+      "annotation_label": "Tr extensor MN",
+      "mapping_status": "cross-specimen anatomical-name candidate; not calibrated",
+      "pulse_minus_baseline_joint_radians": [
+        -2.8691584024881367e-06,
+        -1.4577609229626809e-05,
+        -1.6496574793412044e-06,
+        0.002693286874774936,
+        0.0019549074197402483,
+        -0.00276180589037589,
+        -7.398288100812778e-06,
+        -1.0363448109656365e-18,
+        -7.46024268294225e-19,
+        6.6280328122649e-19,
+        6.580387208981846e-20,
+        -4.0359796447687326e-20,
+        5.0800392591149215e-21,
+        -2.954689148039415e-21
+      ],
+      "peak_force_model_units": 4.183486933082399
+    },
+    {
+      "muscle": "LFF_trochanter_flexor_a",
+      "muscle_id": 12,
+      "candidate_motor_rows": [],
+      "candidate_body_ids": [],
+      "annotation_label": null,
+      "mapping_status": "unresolved",
+      "pulse_minus_baseline_joint_radians": [
+        -3.323780709389712e-05,
+        4.4655613925692617e-05,
+        -2.0540070346186656e-05,
+        -0.000860456742881599,
+        -0.007194723832504302,
+        0.00282804815616286,
+        2.5655067084073835e-05,
+        -4.758207581201032e-19,
+        -3.5384801371548397e-19,
+        -1.0376153603865179e-20,
+        3.218725199566341e-20,
+        -1.8628107394694183e-20,
+        1.5452767818256248e-22,
+        2.4583807805075982e-21
+      ],
+      "peak_force_model_units": 4.687807887994972
+    },
+    {
+      "muscle": "LFTibia_flex_93434",
+      "muscle_id": 13,
+      "candidate_motor_rows": [],
+      "candidate_body_ids": [],
+      "annotation_label": null,
+      "mapping_status": "unresolved",
+      "pulse_minus_baseline_joint_radians": [
+        9.195200008277338e-06,
+        -2.1689492491205886e-05,
+        4.385501573389572e-06,
+        4.7200285629989125e-07,
+        -1.6730256388708398e-05,
+        5.522676512770275e-07,
+        0.005014090739628996,
+        -7.951521792349744e-19,
+        -6.86731961986424e-19,
+        4.8916152703935845e-20,
+        4.605741650695258e-20,
+        -1.7959745459751337e-20,
+        6.504903100677261e-22,
+        2.3161057151484775e-21
+      ],
+      "peak_force_model_units": 6.8135444376792025
+    },
+    {
+      "muscle": "LFTibia_extensor_93932",
+      "muscle_id": 14,
+      "candidate_motor_rows": [],
+      "candidate_body_ids": [],
+      "annotation_label": null,
+      "mapping_status": "unresolved",
+      "pulse_minus_baseline_joint_radians": [
+        -5.219752795121435e-05,
+        0.00012261905437394027,
+        -2.5706345563814015e-05,
+        -2.9223716129234134e-06,
+        9.64806678473984e-05,
+        -2.615685564116843e-06,
+        -0.02828097247151029,
+        -8.663029468043357e-19,
+        -3.9641141931501256e-19,
+        3.2250779466707485e-19,
+        8.795907761643875e-20,
+        -2.815722805130506e-20,
+        2.9233661446875045e-21,
+        -2.961306592939839e-22
+      ],
+      "peak_force_model_units": 35.04128145528878
+    }
+  ],
+  "explicit_assumptions": [
+    "Fixed-base left-foreleg model, not a freely moving six-legged body.",
+    "Named muscles are inter-specimen correspondences; no exact recruitment weights are asserted.",
+    "Unresolved promotor subdivisions, flexor subdivisions, composite muscles and fast/slow motor units remain unassigned.",
+    "Default muscle controls clamp below 0.0001; zero command is not exact zero activation.",
+    "0.05 activation pulses for 0.01 seconds test mechanics, not endogenous behavior."
+  ]
+}
