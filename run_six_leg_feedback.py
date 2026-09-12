@@ -24,6 +24,8 @@ def main():
     for name in ('source','model','xml','body-receipt','motor','sensory','output'):
         p.add_argument('--'+name,type=Path,required=True)
     p.add_argument('--steps',type=int,default=200)
+    p.add_argument('--initial-poses',type=Path)
+    p.add_argument('--pose-index',type=int,default=1)
     a=p.parse_args();a.output.mkdir(parents=True,exist_ok=False)
     if a.steps<=0:raise ValueError('steps must be positive')
     sys.path.insert(0,str(a.source))
@@ -62,6 +64,18 @@ def main():
     conditions=[(mode,polarity) for polarity in (1,-1) for mode in ('feedback','frozen-sensory','zero-motor')]
     bodies=[mujoco.MjData(physics) for _ in conditions]
     for b in bodies:mujoco.mj_resetDataKeyframe(physics,b,0);mujoco.mj_forward(physics,b)
+    initialization=None
+    if a.initial_poses:
+        poses=json.loads(a.initial_poses.read_text())
+        assert poses['xml_sha256']==sha(a.xml)
+        if not 0<=a.pose_index<len(poses['results']):raise ValueError('invalid pose index')
+        pose=poses['results'][a.pose_index]
+        assert pose['geometric_candidate']
+        for b in bodies:
+            b.qpos[:]=pose['qpos'];b.qvel[:]=0;mujoco.mj_forward(physics,b)
+            assert max((-float(c.dist) for c in b.contact),default=0.)<1e-5
+        initialization=dict(poses_sha256=sha(a.initial_poses),pose_index=a.pose_index,
+            use='Initial qpos only; no ongoing optimizer, target pose or corrective force')
     initial=bodies[0].qpos.copy();thorax=physics.body('Thorax').id
     torch.set_num_threads(8);cns=AnatomicalCNS(arrays,device=torch.device('cuda:0')).eval()
     state=cns.initial_state(6);neural_rows=torch.as_tensor(motor_rows,device='cuda:0')
@@ -71,6 +85,7 @@ def main():
         pooling_code_sha256=sha(Path(__file__).with_name('pooled_muscle_mapping.py')),
         sensory_code_sha256=sha(Path(__file__).with_name('run_pooled_feedback.py')),
         conditions=conditions,recruitment=recruitment,senses=senses,steps=a.steps,
+        initialization=initialization,
         assumptions=body_receipt['assumptions']+[
             'Named pool sharing extended by leg and side; absent pools get zero command, partial composite pools are recorded.',
             'Only named claw position input varies; all other sensory currents remain at model neutral values.',

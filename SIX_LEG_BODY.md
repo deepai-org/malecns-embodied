@@ -1,5 +1,9 @@
 # Free six-leg muscle body: integrated, not behaving usefully
 
+Update: [full-CNS rerun from a clearance-checked stance](STANCE_FEEDBACK.md)
+removes gross initial overlaps and the drop start but still ends on the body,
+not standing. Original trials below remain preserved.
+
 A separate experimental body now has a free torso, 42 articulated leg degrees
 of freedom and 90 muscle-tendon actuators. Full MaleCNS dynamics drive it through
 named motor pools; physical tibia angles return through named claw afferents.

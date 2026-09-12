@@ -1,0 +1,326 @@
+{
+  "checked": true,
+  "runner_sha256": "a9eeec3ffb75ac89c4feeafdae2fb850b4fea7d1e8dc333c8921ac1578ad5d29",
+  "trace_sha256": "56eb8f6209418fa49d867393cb1abca2857ba7b3bf78d9d5de7e196a2bd38eb6",
+  "xml_sha256": "51518a616e594a8a2333987326d3af592f9f0784573b7858f0d13af9d0bea1f1",
+  "samples": [
+    {
+      "tick": 0,
+      "lane": 0,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 0,
+      "lane": 1,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 0,
+      "lane": 2,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 0,
+      "lane": 3,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 0,
+      "lane": 4,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 0,
+      "lane": 5,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 25,
+      "lane": 0,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 25,
+      "lane": 1,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 25,
+      "lane": 2,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 25,
+      "lane": 3,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 25,
+      "lane": 4,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 25,
+      "lane": 5,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 100,
+      "lane": 0,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 100,
+      "lane": 1,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 100,
+      "lane": 2,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 100,
+      "lane": 3,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 100,
+      "lane": 4,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 100,
+      "lane": 5,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 175,
+      "lane": 0,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 175,
+      "lane": 1,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 175,
+      "lane": 2,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 175,
+      "lane": 3,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 175,
+      "lane": 4,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 175,
+      "lane": 5,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 199,
+      "lane": 0,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 199,
+      "lane": 1,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 199,
+      "lane": 2,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 199,
+      "lane": 3,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 199,
+      "lane": 4,
+      "maximum_state_error": 0.0
+    },
+    {
+      "tick": 199,
+      "lane": 5,
+      "maximum_state_error": 0.0
+    }
+  ],
+  "final_contacts": [
+    {
+      "lane": 0,
+      "normal_force_by_contacting_geom": {
+        "Thorax_geom": 2.4666128404378393,
+        "A3_geom": 3.5187216111747586,
+        "A4_geom": 2.444822490092343,
+        "A5_geom": 3.648750225215748,
+        "A6_geom": 1.2854207187451538,
+        "Haustellum_geom": 1.6164126412619426,
+        "LWing_geom": 1.2099949072885745,
+        "lf/LFTarsus5_geom": 0.10533444178012968,
+        "lm/LFTibia_geom": 0.33081892767371796,
+        "lh/LFCoxa_geom": 0.3976106873451466,
+        "lh/LFTrochanter_geom": 0.572496223467841,
+        "lh/LFTarsus4_geom": 0.07008566629307132,
+        "lh/LFTarsus5_geom": 0.35820550480673713,
+        "rf/LFFemur_geom": 1.3976495818097585,
+        "rf/LFTibia_geom": 0.9827629531873092,
+        "rf/LFTarsus1_geom": 0.03704705287211327,
+        "rm/LFFemur_geom": 1.3949278265126575,
+        "rm/LFTibia_geom": 0.4295495447943919,
+        "rh/LFFemur_geom": 1.4311650136599456,
+        "rh/LFTibia_geom": 0.3642113281162884
+      }
+    },
+    {
+      "lane": 1,
+      "normal_force_by_contacting_geom": {
+        "Thorax_geom": 2.447973334081789,
+        "A3_geom": 3.52016906243845,
+        "A4_geom": 2.4558431092803037,
+        "A5_geom": 3.6557476789249943,
+        "A6_geom": 1.2939068682344566,
+        "Haustellum_geom": 1.5690691493741924,
+        "LWing_geom": 1.1945391523741749,
+        "lf/LFTarsus5_geom": 0.10046379471915,
+        "lm/LFTibia_geom": 0.4037350183111522,
+        "lh/LFCoxa_geom": 0.39938081181548046,
+        "lh/LFTrochanter_geom": 0.5819618839476945,
+        "lh/LFTarsus4_geom": 0.07114392235517213,
+        "lh/LFTarsus5_geom": 0.3589035457445053,
+        "rf/LFFemur_geom": 1.3659427318393556,
+        "rf/LFTibia_geom": 1.0594538053285012,
+        "rf/LFTarsus1_geom": 0.04612433940540637,
+        "rm/LFFemur_geom": 1.3165259027846472,
+        "rm/LFTibia_geom": 0.4349728032629248,
+        "rh/LFFemur_geom": 1.4238016521144685,
+        "rh/LFTibia_geom": 0.3643383366381529
+      }
+    },
+    {
+      "lane": 2,
+      "normal_force_by_contacting_geom": {
+        "Thorax_geom": 1.9258574374675783,
+        "A3_geom": 2.629266140515849,
+        "A4_geom": 0.9032675141888868,
+        "A5_geom": 2.9361694362640143,
+        "A6_geom": 0.6896554988031915,
+        "Haustellum_geom": 1.9942092758819334,
+        "LWing_geom": 0.7781654949231108,
+        "lf/LFFemur_geom": 0.46636904055986045,
+        "lf/LFTarsus5_geom": 0.030493514839133543,
+        "lm/LFTrochanter_geom": 0.13629974388125443,
+        "lm/LFFemur_geom": 1.018592648195835,
+        "lm/LFTibia_geom": 0.05877817016028107,
+        "lm/LFTarsus1_geom": 0.02628705153674135,
+        "lh/LFTrochanter_geom": 0.9741648193996733,
+        "lh/LFFemur_geom": 0.6898570374678072,
+        "lh/LFTarsus2_geom": 0.1511009357665729,
+        "lh/LFTarsus3_geom": 0.22807919105850394,
+        "lh/LFTarsus4_geom": 0.28429801686352457,
+        "lh/LFTarsus5_geom": 0.33992269008213816,
+        "rf/LFTrochanter_geom": 1.3676694793024855,
+        "rf/LFTarsus5_geom": 0.02214738804371775,
+        "rm/LFCoxa_geom": 0.40097425625079053,
+        "rm/LFFemur_geom": 0.9606296583338656,
+        "rh/LFCoxa_geom": 0.45937048437596584,
+        "rh/LFTrochanter_geom": 2.7142774563708922,
+        "rh/LFFemur_geom": 1.8778138776361022
+      }
+    },
+    {
+      "lane": 3,
+      "normal_force_by_contacting_geom": {
+        "Thorax_geom": 2.436588992801989,
+        "A3_geom": 3.5160235401411706,
+        "A4_geom": 2.4516912830234405,
+        "A5_geom": 3.654947376603561,
+        "A6_geom": 1.2943508420946905,
+        "Haustellum_geom": 1.5504567029492071,
+        "LWing_geom": 1.189923526266821,
+        "lf/LFTarsus4_geom": 0.009763172965499117,
+        "lf/LFTarsus5_geom": 0.09426368028102836,
+        "lm/LFTibia_geom": 0.3780764501451269,
+        "lh/LFCoxa_geom": 0.4009435230789119,
+        "lh/LFTrochanter_geom": 0.5912817552286109,
+        "lh/LFTarsus4_geom": 0.06990291819488222,
+        "lh/LFTarsus5_geom": 0.3578573487124955,
+        "rf/LFFemur_geom": 1.3676690187085931,
+        "rf/LFTibia_geom": 1.061497483522822,
+        "rf/LFTarsus1_geom": 0.04738553424709723,
+        "rm/LFFemur_geom": 1.323899094242945,
+        "rm/LFTibia_geom": 0.45040280090500406,
+        "rh/LFFemur_geom": 1.4610930049613478,
+        "rh/LFTibia_geom": 0.35490991027323254
+      }
+    },
+    {
+      "lane": 4,
+      "normal_force_by_contacting_geom": {
+        "Thorax_geom": 2.4381923616272685,
+        "A3_geom": 3.5166127407729717,
+        "A4_geom": 2.452558930705588,
+        "A5_geom": 3.65511610540996,
+        "A6_geom": 1.2943681679905537,
+        "Haustellum_geom": 1.5526719588638913,
+        "LWing_geom": 1.1887289376452306,
+        "lf/LFTarsus4_geom": 0.006382117780963127,
+        "lf/LFTarsus5_geom": 0.0900429245153723,
+        "lm/LFTibia_geom": 0.39330980689854167,
+        "lh/LFCoxa_geom": 0.4004432760748477,
+        "lh/LFTrochanter_geom": 0.5887989229248092,
+        "lh/LFTarsus4_geom": 0.07003357545520739,
+        "lh/LFTarsus5_geom": 0.35799144055758236,
+        "rf/LFFemur_geom": 1.3489719978563555,
+        "rf/LFTibia_geom": 1.064283562257421,
+        "rf/LFTarsus1_geom": 0.048743384764982516,
+        "rm/LFFemur_geom": 1.3252427285958295,
+        "rm/LFTibia_geom": 0.4537633240315223,
+        "rh/LFFemur_geom": 1.46078829517911,
+        "rh/LFTibia_geom": 0.35605727369578277
+      }
+    },
+    {
+      "lane": 5,
+      "normal_force_by_contacting_geom": {
+        "Thorax_geom": 1.9258574374675783,
+        "A3_geom": 2.629266140515849,
+        "A4_geom": 0.9032675141888868,
+        "A5_geom": 2.9361694362640143,
+        "A6_geom": 0.6896554988031915,
+        "Haustellum_geom": 1.9942092758819334,
+        "LWing_geom": 0.7781654949231108,
+        "lf/LFFemur_geom": 0.46636904055986045,
+        "lf/LFTarsus5_geom": 0.030493514839133543,
+        "lm/LFTrochanter_geom": 0.13629974388125443,
+        "lm/LFFemur_geom": 1.018592648195835,
+        "lm/LFTibia_geom": 0.05877817016028107,
+        "lm/LFTarsus1_geom": 0.02628705153674135,
+        "lh/LFTrochanter_geom": 0.9741648193996733,
+        "lh/LFFemur_geom": 0.6898570374678072,
+        "lh/LFTarsus2_geom": 0.1511009357665729,
+        "lh/LFTarsus3_geom": 0.22807919105850394,
+        "lh/LFTarsus4_geom": 0.28429801686352457,
+        "lh/LFTarsus5_geom": 0.33992269008213816,
+        "rf/LFTrochanter_geom": 1.3676694793024855,
+        "rf/LFTarsus5_geom": 0.02214738804371775,
+        "rm/LFCoxa_geom": 0.40097425625079053,
+        "rm/LFFemur_geom": 0.9606296583338656,
+        "rh/LFCoxa_geom": 0.45937048437596584,
+        "rh/LFTrochanter_geom": 2.7142774563708922,
+        "rh/LFFemur_geom": 1.8778138776361022
+      }
+    }
+  ],
+  "maximum_state_error": 0.0,
+  "caveat": "Replays physical intervals with recorded controls; not independent neural regeneration or evidence of useful behavior."
+}

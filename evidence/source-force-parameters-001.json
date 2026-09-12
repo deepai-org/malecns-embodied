@@ -1,0 +1,500 @@
+{
+  "kind": "Compare published OpenSim/MuJoCo parameters without interpreting their units.",
+  "runner_sha256": "aeef485fdfc1e6d8a6f25a40d5126715aa81af2abf512b17f65d36e7c9234b19",
+  "inputs": {
+    "opensim": "35cf098309a88c20cf3339dc7d7c83facc615cbac2ee75af71112db472e54707",
+    "mujoco": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b"
+  },
+  "opensim_declared_length_units": "m",
+  "opensim_declared_force_units": "N",
+  "opensim_gravity": "0 -9806.6499999999996 0",
+  "mujoco_gravity": "0 0 -9801",
+  "muscles": [
+    {
+      "name": "LFC_tergopleural_promotor_a",
+      "opensim_fmax": 9.318671000029482,
+      "mujoco_fmax": 14.2319,
+      "ratio": 1.5272456769806524,
+      "opensim_optimal_fiber_length": 0.16525853534999999,
+      "opensim_tendon_slack_length": 0.008697817649999995,
+      "mujoco_gainprm": [
+        0.774703,
+        1.39095,
+        14.2319,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        0.358728,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFC_tergopleural_promotor_b",
+      "opensim_fmax": 46.19922523201342,
+      "mujoco_fmax": 67.764,
+      "ratio": 1.4667778444267812,
+      "opensim_optimal_fiber_length": 0.2755578785898597,
+      "opensim_tendon_slack_length": 0.02774111841014032,
+      "mujoco_gainprm": [
+        0.944598,
+        1.01483,
+        67.764,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        4.08279,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFC_pleural_remotor_and_abductor",
+      "opensim_fmax": 16.073374433046375,
+      "mujoco_fmax": 28.7481,
+      "ratio": 1.7885541159854257,
+      "opensim_optimal_fiber_length": 0.17504030464423312,
+      "opensim_tendon_slack_length": 0.06469705235576687,
+      "mujoco_gainprm": [
+        0.743435,
+        1.72008,
+        28.7481,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        0.353216,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFC_pleural_promotor",
+      "opensim_fmax": 16.321853483864867,
+      "mujoco_fmax": 30.6427,
+      "ratio": 1.8774032024176759,
+      "opensim_optimal_fiber_length": 0.08604677931072048,
+      "opensim_tendon_slack_length": 0.03354000968927952,
+      "mujoco_gainprm": [
+        0.859265,
+        1.59552,
+        30.6427,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        0.283134,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFC_sternal_anterior_rotator",
+      "opensim_fmax": 50.19042056028233,
+      "mujoco_fmax": 10.5807,
+      "ratio": 0.21081114447510585,
+      "opensim_optimal_fiber_length": 0.06355075601270867,
+      "opensim_tendon_slack_length": 0.15499443398729135,
+      "mujoco_gainprm": [
+        0.185296,
+        1.73386,
+        10.5807,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        3.11328,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFC_sternal_posterior_rotator",
+      "opensim_fmax": 98.16552432448182,
+      "mujoco_fmax": 157.429,
+      "ratio": 1.603709663686259,
+      "opensim_optimal_fiber_length": 0.10659815486394372,
+      "opensim_tendon_slack_length": 0.014682512136056286,
+      "mujoco_gainprm": [
+        0.610817,
+        1.40821,
+        157.429,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        0.0752654,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFC_sternal_adductor",
+      "opensim_fmax": 9.079973193705554,
+      "mujoco_fmax": 12.9,
+      "ratio": 1.4207090400820321,
+      "opensim_optimal_fiber_length": 0.14616210238408217,
+      "opensim_tendon_slack_length": 0.05636690761591781,
+      "mujoco_gainprm": [
+        0.244283,
+        1.48664,
+        12.9,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        0.446817,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFF_trochanter_flexor_b",
+      "opensim_fmax": 66.94011845253408,
+      "mujoco_fmax": 77.9856,
+      "ratio": 1.165005407860132,
+      "opensim_optimal_fiber_length": 0.1959653237129548,
+      "opensim_tendon_slack_length": 0.17190187853202057,
+      "mujoco_gainprm": [
+        0.537008,
+        1.04625,
+        77.9856,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        2.85222,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFF_sterno-tergo-trochanter_extensor_a",
+      "opensim_fmax": 92.62524137739092,
+      "mujoco_fmax": 159.153,
+      "ratio": 1.718246534457593,
+      "opensim_optimal_fiber_length": 0.200869504270694,
+      "opensim_tendon_slack_length": 0.09143413635756514,
+      "mujoco_gainprm": [
+        0.727951,
+        1.5069,
+        159.153,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        0.239629,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFF_sterno-tergo-trochanter_extensor_b",
+      "opensim_fmax": 70.47535656438062,
+      "mujoco_fmax": 124.303,
+      "ratio": 1.763779653763749,
+      "opensim_optimal_fiber_length": 0.1858131400481073,
+      "opensim_tendon_slack_length": 0.10732787472296393,
+      "mujoco_gainprm": [
+        0.84831,
+        1.43402,
+        124.303,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        0.0988153,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFF_accesory_trochanter_flexor",
+      "opensim_fmax": 15.180767121910684,
+      "mujoco_fmax": 24.8598,
+      "ratio": 1.637585228754309,
+      "opensim_optimal_fiber_length": 0.07356437474731538,
+      "opensim_tendon_slack_length": 0.16314783390114995,
+      "mujoco_gainprm": [
+        0.638661,
+        1.51365,
+        24.8598,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        0.210106,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFF_trochanter_extensor",
+      "opensim_fmax": 25.78169328551712,
+      "mujoco_fmax": 40.5728,
+      "ratio": 1.5737057900224027,
+      "opensim_optimal_fiber_length": 0.10140696206987981,
+      "opensim_tendon_slack_length": 0.017732469331603176,
+      "mujoco_gainprm": [
+        0.90157,
+        1.19258,
+        40.5728,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        0.706553,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFF_trochanter_flexor_a",
+      "opensim_fmax": 27.448956960049777,
+      "mujoco_fmax": 46.8237,
+      "ratio": 1.7058462391903977,
+      "opensim_optimal_fiber_length": 0.3494738421327266,
+      "opensim_tendon_slack_length": 0.01839336011224879,
+      "mujoco_gainprm": [
+        0.830849,
+        1.58829,
+        46.8237,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        0.507633,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFTibia_flex_93434",
+      "opensim_fmax": 41.53149507519574,
+      "mujoco_fmax": 68.1213,
+      "ratio": 1.6402323074731964,
+      "opensim_optimal_fiber_length": 0.40006233168917504,
+      "opensim_tendon_slack_length": 0.059464497310824926,
+      "mujoco_gainprm": [
+        0.958046,
+        1.04136,
+        68.1213,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        3.23161,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LFTibia_extensor_93932",
+      "opensim_fmax": 154.06374241726678,
+      "mujoco_fmax": 303.877,
+      "ratio": 1.9724108685934585,
+      "opensim_optimal_fiber_length": 0.42355333916453586,
+      "opensim_tendon_slack_length": 0.14097306883546412,
+      "mujoco_gainprm": [
+        0.906629,
+        1.52523,
+        303.877,
+        1.0,
+        0.0,
+        2.0,
+        10.0,
+        0.183322,
+        1.4,
+        0.0
+      ],
+      "mujoco_dynprm": [
+        0.0001,
+        0.0004,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "caveats": [
+    "Both are published artifacts, not an independently rerun conversion.",
+    "Ratios vary by muscle; these parameters do not establish a single omitted conversion multiplier.",
+    "OpenSim unit labels alone do not validate physical SI interpretation of the scaled model.",
+    "No source asset, muscle parameter or runtime setting is changed."
+  ]
+}

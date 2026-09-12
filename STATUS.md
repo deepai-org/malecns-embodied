@@ -1,5 +1,13 @@
 # MaleCNS embodiment experiment
 
+Latest integrated trial: full-CNS feedback now runs from an authenticated,
+clearance-checked feet-on-floor initial pose. Matched two-second conditions all
+end supported by torso/abdomen contacts, not standing. Thirty physical replay
+intervals are exact. See [STANCE_FEEDBACK.md](STANCE_FEEDBACK.md). Source force
+comparison does not establish a common conversion correction; see
+[SOURCE_FORCE_PROVENANCE.md](SOURCE_FORCE_PROVENANCE.md). Rich behavior remains
+unachieved, and the finite experiment has ended.
+
 Latest interface evidence: minimax support requires 4.70–11.58 peak independent
 muscle input (normal maximum 1). Existing named pools remain infeasible at two
 poses even without a ceiling. A tibia-force/body-weight check also warns against

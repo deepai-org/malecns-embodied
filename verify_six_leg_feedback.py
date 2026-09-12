@@ -13,7 +13,9 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--output',type=Path,required=True)
-    a=p.parse_args();root=Path(__file__).parent;trial=root/'evidence/trials/six-leg-feedback-002'
+    p.add_argument('--trial',type=Path)
+    p.add_argument('--initial-poses',type=Path)
+    a=p.parse_args();root=Path(__file__).parent;trial=a.trial or root/'evidence/trials/six-leg-feedback-002'
     r=json.loads((trial/'result.json').read_text());body=json.loads((root/'evidence/six-leg-body-002.json').read_text())
     assert r['completed'] and r['runner_sha256']==sha(root/'run_six_leg_feedback.py')
     assert r['input_sha256']['body_receipt']==sha(root/'evidence/six-leg-body-002.json')
@@ -41,6 +43,12 @@ def main():
     assert all(np.isfinite(v).all() for v in t.values())
     assert t['qpos'].shape==(201,6,49) and t['controls'].shape==(200,6,90)
     assert t['act'].shape==(201,6,90) and t['integration_state'].shape==(201,6,r['physics_state_size'])
+    if r.get('initialization'):
+        assert a.initial_poses and sha(a.initial_poses)==r['initialization']['poses_sha256']
+        poses=json.loads(a.initial_poses.read_text())
+        assert poses['xml_sha256']==r['input_sha256']['xml']
+        q=poses['results'][r['initialization']['pose_index']]['qpos']
+        for lane in range(6):np.testing.assert_array_equal(t['qpos'][0,lane],q)
     np.testing.assert_allclose(np.diff(t['time']),.01,atol=1e-10,rtol=0)
     maximum=0.
     for tick in range(200):

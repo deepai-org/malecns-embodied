@@ -3,8 +3,8 @@
 Update: [offline pose refinement](STANCE_SEARCH.md) removes gross initial overlap
 without modifying geometry or disabling collision. Bounded muscle support at
 those poses still fails the ideal-contact static test. The original initialization
-and its evidence below remain unchanged; the CNS trial has not been rerun from
-the new poses.
+and its evidence below remain unchanged; the subsequent [CNS rerun](STANCE_FEEDBACK.md)
+from a new pose still ends supported by the body rather than standing.
 
 The corrected single-floor body still has an invalidating initialization issue
 for interpreting its motion: copied leg assemblies intersect before touching

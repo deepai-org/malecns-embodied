@@ -1,0 +1,1534 @@
+{
+  "kind": "free six-leg muscle body with full-CNS proprioception; not rich behavior",
+  "model_manifest_sha256": "61ba02739072cbe53382b85c76eca617960627a162d241fffa607d8e4a644742",
+  "runner_sha256": "a03b31fc4c8620eeb6e9134dcf9fd1ea58c51f4d0ffdd7f90d7aea05507a056e",
+  "input_sha256": {
+    "xml": "51518a616e594a8a2333987326d3af592f9f0784573b7858f0d13af9d0bea1f1",
+    "body_receipt": "1175eb18e0a6f1a356679fbc953cbba04e52161ceb337d92679933d13924b218",
+    "motor": "2fd32180d5b8a7688bc813440bf2c2f1d0a35fad635ab0d42ca4f536d11403ca",
+    "sensory": "54b6c1e98cc2e2f4d63b7c8e032183a418b1bcb04454329cf96658fac8ddc444"
+  },
+  "pooling_code_sha256": "0969f13e5c881fdae674eea24720b4209ad211d0e9c575e61e53e63662599e5c",
+  "sensory_code_sha256": "316ebc259ac1ffaec338e9125d00284624b8bb257502b5cbe27e7d2135dadfe9",
+  "conditions": [
+    [
+      "feedback",
+      1
+    ],
+    [
+      "frozen-sensory",
+      1
+    ],
+    [
+      "zero-motor",
+      1
+    ],
+    [
+      "feedback",
+      -1
+    ],
+    [
+      "frozen-sensory",
+      -1
+    ],
+    [
+      "zero-motor",
+      -1
+    ]
+  ],
+  "recruitment": [
+    {
+      "actuator": "lf/LFC_tergopleural_promotor_a",
+      "rows": [
+        142836,
+        143654,
+        148512,
+        162856
+      ],
+      "body_ids": [
+        800061,
+        801173,
+        807281,
+        934091
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFC_tergopleural_promotor_b",
+      "rows": [
+        142836,
+        143654,
+        148512,
+        162856
+      ],
+      "body_ids": [
+        800061,
+        801173,
+        807281,
+        934091
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFC_pleural_remotor_and_abductor",
+      "rows": [
+        144657,
+        145652
+      ],
+      "body_ids": [
+        802509,
+        803803
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFC_pleural_promotor",
+      "rows": [
+        142836,
+        143654,
+        148512,
+        162856
+      ],
+      "body_ids": [
+        800061,
+        801173,
+        807281,
+        934091
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFC_sternal_anterior_rotator",
+      "rows": [
+        148218,
+        162458
+      ],
+      "body_ids": [
+        806923,
+        919509
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFC_sternal_posterior_rotator",
+      "rows": [
+        144222,
+        146498,
+        149652,
+        164685
+      ],
+      "body_ids": [
+        801915,
+        804851,
+        808640,
+        1050335829
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFC_sternal_adductor",
+      "rows": [
+        153568
+      ],
+      "body_ids": [
+        813480
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFF_trochanter_flexor_b",
+      "rows": [
+        151305,
+        154353,
+        156881,
+        158106,
+        158122,
+        158475,
+        164791,
+        164805
+      ],
+      "body_ids": [
+        810639,
+        814489,
+        818389,
+        823168,
+        823281,
+        828939,
+        1051367796,
+        1051670893
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFF_sterno-tergo-trochanter_extensor_a",
+      "rows": [
+        144049,
+        144538,
+        144687,
+        145217,
+        146190,
+        147228
+      ],
+      "body_ids": [
+        801685,
+        802361,
+        802552,
+        803237,
+        804465,
+        805741
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFF_sterno-tergo-trochanter_extensor_b",
+      "rows": [
+        144049,
+        144538,
+        144687,
+        145217,
+        146190,
+        147228
+      ],
+      "body_ids": [
+        801685,
+        802361,
+        802552,
+        803237,
+        804465,
+        805741
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFF_accesory_trochanter_flexor",
+      "rows": [
+        157849,
+        161399,
+        161783
+      ],
+      "body_ids": [
+        821291,
+        909618,
+        911134
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFF_trochanter_extensor",
+      "rows": [
+        145351,
+        149040
+      ],
+      "body_ids": [
+        803412,
+        807906
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFF_trochanter_flexor_a",
+      "rows": [
+        151305,
+        154353,
+        156881,
+        158106,
+        158122,
+        158475,
+        164791,
+        164805
+      ],
+      "body_ids": [
+        810639,
+        814489,
+        818389,
+        823168,
+        823281,
+        828939,
+        1051367796,
+        1051670893
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFTibia_flex_93434",
+      "rows": [
+        148412,
+        150721,
+        156725,
+        157314,
+        161464
+      ],
+      "body_ids": [
+        807165,
+        809912,
+        818057,
+        819384,
+        909831
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lf/LFTibia_extensor_93932",
+      "rows": [
+        143259,
+        154980
+      ],
+      "body_ids": [
+        800636,
+        815344
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lm/LFC_tergopleural_promotor_a",
+      "rows": [],
+      "body_ids": [],
+      "missing_pool_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ]
+    },
+    {
+      "actuator": "lm/LFC_tergopleural_promotor_b",
+      "rows": [],
+      "body_ids": [],
+      "missing_pool_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ]
+    },
+    {
+      "actuator": "lm/LFC_pleural_remotor_and_abductor",
+      "rows": [
+        143189,
+        159087,
+        160070
+      ],
+      "body_ids": [
+        800541,
+        902492,
+        905421
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lm/LFC_pleural_promotor",
+      "rows": [],
+      "body_ids": [],
+      "missing_pool_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ]
+    },
+    {
+      "actuator": "lm/LFC_sternal_anterior_rotator",
+      "rows": [
+        158604,
+        159489
+      ],
+      "body_ids": [
+        832490,
+        903689
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lm/LFC_sternal_posterior_rotator",
+      "rows": [
+        144111,
+        145207,
+        145573,
+        164763
+      ],
+      "body_ids": [
+        801768,
+        803226,
+        803704,
+        1051054875
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lm/LFC_sternal_adductor",
+      "rows": [
+        155465
+      ],
+      "body_ids": [
+        816018
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lm/LFF_trochanter_flexor_b",
+      "rows": [
+        143231,
+        144450,
+        145672,
+        159287,
+        159288,
+        159454,
+        164726
+      ],
+      "body_ids": [
+        800589,
+        802232,
+        803829,
+        903158,
+        903159,
+        903579,
+        1050669248
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lm/LFF_sterno-tergo-trochanter_extensor_a",
+      "rows": [
+        144578,
+        153788,
+        159777
+      ],
+      "body_ids": [
+        802407,
+        813755,
+        904657
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lm/LFF_sterno-tergo-trochanter_extensor_b",
+      "rows": [
+        144578,
+        153788,
+        159777
+      ],
+      "body_ids": [
+        802407,
+        813755,
+        904657
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lm/LFF_accesory_trochanter_flexor",
+      "rows": [
+        157867,
+        162659
+      ],
+      "body_ids": [
+        821375,
+        927828
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lm/LFF_trochanter_extensor",
+      "rows": [
+        147006,
+        161187
+      ],
+      "body_ids": [
+        805477,
+        909078
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lm/LFF_trochanter_flexor_a",
+      "rows": [
+        143231,
+        144450,
+        145672,
+        159287,
+        159288,
+        159454,
+        164726
+      ],
+      "body_ids": [
+        800589,
+        802232,
+        803829,
+        903158,
+        903159,
+        903579,
+        1050669248
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lm/LFTibia_flex_93434",
+      "rows": [
+        144494,
+        156836,
+        158153,
+        158175,
+        162657
+      ],
+      "body_ids": [
+        802295,
+        818295,
+        823739,
+        824041,
+        927808
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lm/LFTibia_extensor_93932",
+      "rows": [
+        143464,
+        143700
+      ],
+      "body_ids": [
+        800911,
+        801234
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lh/LFC_tergopleural_promotor_a",
+      "rows": [],
+      "body_ids": [],
+      "missing_pool_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ]
+    },
+    {
+      "actuator": "lh/LFC_tergopleural_promotor_b",
+      "rows": [],
+      "body_ids": [],
+      "missing_pool_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ]
+    },
+    {
+      "actuator": "lh/LFC_pleural_remotor_and_abductor",
+      "rows": [
+        142922,
+        159019
+      ],
+      "body_ids": [
+        800175,
+        902310
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lh/LFC_pleural_promotor",
+      "rows": [],
+      "body_ids": [],
+      "missing_pool_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ]
+    },
+    {
+      "actuator": "lh/LFC_sternal_anterior_rotator",
+      "rows": [
+        143949,
+        144439
+      ],
+      "body_ids": [
+        801548,
+        802215
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lh/LFC_sternal_posterior_rotator",
+      "rows": [
+        143901,
+        144071,
+        144997,
+        156887
+      ],
+      "body_ids": [
+        801492,
+        801715,
+        802964,
+        818399
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lh/LFC_sternal_adductor",
+      "rows": [
+        159664
+      ],
+      "body_ids": [
+        904184
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lh/LFF_trochanter_flexor_b",
+      "rows": [
+        164657
+      ],
+      "body_ids": [
+        1050194310
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lh/LFF_sterno-tergo-trochanter_extensor_a",
+      "rows": [
+        143160,
+        143421,
+        146233,
+        158478
+      ],
+      "body_ids": [
+        800504,
+        800851,
+        804514,
+        828978
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lh/LFF_sterno-tergo-trochanter_extensor_b",
+      "rows": [
+        143160,
+        143421,
+        146233,
+        158478
+      ],
+      "body_ids": [
+        800504,
+        800851,
+        804514,
+        828978
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lh/LFF_accesory_trochanter_flexor",
+      "rows": [
+        150462,
+        157813,
+        158923,
+        164612,
+        164637,
+        164670,
+        164730,
+        164780
+      ],
+      "body_ids": [
+        809604,
+        821154,
+        896719,
+        1050038433,
+        1050139141,
+        1050239701,
+        1050730563,
+        1051236875
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lh/LFF_trochanter_extensor",
+      "rows": [
+        158702
+      ],
+      "body_ids": [
+        840981
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lh/LFF_trochanter_flexor_a",
+      "rows": [
+        164657
+      ],
+      "body_ids": [
+        1050194310
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lh/LFTibia_flex_93434",
+      "rows": [
+        145142,
+        146556,
+        157209,
+        158075,
+        161059,
+        162703,
+        164620,
+        164624,
+        164647
+      ],
+      "body_ids": [
+        803147,
+        804919,
+        819112,
+        822945,
+        908762,
+        929376,
+        1050088257,
+        1050100010,
+        1050166426
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "lh/LFTibia_extensor_93932",
+      "rows": [
+        143252,
+        153153
+      ],
+      "body_ids": [
+        800621,
+        812953
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFC_tergopleural_promotor_a",
+      "rows": [
+        144158,
+        144338,
+        147231,
+        151224
+      ],
+      "body_ids": [
+        801824,
+        802072,
+        805745,
+        810535
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFC_tergopleural_promotor_b",
+      "rows": [
+        144158,
+        144338,
+        147231,
+        151224
+      ],
+      "body_ids": [
+        801824,
+        802072,
+        805745,
+        810535
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFC_pleural_remotor_and_abductor",
+      "rows": [
+        145278,
+        146868
+      ],
+      "body_ids": [
+        803314,
+        805313
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFC_pleural_promotor",
+      "rows": [
+        144158,
+        144338,
+        147231,
+        151224
+      ],
+      "body_ids": [
+        801824,
+        802072,
+        805745,
+        810535
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFC_sternal_anterior_rotator",
+      "rows": [
+        143884,
+        144225
+      ],
+      "body_ids": [
+        801469,
+        801918
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFC_sternal_posterior_rotator",
+      "rows": [
+        146951,
+        149136
+      ],
+      "body_ids": [
+        805410,
+        808011
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFC_sternal_adductor",
+      "rows": [
+        155349
+      ],
+      "body_ids": [
+        815854
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFF_trochanter_flexor_b",
+      "rows": [
+        155875,
+        156489,
+        157046,
+        157561,
+        157697,
+        159230,
+        162321
+      ],
+      "body_ids": [
+        816648,
+        817640,
+        818719,
+        820130,
+        820668,
+        903010,
+        914655
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFF_sterno-tergo-trochanter_extensor_a",
+      "rows": [
+        143581,
+        145568,
+        146511,
+        156301,
+        161362,
+        162567
+      ],
+      "body_ids": [
+        801079,
+        803698,
+        804866,
+        817347,
+        909521,
+        924716
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFF_sterno-tergo-trochanter_extensor_b",
+      "rows": [
+        143581,
+        145568,
+        146511,
+        156301,
+        161362,
+        162567
+      ],
+      "body_ids": [
+        801079,
+        803698,
+        804866,
+        817347,
+        909521,
+        924716
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFF_accesory_trochanter_flexor",
+      "rows": [
+        149013,
+        164683,
+        164687
+      ],
+      "body_ids": [
+        807873,
+        1050306082,
+        1050349786
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFF_trochanter_extensor",
+      "rows": [
+        157103,
+        158670
+      ],
+      "body_ids": [
+        818842,
+        838321
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFF_trochanter_flexor_a",
+      "rows": [
+        155875,
+        156489,
+        157046,
+        157561,
+        157697,
+        159230,
+        162321
+      ],
+      "body_ids": [
+        816648,
+        817640,
+        818719,
+        820130,
+        820668,
+        903010,
+        914655
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFTibia_flex_93434",
+      "rows": [
+        150873,
+        157906,
+        158392,
+        164610,
+        164654
+      ],
+      "body_ids": [
+        810098,
+        821635,
+        827188,
+        1050031705,
+        1050189039
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rf/LFTibia_extensor_93932",
+      "rows": [
+        146023,
+        155213
+      ],
+      "body_ids": [
+        804257,
+        815678
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rm/LFC_tergopleural_promotor_a",
+      "rows": [],
+      "body_ids": [],
+      "missing_pool_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ]
+    },
+    {
+      "actuator": "rm/LFC_tergopleural_promotor_b",
+      "rows": [],
+      "body_ids": [],
+      "missing_pool_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ]
+    },
+    {
+      "actuator": "rm/LFC_pleural_remotor_and_abductor",
+      "rows": [
+        143362,
+        145416,
+        159157
+      ],
+      "body_ids": [
+        800776,
+        803499,
+        902719
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rm/LFC_pleural_promotor",
+      "rows": [],
+      "body_ids": [],
+      "missing_pool_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ]
+    },
+    {
+      "actuator": "rm/LFC_sternal_anterior_rotator",
+      "rows": [
+        144149,
+        144246
+      ],
+      "body_ids": [
+        801813,
+        801946
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rm/LFC_sternal_posterior_rotator",
+      "rows": [
+        143498,
+        144107,
+        144664,
+        157163
+      ],
+      "body_ids": [
+        800962,
+        801761,
+        802521,
+        818996
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rm/LFC_sternal_adductor",
+      "rows": [
+        161306
+      ],
+      "body_ids": [
+        909371
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rm/LFF_trochanter_flexor_b",
+      "rows": [
+        143566,
+        143567,
+        156514,
+        157244,
+        158204,
+        161523,
+        162556
+      ],
+      "body_ids": [
+        801057,
+        801058,
+        817681,
+        819203,
+        824315,
+        910095,
+        924142
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rm/LFF_sterno-tergo-trochanter_extensor_a",
+      "rows": [
+        144918,
+        147606,
+        158812
+      ],
+      "body_ids": [
+        802864,
+        806204,
+        856359
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rm/LFF_sterno-tergo-trochanter_extensor_b",
+      "rows": [
+        144918,
+        147606,
+        158812
+      ],
+      "body_ids": [
+        802864,
+        806204,
+        856359
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rm/LFF_accesory_trochanter_flexor",
+      "rows": [
+        151369,
+        158858
+      ],
+      "body_ids": [
+        810720,
+        867926
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rm/LFF_trochanter_extensor",
+      "rows": [
+        154698,
+        158692
+      ],
+      "body_ids": [
+        814942,
+        840530
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rm/LFF_trochanter_flexor_a",
+      "rows": [
+        143566,
+        143567,
+        156514,
+        157244,
+        158204,
+        161523,
+        162556
+      ],
+      "body_ids": [
+        801057,
+        801058,
+        817681,
+        819203,
+        824315,
+        910095,
+        924142
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rm/LFTibia_flex_93434",
+      "rows": [
+        146137,
+        146627,
+        155608,
+        157955,
+        159349
+      ],
+      "body_ids": [
+        804405,
+        805010,
+        816222,
+        822013,
+        903363
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rm/LFTibia_extensor_93932",
+      "rows": [
+        158546,
+        162677
+      ],
+      "body_ids": [
+        830514,
+        928579
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rh/LFC_tergopleural_promotor_a",
+      "rows": [],
+      "body_ids": [],
+      "missing_pool_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ]
+    },
+    {
+      "actuator": "rh/LFC_tergopleural_promotor_b",
+      "rows": [],
+      "body_ids": [],
+      "missing_pool_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ]
+    },
+    {
+      "actuator": "rh/LFC_pleural_remotor_and_abductor",
+      "rows": [
+        142999,
+        143200
+      ],
+      "body_ids": [
+        800290,
+        800553
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rh/LFC_pleural_promotor",
+      "rows": [],
+      "body_ids": [],
+      "missing_pool_labels": [
+        "Tergopleural/Pleural promotor MN"
+      ]
+    },
+    {
+      "actuator": "rh/LFC_sternal_anterior_rotator",
+      "rows": [
+        143020,
+        160329
+      ],
+      "body_ids": [
+        800316,
+        906235
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rh/LFC_sternal_posterior_rotator",
+      "rows": [
+        159477,
+        159478,
+        160551,
+        164710
+      ],
+      "body_ids": [
+        903642,
+        903643,
+        907256,
+        1050493413
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rh/LFC_sternal_adductor",
+      "rows": [
+        148997
+      ],
+      "body_ids": [
+        807854
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rh/LFF_trochanter_flexor_b",
+      "rows": [
+        144076,
+        148816,
+        160245,
+        164623,
+        164752
+      ],
+      "body_ids": [
+        801721,
+        807640,
+        905928,
+        1050098047,
+        1050938258
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rh/LFF_sterno-tergo-trochanter_extensor_a",
+      "rows": [
+        143589,
+        143635,
+        143815,
+        160211
+      ],
+      "body_ids": [
+        801090,
+        801148,
+        801375,
+        905849
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rh/LFF_sterno-tergo-trochanter_extensor_b",
+      "rows": [
+        143589,
+        143635,
+        143815,
+        160211
+      ],
+      "body_ids": [
+        801090,
+        801148,
+        801375,
+        905849
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rh/LFF_accesory_trochanter_flexor",
+      "rows": [
+        155420,
+        160126,
+        162339,
+        164625
+      ],
+      "body_ids": [
+        815958,
+        905586,
+        914852,
+        1050102118
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rh/LFF_trochanter_extensor",
+      "rows": [
+        149491,
+        160152
+      ],
+      "body_ids": [
+        808453,
+        905661
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rh/LFF_trochanter_flexor_a",
+      "rows": [
+        144076,
+        148816,
+        160245,
+        164623,
+        164752
+      ],
+      "body_ids": [
+        801721,
+        807640,
+        905928,
+        1050098047,
+        1050938258
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rh/LFTibia_flex_93434",
+      "rows": [
+        145083,
+        149691,
+        158148,
+        158427,
+        158696,
+        161547,
+        164604,
+        164682
+      ],
+      "body_ids": [
+        803072,
+        808685,
+        823665,
+        827968,
+        840740,
+        910178,
+        1050013311,
+        1050303231
+      ],
+      "missing_pool_labels": []
+    },
+    {
+      "actuator": "rh/LFTibia_extensor_93932",
+      "rows": [
+        142911,
+        150738
+      ],
+      "body_ids": [
+        800158,
+        809935
+      ],
+      "missing_pool_labels": []
+    }
+  ],
+  "senses": [
+    {
+      "leg": "lf",
+      "qpos": 13,
+      "limits": [
+        0.4789,
+        2.502
+      ],
+      "groups": [
+        [
+          162053
+        ],
+        [
+          155342,
+          156513,
+          162923
+        ]
+      ]
+    },
+    {
+      "leg": "lm",
+      "qpos": 20,
+      "limits": [
+        0.4789,
+        2.502
+      ],
+      "groups": [
+        [
+          149190,
+          149521,
+          149814,
+          150145,
+          150347,
+          151688,
+          151867,
+          154705,
+          156179,
+          157474,
+          159999,
+          161026,
+          162971,
+          164877
+        ],
+        [
+          148940,
+          149062,
+          152070,
+          156695,
+          158212,
+          158467,
+          159023,
+          164987
+        ]
+      ]
+    },
+    {
+      "leg": "lh",
+      "qpos": 27,
+      "limits": [
+        0.4789,
+        2.502
+      ],
+      "groups": [
+        [
+          145821,
+          149807,
+          151697,
+          152877,
+          153544,
+          154350,
+          157252,
+          157359,
+          157418,
+          157613,
+          159352,
+          161037,
+          161164,
+          161165,
+          161257,
+          161609,
+          163055,
+          164962
+        ],
+        [
+          144530,
+          157951,
+          158348,
+          161608
+        ]
+      ]
+    },
+    {
+      "leg": "rf",
+      "qpos": 34,
+      "limits": [
+        0.4789,
+        2.502
+      ],
+      "groups": [
+        [],
+        [
+          162170
+        ]
+      ]
+    },
+    {
+      "leg": "rm",
+      "qpos": 41,
+      "limits": [
+        0.4789,
+        2.502
+      ],
+      "groups": [
+        [
+          152314,
+          153596,
+          154057,
+          157428,
+          158252,
+          158593,
+          159531,
+          160277,
+          161064,
+          161065,
+          162812
+        ],
+        [
+          154552,
+          155660,
+          158169,
+          158883,
+          160981,
+          161821
+        ]
+      ]
+    },
+    {
+      "leg": "rh",
+      "qpos": 48,
+      "limits": [
+        0.4789,
+        2.502
+      ],
+      "groups": [
+        [
+          149610,
+          150454,
+          151309,
+          151341,
+          153085,
+          153130,
+          153202,
+          153405,
+          156928,
+          157863,
+          158447,
+          158750,
+          159400,
+          160888,
+          160889,
+          162087,
+          162306
+        ],
+        [
+          147204,
+          147846,
+          148164,
+          151431,
+          152813,
+          157133,
+          158028,
+          158078
+        ]
+      ]
+    }
+  ],
+  "steps": 200,
+  "initialization": {
+    "poses_sha256": "ae84a860ca62c9cd804e7a12c20b11e800a0c1c0b1fdfad6a0c0479d6064fb97",
+    "pose_index": 1,
+    "use": "Initial qpos only; no ongoing optimizer, target pose or corrective force"
+  },
+  "assumptions": [
+    "Identical foreleg assemblies on all six legs; not measured middle/hind geometry.",
+    "Right legs are mirrored left assemblies, not the original right-leg specimen.",
+    "Mount positions follow the source body; fixed horizontal leg directions follow the original whole-body rig.",
+    "Tarsal segments and other non-leg body parts remain rigid, as in the source asset.",
+    "All source muscle parameters, joint limits, damping and armature retained; no behavioral policy.",
+    "Named pool sharing extended by leg and side; absent pools get zero command, partial composite pools are recorded.",
+    "Only named claw position input varies; all other sensory currents remain at model neutral values.",
+    "Position transduction and normalized-rate recruitment are not physiological calibration.",
+    "Zero command is not exact paralysis: source passive muscle forces and minimum activation remain.",
+    "Six conditions use separate physical worlds; no learned decoder, trajectory or behavior selector."
+  ],
+  "physics_state_spec": 16383,
+  "physics_state_size": 836,
+  "completed": true,
+  "wall_seconds": 125.95350786484778,
+  "simulated_seconds": 1.9999999999997962,
+  "final_up": [
+    0.9555751693340176,
+    0.9555704485070545,
+    0.9571989334517584,
+    0.955553842210941,
+    0.9555626316553514,
+    0.9571989334517584
+  ],
+  "unmapped_actuators": 12,
+  "behavior_claim": "none"
+}

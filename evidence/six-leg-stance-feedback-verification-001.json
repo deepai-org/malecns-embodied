@@ -1,0 +1,28 @@
+{
+  "checked": true,
+  "verifier_sha256": "663d4b6f1f4a358f04e6bee1f4e7c9386f02727b02abbbdce31321b7c42092dd",
+  "maximum_control_reconstruction_error": 4.470348358154297e-08,
+  "unmapped_actuators": 12,
+  "final_up": [
+    0.9555751693340176,
+    0.9555704485070545,
+    0.9571989334517584,
+    0.955553842210941,
+    0.9555626316553514,
+    0.9571989334517584
+  ],
+  "late_horizontal_path_mm": [
+    0.05398838078820189,
+    0.056258834495693424,
+    0.024135537660051824,
+    0.05546822425370719,
+    0.055792878491322986,
+    0.024135537660051824
+  ],
+  "feedback_vs_frozen_max_joint_difference_rad": [
+    0.10713420479577485,
+    0.23851548364522634
+  ],
+  "zero_command_peak_actuator_force": 36.13029422311062,
+  "caveat": "Checks recorded transforms and state shapes, not behavioral usefulness or calibrated anatomy. Physical state replay is a separate audit."
+}
