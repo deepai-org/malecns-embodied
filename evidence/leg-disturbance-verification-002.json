@@ -1,0 +1,65 @@
+{
+  "verified": true,
+  "verifier_sha256": "30a75b9a45eaee2a41002d27c8f90c24b09c603f8647f677364cde2d4aa38308",
+  "trial_receipt_sha256": "685fc88f6cf37e80d0fcfa76ba96460c7b44ba0220443d017cc218b7b0ed8e2f",
+  "comparisons": [
+    {
+      "polarity": 1,
+      "sign": 1,
+      "peak_tibia_displacement_feedback_rad": 0.0275405809872743,
+      "peak_tibia_displacement_yoked_rad": 0.027540602967542016,
+      "postpulse_abs_error_feedback_rad_s": 0.0006338740455127834,
+      "postpulse_abs_error_yoked_rad_s": 0.000633867851231803,
+      "relative_postpulse_error_reduction": -9.772196157855213e-06,
+      "final_displacement_feedback_rad": 5.894735310985055e-08,
+      "final_displacement_yoked_rad": 1.1609808980850289e-07,
+      "feedback_vs_yoked_tibia_max_rad": 6.594549006866401e-07,
+      "feedback_vs_yoked_control_max": 4.023313522338867e-06
+    },
+    {
+      "polarity": 1,
+      "sign": -1,
+      "peak_tibia_displacement_feedback_rad": 0.02794234160386122,
+      "peak_tibia_displacement_yoked_rad": 0.027942357234997606,
+      "postpulse_abs_error_feedback_rad_s": 0.0006162776563127681,
+      "postpulse_abs_error_yoked_rad_s": 0.0006162947393012408,
+      "relative_postpulse_error_reduction": 2.771886142021483e-05,
+      "final_displacement_feedback_rad": -1.9273294304955613e-07,
+      "final_displacement_yoked_rad": -2.0075243067907422e-07,
+      "feedback_vs_yoked_tibia_max_rad": 6.500134387410483e-07,
+      "feedback_vs_yoked_control_max": 3.948807716369629e-06
+    },
+    {
+      "polarity": -1,
+      "sign": 1,
+      "peak_tibia_displacement_feedback_rad": 0.027541170705138507,
+      "peak_tibia_displacement_yoked_rad": 0.02754113024915439,
+      "postpulse_abs_error_feedback_rad_s": 0.0006338678204140024,
+      "postpulse_abs_error_yoked_rad_s": 0.0006338735361034897,
+      "relative_postpulse_error_reduction": 9.017081739017083e-06,
+      "final_displacement_feedback_rad": 4.679219012260205e-09,
+      "final_displacement_yoked_rad": 1.8638226528810975e-07,
+      "feedback_vs_yoked_tibia_max_rad": 1.061620609532632e-06,
+      "feedback_vs_yoked_control_max": 7.599592208862305e-06
+    },
+    {
+      "polarity": -1,
+      "sign": -1,
+      "peak_tibia_displacement_feedback_rad": 0.027940775757289815,
+      "peak_tibia_displacement_yoked_rad": 0.02794074000976643,
+      "postpulse_abs_error_feedback_rad_s": 0.0006163714853888703,
+      "postpulse_abs_error_yoked_rad_s": 0.00061636448805648,
+      "relative_postpulse_error_reduction": -1.1352588485969688e-05,
+      "final_displacement_feedback_rad": 1.4075594123585944e-07,
+      "final_displacement_yoked_rad": -3.3075213368150003e-07,
+      "feedback_vs_yoked_tibia_max_rad": 1.0633678343419106e-06,
+      "feedback_vs_yoked_control_max": 7.525086402893066e-06
+    }
+  ],
+  "control_reconstruction_max_error": 0.0,
+  "physical_replay": {
+    "intervals": 72,
+    "qpos_max_error": 0.0
+  },
+  "caveat": "Recovery relative to moving sham, not a biological target; no calibrated reflex or whole-fly success claim."
+}

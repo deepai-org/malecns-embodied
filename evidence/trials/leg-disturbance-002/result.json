@@ -1,0 +1,111 @@
+{
+  "completed": true,
+  "conditions": [
+    {
+      "polarity": 1,
+      "sign": 1,
+      "mode": "sham"
+    },
+    {
+      "polarity": 1,
+      "sign": 1,
+      "mode": "feedback"
+    },
+    {
+      "polarity": 1,
+      "sign": 1,
+      "mode": "yoked-sensory"
+    },
+    {
+      "polarity": 1,
+      "sign": -1,
+      "mode": "sham"
+    },
+    {
+      "polarity": 1,
+      "sign": -1,
+      "mode": "feedback"
+    },
+    {
+      "polarity": 1,
+      "sign": -1,
+      "mode": "yoked-sensory"
+    },
+    {
+      "polarity": -1,
+      "sign": 1,
+      "mode": "sham"
+    },
+    {
+      "polarity": -1,
+      "sign": 1,
+      "mode": "feedback"
+    },
+    {
+      "polarity": -1,
+      "sign": 1,
+      "mode": "yoked-sensory"
+    },
+    {
+      "polarity": -1,
+      "sign": -1,
+      "mode": "sham"
+    },
+    {
+      "polarity": -1,
+      "sign": -1,
+      "mode": "feedback"
+    },
+    {
+      "polarity": -1,
+      "sign": -1,
+      "mode": "yoked-sensory"
+    }
+  ],
+  "steps": 200,
+  "pulse_ticks": [
+    80,
+    85
+  ],
+  "torque_model_units": 0.1,
+  "amplitude_model_units": 0.2,
+  "qpos_index": 6,
+  "dof_index": 6,
+  "joint_range": [
+    0.4789,
+    2.502
+  ],
+  "afferent_rows": [
+    [
+      162053
+    ],
+    [
+      155342,
+      156513,
+      162923
+    ]
+  ],
+  "model_manifest_sha256": "61ba02739072cbe53382b85c76eca617960627a162d241fffa607d8e4a644742",
+  "runner_sha256": "2c5907f480e50ff3ce2b833880b97c84ba8fc1d4e4af8bb2f61b839c05589dbf",
+  "input_sha256": {
+    "mapping": "ecd5db16c80424a06de7de486a786a3d75e0d163e5ab881d17da3f7c0db68e8e",
+    "sensory": "54b6c1e98cc2e2f4d63b7c8e032183a418b1bcb04454329cf96658fac8ddc444",
+    "xml": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b"
+  },
+  "dependency_sha256": {
+    "model_loader.py": "4f96f274a34b9dce88b3d44d83cbbb2578bde7b4f285f658241a1a32077af9df",
+    "neuromuscular.py": "63f0686386f2e48b439606ee6d4416ffc4e780c7a12387e71703e7e85e95c645",
+    "run_muscle_feedback.py": "b9511a25d6ce9b47d39bc0ef7860a0a0c8b9259f6cfd1b8c157a8712b18c06af"
+  },
+  "trace_sha256": "0c644950320dcec72f4ded22cdd26c9d7fbd776e07b0a67e6c60d530fa05ab79",
+  "mujoco": "3.12.0",
+  "integration_state_spec": 16383,
+  "wall_seconds": 30.878014486283064,
+  "assumptions": [
+    "Uncalibrated torque in model units, applied physically for 50ms; not a controller.",
+    "Yoked CNS senses its matched sham body, not its own perturbed body.",
+    "All 15 foreleg muscles use supplied named pools and raw mean rates.",
+    "Both uncalibrated position-current polarities retained; organ strain is not modeled.",
+    "Fixed-base foreleg; no parameter fitting or whole-fly behavioral claim."
+  ]
+}

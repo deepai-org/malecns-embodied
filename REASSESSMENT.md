@@ -1,5 +1,22 @@
 # Route reassessment
 
+## Current execution priority
+
+The newer six-leg integration and neural assays have not established either
+muscle-supported posture or useful sensory-driven movement. Freeze environment
+expansion and repeated whole-body sweeps. The immediate gate is one physically
+perturbed leg with identified afferents, full MaleCNS dynamics, named motor pools,
+and muscles, compared against a sham-yoked sensory control. See
+[LEG_DISTURBANCE.md](LEG_DISTURBANCE.md). Establish its current response before
+calibrating muscle recruitment and neural dynamics against biological evidence;
+reserve biological tests for validation rather than choosing parameters solely
+for attractive motion. This is an intermediate gate, not a reduced goal.
+
+The historical reassessments below retain the state of earlier interfaces;
+their twelve-/eighteen-channel limitations do not describe the latest body.
+
+## Earlier route decisions
+
 Latest reassessment: freeze infrastructure and gate further investment on
 mechanical support feasibility and biologically grounded CNS perturbation
 responses. Do not preserve a particular simulator at the expense of the goal.

@@ -30,6 +30,10 @@ whole-body integration. It remains fixed-base and has not produced useful behavi
 The subsequent [free six-leg muscle body](SIX_LEG_BODY.md) now runs full-CNS
 proprioceptive feedback through 90 muscle units (78 with mapped motor pools).
 It rests on its thorax/abdomen; useful standing or locomotion is not demonstrated.
+The subsequent [physical leg disturbance assay](LEG_DISTURBANCE.md) isolates
+perturbation-dependent feedback using a sham-yoked sensory control. The leg
+recovers almost identically without that feedback (recovery-error changes
+below 0.003%); this is not a demonstrated corrective neural reflex.
 
 ## What currently works
 
