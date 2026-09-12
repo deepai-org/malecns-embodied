@@ -11,7 +11,12 @@ or distributing its artifacts.
 The muscle assets come from **FlyMimic**, by Pembe Gizem Özdil, Chuanfang Ning,
 and collaborators, under Apache-2.0. Cite *Musculoskeletal simulation of limb
 movement biomechanics in Drosophila melanogaster*, ICLR 2026,
-https://arxiv.org/abs/2509.06426. Those assets are not vendored here.
+https://arxiv.org/abs/2509.06426. Bulk mesh assets are not vendored here.
+`evidence/six-leg-body-002.xml` is a modified derivative of that project's
+`best_combined_cvt3.xml`: it replicates and reflects the foreleg assemblies,
+remounts them, frees the torso and removes the original right-leg locks.
+This derived XML retains the upstream Apache-2.0 license, reproduced in
+`licenses/FlyMimic-Apache-2.0.txt`. It is an experiment, not an upstream asset.
 
 `motor-annotations.json` and `proprioceptor-annotations.json` are subsets derived
 from the **MaleCNS v1.0** official body annotations, distributed under CC BY 4.0:

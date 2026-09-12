@@ -1,0 +1,1286 @@
+<mujoco model="template">
+  
+  <compiler angle="radian" autolimits="true" />
+  <option timestep="1e-04" gravity="0 0 -9801" />
+  <size njmax="1000" nconmax="400" nkey="1" nuser_jnt="1" />
+  <visual>
+    <scale framelength="0.5" framewidth="0.01" />
+  </visual>
+  <statistic meansize="0.298677" extent="5.78307" center="-0.79295 0.00627929 2.89153" />
+  <default class="main">
+    <joint limited="true" armature="0.0005" damping="0.02" />
+    <geom margin="0.001" rgba="0.8 0.6 0.4 1" />
+    <site size="0.001 0.005 0.005" />
+    <tendon limited="false" width="0.01" rgba="0.0 0.0 0.95 1" />
+    <default class="muscle">
+      <general ctrllimited="true" ctrlrange="0 1" dyntype="muscle" gaintype="muscle" biastype="muscle" dynprm="0.01 0.04 0 0 0 0 0 0 0 0" gainprm="0.75 1.05 -1 200 0.5 1.6 1.5 1.3 1.2 0" biasprm="0.75 1.05 -1 200 0.5 1.6 1.5 1.3 1.2 0" />
+    </default>
+    <default class="motor">
+      <general gainprm="5 0 0 0 0 0 0 0 0 0" />
+    </default>
+  </default>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.1 0.1 0.1" rgb2="0 0 0" width="256" height="1536" />
+    <mesh name="Thorax_geom_Thorax" file="meshes/61a091c49c87895f735fb63e42898128888a6f53ee60900bbf61f92edf5e42e6.stl" scale="1000 1000 1000" />
+    <mesh name="A1A2_geom_A1A2" file="meshes/a8645b7b026f2736b08772bc2bca08ca79adc417bd613ed4d487c02ffcaa2903.stl" scale="1000 1000 1000" />
+    <mesh name="A3_geom_A3" file="meshes/5717f47f1c426bdfa5d6f44e1d41bd4e8d997cda43075f0258d6162c8fe4c124.stl" scale="1000 1000 1000" />
+    <mesh name="A4_geom_A4" file="meshes/ffc7a77b712b9f8f54982da0b65435680f4602184231f27b6c34d485cfcec0f5.stl" scale="1000 1000 1000" />
+    <mesh name="A5_geom_A5" file="meshes/3e80fdb1fa9db4da41df9015162cdcc22e724a0e5ddb47400d025a3f5b88debb.stl" scale="1000 1000 1000" />
+    <mesh name="A6_geom_A6" file="meshes/153bb1b802fd14c90bcbd9c56425bac7d49a1ef205afd5e18ac8c71b54ea336f.stl" scale="1000 1000 1000" />
+    <mesh name="Head_geom_Head" file="meshes/27b97b890db42105b0a692b03d6b7ee014498da7f52b1523d8d5701264b31992.stl" scale="1000 1000 1000" />
+    <mesh name="LEye_geom_LEye" file="meshes/b4371603242f501020032c8f86d2bec9feef5501b8f3a347408ac49d16030fee.stl" scale="1000 1000 1000" />
+    <mesh name="LPedicel_geom_LPedicel" file="meshes/6dfd2255f674a937a85f12916ddc4af193b79757f4f29e48070a776d825a5616.stl" scale="1000 1000 1000" />
+    <mesh name="LFuniculus_geom_LFuniculus" file="meshes/3bf5a160aee8a87bb9776cf3b4e2cce26fa9c7586737054e0d7e06a91c2cddbf.stl" scale="1000 1000 1000" />
+    <mesh name="LArista_geom_LArista" file="meshes/89279377fa06a9d0a611b5fa46f3353bc528121a19c7e52b419bb754cf3696f4.stl" scale="1000 1000 1000" />
+    <mesh name="REye_geom_REye" file="meshes/b9bb1a0137254acbf0c204d2ee9b55ab63f6dc4415dce55bfec95b225de97a3d.stl" scale="1000 1000 1000" />
+    <mesh name="RPedicel_geom_RPedicel" file="meshes/e555a9108c30c70b9c5e5117577153ecec2eecb66c857b78540a4c02b191f538.stl" scale="1000 1000 1000" />
+    <mesh name="RFuniculus_geom_RFuniculus" file="meshes/b0e4d9699f1f70d276186c9c7a90c51720c21ad56e99ceb70fd4219642d36275.stl" scale="1000 1000 1000" />
+    <mesh name="RArista_geom_RArista" file="meshes/025fe9065e92ab6be2dc311aeb6d38258c284b02724393b46d60b64c46d35cef.stl" scale="1000 1000 1000" />
+    <mesh name="Rostrum_geom_Rostrum" file="meshes/672c49f10fc9294c047eaa017afd30c68037036446cb4a2b34f52455fa72854e.stl" scale="1000 1000 1000" />
+    <mesh name="Haustellum_geom_Haustellum" file="meshes/09fda52eeef008ff4b6513d8fcc2906d3cbe8911393ff4e77ef687a66240b47d.stl" scale="1000 1000 1000" />
+    <mesh name="LFCoxa_geom_LFCoxa" file="meshes/9195e39b45975b58a631a281e53c3b8a6b3f0d8ee8dee09be7aad3342e7aa3bb.stl" scale="1000 1000 1000" />
+    <mesh name="LFTrochanter_geom_LFTrochanter" file="meshes/9eece5e88d044b53517bfe231edddbe8acc3f5cb50bbd2230168f799cfaee9f2.stl" scale="1000 1000 1000" />
+    <mesh name="LFFemur_geom_LFFemur" file="meshes/d4012dff9598fcf021d451b04d0b2bfce666fa8bc5369c7a6844699ff806f3cc.stl" scale="1000 1000 1000" />
+    <mesh name="LFTibia_geom_LFTibia" file="meshes/e48e96e254ac932ecb707364c31f4d1867ab2dd947a3fc257a3291bae5d10d5f.stl" scale="1000 1000 1000" />
+    <mesh name="LFTarsus1_geom_LFTarsus1" file="meshes/ad61cfec64816d669f1f4f89bddb818471344dd69f6443c184a3aa674ea2b62a.stl" scale="1000 1000 1000" />
+    <mesh name="LFTarsus2_geom_LFTarsus2" file="meshes/a5c00b6a936c0d61a70a9726082e569f9b7f72bce17bfce67cd406bb7ed840e5.stl" scale="1000 1000 1000" />
+    <mesh name="LFTarsus3_geom_LFTarsus3" file="meshes/c154a96be4927b0db54cbc713681e00ae62021a05d55ca3649c3e40069c65acb.stl" scale="1000 1000 1000" />
+    <mesh name="LFTarsus4_geom_LFTarsus4" file="meshes/622606f09a1a6598125bd534af675cfe50a8aae465b38fdf9148dda8b06a58f9.stl" scale="1000 1000 1000" />
+    <mesh name="LFTarsus5_geom_LFTarsus5" file="meshes/7f7e9f98c416f01c1114f38d22ba3fc0c7ed4ee2c5f799a2c59a447fbff308b3.stl" scale="1000 1000 1000" />
+    <mesh name="LHCoxa_geom_LHCoxa" file="meshes/cf8352af3217f5febd0574215b799faa38113ec8055079e751983071da53d4bc.stl" scale="1000 1000 1000" />
+    <mesh name="LHFemur_geom_LHFemur" file="meshes/9a8f7703c5939807d8894dc1e750997bdfb00b2a7c1698ab3e193544d07ba11b.stl" scale="1000 1000 1000" />
+    <mesh name="LHTibia_geom_LHTibia" file="meshes/15b3fcb4b0c14d12883daffc14f99415329f99614f14f1fd8cfd5e7b1fda4b37.stl" scale="1000 1000 1000" />
+    <mesh name="LHTarsus1_geom_LHTarsus1" file="meshes/bef10a44d00419f04f5373a6d80f8aa5a248e84f9b2a07408d35671ef8bc46d8.stl" scale="1000 1000 1000" />
+    <mesh name="LHTarsus2_geom_LHTarsus2" file="meshes/41cab7b9105f99d4db311c90fcbdda95b2cb53595b4a37b6ab494469eb0740b8.stl" scale="1000 1000 1000" />
+    <mesh name="LHTarsus3_geom_LHTarsus3" file="meshes/cfde4d0b603b0848dbc4ce85ab2e2954942da05da3429f2fb694819d3e77a0d1.stl" scale="1000 1000 1000" />
+    <mesh name="LHTarsus4_geom_LHTarsus4" file="meshes/c2eed9e0aa475353694d4cc209435bb5716d5a5862161bc1fd76a57bd72717c2.stl" scale="1000 1000 1000" />
+    <mesh name="LHTarsus5_geom_LHTarsus5" file="meshes/33556f4a7f538fc2d3e14913f50e756f6f88a33439dab455b3f5f300da5287ed.stl" scale="1000 1000 1000" />
+    <mesh name="LHaltere_geom_LHaltere" file="meshes/f10ce437255a1aede388e6375e32a6ea2d917c1cebb0347e95c93938a82afe46.stl" scale="1000 1000 1000" />
+    <mesh name="LMCoxa_geom_LMCoxa" file="meshes/1f531dd264b421f50218f948ca0520daedcec95b326848344472b87f99df38c4.stl" scale="1000 1000 1000" />
+    <mesh name="LMFemur_geom_LMFemur" file="meshes/cc7de1d5c273692c1092af22c64ac523ab9065e54c9867ae0e840028fe1f4489.stl" scale="1000 1000 1000" />
+    <mesh name="LMTibia_geom_LMTibia" file="meshes/121eb0503627adcb96f71701d1d12be0e6dafb8a842dd672cb23918094dae186.stl" scale="1000 1000 1000" />
+    <mesh name="LMTarsus1_geom_LMTarsus1" file="meshes/46c584345e52741d3e93c6053b63de72d84262a1db82651e9fe146ed4cfabd6a.stl" scale="1000 1000 1000" />
+    <mesh name="LMTarsus2_geom_LMTarsus2" file="meshes/6f0482bbc912995884caab40380645ac4846ae1b6d38b78f7d1190514cdaa399.stl" scale="1000 1000 1000" />
+    <mesh name="LMTarsus3_geom_LMTarsus3" file="meshes/bbb9f6caa201c9d177b4007011dabf0c87ad2d722f55f6aeef4c8cf98b772883.stl" scale="1000 1000 1000" />
+    <mesh name="LMTarsus4_geom_LMTarsus4" file="meshes/cef9504a68c0b054795dc1feaaad683df05cd47601db4c8a141bc6dc427fff61.stl" scale="1000 1000 1000" />
+    <mesh name="LMTarsus5_geom_LMTarsus5" file="meshes/83eaa926ff3a7b8452e2432033e4573752097ee08c9b3513b70482c084e29f7f.stl" scale="1000 1000 1000" />
+    <mesh name="LWing_geom_LWing" file="meshes/9247992a96ba2f6ea69a13b2949c0be0ea51738bb0044cdaed34b262a926f256.stl" scale="1000 1000 1000" />
+    <mesh name="RFCoxa_geom_RFCoxa" file="meshes/e1849a7dbe5273cfd86ace2c14af0130775d00381e926e1736ed592cac63550a.stl" scale="1000 1000 1000" />
+    <mesh name="RFTrochanter_geom_RFTrochanter" file="meshes/a47df0bfd23d89aa8f1aa9a3652d86cc2fdfe39e9410485baa6bbe2140491c1b.stl" scale="1000 1000 1000" />
+    <mesh name="RFFemur_geom_RFFemur" file="meshes/77ee2146a08d8ef175bdc5bcb3a5a155a3e5317103e17e28903e415316ed5837.stl" scale="1000 1000 1000" />
+    <mesh name="RFTibia_geom_RFTibia" file="meshes/bd073bc9a7f598dbe1487d838da35273be58d84822222bd971ba5fabd88845ed.stl" scale="1000 1000 1000" />
+    <mesh name="RFTarsus1_geom_RFTarsus1" file="meshes/055adb1a90f1430b9edfd54f050da921ad816e3c212a66cc99a83118485cf805.stl" scale="1000 1000 1000" />
+    <mesh name="RFTarsus2_geom_RFTarsus2" file="meshes/4dfacd1cfd62d6984b93a7809d2e64527e97a5e9ccb95bc4729415fdcedb6cdd.stl" scale="1000 1000 1000" />
+    <mesh name="RFTarsus3_geom_RFTarsus3" file="meshes/402b2d148d2f079aa100ae2cc799919d4cf64fcfdb2e112ae05221a3247b86c0.stl" scale="1000 1000 1000" />
+    <mesh name="RFTarsus4_geom_RFTarsus4" file="meshes/1d9790cfd7949942e973e6de356989f90468acb0c9808458661d85afd6953c73.stl" scale="1000 1000 1000" />
+    <mesh name="RFTarsus5_geom_RFTarsus5" file="meshes/716f7a121e190f7c46df2b63968ea29cacc7d9951b864d657ed5b96f50f8bf3f.stl" scale="1000 1000 1000" />
+    <mesh name="RHCoxa_geom_RHCoxa" file="meshes/de2abbee97410931b6aecd8e904d622a225f1cfd1b475eb8c49da1b161eac736.stl" scale="1000 1000 1000" />
+    <mesh name="RHFemur_geom_RHFemur" file="meshes/219ef48acfab0bb2920e8a3d57537c23b0a4fcc133feff18fc72477baf550880.stl" scale="1000 1000 1000" />
+    <mesh name="RHTibia_geom_RHTibia" file="meshes/94830552615cb5cacaeb4eddaabde518bc1ab79fbc76e42a8cc654a54f8c6815.stl" scale="1000 1000 1000" />
+    <mesh name="RHTarsus1_geom_RHTarsus1" file="meshes/55a3db5944bb43a4bf970fcddba0b77a9cff1b37319b9d5b35d7c7ac933f06ec.stl" scale="1000 1000 1000" />
+    <mesh name="RHTarsus2_geom_RHTarsus2" file="meshes/ab7262e6d880ef8aee6208d03275ffaa8517b311dee5972a35d749af2dbdfbc2.stl" scale="1000 1000 1000" />
+    <mesh name="RHTarsus3_geom_RHTarsus3" file="meshes/9d4d07ebfdc32a8301c9e0a47c7c066fc144d5e75a947a0f69b6ef4fc4fdaf1e.stl" scale="1000 1000 1000" />
+    <mesh name="RHTarsus4_geom_RHTarsus4" file="meshes/dbb7b4b0dff7ce16ad67d799c5d8ac1c3067c2ca8a7a09c35bd1be552abf46c6.stl" scale="1000 1000 1000" />
+    <mesh name="RHTarsus5_geom_RHTarsus5" file="meshes/e4fbc4cf0ab91e6ca120f3b2a0e4f3b376c553f963759be9b067f1307b285f92.stl" scale="1000 1000 1000" />
+    <mesh name="RHaltere_geom_RHaltere" file="meshes/79f6fd1b7e390c68a518c5785c5a264d4fce6b6190f0c459e67b8a86e5b1d39d.stl" scale="1000 1000 1000" />
+    <mesh name="RMCoxa_geom_RMCoxa" file="meshes/3b1dadc1ac39b49ca1e7a67e5ce73b20765398d6ee36c58bd7a2da31b6495727.stl" scale="1000 1000 1000" />
+    <mesh name="RMFemur_geom_RMFemur" file="meshes/a09baaa03751f7e75b29dff72cbb41b8e6d4281e726aa25714d9568c8a24b484.stl" scale="1000 1000 1000" />
+    <mesh name="RMTibia_geom_RMTibia" file="meshes/5ae92d36789ae2666c52ebe56614de609c7a78b56610b3886662008fdf4b02dd.stl" scale="1000 1000 1000" />
+    <mesh name="RMTarsus1_geom_RMTarsus1" file="meshes/a52ffb792c22345983f1d2d068836765682975e3f209ad056cd08c62060ae5e1.stl" scale="1000 1000 1000" />
+    <mesh name="RMTarsus2_geom_RMTarsus2" file="meshes/3f52c7f9a5ce869098b8e29a7bc9a0d308b4833d4d17064c92a1ba4a58898502.stl" scale="1000 1000 1000" />
+    <mesh name="RMTarsus3_geom_RMTarsus3" file="meshes/e70d291cdd958d0a5a2ed6e3554b369b7170a6b9a110f912017c331afafa1d72.stl" scale="1000 1000 1000" />
+    <mesh name="RMTarsus4_geom_RMTarsus4" file="meshes/6e2d9ec053490b0649c756b9d1ca47394806d162f463659ed6117c16788ab40a.stl" scale="1000 1000 1000" />
+    <mesh name="RMTarsus5_geom_RMTarsus5" file="meshes/f6ac243379d2694e6161e28c2c9dc406cf6ac91363ac6bf7eb7e42da225b2f15.stl" scale="1000 1000 1000" />
+    <mesh name="RWing_geom_RWing" file="meshes/a00cd68f368e9a51832a05ba869cade1ac65fa7b502c7c3e9f62da417b53ea43.stl" scale="1000 1000 1000" />
+    <texture name="texplane" type="2d" builtin="checker" rgb1=".2 .3 .4" rgb2=".1 0.15 0.2" width="100" height="100" />
+    <material name="MatPlane" reflectance="0.0" texture="texplane" texrepeat="1 1" texuniform="true" />
+  <mesh name="Thorax_geom_Thorax_mirror_y" file="meshes/61a091c49c87895f735fb63e42898128888a6f53ee60900bbf61f92edf5e42e6.stl" scale="1000 -1000 1000" />
+    <mesh name="A1A2_geom_A1A2_mirror_y" file="meshes/a8645b7b026f2736b08772bc2bca08ca79adc417bd613ed4d487c02ffcaa2903.stl" scale="1000 -1000 1000" />
+    <mesh name="A3_geom_A3_mirror_y" file="meshes/5717f47f1c426bdfa5d6f44e1d41bd4e8d997cda43075f0258d6162c8fe4c124.stl" scale="1000 -1000 1000" />
+    <mesh name="A4_geom_A4_mirror_y" file="meshes/ffc7a77b712b9f8f54982da0b65435680f4602184231f27b6c34d485cfcec0f5.stl" scale="1000 -1000 1000" />
+    <mesh name="A5_geom_A5_mirror_y" file="meshes/3e80fdb1fa9db4da41df9015162cdcc22e724a0e5ddb47400d025a3f5b88debb.stl" scale="1000 -1000 1000" />
+    <mesh name="A6_geom_A6_mirror_y" file="meshes/153bb1b802fd14c90bcbd9c56425bac7d49a1ef205afd5e18ac8c71b54ea336f.stl" scale="1000 -1000 1000" />
+    <mesh name="Head_geom_Head_mirror_y" file="meshes/27b97b890db42105b0a692b03d6b7ee014498da7f52b1523d8d5701264b31992.stl" scale="1000 -1000 1000" />
+    <mesh name="LEye_geom_LEye_mirror_y" file="meshes/b4371603242f501020032c8f86d2bec9feef5501b8f3a347408ac49d16030fee.stl" scale="1000 -1000 1000" />
+    <mesh name="LPedicel_geom_LPedicel_mirror_y" file="meshes/6dfd2255f674a937a85f12916ddc4af193b79757f4f29e48070a776d825a5616.stl" scale="1000 -1000 1000" />
+    <mesh name="LFuniculus_geom_LFuniculus_mirror_y" file="meshes/3bf5a160aee8a87bb9776cf3b4e2cce26fa9c7586737054e0d7e06a91c2cddbf.stl" scale="1000 -1000 1000" />
+    <mesh name="LArista_geom_LArista_mirror_y" file="meshes/89279377fa06a9d0a611b5fa46f3353bc528121a19c7e52b419bb754cf3696f4.stl" scale="1000 -1000 1000" />
+    <mesh name="REye_geom_REye_mirror_y" file="meshes/b9bb1a0137254acbf0c204d2ee9b55ab63f6dc4415dce55bfec95b225de97a3d.stl" scale="1000 -1000 1000" />
+    <mesh name="RPedicel_geom_RPedicel_mirror_y" file="meshes/e555a9108c30c70b9c5e5117577153ecec2eecb66c857b78540a4c02b191f538.stl" scale="1000 -1000 1000" />
+    <mesh name="RFuniculus_geom_RFuniculus_mirror_y" file="meshes/b0e4d9699f1f70d276186c9c7a90c51720c21ad56e99ceb70fd4219642d36275.stl" scale="1000 -1000 1000" />
+    <mesh name="RArista_geom_RArista_mirror_y" file="meshes/025fe9065e92ab6be2dc311aeb6d38258c284b02724393b46d60b64c46d35cef.stl" scale="1000 -1000 1000" />
+    <mesh name="Rostrum_geom_Rostrum_mirror_y" file="meshes/672c49f10fc9294c047eaa017afd30c68037036446cb4a2b34f52455fa72854e.stl" scale="1000 -1000 1000" />
+    <mesh name="Haustellum_geom_Haustellum_mirror_y" file="meshes/09fda52eeef008ff4b6513d8fcc2906d3cbe8911393ff4e77ef687a66240b47d.stl" scale="1000 -1000 1000" />
+    <mesh name="LFCoxa_geom_LFCoxa_mirror_y" file="meshes/9195e39b45975b58a631a281e53c3b8a6b3f0d8ee8dee09be7aad3342e7aa3bb.stl" scale="1000 -1000 1000" />
+    <mesh name="LFTrochanter_geom_LFTrochanter_mirror_y" file="meshes/9eece5e88d044b53517bfe231edddbe8acc3f5cb50bbd2230168f799cfaee9f2.stl" scale="1000 -1000 1000" />
+    <mesh name="LFFemur_geom_LFFemur_mirror_y" file="meshes/d4012dff9598fcf021d451b04d0b2bfce666fa8bc5369c7a6844699ff806f3cc.stl" scale="1000 -1000 1000" />
+    <mesh name="LFTibia_geom_LFTibia_mirror_y" file="meshes/e48e96e254ac932ecb707364c31f4d1867ab2dd947a3fc257a3291bae5d10d5f.stl" scale="1000 -1000 1000" />
+    <mesh name="LFTarsus1_geom_LFTarsus1_mirror_y" file="meshes/ad61cfec64816d669f1f4f89bddb818471344dd69f6443c184a3aa674ea2b62a.stl" scale="1000 -1000 1000" />
+    <mesh name="LFTarsus2_geom_LFTarsus2_mirror_y" file="meshes/a5c00b6a936c0d61a70a9726082e569f9b7f72bce17bfce67cd406bb7ed840e5.stl" scale="1000 -1000 1000" />
+    <mesh name="LFTarsus3_geom_LFTarsus3_mirror_y" file="meshes/c154a96be4927b0db54cbc713681e00ae62021a05d55ca3649c3e40069c65acb.stl" scale="1000 -1000 1000" />
+    <mesh name="LFTarsus4_geom_LFTarsus4_mirror_y" file="meshes/622606f09a1a6598125bd534af675cfe50a8aae465b38fdf9148dda8b06a58f9.stl" scale="1000 -1000 1000" />
+    <mesh name="LFTarsus5_geom_LFTarsus5_mirror_y" file="meshes/7f7e9f98c416f01c1114f38d22ba3fc0c7ed4ee2c5f799a2c59a447fbff308b3.stl" scale="1000 -1000 1000" />
+    <mesh name="LHCoxa_geom_LHCoxa_mirror_y" file="meshes/cf8352af3217f5febd0574215b799faa38113ec8055079e751983071da53d4bc.stl" scale="1000 -1000 1000" />
+    <mesh name="LHFemur_geom_LHFemur_mirror_y" file="meshes/9a8f7703c5939807d8894dc1e750997bdfb00b2a7c1698ab3e193544d07ba11b.stl" scale="1000 -1000 1000" />
+    <mesh name="LHTibia_geom_LHTibia_mirror_y" file="meshes/15b3fcb4b0c14d12883daffc14f99415329f99614f14f1fd8cfd5e7b1fda4b37.stl" scale="1000 -1000 1000" />
+    <mesh name="LHTarsus1_geom_LHTarsus1_mirror_y" file="meshes/bef10a44d00419f04f5373a6d80f8aa5a248e84f9b2a07408d35671ef8bc46d8.stl" scale="1000 -1000 1000" />
+    <mesh name="LHTarsus2_geom_LHTarsus2_mirror_y" file="meshes/41cab7b9105f99d4db311c90fcbdda95b2cb53595b4a37b6ab494469eb0740b8.stl" scale="1000 -1000 1000" />
+    <mesh name="LHTarsus3_geom_LHTarsus3_mirror_y" file="meshes/cfde4d0b603b0848dbc4ce85ab2e2954942da05da3429f2fb694819d3e77a0d1.stl" scale="1000 -1000 1000" />
+    <mesh name="LHTarsus4_geom_LHTarsus4_mirror_y" file="meshes/c2eed9e0aa475353694d4cc209435bb5716d5a5862161bc1fd76a57bd72717c2.stl" scale="1000 -1000 1000" />
+    <mesh name="LHTarsus5_geom_LHTarsus5_mirror_y" file="meshes/33556f4a7f538fc2d3e14913f50e756f6f88a33439dab455b3f5f300da5287ed.stl" scale="1000 -1000 1000" />
+    <mesh name="LHaltere_geom_LHaltere_mirror_y" file="meshes/f10ce437255a1aede388e6375e32a6ea2d917c1cebb0347e95c93938a82afe46.stl" scale="1000 -1000 1000" />
+    <mesh name="LMCoxa_geom_LMCoxa_mirror_y" file="meshes/1f531dd264b421f50218f948ca0520daedcec95b326848344472b87f99df38c4.stl" scale="1000 -1000 1000" />
+    <mesh name="LMFemur_geom_LMFemur_mirror_y" file="meshes/cc7de1d5c273692c1092af22c64ac523ab9065e54c9867ae0e840028fe1f4489.stl" scale="1000 -1000 1000" />
+    <mesh name="LMTibia_geom_LMTibia_mirror_y" file="meshes/121eb0503627adcb96f71701d1d12be0e6dafb8a842dd672cb23918094dae186.stl" scale="1000 -1000 1000" />
+    <mesh name="LMTarsus1_geom_LMTarsus1_mirror_y" file="meshes/46c584345e52741d3e93c6053b63de72d84262a1db82651e9fe146ed4cfabd6a.stl" scale="1000 -1000 1000" />
+    <mesh name="LMTarsus2_geom_LMTarsus2_mirror_y" file="meshes/6f0482bbc912995884caab40380645ac4846ae1b6d38b78f7d1190514cdaa399.stl" scale="1000 -1000 1000" />
+    <mesh name="LMTarsus3_geom_LMTarsus3_mirror_y" file="meshes/bbb9f6caa201c9d177b4007011dabf0c87ad2d722f55f6aeef4c8cf98b772883.stl" scale="1000 -1000 1000" />
+    <mesh name="LMTarsus4_geom_LMTarsus4_mirror_y" file="meshes/cef9504a68c0b054795dc1feaaad683df05cd47601db4c8a141bc6dc427fff61.stl" scale="1000 -1000 1000" />
+    <mesh name="LMTarsus5_geom_LMTarsus5_mirror_y" file="meshes/83eaa926ff3a7b8452e2432033e4573752097ee08c9b3513b70482c084e29f7f.stl" scale="1000 -1000 1000" />
+    <mesh name="LWing_geom_LWing_mirror_y" file="meshes/9247992a96ba2f6ea69a13b2949c0be0ea51738bb0044cdaed34b262a926f256.stl" scale="1000 -1000 1000" />
+    <mesh name="RFCoxa_geom_RFCoxa_mirror_y" file="meshes/e1849a7dbe5273cfd86ace2c14af0130775d00381e926e1736ed592cac63550a.stl" scale="1000 -1000 1000" />
+    <mesh name="RFTrochanter_geom_RFTrochanter_mirror_y" file="meshes/a47df0bfd23d89aa8f1aa9a3652d86cc2fdfe39e9410485baa6bbe2140491c1b.stl" scale="1000 -1000 1000" />
+    <mesh name="RFFemur_geom_RFFemur_mirror_y" file="meshes/77ee2146a08d8ef175bdc5bcb3a5a155a3e5317103e17e28903e415316ed5837.stl" scale="1000 -1000 1000" />
+    <mesh name="RFTibia_geom_RFTibia_mirror_y" file="meshes/bd073bc9a7f598dbe1487d838da35273be58d84822222bd971ba5fabd88845ed.stl" scale="1000 -1000 1000" />
+    <mesh name="RFTarsus1_geom_RFTarsus1_mirror_y" file="meshes/055adb1a90f1430b9edfd54f050da921ad816e3c212a66cc99a83118485cf805.stl" scale="1000 -1000 1000" />
+    <mesh name="RFTarsus2_geom_RFTarsus2_mirror_y" file="meshes/4dfacd1cfd62d6984b93a7809d2e64527e97a5e9ccb95bc4729415fdcedb6cdd.stl" scale="1000 -1000 1000" />
+    <mesh name="RFTarsus3_geom_RFTarsus3_mirror_y" file="meshes/402b2d148d2f079aa100ae2cc799919d4cf64fcfdb2e112ae05221a3247b86c0.stl" scale="1000 -1000 1000" />
+    <mesh name="RFTarsus4_geom_RFTarsus4_mirror_y" file="meshes/1d9790cfd7949942e973e6de356989f90468acb0c9808458661d85afd6953c73.stl" scale="1000 -1000 1000" />
+    <mesh name="RFTarsus5_geom_RFTarsus5_mirror_y" file="meshes/716f7a121e190f7c46df2b63968ea29cacc7d9951b864d657ed5b96f50f8bf3f.stl" scale="1000 -1000 1000" />
+    <mesh name="RHCoxa_geom_RHCoxa_mirror_y" file="meshes/de2abbee97410931b6aecd8e904d622a225f1cfd1b475eb8c49da1b161eac736.stl" scale="1000 -1000 1000" />
+    <mesh name="RHFemur_geom_RHFemur_mirror_y" file="meshes/219ef48acfab0bb2920e8a3d57537c23b0a4fcc133feff18fc72477baf550880.stl" scale="1000 -1000 1000" />
+    <mesh name="RHTibia_geom_RHTibia_mirror_y" file="meshes/94830552615cb5cacaeb4eddaabde518bc1ab79fbc76e42a8cc654a54f8c6815.stl" scale="1000 -1000 1000" />
+    <mesh name="RHTarsus1_geom_RHTarsus1_mirror_y" file="meshes/55a3db5944bb43a4bf970fcddba0b77a9cff1b37319b9d5b35d7c7ac933f06ec.stl" scale="1000 -1000 1000" />
+    <mesh name="RHTarsus2_geom_RHTarsus2_mirror_y" file="meshes/ab7262e6d880ef8aee6208d03275ffaa8517b311dee5972a35d749af2dbdfbc2.stl" scale="1000 -1000 1000" />
+    <mesh name="RHTarsus3_geom_RHTarsus3_mirror_y" file="meshes/9d4d07ebfdc32a8301c9e0a47c7c066fc144d5e75a947a0f69b6ef4fc4fdaf1e.stl" scale="1000 -1000 1000" />
+    <mesh name="RHTarsus4_geom_RHTarsus4_mirror_y" file="meshes/dbb7b4b0dff7ce16ad67d799c5d8ac1c3067c2ca8a7a09c35bd1be552abf46c6.stl" scale="1000 -1000 1000" />
+    <mesh name="RHTarsus5_geom_RHTarsus5_mirror_y" file="meshes/e4fbc4cf0ab91e6ca120f3b2a0e4f3b376c553f963759be9b067f1307b285f92.stl" scale="1000 -1000 1000" />
+    <mesh name="RHaltere_geom_RHaltere_mirror_y" file="meshes/79f6fd1b7e390c68a518c5785c5a264d4fce6b6190f0c459e67b8a86e5b1d39d.stl" scale="1000 -1000 1000" />
+    <mesh name="RMCoxa_geom_RMCoxa_mirror_y" file="meshes/3b1dadc1ac39b49ca1e7a67e5ce73b20765398d6ee36c58bd7a2da31b6495727.stl" scale="1000 -1000 1000" />
+    <mesh name="RMFemur_geom_RMFemur_mirror_y" file="meshes/a09baaa03751f7e75b29dff72cbb41b8e6d4281e726aa25714d9568c8a24b484.stl" scale="1000 -1000 1000" />
+    <mesh name="RMTibia_geom_RMTibia_mirror_y" file="meshes/5ae92d36789ae2666c52ebe56614de609c7a78b56610b3886662008fdf4b02dd.stl" scale="1000 -1000 1000" />
+    <mesh name="RMTarsus1_geom_RMTarsus1_mirror_y" file="meshes/a52ffb792c22345983f1d2d068836765682975e3f209ad056cd08c62060ae5e1.stl" scale="1000 -1000 1000" />
+    <mesh name="RMTarsus2_geom_RMTarsus2_mirror_y" file="meshes/3f52c7f9a5ce869098b8e29a7bc9a0d308b4833d4d17064c92a1ba4a58898502.stl" scale="1000 -1000 1000" />
+    <mesh name="RMTarsus3_geom_RMTarsus3_mirror_y" file="meshes/e70d291cdd958d0a5a2ed6e3554b369b7170a6b9a110f912017c331afafa1d72.stl" scale="1000 -1000 1000" />
+    <mesh name="RMTarsus4_geom_RMTarsus4_mirror_y" file="meshes/6e2d9ec053490b0649c756b9d1ca47394806d162f463659ed6117c16788ab40a.stl" scale="1000 -1000 1000" />
+    <mesh name="RMTarsus5_geom_RMTarsus5_mirror_y" file="meshes/f6ac243379d2694e6161e28c2c9dc406cf6ac91363ac6bf7eb7e42da225b2f15.stl" scale="1000 -1000 1000" />
+    <mesh name="RWing_geom_RWing_mirror_y" file="meshes/a00cd68f368e9a51832a05ba869cade1ac65fa7b502c7c3e9f62da417b53ea43.stl" scale="1000 -1000 1000" />
+    </asset>
+  <worldbody>
+    <geom name="floor" pos="0 0 0" size="10 10 0.125" type="plane" material="MatPlane" condim="3" />
+    <light pos="0 0 0" dir="0 0 -1" directional="true" />
+    <body name="ground" quat="0.707035 0.707179 0 0" />
+    <body name="Thorax" pos="0 0 4" quat="1 0.00039815 0 0">
+      <inertial pos="-0.494322 0.00632413 -0.092333" quat="0.707107 0 0 0.707107" mass="0.000764745" diaginertia="0.000147879 0.000132741 0.000130565" />
+      <geom name="Thorax_geom" type="mesh" rgba="0.54902 0.392157 0.117647 0.4" mesh="Thorax_geom_Thorax" />
+      <body name="A1A2" pos="-0.8331 0.003688 -0.1676">
+        <inertial pos="-0.24128 0.00311472 0.0148448" quat="0.707107 0.707107 0 0" mass="0.000213925" diaginertia="2.54273e-05 2.00535e-05 1.33312e-05" />
+        <geom name="A1A2_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="A1A2_geom_A1A2" />
+        <body name="A3" pos="-0.3565 1.131e-05 0.0006225">
+          <inertial pos="-0.0715831 0.00345898 -0.0502004" quat="0.707107 0.707107 0 0" mass="0.000186803" diaginertia="2.39895e-05 1.67418e-05 1.1667e-05" />
+          <geom name="A3_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="A3_geom_A3" />
+          <body name="A4" pos="-0.2376 7.636e-06 0.001245">
+            <inertial pos="-0.0908526 0.00344036 -0.0632832" quat="0.707107 0.707107 0 0" mass="0.000160204" diaginertia="1.96464e-05 1.42062e-05 8.61745e-06" />
+            <geom name="A4_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="A4_geom_A4" />
+            <body name="A5" pos="-0.2143 6.839e-06 0.0007057">
+              <inertial pos="-0.105531 0.00359672 -0.0687575" quat="0.707107 0.707107 0 0" mass="0.000172917" diaginertia="1.87016e-05 1.36745e-05 9.94377e-06" />
+              <geom name="A5_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="A5_geom_A5" />
+              <body name="A6" pos="-0.268 8.629e-06 0.001505">
+                <inertial pos="-0.161579 0.00335752 -0.0439147" quat="0.707107 0.707107 0 0" mass="0.000175666" diaginertia="1.35482e-05 1.2723e-05 1.07663e-05" />
+                <geom name="A6_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="A6_geom_A6" />
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="Head" pos="0.02132 0.0007789 0.009236">
+        <inertial pos="0.255478 4.1764e-05 0.000543805" quat="0.707107 0.707107 0 0" mass="0.000222534" diaginertia="1.92885e-05 1.59947e-05 1.35827e-05" />
+        <geom name="Head_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="Head_geom_Head" />
+        <body name="LEye" pos="0.2549 0.003504 0.02267">
+          <inertial pos="-0.0274789 0.304692 -0.0266042" quat="0.707107 0 0 0.707107" mass="4.17671e-05" diaginertia="1.43734e-06 1.03674e-06 7.26012e-07" />
+          <geom name="LEye_geom" type="mesh" rgba="0.67 0.21 0.12 0" mesh="LEye_geom_LEye" />
+        </body>
+        <body name="LPedicel" pos="0.4451 0.08574 0.09248">
+          <inertial pos="0.0581497 0.00781413 -0.0246243" quat="0 0.707107 0 0.707107" mass="3.70423e-06" diaginertia="2.21575e-08 1.66688e-08 1.53325e-08" />
+          <geom name="LPedicel_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="LPedicel_geom_LPedicel" />
+          <body name="LFuniculus" pos="0.03883 -0.000308 -0.037">
+            <inertial pos="0.00696675 -0.00606963 -0.114734" mass="2.28746e-06" diaginertia="9.85951e-09 9.69762e-09 5.56069e-09" />
+            <geom name="LFuniculus_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="LFuniculus_geom_LFuniculus" />
+            <body name="LArista" pos="0.02065 0.04886 -0.0705">
+              <inertial pos="0.00595896 0.11696 0.00247718" quat="0.707107 0.707107 0 0" mass="1.82512e-06" diaginertia="1.3335e-08 1.10473e-08 3.45166e-09" />
+              <geom name="LArista_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="LArista_geom_LArista" />
+            </body>
+          </body>
+        </body>
+        <body name="REye" pos="0.2549 -0.004274 0.02267">
+          <inertial pos="-0.0373091 -0.295704 -0.0367505" quat="0.707107 0 0 0.707107" mass="4.65637e-05" diaginertia="1.63701e-06 1.18732e-06 8.76892e-07" />
+          <geom name="REye_geom" type="mesh" rgba="0.67 0.21 0.12 0" mesh="REye_geom_REye" />
+        </body>
+        <body name="RPedicel" pos="0.4451 -0.09396 0.09248">
+          <inertial pos="0.0557377 -0.00782174 -0.0272507" quat="0 0.707107 0 0.707107" mass="3.95677e-06" diaginertia="2.49749e-08 1.83245e-08 1.74009e-08" />
+          <geom name="RPedicel_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="RPedicel_geom_RPedicel" />
+          <body name="RFuniculus" pos="0.04458 0.0009634 -0.037">
+            <inertial pos="-0.000266105 0.0121457 -0.113255" mass="2.3598e-06" diaginertia="1.04373e-08 9.92513e-09 5.94119e-09" />
+            <geom name="RFuniculus_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="RFuniculus_geom_RFuniculus" />
+            <body name="RArista" pos="0.01495 -0.05104 -0.06929">
+              <inertial pos="0.00754415 -0.108724 0.0018316" quat="0.707107 0.707107 0 0" mass="2.00695e-06" diaginertia="1.46812e-08 1.21048e-08 4.06603e-09" />
+              <geom name="RArista_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="RArista_geom_RArista" />
+            </body>
+          </body>
+        </body>
+        <body name="Rostrum" pos="0.466 -0.01276 -0.2599">
+          <inertial pos="0.00656494 0.0181497 -0.171677" quat="0.5 0.5 0.5 0.5" mass="6.84514e-05" diaginertia="2.3845e-06 2.3382e-06 1.92715e-06" />
+          <geom name="Rostrum_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="Rostrum_geom_Rostrum" />
+          <body name="Haustellum" pos="0.03579 -0.0004681 -0.3697">
+            <inertial pos="0.152665 0.0228224 -0.00316751" quat="0 0.707107 0 0.707107" mass="2.34306e-05" diaginertia="4.98891e-07 3.72017e-07 3.24565e-07" />
+            <geom name="Haustellum_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="Haustellum_geom_Haustellum" />
+          </body>
+        </body>
+      </body>
+      <body name="LHaltere" pos="-0.7774 0.2172 -0.1547">
+        <inertial pos="-0.0206905 0.165755 0.0117958" quat="0.707107 0.707107 0 0" mass="4.30889e-06" diaginertia="5.65926e-08 5.39717e-08 1.23612e-08" />
+        <geom name="LHaltere_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="LHaltere_geom_LHaltere" />
+      </body>
+      <body name="LWing" pos="-0.5184 0.3736 0.1782">
+        <inertial pos="-0.137186 1.09478 0.150103" quat="0.5 0.5 -0.5 0.5" mass="8.35992e-05" diaginertia="4.87563e-05 4.16941e-05 9.61943e-06" />
+        <geom name="LWing_geom" type="mesh" rgba="0.91 0.96 0.97 0" mesh="LWing_geom_LWing" />
+      </body>
+      <body name="RHaltere" pos="-0.7774 -0.2099 -0.1546">
+        <inertial pos="-0.0214561 -0.160141 0.00780795" quat="0.707107 0.707107 0 0" mass="4.29315e-06" diaginertia="5.67028e-08 5.35462e-08 1.24003e-08" />
+        <geom name="RHaltere_geom" type="mesh" rgba="0.55 0.392 0.118 0" mesh="RHaltere_geom_RHaltere" />
+      </body>
+      <body name="RWing" pos="-0.5184 -0.3661 0.1783">
+        <inertial pos="-0.13382 -1.08923 0.154237" quat="0.5 0.5 -0.5 0.5" mass="8.46556e-05" diaginertia="4.93375e-05 4.22607e-05 9.74351e-06" />
+        <geom name="RWing_geom" type="mesh" rgba="0.91 0.96 0.97 0" mesh="RWing_geom_RWing" />
+      </body>
+    <body name="lf/LFCoxa" pos="-0.13059999999999999 0.19950000000000001 -0.23050000000000001" quat="0.98660382916230394 0 0 0.1631345588227073">
+        <inertial pos="0.00455966 -0.0113278 -0.215003" quat="0.707107 0 0 0.707107" mass="9.73852e-06" diaginertia="1.82938e-07 1.82146e-07 3.66796e-08" />
+        <joint name="lf/joint_LFCoxa_yaw" pos="0 0 0" axis="1 0 0" limited="false" range="-0.597 0.2745" ref="0" />
+        <joint name="lf/joint_LFCoxa_pitch" pos="0 0 0" axis="0 1 0" limited="false" range="-0.5783 0.7375" ref="0" />
+        <joint name="lf/joint_LFCoxa_roll" pos="0 0 0" axis="0 0 1" range="0.1436 0.6236" ref="0" />
+        <geom name="lf/LFCoxa_geom" type="mesh" rgba="0.670588 0.509804 0.196078 0.4" mesh="LFCoxa_geom_LFCoxa" />
+        <site name="lf/LFC_tergopleural_promotor_a_LFC_Miller28a_p396" pos="0.0245106 -0.0407481 0.0471896" />
+        <site name="lf/LFC_tergopleural_promotor_b_LFC_Miller28b_p396" pos="0.0143019 -0.0150923 0.00156441" />
+        <site name="lf/LFC_pleural_remotor_and_abductor_LFC_Miller29_p296" pos="-0.0146505 0.0607293 -0.00146763" />
+        <site name="lf/LFC_pleural_promotor_LFC_Miller30_p296" pos="0.0237058 -0.0286361 -0.0128408" />
+        <site name="lf/LFC_sternal_anterior_rotator_LFC_Miller31_p296" pos="-0.000252024 -0.0417953 -0.0781376" />
+        <site name="lf/LFC_sternal_posterior_rotator_LFC_Miller32_p296" pos="-0.0235126 0.0447151 -0.0653978" />
+        <site name="lf/LFC_sternal_adductor_LFC_Miller33_p296" pos="0.0171012 -0.0661154 -0.10726" />
+        <site name="lf/LFF_trochanter_flexor_b_lff_thco_flexb_p1" pos="0.0170207 -0.0595734 -0.149676" />
+        <site name="lf/LFF_trochanter_flexor_b_lff_thco_flexb_p222" pos="0.00538458 -0.000688346 -0.323979" />
+        <site name="lf/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p1" pos="-0.0259722 0.0507932 -0.138759" />
+        <site name="lf/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p222" pos="-0.0352248 0.0126312 -0.373938" />
+        <site name="lf/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p1" pos="-0.0208632 -0.0709668 -0.178621" />
+        <site name="lf/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p222" pos="-0.0389383 -0.00938934 -0.362884" />
+        <site name="lf/LFF_accesory_trochanter_flexor_LFF_roll_f_p1" pos="-0.0193081 0.0479785 -0.207105" />
+        <site name="lf/LFF_trochanter_extensor_LFF_roll_e_p1" pos="-0.0381487 0.0404632 -0.339836" />
+        <site name="lf/LFF_trochanter_flexor_a_LFF_flexa_p1" pos="0.0311254 0.014358 -0.0559144" />
+        <site name="lf/m_coxa_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+        <body name="lf/LFTrochanter" pos="-0.002 0.015 -0.4402">
+          <inertial pos="-0.0136337 0.0341937 -0.0160004" quat="0.707107 0.707107 0 0" mass="1.70307e-06" diaginertia="4.86831e-09 4.75181e-09 3.4135e-09" />
+          <joint name="lf/joint_LFTrochanter_yaw" pos="0 0 0" axis="1 0 0" limited="false" range="-1.196 0.2745" ref="0" />
+          <joint name="lf/joint_LFTrochanter_pitch" pos="0 0 0" axis="0 1 0" limited="false" range="-3.242 -1.217" ref="0" />
+          <joint name="lf/joint_LFTrochanter_roll" pos="0 0 0" axis="0 0 1" limited="false" range="-0.2745 1.384" ref="0" />
+          <geom name="lf/LFTrochanter_geom" type="mesh" rgba="0.55 0.392 0.118 0.4" mesh="LFTrochanter_geom_LFTrochanter" />
+          <site name="lf/LFF_trochanter_flexor_b_lff_thco_flexb_p322" pos="-0.0170405 -0.00472335 -0.0228887" />
+          <site name="lf/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p322" pos="0.0222687 -0.00812877 0.0211095" />
+          <site name="lf/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p322" pos="0.00657561 -0.0279958 0.0341395" />
+          <site name="lf/LFF_accesory_trochanter_flexor_LFF_roll_f_p222" pos="-0.00549219 -0.0199954 -0.0253338" />
+          <site name="lf/LFF_trochanter_extensor_LFF_roll_e_p222" pos="0.0102047 0.013626 0.00768368" />
+          <site name="lf/LFF_trochanter_flexor_a_LFF_flexa_p222" pos="-0.0121828 -0.0117695 -0.0403746" />
+          <site name="lf/m_trochanter_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+          <body name="lf/LFFemur" pos="-0.01994 0.07244 -0.06238">
+            <inertial pos="-0.00581711 0.0635589 -0.27996" mass="1.2483e-05" diaginertia="4.1473e-07 4.01495e-07 4.64816e-08" />
+            <geom name="lf/LFFemur_geom" type="mesh" rgba="0.67 0.51 0.196 0.4" mesh="LFFemur_geom_LFFemur" />
+            <site name="lf/LFTibia_flex_93434_bifemlh_r-P1" pos="-0.0415201 0.0475376 -0.0877767" />
+            <site name="lf/LFTibia_flex_93434_bifemlh_r-P2" pos="-0.0151968 0.110902 -0.546627" />
+            <site name="lf/LFTibia_extensor_93932_bifemlh_r-P1" pos="0.0276828 0.0384591 -0.0895311" />
+            <site name="lf/LFTibia_extensor_93932_bifemlh_r-P2" pos="0.0267536 0.105256 -0.597078" />
+            <site name="lf/m_femur_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+            <body name="lf/LFTibia" pos="-0.01982 0.1003 -0.5661">
+              <inertial pos="0.0289105 -0.00239717 -0.245561" quat="0.707107 0 0 0.707107" mass="4.51507e-06" diaginertia="1.24763e-07 1.24206e-07 6.26811e-09" />
+              <joint name="lf/joint_LFTibia_pitch" pos="0 0 0" axis="0 1 0" range="0.4789 2.502" ref="0" />
+              <geom name="lf/LFTibia_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTibia_geom_LFTibia" />
+              <site name="lf/LFTibia_flex_93434_pp21995" pos="-0.0108694 0.0114727 -0.0107331" />
+              <site name="lf/LFTibia_extensor_93932_pp21995" pos="0.035 0.002 0.000927515" />
+              <site name="lf/m_tibia_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+              <body name="lf/LFTarsus1" pos="0.01915 -0.01293 -0.51">
+                <inertial pos="-0.00414801 -0.00898333 -0.116831" mass="1.19008e-06" diaginertia="6.25046e-09 6.09661e-09 1.04328e-09" />
+                <geom name="lf/LFTarsus1_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus1_geom_LFTarsus1" />
+                <site name="lf/m_tarsus1_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                <body name="lf/LFTarsus2" pos="-0.0002464 -0.0194 -0.2175">
+                  <inertial pos="-0.00616755 -0.00734805 -0.085785" mass="5.14227e-07" diaginertia="1.18427e-09 1.17926e-09 2.96167e-10" />
+                  <geom name="lf/LFTarsus2_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus2_geom_LFTarsus2" />
+                  <site name="lf/m_tarsus2_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                  <body name="lf/LFTarsus3" pos="-0.002981 -0.01951 -0.1549">
+                    <inertial pos="-0.00486664 -0.00132481 -0.0549736" quat="0.707107 0 0 0.707107" mass="2.45481e-07" diaginertia="2.89483e-10 2.89037e-10 9.657e-11" />
+                    <geom name="lf/LFTarsus3_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus3_geom_LFTarsus3" />
+                    <site name="lf/m_tarsus3_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                    <body name="lf/LFTarsus4" pos="-0.002051 -0.009805 -0.09654">
+                      <inertial pos="-0.000706051 -0.000287795 -0.0481465" quat="0.707107 0 0 0.707107" mass="1.70147e-07" diaginertia="1.54176e-10 1.54073e-10 5.30819e-11" />
+                      <geom name="lf/LFTarsus4_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus4_geom_LFTarsus4" />
+                      <site name="lf/m_tarsus4_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                      <body name="lf/LFTarsus5" pos="0.0007281 -0.009863 -0.08672">
+                        <inertial pos="-0.00519861 -0.00486737 -0.0478948" quat="0.707107 0 0 0.707107" mass="3.03069e-07" diaginertia="3.53043e-10 3.39673e-10 1.55482e-10" />
+                        <geom name="lf/LFTarsus5_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus5_geom_LFTarsus5" />
+                        <site name="lf/m_tarsus5_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <site name="lf/LFC_tergopleural_promotor_a_LFC_Miller28a_p1" pos="-0.13429580820612808 0.25990756444108232 -0.076731599999999983" />
+      <site name="lf/LFC_tergopleural_promotor_a_LFC_Miller28a_p296" pos="-0.056626748060451509 0.22083229641478117 -0.15687499999999999" />
+      <site name="lf/LFC_tergopleural_promotor_b_LFC_Miller28b_p1" pos="-0.021295098958485401 0.20912644331748245 0.094837199999999983" />
+      <site name="lf/LFC_tergopleural_promotor_b_LFC_Miller28b_p296" pos="-0.05023192088608458 0.21719836183914856 -0.14598" />
+      <site name="lf/LFC_pleural_remotor_and_abductor_LFC_Miller29_p1" pos="-0.19380934695888402 0.34795673885018297 -0.013616099999999992" />
+      <site name="lf/LFC_pleural_promotor_LFC_Miller30_p1" pos="-0.040622510599597844 0.11965626202888222 -0.18960399999999999" />
+      <site name="lf/LFC_sternal_anterior_rotator_LFC_Miller31_p1" pos="-0.050561390731157438 0.012287202069911796 -0.261577" />
+      <site name="lf/LFC_sternal_posterior_rotator_LFC_Miller32_p1" pos="-0.17547002501079378 0.13734306168631905 -0.21237300000000001" />
+      <site name="lf/LFC_sternal_adductor_LFC_Miller33_p1" pos="-0.15697345697194287 -0.01471758834793066 -0.28358100000000003" />
+      <body name="lm/LFCoxa" pos="-0.52549999999999997 0.12859999999999999 -0.4854" quat="0.89124803876075431 0 0 0.45351618869132893">
+        <inertial pos="0.00455966 -0.0113278 -0.215003" quat="0.707107 0 0 0.707107" mass="9.73852e-06" diaginertia="1.82938e-07 1.82146e-07 3.66796e-08" />
+        <joint name="lm/joint_LFCoxa_yaw" pos="0 0 0" axis="1 0 0" limited="false" range="-0.597 0.2745" ref="0" />
+        <joint name="lm/joint_LFCoxa_pitch" pos="0 0 0" axis="0 1 0" limited="false" range="-0.5783 0.7375" ref="0" />
+        <joint name="lm/joint_LFCoxa_roll" pos="0 0 0" axis="0 0 1" range="0.1436 0.6236" ref="0" />
+        <geom name="lm/LFCoxa_geom" type="mesh" rgba="0.670588 0.509804 0.196078 0.4" mesh="LFCoxa_geom_LFCoxa" />
+        <site name="lm/LFC_tergopleural_promotor_a_LFC_Miller28a_p396" pos="0.0245106 -0.0407481 0.0471896" />
+        <site name="lm/LFC_tergopleural_promotor_b_LFC_Miller28b_p396" pos="0.0143019 -0.0150923 0.00156441" />
+        <site name="lm/LFC_pleural_remotor_and_abductor_LFC_Miller29_p296" pos="-0.0146505 0.0607293 -0.00146763" />
+        <site name="lm/LFC_pleural_promotor_LFC_Miller30_p296" pos="0.0237058 -0.0286361 -0.0128408" />
+        <site name="lm/LFC_sternal_anterior_rotator_LFC_Miller31_p296" pos="-0.000252024 -0.0417953 -0.0781376" />
+        <site name="lm/LFC_sternal_posterior_rotator_LFC_Miller32_p296" pos="-0.0235126 0.0447151 -0.0653978" />
+        <site name="lm/LFC_sternal_adductor_LFC_Miller33_p296" pos="0.0171012 -0.0661154 -0.10726" />
+        <site name="lm/LFF_trochanter_flexor_b_lff_thco_flexb_p1" pos="0.0170207 -0.0595734 -0.149676" />
+        <site name="lm/LFF_trochanter_flexor_b_lff_thco_flexb_p222" pos="0.00538458 -0.000688346 -0.323979" />
+        <site name="lm/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p1" pos="-0.0259722 0.0507932 -0.138759" />
+        <site name="lm/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p222" pos="-0.0352248 0.0126312 -0.373938" />
+        <site name="lm/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p1" pos="-0.0208632 -0.0709668 -0.178621" />
+        <site name="lm/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p222" pos="-0.0389383 -0.00938934 -0.362884" />
+        <site name="lm/LFF_accesory_trochanter_flexor_LFF_roll_f_p1" pos="-0.0193081 0.0479785 -0.207105" />
+        <site name="lm/LFF_trochanter_extensor_LFF_roll_e_p1" pos="-0.0381487 0.0404632 -0.339836" />
+        <site name="lm/LFF_trochanter_flexor_a_LFF_flexa_p1" pos="0.0311254 0.014358 -0.0559144" />
+        <site name="lm/m_coxa_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+        <body name="lm/LFTrochanter" pos="-0.002 0.015 -0.4402">
+          <inertial pos="-0.0136337 0.0341937 -0.0160004" quat="0.707107 0.707107 0 0" mass="1.70307e-06" diaginertia="4.86831e-09 4.75181e-09 3.4135e-09" />
+          <joint name="lm/joint_LFTrochanter_yaw" pos="0 0 0" axis="1 0 0" limited="false" range="-1.196 0.2745" ref="0" />
+          <joint name="lm/joint_LFTrochanter_pitch" pos="0 0 0" axis="0 1 0" limited="false" range="-3.242 -1.217" ref="0" />
+          <joint name="lm/joint_LFTrochanter_roll" pos="0 0 0" axis="0 0 1" limited="false" range="-0.2745 1.384" ref="0" />
+          <geom name="lm/LFTrochanter_geom" type="mesh" rgba="0.55 0.392 0.118 0.4" mesh="LFTrochanter_geom_LFTrochanter" />
+          <site name="lm/LFF_trochanter_flexor_b_lff_thco_flexb_p322" pos="-0.0170405 -0.00472335 -0.0228887" />
+          <site name="lm/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p322" pos="0.0222687 -0.00812877 0.0211095" />
+          <site name="lm/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p322" pos="0.00657561 -0.0279958 0.0341395" />
+          <site name="lm/LFF_accesory_trochanter_flexor_LFF_roll_f_p222" pos="-0.00549219 -0.0199954 -0.0253338" />
+          <site name="lm/LFF_trochanter_extensor_LFF_roll_e_p222" pos="0.0102047 0.013626 0.00768368" />
+          <site name="lm/LFF_trochanter_flexor_a_LFF_flexa_p222" pos="-0.0121828 -0.0117695 -0.0403746" />
+          <site name="lm/m_trochanter_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+          <body name="lm/LFFemur" pos="-0.01994 0.07244 -0.06238">
+            <inertial pos="-0.00581711 0.0635589 -0.27996" mass="1.2483e-05" diaginertia="4.1473e-07 4.01495e-07 4.64816e-08" />
+            <geom name="lm/LFFemur_geom" type="mesh" rgba="0.67 0.51 0.196 0.4" mesh="LFFemur_geom_LFFemur" />
+            <site name="lm/LFTibia_flex_93434_bifemlh_r-P1" pos="-0.0415201 0.0475376 -0.0877767" />
+            <site name="lm/LFTibia_flex_93434_bifemlh_r-P2" pos="-0.0151968 0.110902 -0.546627" />
+            <site name="lm/LFTibia_extensor_93932_bifemlh_r-P1" pos="0.0276828 0.0384591 -0.0895311" />
+            <site name="lm/LFTibia_extensor_93932_bifemlh_r-P2" pos="0.0267536 0.105256 -0.597078" />
+            <site name="lm/m_femur_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+            <body name="lm/LFTibia" pos="-0.01982 0.1003 -0.5661">
+              <inertial pos="0.0289105 -0.00239717 -0.245561" quat="0.707107 0 0 0.707107" mass="4.51507e-06" diaginertia="1.24763e-07 1.24206e-07 6.26811e-09" />
+              <joint name="lm/joint_LFTibia_pitch" pos="0 0 0" axis="0 1 0" range="0.4789 2.502" ref="0" />
+              <geom name="lm/LFTibia_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTibia_geom_LFTibia" />
+              <site name="lm/LFTibia_flex_93434_pp21995" pos="-0.0108694 0.0114727 -0.0107331" />
+              <site name="lm/LFTibia_extensor_93932_pp21995" pos="0.035 0.002 0.000927515" />
+              <site name="lm/m_tibia_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+              <body name="lm/LFTarsus1" pos="0.01915 -0.01293 -0.51">
+                <inertial pos="-0.00414801 -0.00898333 -0.116831" mass="1.19008e-06" diaginertia="6.25046e-09 6.09661e-09 1.04328e-09" />
+                <geom name="lm/LFTarsus1_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus1_geom_LFTarsus1" />
+                <site name="lm/m_tarsus1_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                <body name="lm/LFTarsus2" pos="-0.0002464 -0.0194 -0.2175">
+                  <inertial pos="-0.00616755 -0.00734805 -0.085785" mass="5.14227e-07" diaginertia="1.18427e-09 1.17926e-09 2.96167e-10" />
+                  <geom name="lm/LFTarsus2_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus2_geom_LFTarsus2" />
+                  <site name="lm/m_tarsus2_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                  <body name="lm/LFTarsus3" pos="-0.002981 -0.01951 -0.1549">
+                    <inertial pos="-0.00486664 -0.00132481 -0.0549736" quat="0.707107 0 0 0.707107" mass="2.45481e-07" diaginertia="2.89483e-10 2.89037e-10 9.657e-11" />
+                    <geom name="lm/LFTarsus3_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus3_geom_LFTarsus3" />
+                    <site name="lm/m_tarsus3_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                    <body name="lm/LFTarsus4" pos="-0.002051 -0.009805 -0.09654">
+                      <inertial pos="-0.000706051 -0.000287795 -0.0481465" quat="0.707107 0 0 0.707107" mass="1.70147e-07" diaginertia="1.54176e-10 1.54073e-10 5.30819e-11" />
+                      <geom name="lm/LFTarsus4_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus4_geom_LFTarsus4" />
+                      <site name="lm/m_tarsus4_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                      <body name="lm/LFTarsus5" pos="0.0007281 -0.009863 -0.08672">
+                        <inertial pos="-0.00519861 -0.00486737 -0.0478948" quat="0.707107 0 0 0.707107" mass="3.03069e-07" diaginertia="3.53043e-10 3.39673e-10 1.55482e-10" />
+                        <geom name="lm/LFTarsus5_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus5_geom_LFTarsus5" />
+                        <site name="lm/m_tarsus5_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <site name="lm/LFC_tergopleural_promotor_a_LFC_Miller28a_p1" pos="-0.56330892204745409 0.17585693868216112 -0.33163159999999997" />
+      <site name="lm/LFC_tergopleural_promotor_a_LFC_Miller28a_p296" pos="-0.47730913130735603 0.18863956235257173 -0.411775" />
+      <site name="lm/LFC_tergopleural_promotor_b_LFC_Miller28b_p1" pos="-0.4416831237150079 0.1994163897164091 -0.16006280000000001" />
+      <site name="lm/LFC_tergopleural_promotor_b_LFC_Miller28b_p296" pos="-0.46998843038049992 0.18935134394093187 -0.40088000000000001" />
+      <site name="lm/LFC_pleural_remotor_and_abductor_LFC_Miller29_p1" pos="-0.66266900734378309 0.21356757191612091 -0.26851609999999998" />
+      <site name="lm/LFC_pleural_promotor_LFC_Miller30_p1" pos="-0.40595992042556939 0.1151411565378444 -0.44450400000000001" />
+      <site name="lm/LFC_sternal_anterior_rotator_LFC_Miller31_p1" pos="-0.35225367196941215 0.021639631141153609 -0.51647699999999996" />
+      <site name="lm/LFC_sternal_posterior_rotator_LFC_Miller32_p1" pos="-0.52638790217078724 0.051944825649307177 -0.46727299999999999" />
+      <site name="lm/LFC_sternal_adductor_LFC_Miller33_p1" pos="-0.42369772376698955 -0.061718235973414415 -0.53848099999999999" />
+      <body name="lh/LFCoxa" pos="-0.75229999999999997 0.090649999999999994 -0.50180000000000002" quat="0.49986631381927343 0 0 0.86610257378022593">
+        <inertial pos="0.00455966 -0.0113278 -0.215003" quat="0.707107 0 0 0.707107" mass="9.73852e-06" diaginertia="1.82938e-07 1.82146e-07 3.66796e-08" />
+        <joint name="lh/joint_LFCoxa_yaw" pos="0 0 0" axis="1 0 0" limited="false" range="-0.597 0.2745" ref="0" />
+        <joint name="lh/joint_LFCoxa_pitch" pos="0 0 0" axis="0 1 0" limited="false" range="-0.5783 0.7375" ref="0" />
+        <joint name="lh/joint_LFCoxa_roll" pos="0 0 0" axis="0 0 1" range="0.1436 0.6236" ref="0" />
+        <geom name="lh/LFCoxa_geom" type="mesh" rgba="0.670588 0.509804 0.196078 0.4" mesh="LFCoxa_geom_LFCoxa" />
+        <site name="lh/LFC_tergopleural_promotor_a_LFC_Miller28a_p396" pos="0.0245106 -0.0407481 0.0471896" />
+        <site name="lh/LFC_tergopleural_promotor_b_LFC_Miller28b_p396" pos="0.0143019 -0.0150923 0.00156441" />
+        <site name="lh/LFC_pleural_remotor_and_abductor_LFC_Miller29_p296" pos="-0.0146505 0.0607293 -0.00146763" />
+        <site name="lh/LFC_pleural_promotor_LFC_Miller30_p296" pos="0.0237058 -0.0286361 -0.0128408" />
+        <site name="lh/LFC_sternal_anterior_rotator_LFC_Miller31_p296" pos="-0.000252024 -0.0417953 -0.0781376" />
+        <site name="lh/LFC_sternal_posterior_rotator_LFC_Miller32_p296" pos="-0.0235126 0.0447151 -0.0653978" />
+        <site name="lh/LFC_sternal_adductor_LFC_Miller33_p296" pos="0.0171012 -0.0661154 -0.10726" />
+        <site name="lh/LFF_trochanter_flexor_b_lff_thco_flexb_p1" pos="0.0170207 -0.0595734 -0.149676" />
+        <site name="lh/LFF_trochanter_flexor_b_lff_thco_flexb_p222" pos="0.00538458 -0.000688346 -0.323979" />
+        <site name="lh/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p1" pos="-0.0259722 0.0507932 -0.138759" />
+        <site name="lh/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p222" pos="-0.0352248 0.0126312 -0.373938" />
+        <site name="lh/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p1" pos="-0.0208632 -0.0709668 -0.178621" />
+        <site name="lh/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p222" pos="-0.0389383 -0.00938934 -0.362884" />
+        <site name="lh/LFF_accesory_trochanter_flexor_LFF_roll_f_p1" pos="-0.0193081 0.0479785 -0.207105" />
+        <site name="lh/LFF_trochanter_extensor_LFF_roll_e_p1" pos="-0.0381487 0.0404632 -0.339836" />
+        <site name="lh/LFF_trochanter_flexor_a_LFF_flexa_p1" pos="0.0311254 0.014358 -0.0559144" />
+        <site name="lh/m_coxa_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+        <body name="lh/LFTrochanter" pos="-0.002 0.015 -0.4402">
+          <inertial pos="-0.0136337 0.0341937 -0.0160004" quat="0.707107 0.707107 0 0" mass="1.70307e-06" diaginertia="4.86831e-09 4.75181e-09 3.4135e-09" />
+          <joint name="lh/joint_LFTrochanter_yaw" pos="0 0 0" axis="1 0 0" limited="false" range="-1.196 0.2745" ref="0" />
+          <joint name="lh/joint_LFTrochanter_pitch" pos="0 0 0" axis="0 1 0" limited="false" range="-3.242 -1.217" ref="0" />
+          <joint name="lh/joint_LFTrochanter_roll" pos="0 0 0" axis="0 0 1" limited="false" range="-0.2745 1.384" ref="0" />
+          <geom name="lh/LFTrochanter_geom" type="mesh" rgba="0.55 0.392 0.118 0.4" mesh="LFTrochanter_geom_LFTrochanter" />
+          <site name="lh/LFF_trochanter_flexor_b_lff_thco_flexb_p322" pos="-0.0170405 -0.00472335 -0.0228887" />
+          <site name="lh/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p322" pos="0.0222687 -0.00812877 0.0211095" />
+          <site name="lh/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p322" pos="0.00657561 -0.0279958 0.0341395" />
+          <site name="lh/LFF_accesory_trochanter_flexor_LFF_roll_f_p222" pos="-0.00549219 -0.0199954 -0.0253338" />
+          <site name="lh/LFF_trochanter_extensor_LFF_roll_e_p222" pos="0.0102047 0.013626 0.00768368" />
+          <site name="lh/LFF_trochanter_flexor_a_LFF_flexa_p222" pos="-0.0121828 -0.0117695 -0.0403746" />
+          <site name="lh/m_trochanter_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+          <body name="lh/LFFemur" pos="-0.01994 0.07244 -0.06238">
+            <inertial pos="-0.00581711 0.0635589 -0.27996" mass="1.2483e-05" diaginertia="4.1473e-07 4.01495e-07 4.64816e-08" />
+            <geom name="lh/LFFemur_geom" type="mesh" rgba="0.67 0.51 0.196 0.4" mesh="LFFemur_geom_LFFemur" />
+            <site name="lh/LFTibia_flex_93434_bifemlh_r-P1" pos="-0.0415201 0.0475376 -0.0877767" />
+            <site name="lh/LFTibia_flex_93434_bifemlh_r-P2" pos="-0.0151968 0.110902 -0.546627" />
+            <site name="lh/LFTibia_extensor_93932_bifemlh_r-P1" pos="0.0276828 0.0384591 -0.0895311" />
+            <site name="lh/LFTibia_extensor_93932_bifemlh_r-P2" pos="0.0267536 0.105256 -0.597078" />
+            <site name="lh/m_femur_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+            <body name="lh/LFTibia" pos="-0.01982 0.1003 -0.5661">
+              <inertial pos="0.0289105 -0.00239717 -0.245561" quat="0.707107 0 0 0.707107" mass="4.51507e-06" diaginertia="1.24763e-07 1.24206e-07 6.26811e-09" />
+              <joint name="lh/joint_LFTibia_pitch" pos="0 0 0" axis="0 1 0" range="0.4789 2.502" ref="0" />
+              <geom name="lh/LFTibia_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTibia_geom_LFTibia" />
+              <site name="lh/LFTibia_flex_93434_pp21995" pos="-0.0108694 0.0114727 -0.0107331" />
+              <site name="lh/LFTibia_extensor_93932_pp21995" pos="0.035 0.002 0.000927515" />
+              <site name="lh/m_tibia_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+              <body name="lh/LFTarsus1" pos="0.01915 -0.01293 -0.51">
+                <inertial pos="-0.00414801 -0.00898333 -0.116831" mass="1.19008e-06" diaginertia="6.25046e-09 6.09661e-09 1.04328e-09" />
+                <geom name="lh/LFTarsus1_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus1_geom_LFTarsus1" />
+                <site name="lh/m_tarsus1_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                <body name="lh/LFTarsus2" pos="-0.0002464 -0.0194 -0.2175">
+                  <inertial pos="-0.00616755 -0.00734805 -0.085785" mass="5.14227e-07" diaginertia="1.18427e-09 1.17926e-09 2.96167e-10" />
+                  <geom name="lh/LFTarsus2_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus2_geom_LFTarsus2" />
+                  <site name="lh/m_tarsus2_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                  <body name="lh/LFTarsus3" pos="-0.002981 -0.01951 -0.1549">
+                    <inertial pos="-0.00486664 -0.00132481 -0.0549736" quat="0.707107 0 0 0.707107" mass="2.45481e-07" diaginertia="2.89483e-10 2.89037e-10 9.657e-11" />
+                    <geom name="lh/LFTarsus3_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus3_geom_LFTarsus3" />
+                    <site name="lh/m_tarsus3_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                    <body name="lh/LFTarsus4" pos="-0.002051 -0.009805 -0.09654">
+                      <inertial pos="-0.000706051 -0.000287795 -0.0481465" quat="0.707107 0 0 0.707107" mass="1.70147e-07" diaginertia="1.54176e-10 1.54073e-10 5.30819e-11" />
+                      <geom name="lh/LFTarsus4_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus4_geom_LFTarsus4" />
+                      <site name="lh/m_tarsus4_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                      <body name="lh/LFTarsus5" pos="0.0007281 -0.009863 -0.08672">
+                        <inertial pos="-0.00519861 -0.00486737 -0.0478948" quat="0.707107 0 0 0.707107" mass="3.03069e-07" diaginertia="3.53043e-10 3.39673e-10 1.55482e-10" />
+                        <geom name="lh/LFTarsus5_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus5_geom_LFTarsus5" />
+                        <site name="lh/m_tarsus5_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <site name="lh/LFC_tergopleural_promotor_a_LFC_Miller28a_p1" pos="-0.81082854378203317 0.07525057134973423 -0.3480316" />
+      <site name="lh/LFC_tergopleural_promotor_a_LFC_Miller28a_p296" pos="-0.78764183526259368 0.1590463709060041 -0.42817499999999997" />
+      <site name="lh/LFC_tergopleural_promotor_b_LFC_Miller28b_p1" pos="-0.78304727139697228 0.19598202316618119 -0.17646280000000003" />
+      <site name="lh/LFC_tergopleural_promotor_b_LFC_Miller28b_p296" pos="-0.78532406648237696 0.16602686107299469 -0.41727999999999998" />
+      <site name="lh/LFC_pleural_remotor_and_abductor_LFC_Miller29_p1" pos="-0.88558865266847797 -0.00028382166620853633 -0.28491610000000001" />
+      <site name="lh/LFC_pleural_promotor_LFC_Miller30_p1" pos="-0.69152590913270129 0.19446464719033302 -0.46090399999999998" />
+      <site name="lh/LFC_sternal_anterior_rotator_LFC_Miller31_p1" pos="-0.58427896766291398 0.20564453628274001 -0.53287700000000005" />
+      <site name="lh/LFC_sternal_posterior_rotator_LFC_Miller32_p1" pos="-0.68258929229585752 0.058756092174403973 -0.48367300000000002" />
+      <site name="lh/LFC_sternal_adductor_LFC_Miller33_p1" pos="-0.53705053792310797 0.10653721076410289 -0.55488100000000007" />
+      <body name="rf/LFCoxa" pos="-0.1336 -0.1825 -0.2281" quat="0.98660382916230394 0 0 -0.16313455882270739">
+        <inertial pos="0.0045596600000000001 0.011327800000000001 -0.215003" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="9.73852e-06" diaginertia="1.82938e-07 1.82146e-07 3.66796e-08" />
+        <joint name="rf/joint_LFCoxa_yaw" pos="0 0 0" axis="-1 0 0" limited="false" range="-0.597 0.2745" ref="0" />
+        <joint name="rf/joint_LFCoxa_pitch" pos="0 0 0" axis="0 1 0" limited="false" range="-0.5783 0.7375" ref="0" />
+        <joint name="rf/joint_LFCoxa_roll" pos="0 0 0" axis="0 0 -1" range="0.1436 0.6236" ref="0" />
+        <geom name="rf/LFCoxa_geom" type="mesh" rgba="0.670588 0.509804 0.196078 0.4" mesh="LFCoxa_geom_LFCoxa_mirror_y" />
+        <site name="rf/LFC_tergopleural_promotor_a_LFC_Miller28a_p396" pos="0.0245106 0.040748100000000002 0.047189599999999998" />
+        <site name="rf/LFC_tergopleural_promotor_b_LFC_Miller28b_p396" pos="0.014301899999999999 0.015092299999999999 0.00156441" />
+        <site name="rf/LFC_pleural_remotor_and_abductor_LFC_Miller29_p296" pos="-0.0146505 -0.0607293 -0.0014676299999999999" />
+        <site name="rf/LFC_pleural_promotor_LFC_Miller30_p296" pos="0.023705799999999999 0.028636100000000001 -0.012840799999999999" />
+        <site name="rf/LFC_sternal_anterior_rotator_LFC_Miller31_p296" pos="-0.000252024 0.041795300000000001 -0.078137600000000001" />
+        <site name="rf/LFC_sternal_posterior_rotator_LFC_Miller32_p296" pos="-0.023512600000000002 -0.044715100000000001 -0.065397800000000006" />
+        <site name="rf/LFC_sternal_adductor_LFC_Miller33_p296" pos="0.0171012 0.066115400000000005 -0.10725999999999999" />
+        <site name="rf/LFF_trochanter_flexor_b_lff_thco_flexb_p1" pos="0.0170207 0.059573399999999999 -0.149676" />
+        <site name="rf/LFF_trochanter_flexor_b_lff_thco_flexb_p222" pos="0.0053845799999999999 0.00068834600000000005 -0.32397900000000002" />
+        <site name="rf/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p1" pos="-0.025972200000000001 -0.050793199999999997 -0.13875899999999999" />
+        <site name="rf/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p222" pos="-0.035224800000000001 -0.0126312 -0.37393799999999999" />
+        <site name="rf/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p1" pos="-0.020863199999999998 0.070966799999999997 -0.178621" />
+        <site name="rf/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p222" pos="-0.038938300000000002 0.0093893399999999995 -0.36288399999999998" />
+        <site name="rf/LFF_accesory_trochanter_flexor_LFF_roll_f_p1" pos="-0.019308100000000002 -0.0479785 -0.20710500000000001" />
+        <site name="rf/LFF_trochanter_extensor_LFF_roll_e_p1" pos="-0.038148700000000001 -0.040463199999999998 -0.33983600000000003" />
+        <site name="rf/LFF_trochanter_flexor_a_LFF_flexa_p1" pos="0.031125400000000001 -0.014357999999999999 -0.055914400000000003" />
+        <site name="rf/m_coxa_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+        <body name="rf/LFTrochanter" pos="-0.002 -0.014999999999999999 -0.44019999999999998">
+          <inertial pos="-0.0136337 -0.0341937 -0.016000400000000001" quat="0.70710667177984676 -0.70710689059323162 0 0" mass="1.70307e-06" diaginertia="4.86831e-09 4.75181e-09 3.4135e-09" />
+          <joint name="rf/joint_LFTrochanter_yaw" pos="0 0 0" axis="-1 0 0" limited="false" range="-1.196 0.2745" ref="0" />
+          <joint name="rf/joint_LFTrochanter_pitch" pos="0 0 0" axis="0 1 0" limited="false" range="-3.242 -1.217" ref="0" />
+          <joint name="rf/joint_LFTrochanter_roll" pos="0 0 0" axis="0 0 -1" limited="false" range="-0.2745 1.384" ref="0" />
+          <geom name="rf/LFTrochanter_geom" type="mesh" rgba="0.55 0.392 0.118 0.4" mesh="LFTrochanter_geom_LFTrochanter_mirror_y" />
+          <site name="rf/LFF_trochanter_flexor_b_lff_thco_flexb_p322" pos="-0.0170405 0.0047233500000000003 -0.022888700000000001" />
+          <site name="rf/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p322" pos="0.022268699999999999 0.0081287700000000004 0.0211095" />
+          <site name="rf/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p322" pos="0.00657561 0.027995800000000001 0.034139500000000003" />
+          <site name="rf/LFF_accesory_trochanter_flexor_LFF_roll_f_p222" pos="-0.0054921900000000001 0.0199954 -0.0253338" />
+          <site name="rf/LFF_trochanter_extensor_LFF_roll_e_p222" pos="0.010204700000000001 -0.013625999999999999 0.00768368" />
+          <site name="rf/LFF_trochanter_flexor_a_LFF_flexa_p222" pos="-0.012182800000000001 0.0117695 -0.040374599999999997" />
+          <site name="rf/m_trochanter_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+          <body name="rf/LFFemur" pos="-0.019939999999999999 -0.072440000000000004 -0.062379999999999998">
+            <inertial pos="-0.0058171100000000003 -0.063558900000000002 -0.27995999999999999" mass="1.2483e-05" diaginertia="4.1473e-07 4.01495e-07 4.64816e-08" />
+            <geom name="rf/LFFemur_geom" type="mesh" rgba="0.67 0.51 0.196 0.4" mesh="LFFemur_geom_LFFemur_mirror_y" />
+            <site name="rf/LFTibia_flex_93434_bifemlh_r-P1" pos="-0.041520099999999997 -0.047537599999999999 -0.087776699999999999" />
+            <site name="rf/LFTibia_flex_93434_bifemlh_r-P2" pos="-0.0151968 -0.110902 -0.54662699999999997" />
+            <site name="rf/LFTibia_extensor_93932_bifemlh_r-P1" pos="0.0276828 -0.038459100000000003 -0.089531100000000002" />
+            <site name="rf/LFTibia_extensor_93932_bifemlh_r-P2" pos="0.026753599999999999 -0.105256 -0.597078" />
+            <site name="rf/m_femur_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+            <body name="rf/LFTibia" pos="-0.019820000000000001 -0.1003 -0.56610000000000005">
+              <inertial pos="0.028910499999999999 0.0023971700000000001 -0.245561" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="4.51507e-06" diaginertia="1.24763e-07 1.24206e-07 6.26811e-09" />
+              <joint name="rf/joint_LFTibia_pitch" pos="0 0 0" axis="0 1 0" range="0.4789 2.502" ref="0" />
+              <geom name="rf/LFTibia_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTibia_geom_LFTibia_mirror_y" />
+              <site name="rf/LFTibia_flex_93434_pp21995" pos="-0.0108694 -0.011472700000000001 -0.010733100000000001" />
+              <site name="rf/LFTibia_extensor_93932_pp21995" pos="0.035000000000000003 -0.002 0.00092751499999999996" />
+              <site name="rf/m_tibia_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+              <body name="rf/LFTarsus1" pos="0.01915 0.012930000000000001 -0.51000000000000001">
+                <inertial pos="-0.0041480099999999997 0.0089833299999999994 -0.116831" mass="1.19008e-06" diaginertia="6.25046e-09 6.09661e-09 1.04328e-09" />
+                <geom name="rf/LFTarsus1_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus1_geom_LFTarsus1_mirror_y" />
+                <site name="rf/m_tarsus1_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                <body name="rf/LFTarsus2" pos="-0.00024640000000000003 0.019400000000000001 -0.2175">
+                  <inertial pos="-0.0061675499999999999 0.0073480500000000001 -0.085785" mass="5.14227e-07" diaginertia="1.18427e-09 1.17926e-09 2.96167e-10" />
+                  <geom name="rf/LFTarsus2_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus2_geom_LFTarsus2_mirror_y" />
+                  <site name="rf/m_tarsus2_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                  <body name="rf/LFTarsus3" pos="-0.0029810000000000001 0.01951 -0.15490000000000001">
+                    <inertial pos="-0.0048666400000000002 0.0013248100000000001 -0.054973599999999997" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="2.45481e-07" diaginertia="2.89483e-10 2.89037e-10 9.657e-11" />
+                    <geom name="rf/LFTarsus3_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus3_geom_LFTarsus3_mirror_y" />
+                    <site name="rf/m_tarsus3_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                    <body name="rf/LFTarsus4" pos="-0.0020509999999999999 0.0098049999999999995 -0.096540000000000001">
+                      <inertial pos="-0.00070605099999999997 0.00028779499999999998 -0.048146500000000002" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="1.70147e-07" diaginertia="1.54176e-10 1.54073e-10 5.30819e-11" />
+                      <geom name="rf/LFTarsus4_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus4_geom_LFTarsus4_mirror_y" />
+                      <site name="rf/m_tarsus4_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                      <body name="rf/LFTarsus5" pos="0.00072809999999999997 0.0098630000000000002 -0.086720000000000005">
+                        <inertial pos="-0.0051986100000000002 0.0048673700000000002 -0.047894800000000001" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="3.03069e-07" diaginertia="3.53043e-10 3.39673e-10 1.55482e-10" />
+                        <geom name="rf/LFTarsus5_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus5_geom_LFTarsus5_mirror_y" />
+                        <site name="rf/m_tarsus5_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <site name="rf/LFC_tergopleural_promotor_a_LFC_Miller28a_p1" pos="-0.13729580820612811 -0.24290756444108233 -0.07433159999999997" />
+      <site name="rf/LFC_tergopleural_promotor_a_LFC_Miller28a_p296" pos="-0.059626748060451512 -0.20383229641478118 -0.15447499999999997" />
+      <site name="rf/LFC_tergopleural_promotor_b_LFC_Miller28b_p1" pos="-0.024295098958485403 -0.19212644331748246 0.097237199999999996" />
+      <site name="rf/LFC_tergopleural_promotor_b_LFC_Miller28b_p296" pos="-0.053231920886084583 -0.20019836183914855 -0.14357999999999999" />
+      <site name="rf/LFC_pleural_remotor_and_abductor_LFC_Miller29_p1" pos="-0.19680934695888408 -0.33095673885018295 -0.011216099999999979" />
+      <site name="rf/LFC_pleural_promotor_LFC_Miller30_p1" pos="-0.043622510599597819 -0.1026562620288822 -0.18720399999999998" />
+      <site name="rf/LFC_sternal_anterior_rotator_LFC_Miller31_p1" pos="-0.053561390731157413 0.0047127979300882195 -0.25917699999999999" />
+      <site name="rf/LFC_sternal_posterior_rotator_LFC_Miller32_p1" pos="-0.17847002501079376 -0.120343061686319 -0.20997299999999999" />
+      <site name="rf/LFC_sternal_adductor_LFC_Miller33_p1" pos="-0.15997345697194282 0.031717588347930703 -0.28118100000000001" />
+      <body name="rm/LFCoxa" pos="-0.52549999999999997 -0.1212 -0.4854" quat="0.89124803876075431 0 0 -0.45351618869132881">
+        <inertial pos="0.0045596600000000001 0.011327800000000001 -0.215003" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="9.73852e-06" diaginertia="1.82938e-07 1.82146e-07 3.66796e-08" />
+        <joint name="rm/joint_LFCoxa_yaw" pos="0 0 0" axis="-1 0 0" limited="false" range="-0.597 0.2745" ref="0" />
+        <joint name="rm/joint_LFCoxa_pitch" pos="0 0 0" axis="0 1 0" limited="false" range="-0.5783 0.7375" ref="0" />
+        <joint name="rm/joint_LFCoxa_roll" pos="0 0 0" axis="0 0 -1" range="0.1436 0.6236" ref="0" />
+        <geom name="rm/LFCoxa_geom" type="mesh" rgba="0.670588 0.509804 0.196078 0.4" mesh="LFCoxa_geom_LFCoxa_mirror_y" />
+        <site name="rm/LFC_tergopleural_promotor_a_LFC_Miller28a_p396" pos="0.0245106 0.040748100000000002 0.047189599999999998" />
+        <site name="rm/LFC_tergopleural_promotor_b_LFC_Miller28b_p396" pos="0.014301899999999999 0.015092299999999999 0.00156441" />
+        <site name="rm/LFC_pleural_remotor_and_abductor_LFC_Miller29_p296" pos="-0.0146505 -0.0607293 -0.0014676299999999999" />
+        <site name="rm/LFC_pleural_promotor_LFC_Miller30_p296" pos="0.023705799999999999 0.028636100000000001 -0.012840799999999999" />
+        <site name="rm/LFC_sternal_anterior_rotator_LFC_Miller31_p296" pos="-0.000252024 0.041795300000000001 -0.078137600000000001" />
+        <site name="rm/LFC_sternal_posterior_rotator_LFC_Miller32_p296" pos="-0.023512600000000002 -0.044715100000000001 -0.065397800000000006" />
+        <site name="rm/LFC_sternal_adductor_LFC_Miller33_p296" pos="0.0171012 0.066115400000000005 -0.10725999999999999" />
+        <site name="rm/LFF_trochanter_flexor_b_lff_thco_flexb_p1" pos="0.0170207 0.059573399999999999 -0.149676" />
+        <site name="rm/LFF_trochanter_flexor_b_lff_thco_flexb_p222" pos="0.0053845799999999999 0.00068834600000000005 -0.32397900000000002" />
+        <site name="rm/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p1" pos="-0.025972200000000001 -0.050793199999999997 -0.13875899999999999" />
+        <site name="rm/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p222" pos="-0.035224800000000001 -0.0126312 -0.37393799999999999" />
+        <site name="rm/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p1" pos="-0.020863199999999998 0.070966799999999997 -0.178621" />
+        <site name="rm/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p222" pos="-0.038938300000000002 0.0093893399999999995 -0.36288399999999998" />
+        <site name="rm/LFF_accesory_trochanter_flexor_LFF_roll_f_p1" pos="-0.019308100000000002 -0.0479785 -0.20710500000000001" />
+        <site name="rm/LFF_trochanter_extensor_LFF_roll_e_p1" pos="-0.038148700000000001 -0.040463199999999998 -0.33983600000000003" />
+        <site name="rm/LFF_trochanter_flexor_a_LFF_flexa_p1" pos="0.031125400000000001 -0.014357999999999999 -0.055914400000000003" />
+        <site name="rm/m_coxa_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+        <body name="rm/LFTrochanter" pos="-0.002 -0.014999999999999999 -0.44019999999999998">
+          <inertial pos="-0.0136337 -0.0341937 -0.016000400000000001" quat="0.70710667177984676 -0.70710689059323162 0 0" mass="1.70307e-06" diaginertia="4.86831e-09 4.75181e-09 3.4135e-09" />
+          <joint name="rm/joint_LFTrochanter_yaw" pos="0 0 0" axis="-1 0 0" limited="false" range="-1.196 0.2745" ref="0" />
+          <joint name="rm/joint_LFTrochanter_pitch" pos="0 0 0" axis="0 1 0" limited="false" range="-3.242 -1.217" ref="0" />
+          <joint name="rm/joint_LFTrochanter_roll" pos="0 0 0" axis="0 0 -1" limited="false" range="-0.2745 1.384" ref="0" />
+          <geom name="rm/LFTrochanter_geom" type="mesh" rgba="0.55 0.392 0.118 0.4" mesh="LFTrochanter_geom_LFTrochanter_mirror_y" />
+          <site name="rm/LFF_trochanter_flexor_b_lff_thco_flexb_p322" pos="-0.0170405 0.0047233500000000003 -0.022888700000000001" />
+          <site name="rm/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p322" pos="0.022268699999999999 0.0081287700000000004 0.0211095" />
+          <site name="rm/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p322" pos="0.00657561 0.027995800000000001 0.034139500000000003" />
+          <site name="rm/LFF_accesory_trochanter_flexor_LFF_roll_f_p222" pos="-0.0054921900000000001 0.0199954 -0.0253338" />
+          <site name="rm/LFF_trochanter_extensor_LFF_roll_e_p222" pos="0.010204700000000001 -0.013625999999999999 0.00768368" />
+          <site name="rm/LFF_trochanter_flexor_a_LFF_flexa_p222" pos="-0.012182800000000001 0.0117695 -0.040374599999999997" />
+          <site name="rm/m_trochanter_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+          <body name="rm/LFFemur" pos="-0.019939999999999999 -0.072440000000000004 -0.062379999999999998">
+            <inertial pos="-0.0058171100000000003 -0.063558900000000002 -0.27995999999999999" mass="1.2483e-05" diaginertia="4.1473e-07 4.01495e-07 4.64816e-08" />
+            <geom name="rm/LFFemur_geom" type="mesh" rgba="0.67 0.51 0.196 0.4" mesh="LFFemur_geom_LFFemur_mirror_y" />
+            <site name="rm/LFTibia_flex_93434_bifemlh_r-P1" pos="-0.041520099999999997 -0.047537599999999999 -0.087776699999999999" />
+            <site name="rm/LFTibia_flex_93434_bifemlh_r-P2" pos="-0.0151968 -0.110902 -0.54662699999999997" />
+            <site name="rm/LFTibia_extensor_93932_bifemlh_r-P1" pos="0.0276828 -0.038459100000000003 -0.089531100000000002" />
+            <site name="rm/LFTibia_extensor_93932_bifemlh_r-P2" pos="0.026753599999999999 -0.105256 -0.597078" />
+            <site name="rm/m_femur_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+            <body name="rm/LFTibia" pos="-0.019820000000000001 -0.1003 -0.56610000000000005">
+              <inertial pos="0.028910499999999999 0.0023971700000000001 -0.245561" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="4.51507e-06" diaginertia="1.24763e-07 1.24206e-07 6.26811e-09" />
+              <joint name="rm/joint_LFTibia_pitch" pos="0 0 0" axis="0 1 0" range="0.4789 2.502" ref="0" />
+              <geom name="rm/LFTibia_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTibia_geom_LFTibia_mirror_y" />
+              <site name="rm/LFTibia_flex_93434_pp21995" pos="-0.0108694 -0.011472700000000001 -0.010733100000000001" />
+              <site name="rm/LFTibia_extensor_93932_pp21995" pos="0.035000000000000003 -0.002 0.00092751499999999996" />
+              <site name="rm/m_tibia_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+              <body name="rm/LFTarsus1" pos="0.01915 0.012930000000000001 -0.51000000000000001">
+                <inertial pos="-0.0041480099999999997 0.0089833299999999994 -0.116831" mass="1.19008e-06" diaginertia="6.25046e-09 6.09661e-09 1.04328e-09" />
+                <geom name="rm/LFTarsus1_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus1_geom_LFTarsus1_mirror_y" />
+                <site name="rm/m_tarsus1_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                <body name="rm/LFTarsus2" pos="-0.00024640000000000003 0.019400000000000001 -0.2175">
+                  <inertial pos="-0.0061675499999999999 0.0073480500000000001 -0.085785" mass="5.14227e-07" diaginertia="1.18427e-09 1.17926e-09 2.96167e-10" />
+                  <geom name="rm/LFTarsus2_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus2_geom_LFTarsus2_mirror_y" />
+                  <site name="rm/m_tarsus2_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                  <body name="rm/LFTarsus3" pos="-0.0029810000000000001 0.01951 -0.15490000000000001">
+                    <inertial pos="-0.0048666400000000002 0.0013248100000000001 -0.054973599999999997" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="2.45481e-07" diaginertia="2.89483e-10 2.89037e-10 9.657e-11" />
+                    <geom name="rm/LFTarsus3_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus3_geom_LFTarsus3_mirror_y" />
+                    <site name="rm/m_tarsus3_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                    <body name="rm/LFTarsus4" pos="-0.0020509999999999999 0.0098049999999999995 -0.096540000000000001">
+                      <inertial pos="-0.00070605099999999997 0.00028779499999999998 -0.048146500000000002" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="1.70147e-07" diaginertia="1.54176e-10 1.54073e-10 5.30819e-11" />
+                      <geom name="rm/LFTarsus4_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus4_geom_LFTarsus4_mirror_y" />
+                      <site name="rm/m_tarsus4_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                      <body name="rm/LFTarsus5" pos="0.00072809999999999997 0.0098630000000000002 -0.086720000000000005">
+                        <inertial pos="-0.0051986100000000002 0.0048673700000000002 -0.047894800000000001" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="3.03069e-07" diaginertia="3.53043e-10 3.39673e-10 1.55482e-10" />
+                        <geom name="rm/LFTarsus5_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus5_geom_LFTarsus5_mirror_y" />
+                        <site name="rm/m_tarsus5_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <site name="rm/LFC_tergopleural_promotor_a_LFC_Miller28a_p1" pos="-0.56330892204745409 -0.16845693868216113 -0.33163159999999997" />
+      <site name="rm/LFC_tergopleural_promotor_a_LFC_Miller28a_p296" pos="-0.47730913130735597 -0.18123956235257171 -0.411775" />
+      <site name="rm/LFC_tergopleural_promotor_b_LFC_Miller28b_p1" pos="-0.44168312371500784 -0.19201638971640905 -0.16006280000000001" />
+      <site name="rm/LFC_tergopleural_promotor_b_LFC_Miller28b_p296" pos="-0.46998843038049992 -0.18195134394093185 -0.40088000000000001" />
+      <site name="rm/LFC_pleural_remotor_and_abductor_LFC_Miller29_p1" pos="-0.66266900734378309 -0.20616757191612095 -0.26851609999999998" />
+      <site name="rm/LFC_pleural_promotor_LFC_Miller30_p1" pos="-0.40595992042556939 -0.10774115653784436 -0.44450400000000001" />
+      <site name="rm/LFC_sternal_anterior_rotator_LFC_Miller31_p1" pos="-0.35225367196941221 -0.014239631141153578 -0.51647699999999996" />
+      <site name="rm/LFC_sternal_posterior_rotator_LFC_Miller32_p1" pos="-0.52638790217078724 -0.044544825649307201 -0.46727299999999999" />
+      <site name="rm/LFC_sternal_adductor_LFC_Miller33_p1" pos="-0.42369772376698961 0.069118235973414432 -0.53848099999999999" />
+      <body name="rh/LFCoxa" pos="-0.75229999999999997 -0.083339999999999997 -0.50180000000000002" quat="-0.49986631381927371 0 0 0.8661025737802257">
+        <inertial pos="0.0045596600000000001 0.011327800000000001 -0.215003" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="9.73852e-06" diaginertia="1.82938e-07 1.82146e-07 3.66796e-08" />
+        <joint name="rh/joint_LFCoxa_yaw" pos="0 0 0" axis="-1 0 0" limited="false" range="-0.597 0.2745" ref="0" />
+        <joint name="rh/joint_LFCoxa_pitch" pos="0 0 0" axis="0 1 0" limited="false" range="-0.5783 0.7375" ref="0" />
+        <joint name="rh/joint_LFCoxa_roll" pos="0 0 0" axis="0 0 -1" range="0.1436 0.6236" ref="0" />
+        <geom name="rh/LFCoxa_geom" type="mesh" rgba="0.670588 0.509804 0.196078 0.4" mesh="LFCoxa_geom_LFCoxa_mirror_y" />
+        <site name="rh/LFC_tergopleural_promotor_a_LFC_Miller28a_p396" pos="0.0245106 0.040748100000000002 0.047189599999999998" />
+        <site name="rh/LFC_tergopleural_promotor_b_LFC_Miller28b_p396" pos="0.014301899999999999 0.015092299999999999 0.00156441" />
+        <site name="rh/LFC_pleural_remotor_and_abductor_LFC_Miller29_p296" pos="-0.0146505 -0.0607293 -0.0014676299999999999" />
+        <site name="rh/LFC_pleural_promotor_LFC_Miller30_p296" pos="0.023705799999999999 0.028636100000000001 -0.012840799999999999" />
+        <site name="rh/LFC_sternal_anterior_rotator_LFC_Miller31_p296" pos="-0.000252024 0.041795300000000001 -0.078137600000000001" />
+        <site name="rh/LFC_sternal_posterior_rotator_LFC_Miller32_p296" pos="-0.023512600000000002 -0.044715100000000001 -0.065397800000000006" />
+        <site name="rh/LFC_sternal_adductor_LFC_Miller33_p296" pos="0.0171012 0.066115400000000005 -0.10725999999999999" />
+        <site name="rh/LFF_trochanter_flexor_b_lff_thco_flexb_p1" pos="0.0170207 0.059573399999999999 -0.149676" />
+        <site name="rh/LFF_trochanter_flexor_b_lff_thco_flexb_p222" pos="0.0053845799999999999 0.00068834600000000005 -0.32397900000000002" />
+        <site name="rh/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p1" pos="-0.025972200000000001 -0.050793199999999997 -0.13875899999999999" />
+        <site name="rh/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p222" pos="-0.035224800000000001 -0.0126312 -0.37393799999999999" />
+        <site name="rh/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p1" pos="-0.020863199999999998 0.070966799999999997 -0.178621" />
+        <site name="rh/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p222" pos="-0.038938300000000002 0.0093893399999999995 -0.36288399999999998" />
+        <site name="rh/LFF_accesory_trochanter_flexor_LFF_roll_f_p1" pos="-0.019308100000000002 -0.0479785 -0.20710500000000001" />
+        <site name="rh/LFF_trochanter_extensor_LFF_roll_e_p1" pos="-0.038148700000000001 -0.040463199999999998 -0.33983600000000003" />
+        <site name="rh/LFF_trochanter_flexor_a_LFF_flexa_p1" pos="0.031125400000000001 -0.014357999999999999 -0.055914400000000003" />
+        <site name="rh/m_coxa_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+        <body name="rh/LFTrochanter" pos="-0.002 -0.014999999999999999 -0.44019999999999998">
+          <inertial pos="-0.0136337 -0.0341937 -0.016000400000000001" quat="0.70710667177984676 -0.70710689059323162 0 0" mass="1.70307e-06" diaginertia="4.86831e-09 4.75181e-09 3.4135e-09" />
+          <joint name="rh/joint_LFTrochanter_yaw" pos="0 0 0" axis="-1 0 0" limited="false" range="-1.196 0.2745" ref="0" />
+          <joint name="rh/joint_LFTrochanter_pitch" pos="0 0 0" axis="0 1 0" limited="false" range="-3.242 -1.217" ref="0" />
+          <joint name="rh/joint_LFTrochanter_roll" pos="0 0 0" axis="0 0 -1" limited="false" range="-0.2745 1.384" ref="0" />
+          <geom name="rh/LFTrochanter_geom" type="mesh" rgba="0.55 0.392 0.118 0.4" mesh="LFTrochanter_geom_LFTrochanter_mirror_y" />
+          <site name="rh/LFF_trochanter_flexor_b_lff_thco_flexb_p322" pos="-0.0170405 0.0047233500000000003 -0.022888700000000001" />
+          <site name="rh/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p322" pos="0.022268699999999999 0.0081287700000000004 0.0211095" />
+          <site name="rh/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p322" pos="0.00657561 0.027995800000000001 0.034139500000000003" />
+          <site name="rh/LFF_accesory_trochanter_flexor_LFF_roll_f_p222" pos="-0.0054921900000000001 0.0199954 -0.0253338" />
+          <site name="rh/LFF_trochanter_extensor_LFF_roll_e_p222" pos="0.010204700000000001 -0.013625999999999999 0.00768368" />
+          <site name="rh/LFF_trochanter_flexor_a_LFF_flexa_p222" pos="-0.012182800000000001 0.0117695 -0.040374599999999997" />
+          <site name="rh/m_trochanter_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+          <body name="rh/LFFemur" pos="-0.019939999999999999 -0.072440000000000004 -0.062379999999999998">
+            <inertial pos="-0.0058171100000000003 -0.063558900000000002 -0.27995999999999999" mass="1.2483e-05" diaginertia="4.1473e-07 4.01495e-07 4.64816e-08" />
+            <geom name="rh/LFFemur_geom" type="mesh" rgba="0.67 0.51 0.196 0.4" mesh="LFFemur_geom_LFFemur_mirror_y" />
+            <site name="rh/LFTibia_flex_93434_bifemlh_r-P1" pos="-0.041520099999999997 -0.047537599999999999 -0.087776699999999999" />
+            <site name="rh/LFTibia_flex_93434_bifemlh_r-P2" pos="-0.0151968 -0.110902 -0.54662699999999997" />
+            <site name="rh/LFTibia_extensor_93932_bifemlh_r-P1" pos="0.0276828 -0.038459100000000003 -0.089531100000000002" />
+            <site name="rh/LFTibia_extensor_93932_bifemlh_r-P2" pos="0.026753599999999999 -0.105256 -0.597078" />
+            <site name="rh/m_femur_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+            <body name="rh/LFTibia" pos="-0.019820000000000001 -0.1003 -0.56610000000000005">
+              <inertial pos="0.028910499999999999 0.0023971700000000001 -0.245561" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="4.51507e-06" diaginertia="1.24763e-07 1.24206e-07 6.26811e-09" />
+              <joint name="rh/joint_LFTibia_pitch" pos="0 0 0" axis="0 1 0" range="0.4789 2.502" ref="0" />
+              <geom name="rh/LFTibia_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTibia_geom_LFTibia_mirror_y" />
+              <site name="rh/LFTibia_flex_93434_pp21995" pos="-0.0108694 -0.011472700000000001 -0.010733100000000001" />
+              <site name="rh/LFTibia_extensor_93932_pp21995" pos="0.035000000000000003 -0.002 0.00092751499999999996" />
+              <site name="rh/m_tibia_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+              <body name="rh/LFTarsus1" pos="0.01915 0.012930000000000001 -0.51000000000000001">
+                <inertial pos="-0.0041480099999999997 0.0089833299999999994 -0.116831" mass="1.19008e-06" diaginertia="6.25046e-09 6.09661e-09 1.04328e-09" />
+                <geom name="rh/LFTarsus1_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus1_geom_LFTarsus1_mirror_y" />
+                <site name="rh/m_tarsus1_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                <body name="rh/LFTarsus2" pos="-0.00024640000000000003 0.019400000000000001 -0.2175">
+                  <inertial pos="-0.0061675499999999999 0.0073480500000000001 -0.085785" mass="5.14227e-07" diaginertia="1.18427e-09 1.17926e-09 2.96167e-10" />
+                  <geom name="rh/LFTarsus2_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus2_geom_LFTarsus2_mirror_y" />
+                  <site name="rh/m_tarsus2_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                  <body name="rh/LFTarsus3" pos="-0.0029810000000000001 0.01951 -0.15490000000000001">
+                    <inertial pos="-0.0048666400000000002 0.0013248100000000001 -0.054973599999999997" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="2.45481e-07" diaginertia="2.89483e-10 2.89037e-10 9.657e-11" />
+                    <geom name="rh/LFTarsus3_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus3_geom_LFTarsus3_mirror_y" />
+                    <site name="rh/m_tarsus3_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                    <body name="rh/LFTarsus4" pos="-0.0020509999999999999 0.0098049999999999995 -0.096540000000000001">
+                      <inertial pos="-0.00070605099999999997 0.00028779499999999998 -0.048146500000000002" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="1.70147e-07" diaginertia="1.54176e-10 1.54073e-10 5.30819e-11" />
+                      <geom name="rh/LFTarsus4_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus4_geom_LFTarsus4_mirror_y" />
+                      <site name="rh/m_tarsus4_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                      <body name="rh/LFTarsus5" pos="0.00072809999999999997 0.0098630000000000002 -0.086720000000000005">
+                        <inertial pos="-0.0051986100000000002 0.0048673700000000002 -0.047894800000000001" quat="0.70710667177984676 0 0 -0.70710689059323162" mass="3.03069e-07" diaginertia="3.53043e-10 3.39673e-10 1.55482e-10" />
+                        <geom name="rh/LFTarsus5_geom" type="mesh" rgba="0.67 0.51 0.196 1" mesh="LFTarsus5_geom_LFTarsus5_mirror_y" />
+                        <site name="rh/m_tarsus5_marker" pos="0 0 0" size="0.01" group="4" rgba="1 0.1 0.5 0.5" />
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <site name="rh/LFC_tergopleural_promotor_a_LFC_Miller28a_p1" pos="-0.81082854378203317 -0.067940571349734247 -0.3480316" />
+      <site name="rh/LFC_tergopleural_promotor_a_LFC_Miller28a_p296" pos="-0.78764183526259368 -0.15173637090600411 -0.42817499999999997" />
+      <site name="rh/LFC_tergopleural_promotor_b_LFC_Miller28b_p1" pos="-0.78304727139697217 -0.1886720231661812 -0.17646280000000003" />
+      <site name="rh/LFC_tergopleural_promotor_b_LFC_Miller28b_p296" pos="-0.78532406648237696 -0.15871686107299471 -0.41727999999999998" />
+      <site name="rh/LFC_pleural_remotor_and_abductor_LFC_Miller29_p1" pos="-0.88558865266847797 0.0075938216662085056 -0.28491610000000001" />
+      <site name="rh/LFC_pleural_promotor_LFC_Miller30_p1" pos="-0.69152590913270129 -0.18715464719033301 -0.46090399999999998" />
+      <site name="rh/LFC_sternal_anterior_rotator_LFC_Miller31_p1" pos="-0.58427896766291387 -0.19833453628273995 -0.53287700000000005" />
+      <site name="rh/LFC_sternal_posterior_rotator_LFC_Miller32_p1" pos="-0.68258929229585752 -0.051446092174403948 -0.48367300000000002" />
+      <site name="rh/LFC_sternal_adductor_LFC_Miller33_p1" pos="-0.53705053792310786 -0.099227210764102819 -0.55488100000000007" />
+      <freejoint name="free_thorax" /></body>
+    <camera pos="0 -5.0 3.8" euler="1.5 0 0" />
+  </worldbody>
+
+  <tendon><spatial name="lf/LFC_tergopleural_promotor_a_tendon">
+      <site site="lf/LFC_tergopleural_promotor_a_LFC_Miller28a_p1" />
+      <site site="lf/LFC_tergopleural_promotor_a_LFC_Miller28a_p296" />
+      <site site="lf/LFC_tergopleural_promotor_a_LFC_Miller28a_p396" />
+    </spatial>
+    <spatial name="lf/LFC_tergopleural_promotor_b_tendon">
+      <site site="lf/LFC_tergopleural_promotor_b_LFC_Miller28b_p1" />
+      <site site="lf/LFC_tergopleural_promotor_b_LFC_Miller28b_p296" />
+      <site site="lf/LFC_tergopleural_promotor_b_LFC_Miller28b_p396" />
+    </spatial>
+    <spatial name="lf/LFC_pleural_remotor_and_abductor_tendon">
+      <site site="lf/LFC_pleural_remotor_and_abductor_LFC_Miller29_p1" />
+      <site site="lf/LFC_pleural_remotor_and_abductor_LFC_Miller29_p296" />
+    </spatial>
+    <spatial name="lf/LFC_pleural_promotor_tendon">
+      <site site="lf/LFC_pleural_promotor_LFC_Miller30_p1" />
+      <site site="lf/LFC_pleural_promotor_LFC_Miller30_p296" />
+    </spatial>
+    <spatial name="lf/LFC_sternal_anterior_rotator_tendon">
+      <site site="lf/LFC_sternal_anterior_rotator_LFC_Miller31_p1" />
+      <site site="lf/LFC_sternal_anterior_rotator_LFC_Miller31_p296" />
+    </spatial>
+    <spatial name="lf/LFC_sternal_posterior_rotator_tendon">
+      <site site="lf/LFC_sternal_posterior_rotator_LFC_Miller32_p1" />
+      <site site="lf/LFC_sternal_posterior_rotator_LFC_Miller32_p296" />
+    </spatial>
+    <spatial name="lf/LFC_sternal_adductor_tendon">
+      <site site="lf/LFC_sternal_adductor_LFC_Miller33_p1" />
+      <site site="lf/LFC_sternal_adductor_LFC_Miller33_p296" />
+    </spatial>
+    <spatial name="lf/LFF_trochanter_flexor_b_tendon">
+      <site site="lf/LFF_trochanter_flexor_b_lff_thco_flexb_p1" />
+      <site site="lf/LFF_trochanter_flexor_b_lff_thco_flexb_p222" />
+      <site site="lf/LFF_trochanter_flexor_b_lff_thco_flexb_p322" />
+    </spatial>
+    <spatial name="lf/LFF_sterno-tergo-trochanter_extensor_a_tendon">
+      <site site="lf/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p1" />
+      <site site="lf/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p222" />
+      <site site="lf/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p322" />
+    </spatial>
+    <spatial name="lf/LFF_sterno-tergo-trochanter_extensor_b_tendon">
+      <site site="lf/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p1" />
+      <site site="lf/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p222" />
+      <site site="lf/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p322" />
+    </spatial>
+    <spatial name="lf/LFF_accesory_trochanter_flexor_tendon">
+      <site site="lf/LFF_accesory_trochanter_flexor_LFF_roll_f_p1" />
+      <site site="lf/LFF_accesory_trochanter_flexor_LFF_roll_f_p222" />
+    </spatial>
+    <spatial name="lf/LFF_trochanter_extensor_tendon">
+      <site site="lf/LFF_trochanter_extensor_LFF_roll_e_p1" />
+      <site site="lf/LFF_trochanter_extensor_LFF_roll_e_p222" />
+    </spatial>
+    <spatial name="lf/LFF_trochanter_flexor_a_tendon">
+      <site site="lf/LFF_trochanter_flexor_a_LFF_flexa_p1" />
+      <site site="lf/LFF_trochanter_flexor_a_LFF_flexa_p222" />
+    </spatial>
+    <spatial name="lf/LFTibia_flex_93434_tendon">
+      <site site="lf/LFTibia_flex_93434_bifemlh_r-P1" />
+      <site site="lf/LFTibia_flex_93434_bifemlh_r-P2" />
+      <site site="lf/LFTibia_flex_93434_pp21995" />
+    </spatial>
+    <spatial name="lf/LFTibia_extensor_93932_tendon">
+      <site site="lf/LFTibia_extensor_93932_bifemlh_r-P1" />
+      <site site="lf/LFTibia_extensor_93932_bifemlh_r-P2" />
+      <site site="lf/LFTibia_extensor_93932_pp21995" />
+    </spatial>
+  <spatial name="lm/LFC_tergopleural_promotor_a_tendon">
+      <site site="lm/LFC_tergopleural_promotor_a_LFC_Miller28a_p1" />
+      <site site="lm/LFC_tergopleural_promotor_a_LFC_Miller28a_p296" />
+      <site site="lm/LFC_tergopleural_promotor_a_LFC_Miller28a_p396" />
+    </spatial>
+    <spatial name="lm/LFC_tergopleural_promotor_b_tendon">
+      <site site="lm/LFC_tergopleural_promotor_b_LFC_Miller28b_p1" />
+      <site site="lm/LFC_tergopleural_promotor_b_LFC_Miller28b_p296" />
+      <site site="lm/LFC_tergopleural_promotor_b_LFC_Miller28b_p396" />
+    </spatial>
+    <spatial name="lm/LFC_pleural_remotor_and_abductor_tendon">
+      <site site="lm/LFC_pleural_remotor_and_abductor_LFC_Miller29_p1" />
+      <site site="lm/LFC_pleural_remotor_and_abductor_LFC_Miller29_p296" />
+    </spatial>
+    <spatial name="lm/LFC_pleural_promotor_tendon">
+      <site site="lm/LFC_pleural_promotor_LFC_Miller30_p1" />
+      <site site="lm/LFC_pleural_promotor_LFC_Miller30_p296" />
+    </spatial>
+    <spatial name="lm/LFC_sternal_anterior_rotator_tendon">
+      <site site="lm/LFC_sternal_anterior_rotator_LFC_Miller31_p1" />
+      <site site="lm/LFC_sternal_anterior_rotator_LFC_Miller31_p296" />
+    </spatial>
+    <spatial name="lm/LFC_sternal_posterior_rotator_tendon">
+      <site site="lm/LFC_sternal_posterior_rotator_LFC_Miller32_p1" />
+      <site site="lm/LFC_sternal_posterior_rotator_LFC_Miller32_p296" />
+    </spatial>
+    <spatial name="lm/LFC_sternal_adductor_tendon">
+      <site site="lm/LFC_sternal_adductor_LFC_Miller33_p1" />
+      <site site="lm/LFC_sternal_adductor_LFC_Miller33_p296" />
+    </spatial>
+    <spatial name="lm/LFF_trochanter_flexor_b_tendon">
+      <site site="lm/LFF_trochanter_flexor_b_lff_thco_flexb_p1" />
+      <site site="lm/LFF_trochanter_flexor_b_lff_thco_flexb_p222" />
+      <site site="lm/LFF_trochanter_flexor_b_lff_thco_flexb_p322" />
+    </spatial>
+    <spatial name="lm/LFF_sterno-tergo-trochanter_extensor_a_tendon">
+      <site site="lm/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p1" />
+      <site site="lm/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p222" />
+      <site site="lm/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p322" />
+    </spatial>
+    <spatial name="lm/LFF_sterno-tergo-trochanter_extensor_b_tendon">
+      <site site="lm/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p1" />
+      <site site="lm/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p222" />
+      <site site="lm/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p322" />
+    </spatial>
+    <spatial name="lm/LFF_accesory_trochanter_flexor_tendon">
+      <site site="lm/LFF_accesory_trochanter_flexor_LFF_roll_f_p1" />
+      <site site="lm/LFF_accesory_trochanter_flexor_LFF_roll_f_p222" />
+    </spatial>
+    <spatial name="lm/LFF_trochanter_extensor_tendon">
+      <site site="lm/LFF_trochanter_extensor_LFF_roll_e_p1" />
+      <site site="lm/LFF_trochanter_extensor_LFF_roll_e_p222" />
+    </spatial>
+    <spatial name="lm/LFF_trochanter_flexor_a_tendon">
+      <site site="lm/LFF_trochanter_flexor_a_LFF_flexa_p1" />
+      <site site="lm/LFF_trochanter_flexor_a_LFF_flexa_p222" />
+    </spatial>
+    <spatial name="lm/LFTibia_flex_93434_tendon">
+      <site site="lm/LFTibia_flex_93434_bifemlh_r-P1" />
+      <site site="lm/LFTibia_flex_93434_bifemlh_r-P2" />
+      <site site="lm/LFTibia_flex_93434_pp21995" />
+    </spatial>
+    <spatial name="lm/LFTibia_extensor_93932_tendon">
+      <site site="lm/LFTibia_extensor_93932_bifemlh_r-P1" />
+      <site site="lm/LFTibia_extensor_93932_bifemlh_r-P2" />
+      <site site="lm/LFTibia_extensor_93932_pp21995" />
+    </spatial>
+  <spatial name="lh/LFC_tergopleural_promotor_a_tendon">
+      <site site="lh/LFC_tergopleural_promotor_a_LFC_Miller28a_p1" />
+      <site site="lh/LFC_tergopleural_promotor_a_LFC_Miller28a_p296" />
+      <site site="lh/LFC_tergopleural_promotor_a_LFC_Miller28a_p396" />
+    </spatial>
+    <spatial name="lh/LFC_tergopleural_promotor_b_tendon">
+      <site site="lh/LFC_tergopleural_promotor_b_LFC_Miller28b_p1" />
+      <site site="lh/LFC_tergopleural_promotor_b_LFC_Miller28b_p296" />
+      <site site="lh/LFC_tergopleural_promotor_b_LFC_Miller28b_p396" />
+    </spatial>
+    <spatial name="lh/LFC_pleural_remotor_and_abductor_tendon">
+      <site site="lh/LFC_pleural_remotor_and_abductor_LFC_Miller29_p1" />
+      <site site="lh/LFC_pleural_remotor_and_abductor_LFC_Miller29_p296" />
+    </spatial>
+    <spatial name="lh/LFC_pleural_promotor_tendon">
+      <site site="lh/LFC_pleural_promotor_LFC_Miller30_p1" />
+      <site site="lh/LFC_pleural_promotor_LFC_Miller30_p296" />
+    </spatial>
+    <spatial name="lh/LFC_sternal_anterior_rotator_tendon">
+      <site site="lh/LFC_sternal_anterior_rotator_LFC_Miller31_p1" />
+      <site site="lh/LFC_sternal_anterior_rotator_LFC_Miller31_p296" />
+    </spatial>
+    <spatial name="lh/LFC_sternal_posterior_rotator_tendon">
+      <site site="lh/LFC_sternal_posterior_rotator_LFC_Miller32_p1" />
+      <site site="lh/LFC_sternal_posterior_rotator_LFC_Miller32_p296" />
+    </spatial>
+    <spatial name="lh/LFC_sternal_adductor_tendon">
+      <site site="lh/LFC_sternal_adductor_LFC_Miller33_p1" />
+      <site site="lh/LFC_sternal_adductor_LFC_Miller33_p296" />
+    </spatial>
+    <spatial name="lh/LFF_trochanter_flexor_b_tendon">
+      <site site="lh/LFF_trochanter_flexor_b_lff_thco_flexb_p1" />
+      <site site="lh/LFF_trochanter_flexor_b_lff_thco_flexb_p222" />
+      <site site="lh/LFF_trochanter_flexor_b_lff_thco_flexb_p322" />
+    </spatial>
+    <spatial name="lh/LFF_sterno-tergo-trochanter_extensor_a_tendon">
+      <site site="lh/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p1" />
+      <site site="lh/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p222" />
+      <site site="lh/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p322" />
+    </spatial>
+    <spatial name="lh/LFF_sterno-tergo-trochanter_extensor_b_tendon">
+      <site site="lh/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p1" />
+      <site site="lh/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p222" />
+      <site site="lh/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p322" />
+    </spatial>
+    <spatial name="lh/LFF_accesory_trochanter_flexor_tendon">
+      <site site="lh/LFF_accesory_trochanter_flexor_LFF_roll_f_p1" />
+      <site site="lh/LFF_accesory_trochanter_flexor_LFF_roll_f_p222" />
+    </spatial>
+    <spatial name="lh/LFF_trochanter_extensor_tendon">
+      <site site="lh/LFF_trochanter_extensor_LFF_roll_e_p1" />
+      <site site="lh/LFF_trochanter_extensor_LFF_roll_e_p222" />
+    </spatial>
+    <spatial name="lh/LFF_trochanter_flexor_a_tendon">
+      <site site="lh/LFF_trochanter_flexor_a_LFF_flexa_p1" />
+      <site site="lh/LFF_trochanter_flexor_a_LFF_flexa_p222" />
+    </spatial>
+    <spatial name="lh/LFTibia_flex_93434_tendon">
+      <site site="lh/LFTibia_flex_93434_bifemlh_r-P1" />
+      <site site="lh/LFTibia_flex_93434_bifemlh_r-P2" />
+      <site site="lh/LFTibia_flex_93434_pp21995" />
+    </spatial>
+    <spatial name="lh/LFTibia_extensor_93932_tendon">
+      <site site="lh/LFTibia_extensor_93932_bifemlh_r-P1" />
+      <site site="lh/LFTibia_extensor_93932_bifemlh_r-P2" />
+      <site site="lh/LFTibia_extensor_93932_pp21995" />
+    </spatial>
+  <spatial name="rf/LFC_tergopleural_promotor_a_tendon">
+      <site site="rf/LFC_tergopleural_promotor_a_LFC_Miller28a_p1" />
+      <site site="rf/LFC_tergopleural_promotor_a_LFC_Miller28a_p296" />
+      <site site="rf/LFC_tergopleural_promotor_a_LFC_Miller28a_p396" />
+    </spatial>
+    <spatial name="rf/LFC_tergopleural_promotor_b_tendon">
+      <site site="rf/LFC_tergopleural_promotor_b_LFC_Miller28b_p1" />
+      <site site="rf/LFC_tergopleural_promotor_b_LFC_Miller28b_p296" />
+      <site site="rf/LFC_tergopleural_promotor_b_LFC_Miller28b_p396" />
+    </spatial>
+    <spatial name="rf/LFC_pleural_remotor_and_abductor_tendon">
+      <site site="rf/LFC_pleural_remotor_and_abductor_LFC_Miller29_p1" />
+      <site site="rf/LFC_pleural_remotor_and_abductor_LFC_Miller29_p296" />
+    </spatial>
+    <spatial name="rf/LFC_pleural_promotor_tendon">
+      <site site="rf/LFC_pleural_promotor_LFC_Miller30_p1" />
+      <site site="rf/LFC_pleural_promotor_LFC_Miller30_p296" />
+    </spatial>
+    <spatial name="rf/LFC_sternal_anterior_rotator_tendon">
+      <site site="rf/LFC_sternal_anterior_rotator_LFC_Miller31_p1" />
+      <site site="rf/LFC_sternal_anterior_rotator_LFC_Miller31_p296" />
+    </spatial>
+    <spatial name="rf/LFC_sternal_posterior_rotator_tendon">
+      <site site="rf/LFC_sternal_posterior_rotator_LFC_Miller32_p1" />
+      <site site="rf/LFC_sternal_posterior_rotator_LFC_Miller32_p296" />
+    </spatial>
+    <spatial name="rf/LFC_sternal_adductor_tendon">
+      <site site="rf/LFC_sternal_adductor_LFC_Miller33_p1" />
+      <site site="rf/LFC_sternal_adductor_LFC_Miller33_p296" />
+    </spatial>
+    <spatial name="rf/LFF_trochanter_flexor_b_tendon">
+      <site site="rf/LFF_trochanter_flexor_b_lff_thco_flexb_p1" />
+      <site site="rf/LFF_trochanter_flexor_b_lff_thco_flexb_p222" />
+      <site site="rf/LFF_trochanter_flexor_b_lff_thco_flexb_p322" />
+    </spatial>
+    <spatial name="rf/LFF_sterno-tergo-trochanter_extensor_a_tendon">
+      <site site="rf/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p1" />
+      <site site="rf/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p222" />
+      <site site="rf/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p322" />
+    </spatial>
+    <spatial name="rf/LFF_sterno-tergo-trochanter_extensor_b_tendon">
+      <site site="rf/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p1" />
+      <site site="rf/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p222" />
+      <site site="rf/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p322" />
+    </spatial>
+    <spatial name="rf/LFF_accesory_trochanter_flexor_tendon">
+      <site site="rf/LFF_accesory_trochanter_flexor_LFF_roll_f_p1" />
+      <site site="rf/LFF_accesory_trochanter_flexor_LFF_roll_f_p222" />
+    </spatial>
+    <spatial name="rf/LFF_trochanter_extensor_tendon">
+      <site site="rf/LFF_trochanter_extensor_LFF_roll_e_p1" />
+      <site site="rf/LFF_trochanter_extensor_LFF_roll_e_p222" />
+    </spatial>
+    <spatial name="rf/LFF_trochanter_flexor_a_tendon">
+      <site site="rf/LFF_trochanter_flexor_a_LFF_flexa_p1" />
+      <site site="rf/LFF_trochanter_flexor_a_LFF_flexa_p222" />
+    </spatial>
+    <spatial name="rf/LFTibia_flex_93434_tendon">
+      <site site="rf/LFTibia_flex_93434_bifemlh_r-P1" />
+      <site site="rf/LFTibia_flex_93434_bifemlh_r-P2" />
+      <site site="rf/LFTibia_flex_93434_pp21995" />
+    </spatial>
+    <spatial name="rf/LFTibia_extensor_93932_tendon">
+      <site site="rf/LFTibia_extensor_93932_bifemlh_r-P1" />
+      <site site="rf/LFTibia_extensor_93932_bifemlh_r-P2" />
+      <site site="rf/LFTibia_extensor_93932_pp21995" />
+    </spatial>
+  <spatial name="rm/LFC_tergopleural_promotor_a_tendon">
+      <site site="rm/LFC_tergopleural_promotor_a_LFC_Miller28a_p1" />
+      <site site="rm/LFC_tergopleural_promotor_a_LFC_Miller28a_p296" />
+      <site site="rm/LFC_tergopleural_promotor_a_LFC_Miller28a_p396" />
+    </spatial>
+    <spatial name="rm/LFC_tergopleural_promotor_b_tendon">
+      <site site="rm/LFC_tergopleural_promotor_b_LFC_Miller28b_p1" />
+      <site site="rm/LFC_tergopleural_promotor_b_LFC_Miller28b_p296" />
+      <site site="rm/LFC_tergopleural_promotor_b_LFC_Miller28b_p396" />
+    </spatial>
+    <spatial name="rm/LFC_pleural_remotor_and_abductor_tendon">
+      <site site="rm/LFC_pleural_remotor_and_abductor_LFC_Miller29_p1" />
+      <site site="rm/LFC_pleural_remotor_and_abductor_LFC_Miller29_p296" />
+    </spatial>
+    <spatial name="rm/LFC_pleural_promotor_tendon">
+      <site site="rm/LFC_pleural_promotor_LFC_Miller30_p1" />
+      <site site="rm/LFC_pleural_promotor_LFC_Miller30_p296" />
+    </spatial>
+    <spatial name="rm/LFC_sternal_anterior_rotator_tendon">
+      <site site="rm/LFC_sternal_anterior_rotator_LFC_Miller31_p1" />
+      <site site="rm/LFC_sternal_anterior_rotator_LFC_Miller31_p296" />
+    </spatial>
+    <spatial name="rm/LFC_sternal_posterior_rotator_tendon">
+      <site site="rm/LFC_sternal_posterior_rotator_LFC_Miller32_p1" />
+      <site site="rm/LFC_sternal_posterior_rotator_LFC_Miller32_p296" />
+    </spatial>
+    <spatial name="rm/LFC_sternal_adductor_tendon">
+      <site site="rm/LFC_sternal_adductor_LFC_Miller33_p1" />
+      <site site="rm/LFC_sternal_adductor_LFC_Miller33_p296" />
+    </spatial>
+    <spatial name="rm/LFF_trochanter_flexor_b_tendon">
+      <site site="rm/LFF_trochanter_flexor_b_lff_thco_flexb_p1" />
+      <site site="rm/LFF_trochanter_flexor_b_lff_thco_flexb_p222" />
+      <site site="rm/LFF_trochanter_flexor_b_lff_thco_flexb_p322" />
+    </spatial>
+    <spatial name="rm/LFF_sterno-tergo-trochanter_extensor_a_tendon">
+      <site site="rm/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p1" />
+      <site site="rm/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p222" />
+      <site site="rm/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p322" />
+    </spatial>
+    <spatial name="rm/LFF_sterno-tergo-trochanter_extensor_b_tendon">
+      <site site="rm/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p1" />
+      <site site="rm/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p222" />
+      <site site="rm/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p322" />
+    </spatial>
+    <spatial name="rm/LFF_accesory_trochanter_flexor_tendon">
+      <site site="rm/LFF_accesory_trochanter_flexor_LFF_roll_f_p1" />
+      <site site="rm/LFF_accesory_trochanter_flexor_LFF_roll_f_p222" />
+    </spatial>
+    <spatial name="rm/LFF_trochanter_extensor_tendon">
+      <site site="rm/LFF_trochanter_extensor_LFF_roll_e_p1" />
+      <site site="rm/LFF_trochanter_extensor_LFF_roll_e_p222" />
+    </spatial>
+    <spatial name="rm/LFF_trochanter_flexor_a_tendon">
+      <site site="rm/LFF_trochanter_flexor_a_LFF_flexa_p1" />
+      <site site="rm/LFF_trochanter_flexor_a_LFF_flexa_p222" />
+    </spatial>
+    <spatial name="rm/LFTibia_flex_93434_tendon">
+      <site site="rm/LFTibia_flex_93434_bifemlh_r-P1" />
+      <site site="rm/LFTibia_flex_93434_bifemlh_r-P2" />
+      <site site="rm/LFTibia_flex_93434_pp21995" />
+    </spatial>
+    <spatial name="rm/LFTibia_extensor_93932_tendon">
+      <site site="rm/LFTibia_extensor_93932_bifemlh_r-P1" />
+      <site site="rm/LFTibia_extensor_93932_bifemlh_r-P2" />
+      <site site="rm/LFTibia_extensor_93932_pp21995" />
+    </spatial>
+  <spatial name="rh/LFC_tergopleural_promotor_a_tendon">
+      <site site="rh/LFC_tergopleural_promotor_a_LFC_Miller28a_p1" />
+      <site site="rh/LFC_tergopleural_promotor_a_LFC_Miller28a_p296" />
+      <site site="rh/LFC_tergopleural_promotor_a_LFC_Miller28a_p396" />
+    </spatial>
+    <spatial name="rh/LFC_tergopleural_promotor_b_tendon">
+      <site site="rh/LFC_tergopleural_promotor_b_LFC_Miller28b_p1" />
+      <site site="rh/LFC_tergopleural_promotor_b_LFC_Miller28b_p296" />
+      <site site="rh/LFC_tergopleural_promotor_b_LFC_Miller28b_p396" />
+    </spatial>
+    <spatial name="rh/LFC_pleural_remotor_and_abductor_tendon">
+      <site site="rh/LFC_pleural_remotor_and_abductor_LFC_Miller29_p1" />
+      <site site="rh/LFC_pleural_remotor_and_abductor_LFC_Miller29_p296" />
+    </spatial>
+    <spatial name="rh/LFC_pleural_promotor_tendon">
+      <site site="rh/LFC_pleural_promotor_LFC_Miller30_p1" />
+      <site site="rh/LFC_pleural_promotor_LFC_Miller30_p296" />
+    </spatial>
+    <spatial name="rh/LFC_sternal_anterior_rotator_tendon">
+      <site site="rh/LFC_sternal_anterior_rotator_LFC_Miller31_p1" />
+      <site site="rh/LFC_sternal_anterior_rotator_LFC_Miller31_p296" />
+    </spatial>
+    <spatial name="rh/LFC_sternal_posterior_rotator_tendon">
+      <site site="rh/LFC_sternal_posterior_rotator_LFC_Miller32_p1" />
+      <site site="rh/LFC_sternal_posterior_rotator_LFC_Miller32_p296" />
+    </spatial>
+    <spatial name="rh/LFC_sternal_adductor_tendon">
+      <site site="rh/LFC_sternal_adductor_LFC_Miller33_p1" />
+      <site site="rh/LFC_sternal_adductor_LFC_Miller33_p296" />
+    </spatial>
+    <spatial name="rh/LFF_trochanter_flexor_b_tendon">
+      <site site="rh/LFF_trochanter_flexor_b_lff_thco_flexb_p1" />
+      <site site="rh/LFF_trochanter_flexor_b_lff_thco_flexb_p222" />
+      <site site="rh/LFF_trochanter_flexor_b_lff_thco_flexb_p322" />
+    </spatial>
+    <spatial name="rh/LFF_sterno-tergo-trochanter_extensor_a_tendon">
+      <site site="rh/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p1" />
+      <site site="rh/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p222" />
+      <site site="rh/LFF_sterno-tergo-trochanter_extensor_a_lff_thco_stta_p322" />
+    </spatial>
+    <spatial name="rh/LFF_sterno-tergo-trochanter_extensor_b_tendon">
+      <site site="rh/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p1" />
+      <site site="rh/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p222" />
+      <site site="rh/LFF_sterno-tergo-trochanter_extensor_b_LFF_sterno-tergo-trochanter_extensor_b_p322" />
+    </spatial>
+    <spatial name="rh/LFF_accesory_trochanter_flexor_tendon">
+      <site site="rh/LFF_accesory_trochanter_flexor_LFF_roll_f_p1" />
+      <site site="rh/LFF_accesory_trochanter_flexor_LFF_roll_f_p222" />
+    </spatial>
+    <spatial name="rh/LFF_trochanter_extensor_tendon">
+      <site site="rh/LFF_trochanter_extensor_LFF_roll_e_p1" />
+      <site site="rh/LFF_trochanter_extensor_LFF_roll_e_p222" />
+    </spatial>
+    <spatial name="rh/LFF_trochanter_flexor_a_tendon">
+      <site site="rh/LFF_trochanter_flexor_a_LFF_flexa_p1" />
+      <site site="rh/LFF_trochanter_flexor_a_LFF_flexa_p222" />
+    </spatial>
+    <spatial name="rh/LFTibia_flex_93434_tendon">
+      <site site="rh/LFTibia_flex_93434_bifemlh_r-P1" />
+      <site site="rh/LFTibia_flex_93434_bifemlh_r-P2" />
+      <site site="rh/LFTibia_flex_93434_pp21995" />
+    </spatial>
+    <spatial name="rh/LFTibia_extensor_93932_tendon">
+      <site site="rh/LFTibia_extensor_93932_bifemlh_r-P1" />
+      <site site="rh/LFTibia_extensor_93932_bifemlh_r-P2" />
+      <site site="rh/LFTibia_extensor_93932_pp21995" />
+    </spatial>
+  </tendon><actuator><general name="lf/LFC_tergopleural_promotor_a" class="muscle" tendon="lf/LFC_tergopleural_promotor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.157941 0.213637" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.774703 1.39095 14.2319 1 0 2 10 0.358728 1.4 0" biasprm="0.774703 1.39095 14.2319 1 0 2 10 0.358728 1.4 0" />
+    <general name="lf/LFC_tergopleural_promotor_b" class="muscle" tendon="lf/LFC_tergopleural_promotor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.339805 0.361902" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.944598 1.01483 67.764 1 0 2 10 4.08279 1.4 0" biasprm="0.944598 1.01483 67.764 1 0 2 10 4.08279 1.4 0" />
+    <general name="lf/LFC_pleural_remotor_and_abductor" class="muscle" tendon="lf/LFC_pleural_remotor_and_abductor_tendon" ctrlrange="0.0001 1" lengthrange="0.216122 0.299608" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.743435 1.72008 28.7481 1 0 2 10 0.353216 1.4 0" biasprm="0.743435 1.72008 28.7481 1 0 2 10 0.353216 1.4 0" />
+    <general name="lf/LFC_pleural_promotor" class="muscle" tendon="lf/LFC_pleural_promotor_tendon" ctrlrange="0.0001 1" lengthrange="0.0912448 0.135751" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.859265 1.59552 30.6427 1 0 2 10 0.283134 1.4 0" biasprm="0.859265 1.59552 30.6427 1 0 2 10 0.283134 1.4 0" />
+    <general name="lf/LFC_sternal_anterior_rotator" class="muscle" tendon="lf/LFC_sternal_anterior_rotator_tendon" ctrlrange="0.0001 1" lengthrange="0.126048 0.202925" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.185296 1.73386 10.5807 1 0 2 10 3.11328 1.4 0" biasprm="0.185296 1.73386 10.5807 1 0 2 10 3.11328 1.4 0" />
+    <general name="lf/LFC_sternal_posterior_rotator" class="muscle" tendon="lf/LFC_sternal_posterior_rotator_tendon" ctrlrange="0.0001 1" lengthrange="0.0715242 0.147229" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.610817 1.40821 157.429 1 0 2 10 0.0752654 1.4 0" biasprm="0.610817 1.40821 157.429 1 0 2 10 0.0752654 1.4 0" />
+    <general name="lf/LFC_sternal_adductor" class="muscle" tendon="lf/LFC_sternal_adductor_tendon" ctrlrange="0.0001 1" lengthrange="0.0972302 0.259683" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.244283 1.48664 12.9 1 0 2 10 0.446817 1.4 0" biasprm="0.244283 1.48664 12.9 1 0 2 10 0.446817 1.4 0" />
+    <general name="lf/LFF_trochanter_flexor_b" class="muscle" tendon="lf/LFF_trochanter_flexor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.272991 0.32626" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.537008 1.04625 77.9856 1 0 2 10 2.85222 1.4 0" biasprm="0.537008 1.04625 77.9856 1 0 2 10 2.85222 1.4 0" />
+    <general name="lf/LFF_sterno-tergo-trochanter_extensor_a" class="muscle" tendon="lf/LFF_sterno-tergo-trochanter_extensor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.280895 0.337649" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.727951 1.5069 159.153 1 0 2 10 0.239629 1.4 0" biasprm="0.727951 1.5069 159.153 1 0 2 10 0.239629 1.4 0" />
+    <general name="lf/LFF_sterno-tergo-trochanter_extensor_b" class="muscle" tendon="lf/LFF_sterno-tergo-trochanter_extensor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.24007 0.320078" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.84831 1.43402 124.303 1 0 2 10 0.0988153 1.4 0" biasprm="0.84831 1.43402 124.303 1 0 2 10 0.0988153 1.4 0" />
+    <general name="lf/LFF_accesory_trochanter_flexor" class="muscle" tendon="lf/LFF_accesory_trochanter_flexor_tendon" ctrlrange="0.0001 1" lengthrange="0.203418 0.262616" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.638661 1.51365 24.8598 1 0 2 10 0.210106 1.4 0" biasprm="0.638661 1.51365 24.8598 1 0 2 10 0.210106 1.4 0" />
+    <general name="lf/LFF_trochanter_extensor" class="muscle" tendon="lf/LFF_trochanter_extensor_tendon" ctrlrange="0.0001 1" lengthrange="0.0912131 0.1283" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.90157 1.19258 40.5728 1 0 2 10 0.706553 1.4 0" biasprm="0.90157 1.19258 40.5728 1 0 2 10 0.706553 1.4 0" />
+    <general name="lf/LFF_trochanter_flexor_a" class="muscle" tendon="lf/LFF_trochanter_flexor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.34225 0.413396" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.830849 1.58829 46.8237 1 0 2 10 0.507633 1.4 0" biasprm="0.830849 1.58829 46.8237 1 0 2 10 0.507633 1.4 0" />
+    <general name="lf/LFTibia_flex_93434" class="muscle" tendon="lf/LFTibia_flex_93434_tendon" ctrlrange="0.0001 1" lengthrange="0.468973 0.494701" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.958046 1.04136 68.1213 1 0 2 10 3.23161 1.4 0" biasprm="0.958046 1.04136 68.1213 1 0 2 10 3.23161 1.4 0" />
+    <general name="lf/LFTibia_extensor_93932" class="muscle" tendon="lf/LFTibia_extensor_93932_tendon" ctrlrange="0.0001 1" lengthrange="0.533109 0.586674" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.906629 1.52523 303.877 1 0 2 10 0.183322 1.4 0" biasprm="0.906629 1.52523 303.877 1 0 2 10 0.183322 1.4 0" />
+  <general name="lm/LFC_tergopleural_promotor_a" class="muscle" tendon="lm/LFC_tergopleural_promotor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.157941 0.213637" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.774703 1.39095 14.2319 1 0 2 10 0.358728 1.4 0" biasprm="0.774703 1.39095 14.2319 1 0 2 10 0.358728 1.4 0" />
+    <general name="lm/LFC_tergopleural_promotor_b" class="muscle" tendon="lm/LFC_tergopleural_promotor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.339805 0.361902" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.944598 1.01483 67.764 1 0 2 10 4.08279 1.4 0" biasprm="0.944598 1.01483 67.764 1 0 2 10 4.08279 1.4 0" />
+    <general name="lm/LFC_pleural_remotor_and_abductor" class="muscle" tendon="lm/LFC_pleural_remotor_and_abductor_tendon" ctrlrange="0.0001 1" lengthrange="0.216122 0.299608" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.743435 1.72008 28.7481 1 0 2 10 0.353216 1.4 0" biasprm="0.743435 1.72008 28.7481 1 0 2 10 0.353216 1.4 0" />
+    <general name="lm/LFC_pleural_promotor" class="muscle" tendon="lm/LFC_pleural_promotor_tendon" ctrlrange="0.0001 1" lengthrange="0.0912448 0.135751" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.859265 1.59552 30.6427 1 0 2 10 0.283134 1.4 0" biasprm="0.859265 1.59552 30.6427 1 0 2 10 0.283134 1.4 0" />
+    <general name="lm/LFC_sternal_anterior_rotator" class="muscle" tendon="lm/LFC_sternal_anterior_rotator_tendon" ctrlrange="0.0001 1" lengthrange="0.126048 0.202925" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.185296 1.73386 10.5807 1 0 2 10 3.11328 1.4 0" biasprm="0.185296 1.73386 10.5807 1 0 2 10 3.11328 1.4 0" />
+    <general name="lm/LFC_sternal_posterior_rotator" class="muscle" tendon="lm/LFC_sternal_posterior_rotator_tendon" ctrlrange="0.0001 1" lengthrange="0.0715242 0.147229" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.610817 1.40821 157.429 1 0 2 10 0.0752654 1.4 0" biasprm="0.610817 1.40821 157.429 1 0 2 10 0.0752654 1.4 0" />
+    <general name="lm/LFC_sternal_adductor" class="muscle" tendon="lm/LFC_sternal_adductor_tendon" ctrlrange="0.0001 1" lengthrange="0.0972302 0.259683" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.244283 1.48664 12.9 1 0 2 10 0.446817 1.4 0" biasprm="0.244283 1.48664 12.9 1 0 2 10 0.446817 1.4 0" />
+    <general name="lm/LFF_trochanter_flexor_b" class="muscle" tendon="lm/LFF_trochanter_flexor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.272991 0.32626" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.537008 1.04625 77.9856 1 0 2 10 2.85222 1.4 0" biasprm="0.537008 1.04625 77.9856 1 0 2 10 2.85222 1.4 0" />
+    <general name="lm/LFF_sterno-tergo-trochanter_extensor_a" class="muscle" tendon="lm/LFF_sterno-tergo-trochanter_extensor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.280895 0.337649" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.727951 1.5069 159.153 1 0 2 10 0.239629 1.4 0" biasprm="0.727951 1.5069 159.153 1 0 2 10 0.239629 1.4 0" />
+    <general name="lm/LFF_sterno-tergo-trochanter_extensor_b" class="muscle" tendon="lm/LFF_sterno-tergo-trochanter_extensor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.24007 0.320078" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.84831 1.43402 124.303 1 0 2 10 0.0988153 1.4 0" biasprm="0.84831 1.43402 124.303 1 0 2 10 0.0988153 1.4 0" />
+    <general name="lm/LFF_accesory_trochanter_flexor" class="muscle" tendon="lm/LFF_accesory_trochanter_flexor_tendon" ctrlrange="0.0001 1" lengthrange="0.203418 0.262616" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.638661 1.51365 24.8598 1 0 2 10 0.210106 1.4 0" biasprm="0.638661 1.51365 24.8598 1 0 2 10 0.210106 1.4 0" />
+    <general name="lm/LFF_trochanter_extensor" class="muscle" tendon="lm/LFF_trochanter_extensor_tendon" ctrlrange="0.0001 1" lengthrange="0.0912131 0.1283" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.90157 1.19258 40.5728 1 0 2 10 0.706553 1.4 0" biasprm="0.90157 1.19258 40.5728 1 0 2 10 0.706553 1.4 0" />
+    <general name="lm/LFF_trochanter_flexor_a" class="muscle" tendon="lm/LFF_trochanter_flexor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.34225 0.413396" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.830849 1.58829 46.8237 1 0 2 10 0.507633 1.4 0" biasprm="0.830849 1.58829 46.8237 1 0 2 10 0.507633 1.4 0" />
+    <general name="lm/LFTibia_flex_93434" class="muscle" tendon="lm/LFTibia_flex_93434_tendon" ctrlrange="0.0001 1" lengthrange="0.468973 0.494701" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.958046 1.04136 68.1213 1 0 2 10 3.23161 1.4 0" biasprm="0.958046 1.04136 68.1213 1 0 2 10 3.23161 1.4 0" />
+    <general name="lm/LFTibia_extensor_93932" class="muscle" tendon="lm/LFTibia_extensor_93932_tendon" ctrlrange="0.0001 1" lengthrange="0.533109 0.586674" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.906629 1.52523 303.877 1 0 2 10 0.183322 1.4 0" biasprm="0.906629 1.52523 303.877 1 0 2 10 0.183322 1.4 0" />
+  <general name="lh/LFC_tergopleural_promotor_a" class="muscle" tendon="lh/LFC_tergopleural_promotor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.157941 0.213637" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.774703 1.39095 14.2319 1 0 2 10 0.358728 1.4 0" biasprm="0.774703 1.39095 14.2319 1 0 2 10 0.358728 1.4 0" />
+    <general name="lh/LFC_tergopleural_promotor_b" class="muscle" tendon="lh/LFC_tergopleural_promotor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.339805 0.361902" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.944598 1.01483 67.764 1 0 2 10 4.08279 1.4 0" biasprm="0.944598 1.01483 67.764 1 0 2 10 4.08279 1.4 0" />
+    <general name="lh/LFC_pleural_remotor_and_abductor" class="muscle" tendon="lh/LFC_pleural_remotor_and_abductor_tendon" ctrlrange="0.0001 1" lengthrange="0.216122 0.299608" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.743435 1.72008 28.7481 1 0 2 10 0.353216 1.4 0" biasprm="0.743435 1.72008 28.7481 1 0 2 10 0.353216 1.4 0" />
+    <general name="lh/LFC_pleural_promotor" class="muscle" tendon="lh/LFC_pleural_promotor_tendon" ctrlrange="0.0001 1" lengthrange="0.0912448 0.135751" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.859265 1.59552 30.6427 1 0 2 10 0.283134 1.4 0" biasprm="0.859265 1.59552 30.6427 1 0 2 10 0.283134 1.4 0" />
+    <general name="lh/LFC_sternal_anterior_rotator" class="muscle" tendon="lh/LFC_sternal_anterior_rotator_tendon" ctrlrange="0.0001 1" lengthrange="0.126048 0.202925" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.185296 1.73386 10.5807 1 0 2 10 3.11328 1.4 0" biasprm="0.185296 1.73386 10.5807 1 0 2 10 3.11328 1.4 0" />
+    <general name="lh/LFC_sternal_posterior_rotator" class="muscle" tendon="lh/LFC_sternal_posterior_rotator_tendon" ctrlrange="0.0001 1" lengthrange="0.0715242 0.147229" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.610817 1.40821 157.429 1 0 2 10 0.0752654 1.4 0" biasprm="0.610817 1.40821 157.429 1 0 2 10 0.0752654 1.4 0" />
+    <general name="lh/LFC_sternal_adductor" class="muscle" tendon="lh/LFC_sternal_adductor_tendon" ctrlrange="0.0001 1" lengthrange="0.0972302 0.259683" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.244283 1.48664 12.9 1 0 2 10 0.446817 1.4 0" biasprm="0.244283 1.48664 12.9 1 0 2 10 0.446817 1.4 0" />
+    <general name="lh/LFF_trochanter_flexor_b" class="muscle" tendon="lh/LFF_trochanter_flexor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.272991 0.32626" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.537008 1.04625 77.9856 1 0 2 10 2.85222 1.4 0" biasprm="0.537008 1.04625 77.9856 1 0 2 10 2.85222 1.4 0" />
+    <general name="lh/LFF_sterno-tergo-trochanter_extensor_a" class="muscle" tendon="lh/LFF_sterno-tergo-trochanter_extensor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.280895 0.337649" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.727951 1.5069 159.153 1 0 2 10 0.239629 1.4 0" biasprm="0.727951 1.5069 159.153 1 0 2 10 0.239629 1.4 0" />
+    <general name="lh/LFF_sterno-tergo-trochanter_extensor_b" class="muscle" tendon="lh/LFF_sterno-tergo-trochanter_extensor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.24007 0.320078" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.84831 1.43402 124.303 1 0 2 10 0.0988153 1.4 0" biasprm="0.84831 1.43402 124.303 1 0 2 10 0.0988153 1.4 0" />
+    <general name="lh/LFF_accesory_trochanter_flexor" class="muscle" tendon="lh/LFF_accesory_trochanter_flexor_tendon" ctrlrange="0.0001 1" lengthrange="0.203418 0.262616" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.638661 1.51365 24.8598 1 0 2 10 0.210106 1.4 0" biasprm="0.638661 1.51365 24.8598 1 0 2 10 0.210106 1.4 0" />
+    <general name="lh/LFF_trochanter_extensor" class="muscle" tendon="lh/LFF_trochanter_extensor_tendon" ctrlrange="0.0001 1" lengthrange="0.0912131 0.1283" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.90157 1.19258 40.5728 1 0 2 10 0.706553 1.4 0" biasprm="0.90157 1.19258 40.5728 1 0 2 10 0.706553 1.4 0" />
+    <general name="lh/LFF_trochanter_flexor_a" class="muscle" tendon="lh/LFF_trochanter_flexor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.34225 0.413396" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.830849 1.58829 46.8237 1 0 2 10 0.507633 1.4 0" biasprm="0.830849 1.58829 46.8237 1 0 2 10 0.507633 1.4 0" />
+    <general name="lh/LFTibia_flex_93434" class="muscle" tendon="lh/LFTibia_flex_93434_tendon" ctrlrange="0.0001 1" lengthrange="0.468973 0.494701" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.958046 1.04136 68.1213 1 0 2 10 3.23161 1.4 0" biasprm="0.958046 1.04136 68.1213 1 0 2 10 3.23161 1.4 0" />
+    <general name="lh/LFTibia_extensor_93932" class="muscle" tendon="lh/LFTibia_extensor_93932_tendon" ctrlrange="0.0001 1" lengthrange="0.533109 0.586674" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.906629 1.52523 303.877 1 0 2 10 0.183322 1.4 0" biasprm="0.906629 1.52523 303.877 1 0 2 10 0.183322 1.4 0" />
+  <general name="rf/LFC_tergopleural_promotor_a" class="muscle" tendon="rf/LFC_tergopleural_promotor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.157941 0.213637" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.774703 1.39095 14.2319 1 0 2 10 0.358728 1.4 0" biasprm="0.774703 1.39095 14.2319 1 0 2 10 0.358728 1.4 0" />
+    <general name="rf/LFC_tergopleural_promotor_b" class="muscle" tendon="rf/LFC_tergopleural_promotor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.339805 0.361902" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.944598 1.01483 67.764 1 0 2 10 4.08279 1.4 0" biasprm="0.944598 1.01483 67.764 1 0 2 10 4.08279 1.4 0" />
+    <general name="rf/LFC_pleural_remotor_and_abductor" class="muscle" tendon="rf/LFC_pleural_remotor_and_abductor_tendon" ctrlrange="0.0001 1" lengthrange="0.216122 0.299608" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.743435 1.72008 28.7481 1 0 2 10 0.353216 1.4 0" biasprm="0.743435 1.72008 28.7481 1 0 2 10 0.353216 1.4 0" />
+    <general name="rf/LFC_pleural_promotor" class="muscle" tendon="rf/LFC_pleural_promotor_tendon" ctrlrange="0.0001 1" lengthrange="0.0912448 0.135751" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.859265 1.59552 30.6427 1 0 2 10 0.283134 1.4 0" biasprm="0.859265 1.59552 30.6427 1 0 2 10 0.283134 1.4 0" />
+    <general name="rf/LFC_sternal_anterior_rotator" class="muscle" tendon="rf/LFC_sternal_anterior_rotator_tendon" ctrlrange="0.0001 1" lengthrange="0.126048 0.202925" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.185296 1.73386 10.5807 1 0 2 10 3.11328 1.4 0" biasprm="0.185296 1.73386 10.5807 1 0 2 10 3.11328 1.4 0" />
+    <general name="rf/LFC_sternal_posterior_rotator" class="muscle" tendon="rf/LFC_sternal_posterior_rotator_tendon" ctrlrange="0.0001 1" lengthrange="0.0715242 0.147229" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.610817 1.40821 157.429 1 0 2 10 0.0752654 1.4 0" biasprm="0.610817 1.40821 157.429 1 0 2 10 0.0752654 1.4 0" />
+    <general name="rf/LFC_sternal_adductor" class="muscle" tendon="rf/LFC_sternal_adductor_tendon" ctrlrange="0.0001 1" lengthrange="0.0972302 0.259683" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.244283 1.48664 12.9 1 0 2 10 0.446817 1.4 0" biasprm="0.244283 1.48664 12.9 1 0 2 10 0.446817 1.4 0" />
+    <general name="rf/LFF_trochanter_flexor_b" class="muscle" tendon="rf/LFF_trochanter_flexor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.272991 0.32626" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.537008 1.04625 77.9856 1 0 2 10 2.85222 1.4 0" biasprm="0.537008 1.04625 77.9856 1 0 2 10 2.85222 1.4 0" />
+    <general name="rf/LFF_sterno-tergo-trochanter_extensor_a" class="muscle" tendon="rf/LFF_sterno-tergo-trochanter_extensor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.280895 0.337649" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.727951 1.5069 159.153 1 0 2 10 0.239629 1.4 0" biasprm="0.727951 1.5069 159.153 1 0 2 10 0.239629 1.4 0" />
+    <general name="rf/LFF_sterno-tergo-trochanter_extensor_b" class="muscle" tendon="rf/LFF_sterno-tergo-trochanter_extensor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.24007 0.320078" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.84831 1.43402 124.303 1 0 2 10 0.0988153 1.4 0" biasprm="0.84831 1.43402 124.303 1 0 2 10 0.0988153 1.4 0" />
+    <general name="rf/LFF_accesory_trochanter_flexor" class="muscle" tendon="rf/LFF_accesory_trochanter_flexor_tendon" ctrlrange="0.0001 1" lengthrange="0.203418 0.262616" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.638661 1.51365 24.8598 1 0 2 10 0.210106 1.4 0" biasprm="0.638661 1.51365 24.8598 1 0 2 10 0.210106 1.4 0" />
+    <general name="rf/LFF_trochanter_extensor" class="muscle" tendon="rf/LFF_trochanter_extensor_tendon" ctrlrange="0.0001 1" lengthrange="0.0912131 0.1283" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.90157 1.19258 40.5728 1 0 2 10 0.706553 1.4 0" biasprm="0.90157 1.19258 40.5728 1 0 2 10 0.706553 1.4 0" />
+    <general name="rf/LFF_trochanter_flexor_a" class="muscle" tendon="rf/LFF_trochanter_flexor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.34225 0.413396" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.830849 1.58829 46.8237 1 0 2 10 0.507633 1.4 0" biasprm="0.830849 1.58829 46.8237 1 0 2 10 0.507633 1.4 0" />
+    <general name="rf/LFTibia_flex_93434" class="muscle" tendon="rf/LFTibia_flex_93434_tendon" ctrlrange="0.0001 1" lengthrange="0.468973 0.494701" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.958046 1.04136 68.1213 1 0 2 10 3.23161 1.4 0" biasprm="0.958046 1.04136 68.1213 1 0 2 10 3.23161 1.4 0" />
+    <general name="rf/LFTibia_extensor_93932" class="muscle" tendon="rf/LFTibia_extensor_93932_tendon" ctrlrange="0.0001 1" lengthrange="0.533109 0.586674" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.906629 1.52523 303.877 1 0 2 10 0.183322 1.4 0" biasprm="0.906629 1.52523 303.877 1 0 2 10 0.183322 1.4 0" />
+  <general name="rm/LFC_tergopleural_promotor_a" class="muscle" tendon="rm/LFC_tergopleural_promotor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.157941 0.213637" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.774703 1.39095 14.2319 1 0 2 10 0.358728 1.4 0" biasprm="0.774703 1.39095 14.2319 1 0 2 10 0.358728 1.4 0" />
+    <general name="rm/LFC_tergopleural_promotor_b" class="muscle" tendon="rm/LFC_tergopleural_promotor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.339805 0.361902" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.944598 1.01483 67.764 1 0 2 10 4.08279 1.4 0" biasprm="0.944598 1.01483 67.764 1 0 2 10 4.08279 1.4 0" />
+    <general name="rm/LFC_pleural_remotor_and_abductor" class="muscle" tendon="rm/LFC_pleural_remotor_and_abductor_tendon" ctrlrange="0.0001 1" lengthrange="0.216122 0.299608" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.743435 1.72008 28.7481 1 0 2 10 0.353216 1.4 0" biasprm="0.743435 1.72008 28.7481 1 0 2 10 0.353216 1.4 0" />
+    <general name="rm/LFC_pleural_promotor" class="muscle" tendon="rm/LFC_pleural_promotor_tendon" ctrlrange="0.0001 1" lengthrange="0.0912448 0.135751" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.859265 1.59552 30.6427 1 0 2 10 0.283134 1.4 0" biasprm="0.859265 1.59552 30.6427 1 0 2 10 0.283134 1.4 0" />
+    <general name="rm/LFC_sternal_anterior_rotator" class="muscle" tendon="rm/LFC_sternal_anterior_rotator_tendon" ctrlrange="0.0001 1" lengthrange="0.126048 0.202925" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.185296 1.73386 10.5807 1 0 2 10 3.11328 1.4 0" biasprm="0.185296 1.73386 10.5807 1 0 2 10 3.11328 1.4 0" />
+    <general name="rm/LFC_sternal_posterior_rotator" class="muscle" tendon="rm/LFC_sternal_posterior_rotator_tendon" ctrlrange="0.0001 1" lengthrange="0.0715242 0.147229" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.610817 1.40821 157.429 1 0 2 10 0.0752654 1.4 0" biasprm="0.610817 1.40821 157.429 1 0 2 10 0.0752654 1.4 0" />
+    <general name="rm/LFC_sternal_adductor" class="muscle" tendon="rm/LFC_sternal_adductor_tendon" ctrlrange="0.0001 1" lengthrange="0.0972302 0.259683" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.244283 1.48664 12.9 1 0 2 10 0.446817 1.4 0" biasprm="0.244283 1.48664 12.9 1 0 2 10 0.446817 1.4 0" />
+    <general name="rm/LFF_trochanter_flexor_b" class="muscle" tendon="rm/LFF_trochanter_flexor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.272991 0.32626" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.537008 1.04625 77.9856 1 0 2 10 2.85222 1.4 0" biasprm="0.537008 1.04625 77.9856 1 0 2 10 2.85222 1.4 0" />
+    <general name="rm/LFF_sterno-tergo-trochanter_extensor_a" class="muscle" tendon="rm/LFF_sterno-tergo-trochanter_extensor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.280895 0.337649" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.727951 1.5069 159.153 1 0 2 10 0.239629 1.4 0" biasprm="0.727951 1.5069 159.153 1 0 2 10 0.239629 1.4 0" />
+    <general name="rm/LFF_sterno-tergo-trochanter_extensor_b" class="muscle" tendon="rm/LFF_sterno-tergo-trochanter_extensor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.24007 0.320078" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.84831 1.43402 124.303 1 0 2 10 0.0988153 1.4 0" biasprm="0.84831 1.43402 124.303 1 0 2 10 0.0988153 1.4 0" />
+    <general name="rm/LFF_accesory_trochanter_flexor" class="muscle" tendon="rm/LFF_accesory_trochanter_flexor_tendon" ctrlrange="0.0001 1" lengthrange="0.203418 0.262616" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.638661 1.51365 24.8598 1 0 2 10 0.210106 1.4 0" biasprm="0.638661 1.51365 24.8598 1 0 2 10 0.210106 1.4 0" />
+    <general name="rm/LFF_trochanter_extensor" class="muscle" tendon="rm/LFF_trochanter_extensor_tendon" ctrlrange="0.0001 1" lengthrange="0.0912131 0.1283" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.90157 1.19258 40.5728 1 0 2 10 0.706553 1.4 0" biasprm="0.90157 1.19258 40.5728 1 0 2 10 0.706553 1.4 0" />
+    <general name="rm/LFF_trochanter_flexor_a" class="muscle" tendon="rm/LFF_trochanter_flexor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.34225 0.413396" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.830849 1.58829 46.8237 1 0 2 10 0.507633 1.4 0" biasprm="0.830849 1.58829 46.8237 1 0 2 10 0.507633 1.4 0" />
+    <general name="rm/LFTibia_flex_93434" class="muscle" tendon="rm/LFTibia_flex_93434_tendon" ctrlrange="0.0001 1" lengthrange="0.468973 0.494701" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.958046 1.04136 68.1213 1 0 2 10 3.23161 1.4 0" biasprm="0.958046 1.04136 68.1213 1 0 2 10 3.23161 1.4 0" />
+    <general name="rm/LFTibia_extensor_93932" class="muscle" tendon="rm/LFTibia_extensor_93932_tendon" ctrlrange="0.0001 1" lengthrange="0.533109 0.586674" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.906629 1.52523 303.877 1 0 2 10 0.183322 1.4 0" biasprm="0.906629 1.52523 303.877 1 0 2 10 0.183322 1.4 0" />
+  <general name="rh/LFC_tergopleural_promotor_a" class="muscle" tendon="rh/LFC_tergopleural_promotor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.157941 0.213637" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.774703 1.39095 14.2319 1 0 2 10 0.358728 1.4 0" biasprm="0.774703 1.39095 14.2319 1 0 2 10 0.358728 1.4 0" />
+    <general name="rh/LFC_tergopleural_promotor_b" class="muscle" tendon="rh/LFC_tergopleural_promotor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.339805 0.361902" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.944598 1.01483 67.764 1 0 2 10 4.08279 1.4 0" biasprm="0.944598 1.01483 67.764 1 0 2 10 4.08279 1.4 0" />
+    <general name="rh/LFC_pleural_remotor_and_abductor" class="muscle" tendon="rh/LFC_pleural_remotor_and_abductor_tendon" ctrlrange="0.0001 1" lengthrange="0.216122 0.299608" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.743435 1.72008 28.7481 1 0 2 10 0.353216 1.4 0" biasprm="0.743435 1.72008 28.7481 1 0 2 10 0.353216 1.4 0" />
+    <general name="rh/LFC_pleural_promotor" class="muscle" tendon="rh/LFC_pleural_promotor_tendon" ctrlrange="0.0001 1" lengthrange="0.0912448 0.135751" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.859265 1.59552 30.6427 1 0 2 10 0.283134 1.4 0" biasprm="0.859265 1.59552 30.6427 1 0 2 10 0.283134 1.4 0" />
+    <general name="rh/LFC_sternal_anterior_rotator" class="muscle" tendon="rh/LFC_sternal_anterior_rotator_tendon" ctrlrange="0.0001 1" lengthrange="0.126048 0.202925" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.185296 1.73386 10.5807 1 0 2 10 3.11328 1.4 0" biasprm="0.185296 1.73386 10.5807 1 0 2 10 3.11328 1.4 0" />
+    <general name="rh/LFC_sternal_posterior_rotator" class="muscle" tendon="rh/LFC_sternal_posterior_rotator_tendon" ctrlrange="0.0001 1" lengthrange="0.0715242 0.147229" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.610817 1.40821 157.429 1 0 2 10 0.0752654 1.4 0" biasprm="0.610817 1.40821 157.429 1 0 2 10 0.0752654 1.4 0" />
+    <general name="rh/LFC_sternal_adductor" class="muscle" tendon="rh/LFC_sternal_adductor_tendon" ctrlrange="0.0001 1" lengthrange="0.0972302 0.259683" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.244283 1.48664 12.9 1 0 2 10 0.446817 1.4 0" biasprm="0.244283 1.48664 12.9 1 0 2 10 0.446817 1.4 0" />
+    <general name="rh/LFF_trochanter_flexor_b" class="muscle" tendon="rh/LFF_trochanter_flexor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.272991 0.32626" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.537008 1.04625 77.9856 1 0 2 10 2.85222 1.4 0" biasprm="0.537008 1.04625 77.9856 1 0 2 10 2.85222 1.4 0" />
+    <general name="rh/LFF_sterno-tergo-trochanter_extensor_a" class="muscle" tendon="rh/LFF_sterno-tergo-trochanter_extensor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.280895 0.337649" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.727951 1.5069 159.153 1 0 2 10 0.239629 1.4 0" biasprm="0.727951 1.5069 159.153 1 0 2 10 0.239629 1.4 0" />
+    <general name="rh/LFF_sterno-tergo-trochanter_extensor_b" class="muscle" tendon="rh/LFF_sterno-tergo-trochanter_extensor_b_tendon" ctrlrange="0.0001 1" lengthrange="0.24007 0.320078" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.84831 1.43402 124.303 1 0 2 10 0.0988153 1.4 0" biasprm="0.84831 1.43402 124.303 1 0 2 10 0.0988153 1.4 0" />
+    <general name="rh/LFF_accesory_trochanter_flexor" class="muscle" tendon="rh/LFF_accesory_trochanter_flexor_tendon" ctrlrange="0.0001 1" lengthrange="0.203418 0.262616" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.638661 1.51365 24.8598 1 0 2 10 0.210106 1.4 0" biasprm="0.638661 1.51365 24.8598 1 0 2 10 0.210106 1.4 0" />
+    <general name="rh/LFF_trochanter_extensor" class="muscle" tendon="rh/LFF_trochanter_extensor_tendon" ctrlrange="0.0001 1" lengthrange="0.0912131 0.1283" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.90157 1.19258 40.5728 1 0 2 10 0.706553 1.4 0" biasprm="0.90157 1.19258 40.5728 1 0 2 10 0.706553 1.4 0" />
+    <general name="rh/LFF_trochanter_flexor_a" class="muscle" tendon="rh/LFF_trochanter_flexor_a_tendon" ctrlrange="0.0001 1" lengthrange="0.34225 0.413396" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.830849 1.58829 46.8237 1 0 2 10 0.507633 1.4 0" biasprm="0.830849 1.58829 46.8237 1 0 2 10 0.507633 1.4 0" />
+    <general name="rh/LFTibia_flex_93434" class="muscle" tendon="rh/LFTibia_flex_93434_tendon" ctrlrange="0.0001 1" lengthrange="0.468973 0.494701" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.958046 1.04136 68.1213 1 0 2 10 3.23161 1.4 0" biasprm="0.958046 1.04136 68.1213 1 0 2 10 3.23161 1.4 0" />
+    <general name="rh/LFTibia_extensor_93932" class="muscle" tendon="rh/LFTibia_extensor_93932_tendon" ctrlrange="0.0001 1" lengthrange="0.533109 0.586674" dynprm="0.0001 0.0004 0 0 0 0 0 0 0 0" gainprm="0.906629 1.52523 303.877 1 0 2 10 0.183322 1.4 0" biasprm="0.906629 1.52523 303.877 1 0 2 10 0.183322 1.4 0" />
+  </actuator><keyframe><key name="neutral" qpos="0 0 4 0.99999992073829824 0.00039814996844195341 0 0 0.17449999999999999 0.43569999999999998 0.26140000000000002 -0.40810000000000002 -2.3879999999999999 0.17019999999999999 1.8620000000000001 0.17449999999999999 0.43569999999999998 0.26140000000000002 -0.40810000000000002 -2.3879999999999999 0.17019999999999999 1.8620000000000001 0.17449999999999999 0.43569999999999998 0.26140000000000002 -0.40810000000000002 -2.3879999999999999 0.17019999999999999 1.8620000000000001 0.17449999999999999 0.43569999999999998 0.26140000000000002 -0.40810000000000002 -2.3879999999999999 0.17019999999999999 1.8620000000000001 0.17449999999999999 0.43569999999999998 0.26140000000000002 -0.40810000000000002 -2.3879999999999999 0.17019999999999999 1.8620000000000001 0.17449999999999999 0.43569999999999998 0.26140000000000002 -0.40810000000000002 -2.3879999999999999 0.17019999999999999 1.8620000000000001" act="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" /></keyframe></mujoco>

@@ -113,7 +113,9 @@ def main():
             root.find('actuator').append(act)
         records.append(dict(leg=tag,source='left foreleg',mount_position=mounts[tag].tolist(),mount_yaw_radians=yaw,mirrored=mirror))
     ET.SubElement(thorax,'freejoint',name='free_thorax')
-    ET.SubElement(root.find('worldbody'),'geom',name='experiment_floor',type='plane',size='20 20 .1',pos='0 0 0',friction='1 .005 .0001')
+    planes=[g for g in root.findall('.//geom') if g.get('type')=='plane']
+    if len(planes)!=1 or planes[0].get('name')!='floor':
+        raise ValueError('expected exactly the inherited source floor')
     # Absolute mesh paths for in-memory compilation only; public XML uses relative paths.
     def compile_tree(tree):
         clone=copy.deepcopy(tree)
@@ -141,6 +143,8 @@ def main():
         source_xml_sha256=source_sha,rig_scene_sha256=sha(a.rig_scene),rig_xml_sha256=sha(rig_xml),
         runner_sha256=sha(Path(__file__)),xml_sha256=sha(output),mujoco=mujoco.__version__,
         nq=model.nq,nv=model.nv,actuators=model.nu,muscle_states=model.na,equalities=model.neq,
+        floor_count=int(np.count_nonzero(model.geom_type==mujoco.mjtGeom.mjGEOM_PLANE)),
+        source_total_mass_model_units=float(source.body_mass.sum()),total_mass_model_units=float(model.body_mass.sum()),
         maximum_rest_tendon_length_error=max(errors),mounts=records,assets=assets,
         assumptions=['Identical foreleg assemblies on all six legs; not measured middle/hind geometry.',
                      'Right legs are mirrored left assemblies, not the original right-leg specimen.',

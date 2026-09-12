@@ -35,6 +35,7 @@ def main():
     assert motor['source_sha256']==sensory['source_sha256']
     physics=mujoco.MjModel.from_xml_path(str(a.xml))
     assert physics.nu==physics.na==90 and physics.nv==48 and physics.neq==0
+    assert np.count_nonzero(physics.geom_type==mujoco.mjtGeom.mjGEOM_PLANE)==1
     substeps=round(.01/physics.opt.timestep)
     assert abs(substeps*physics.opt.timestep-.01)<1e-12
     motor_rows=np.asarray(arrays['atlas.motor_rows'],dtype=np.int64);index={int(r):i for i,r in enumerate(motor_rows)}
@@ -77,14 +78,24 @@ def main():
             'Zero command is not exact paralysis: source passive muscle forces and minimum activation remain.',
             'Six conditions use separate physical worlds; no learned decoder, trajectory or behavior selector.'])
     (a.output/'intent.json').write_text(json.dumps(identity,indent=2))
-    history={k:[] for k in ('time','qpos','qvel','controls','motor_rates','sensory_current','actuator_force','thorax_position','thorax_up')}
+    state_spec=mujoco.mjtState.mjSTATE_INTEGRATION
+    state_size=mujoco.mj_stateSize(physics,state_spec)
+    identity['physics_state_spec']=int(state_spec);identity['physics_state_size']=state_size
+    # Rewrite our newly created intent before any step to include the replay contract.
+    (a.output/'intent.json').write_text(json.dumps(identity,indent=2))
+    history={k:[] for k in ('time','qpos','qvel','act','integration_state','controls','motor_rates','sensory_current','actuator_force','thorax_position','thorax_up')}
     began=time.monotonic()
     try:
         with torch.inference_mode():
             neutral=cns.neutral_current(6).contiguous()
             for tick in range(a.steps+1):
                 history['time'].append(bodies[0].time)
-                for key in ('qpos','qvel','actuator_force'):history[key].append(np.stack([getattr(b,key).copy() for b in bodies]))
+                for key in ('qpos','qvel','act','actuator_force'):history[key].append(np.stack([getattr(b,key).copy() for b in bodies]))
+                snapshots=[]
+                for b in bodies:
+                    snapshot=np.empty(state_size);mujoco.mj_getState(physics,b,snapshot,state_spec);snapshots.append(snapshot)
+                    mujoco.mj_kinematics(physics,b)
+                history['integration_state'].append(np.stack(snapshots))
                 history['thorax_position'].append(np.stack([b.xpos[thorax].copy() for b in bodies]))
                 history['thorax_up'].append([float(b.xmat[thorax].reshape(3,3)[2,2]) for b in bodies])
                 if tick==a.steps:break

@@ -1,5 +1,12 @@
 # MaleCNS embodiment experiment
 
+Latest integration: a separate free-body six-leg muscle prototype runs full-CNS
+proprioception with 90 muscle units, 78 mapped to named motor pools. The corrected
+single-floor trial completes two seconds; physical checkpoint replay is exact
+on 30 sampled intervals. Thorax/abdomen contacts carry ground forces, so it is
+resting on its body, not standing. Initial duplicate-floor construction is retained
+as a flawed trial. See [SIX_LEG_BODY.md](SIX_LEG_BODY.md). Rich behavior is unachieved.
+
 Latest muscle integration preparation: a shared named-pool approximation connects
 all 15 published foreleg muscle units to 39 motor neurons. Static directional
 coverage increases from rank five to seven, including shared-pool constraints.

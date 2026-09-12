@@ -16,6 +16,15 @@
     "tested_binary_sha256": "c2c829c0a5a2d6b2f7f63179b871164e57b93e7d7493936c744f8318609860da",
     "status": "cumulative alternative patch against original source, not applied on top of experimental-torque.patch"
   },
+  "experimental_six_leg_muscle_body": {
+    "muscle_source": "flymimic",
+    "mount_direction_source": "chreatures",
+    "source_xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+    "generator": "build_six_leg_muscles.py",
+    "derived_xml": "evidence/six-leg-body-002.xml",
+    "derived_xml_sha256": "51518a616e594a8a2333987326d3af592f9f0784573b7858f0d13af9d0bea1f1",
+    "status": "experimental sixfold foreleg replication, not measured six-leg anatomy or useful behavior"
+  },
   "v5_release": {
     "url": "https://github.com/emberian/chreatures/releases/download/v5-garden-2c040fd/chreatures-v5-garden.tar.gz",
     "sha256": "505456e9b214bb23865c8193c5af441d0409a36ca3634d0b5c0155ac958977e4",

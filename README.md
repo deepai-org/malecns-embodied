@@ -27,6 +27,9 @@ reactions as a concrete confound, even when existing motor torques are enlarged.
 The [pooled foreleg mapping](POOLED_MUSCLES.md) restores the published muscle
 asset's seven-coordinate directional coverage, preparing a geometry-based
 whole-body integration. It remains fixed-base and has not produced useful behavior.
+The subsequent [free six-leg muscle body](SIX_LEG_BODY.md) now runs full-CNS
+proprioceptive feedback through 90 muscle units (78 with mapped motor pools).
+It rests on its thorax/abdomen; useful standing or locomotion is not demonstrated.
 
 ## What currently works
 
