@@ -92,9 +92,32 @@ def main():
                 activations=None if not fit.success or recruitment is None else (recruitment @ fit.x[contact.shape[1]:]).tolist(),
                 arbitrary_joint_torques=None if not fit.success or recruitment is not None else fit.x[contact.shape[1]:].tolist(),
                 support_ray_weights=None if not fit.success else fit.x[:contact.shape[1]].tolist())
+        capacity = {}
+        for name, recruitment in (('independent90', np.eye(m.nu)), ('named_pools', weights)):
+            # Minimize the largest normalized input needed for static balance.
+            # Extrapolation is diagnostic only; it never changes muscle forces.
+            ncontact, ninput = contact.shape[1], recruitment.shape[1]
+            matrix = np.column_stack([contact, active @ recruitment, np.zeros(m.nv)])
+            upper = np.zeros((ninput, matrix.shape[1]))
+            upper[:, ncontact:ncontact+ninput] = np.eye(ninput)
+            upper[:, -1] = -1
+            objective = np.r_[np.zeros(matrix.shape[1]-1), 1.]
+            fit = linprog(objective, A_eq=matrix, b_eq=target,
+                A_ub=upper, b_ub=np.zeros(ninput), bounds=(0, None), method='highs')
+            activations = None if not fit.success else recruitment @ fit.x[ncontact:-1]
+            capacity[name] = dict(status=int(fit.status), message=fit.message,
+                minimum_peak_input=None if not fit.success else float(fit.fun),
+                activations=None if activations is None else activations.tolist(),
+                peak_muscles=[] if activations is None else
+                    [m.actuator(i).name for i in range(m.nu) if activations[i] >= .99*fit.fun],
+                maximum_balance_error=None if not fit.success else float(np.abs(matrix @ fit.x-target).max()),
+                maximum_input_bound_violation=None if not fit.success else float(max(0., (upper @ fit.x).max())),
+                dual_objective=None if not fit.success else float(target @ fit.eqlin.marginals),
+                dual_stationarity_error=None if not fit.success else float(np.abs(
+                    objective-matrix.T@fit.eqlin.marginals-upper.T@fit.ineqlin.marginals-fit.lower.marginals).max()))
         results.append(dict(pose_index=index, maximum_penetration=worst,
-            affine_error=affine_error, supports=supports, conditions=conditions))
-        print(json.dumps(dict(pose=index, conditions={k: v['status'] for k, v in conditions.items()})), flush=True)
+            affine_error=affine_error, supports=supports, conditions=conditions, capacity=capacity))
+        print(json.dumps(dict(pose=index, capacity=capacity)), flush=True)
     report = dict(kind='pose-specific ideal foot-contact muscle equilibrium; not behavior',
         runner_sha256=sha(Path(__file__)),
         inputs={name: sha(getattr(a, name)) for name in ('xml', 'poses', 'motor')},
