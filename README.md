@@ -84,6 +84,12 @@ Other scripts expose their arguments via `--help`. GPU selection can be set via
 `CUDA_VISIBLE_DEVICES`; the scripts use logical `cuda:0`. Runs are finite and
 do not install cron jobs or background services. Output paths must be fresh.
 
+`python download_data.py` downloads and verifies the three official raw data
+files (~1.1 GB) under ignored `data/raw/`. The two annotation audit scripts can
+regenerate the small derived tables committed here. Interrupted `.partial`
+downloads are retained; inspect/move them before retrying rather than silently
+overwriting them.
+
 ## Data, licensing and security
 
 Original experiment code is AGPL-3.0-or-later. See [LICENSE](LICENSE) and

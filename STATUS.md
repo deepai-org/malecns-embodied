@@ -179,3 +179,21 @@ Its active inputs use sin(oscillator phase); using that controller unchanged
 would prescribe locomotor rhythm outside MaleCNS. The passive/contractile law
 could be reused as an explicitly approximate actuator, but not its oscillator
 policy. Do not equate generic joint antagonist pairs with identified fly muscles.
+
+## Sensory audit and public repository
+
+Public source/evidence repository requested by user:
+https://github.com/deepai-org/malecns-embodied . Maintain subsequent fly work
+there, including negative results; never publish credentials or connection keys.
+
+`audit_proprioceptors.py` exported 425 annotated chordotonal neurons with exact
+CNS rows. Left foreleg ProLN includes one SNpp50 and three SNpp51 neurons.
+The MANC annotation paper identifies these as claw subtypes with different
+predicted effects on tibia flexor/extensor circuitry:
+https://elifesciences.org/reviewed-preprints/97766v1 (Figure 59 discussion).
+This does NOT yet identify their exact physical tuning curves or justify
+assigning sensory gain/polarity based on desired behavior. No sensory adapter
+has been changed yet. Existing joint-to-sensory adapter uses broad leg cohorts.
+Next useful assay: test separately stimulating these named sensory subtypes
+against the predicted motor-neuron effects in the full graph before inventing
+a position-to-current mapping.
