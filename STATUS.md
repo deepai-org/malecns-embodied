@@ -1,5 +1,11 @@
 # MaleCNS embodiment experiment
 
+Latest implementation: named leg-position transduction replaces the random
+projection onto 91 claw afferents spanning six legs, with one missing subtype
+explicitly retained as a gap. Both polarity hypotheses and frozen/zero controls
+completed two seconds. Numeric reconstruction and 16 unit tests passed; no
+useful behavior demonstrated. See [NAMED_LEG_SENSES.md](NAMED_LEG_SENSES.md).
+
 Subsequent diagnostic: four-second physical sensory replay reproduces motor
 rates within 1.49e-8 and separates body-driven from vision-only output. Stronger
 body-afferent currents increase motor responses but saturate inputs while named

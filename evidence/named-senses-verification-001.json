@@ -1,0 +1,100 @@
+{
+  "checked": true,
+  "verifier_sha256": "a2503dfb83d19d69f07b2af48e8a171a675a1228990897db133825efa0a84dd8",
+  "results": {
+    "plus": {
+      "simulated_seconds": 2.0000000000000013,
+      "named_neurons": 91,
+      "missing": [
+        {
+          "leg": "rf",
+          "type": "SNpp50"
+        }
+      ],
+      "maximum_antagonist_rate_separation": 0.0005197227001190186,
+      "final_up": [
+        0.10435008715217953,
+        0.9924628091479857,
+        0.9850394664609501,
+        0.1055221094209447
+      ],
+      "late_horizontal_path_mm": [
+        0.08205558940298203,
+        0.04126598289330133,
+        0.023562295128996734,
+        0.022378602988403853
+      ]
+    },
+    "minus": {
+      "simulated_seconds": 2.0000000000000013,
+      "named_neurons": 91,
+      "missing": [
+        {
+          "leg": "rf",
+          "type": "SNpp50"
+        }
+      ],
+      "maximum_antagonist_rate_separation": 0.0006435960531234741,
+      "final_up": [
+        0.10435853293443476,
+        0.22355943653639795,
+        0.9819603238050086,
+        0.1055831846427995
+      ],
+      "late_horizontal_path_mm": [
+        0.004363777957776207,
+        0.01731867452516004,
+        0.0008361751721741055,
+        0.03249472522977407
+      ]
+    },
+    "frozen": {
+      "simulated_seconds": 2.0000000000000013,
+      "named_neurons": 91,
+      "missing": [
+        {
+          "leg": "rf",
+          "type": "SNpp50"
+        }
+      ],
+      "maximum_antagonist_rate_separation": 0.00010398030281066895,
+      "final_up": [
+        0.17582716018404215,
+        0.9850025767505481,
+        0.9815343970114123,
+        0.1055209722710321
+      ],
+      "late_horizontal_path_mm": [
+        0.028214932268058983,
+        0.018799294178221897,
+        0.04433718260203826,
+        0.01758987833688499
+      ]
+    },
+    "zero": {
+      "simulated_seconds": 2.0000000000000013,
+      "named_neurons": 91,
+      "missing": [
+        {
+          "leg": "rf",
+          "type": "SNpp50"
+        }
+      ],
+      "maximum_antagonist_rate_separation": 0.0076387375593185425,
+      "final_up": [
+        0.22727625485636804,
+        0.9143004084076873,
+        0.5373262603082286,
+        0.5851567351737973
+      ],
+      "late_horizontal_path_mm": [
+        0.006264913405528889,
+        0.0024227076792439736,
+        0.00021764329443052066,
+        0.009765652899917251
+      ]
+    }
+  },
+  "plus_vs_frozen_max_root_difference_mm": 0.13045179680473154,
+  "caveat": "Transforms and force boundaries verified; trajectories and motor differences are not evidence of useful behavior."
+}

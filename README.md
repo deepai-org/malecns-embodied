@@ -16,6 +16,9 @@ The identified force-update bug is now repaired and checked in a separate
 The subsequent [sensory-transfer test](SENSORY_TRANSFER.md) finds responsive CNS
 motor output but weak antagonist separation; global input amplification is not
 installed as a fix.
+A separate [named leg-position adapter](NAMED_LEG_SENSES.md) now replaces the
+projection onto 91 identified claw afferents in whole-body trials; this has not
+yet produced useful behavior.
 
 ## What currently works
 
