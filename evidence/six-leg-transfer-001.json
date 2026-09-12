@@ -1,0 +1,93 @@
+{
+  "checked": true,
+  "runner_sha256": "6802df2b733bdec0692332b8dd93db1cb2161864fede7516d847c1b3bd29e73b",
+  "source_xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "derived_xml_sha256": "2b5614ba5eae7323a9411ab39dd143782e6fd62918f69ce28f2eb3854b955b0c",
+  "cases": [
+    {
+      "axis": "joint_LFCoxa_yaw",
+      "delta_radians": -0.02,
+      "maximum_length_error": 9.298117831235686e-16,
+      "maximum_moment_error": 2.914335439641036e-16
+    },
+    {
+      "axis": "joint_LFCoxa_yaw",
+      "delta_radians": 0.02,
+      "maximum_length_error": 9.992007221626409e-16,
+      "maximum_moment_error": 2.5326962749261384e-16
+    },
+    {
+      "axis": "joint_LFCoxa_pitch",
+      "delta_radians": -0.02,
+      "maximum_length_error": 6.106226635438361e-16,
+      "maximum_moment_error": 3.677613769070831e-16
+    },
+    {
+      "axis": "joint_LFCoxa_pitch",
+      "delta_radians": 0.02,
+      "maximum_length_error": 7.494005416219807e-16,
+      "maximum_moment_error": 4.198030811863873e-16
+    },
+    {
+      "axis": "joint_LFCoxa_roll",
+      "delta_radians": -0.02,
+      "maximum_length_error": 7.771561172376096e-16,
+      "maximum_moment_error": 4.753142324176451e-16
+    },
+    {
+      "axis": "joint_LFCoxa_roll",
+      "delta_radians": 0.02,
+      "maximum_length_error": 6.106226635438361e-16,
+      "maximum_moment_error": 4.787836793695988e-16
+    },
+    {
+      "axis": "joint_LFTrochanter_yaw",
+      "delta_radians": -0.02,
+      "maximum_length_error": 8.881784197001252e-16,
+      "maximum_moment_error": 3.469446951953614e-16
+    },
+    {
+      "axis": "joint_LFTrochanter_yaw",
+      "delta_radians": 0.02,
+      "maximum_length_error": 6.661338147750939e-16,
+      "maximum_moment_error": 3.3306690738754696e-16
+    },
+    {
+      "axis": "joint_LFTrochanter_pitch",
+      "delta_radians": -0.02,
+      "maximum_length_error": 9.992007221626409e-16,
+      "maximum_moment_error": 2.7755575615628914e-16
+    },
+    {
+      "axis": "joint_LFTrochanter_pitch",
+      "delta_radians": 0.02,
+      "maximum_length_error": 1.1102230246251565e-15,
+      "maximum_moment_error": 3.3306690738754696e-16
+    },
+    {
+      "axis": "joint_LFTrochanter_roll",
+      "delta_radians": -0.02,
+      "maximum_length_error": 6.106226635438361e-16,
+      "maximum_moment_error": 3.0531133177191805e-16
+    },
+    {
+      "axis": "joint_LFTrochanter_roll",
+      "delta_radians": 0.02,
+      "maximum_length_error": 7.771561172376096e-16,
+      "maximum_moment_error": 3.0531133177191805e-16
+    },
+    {
+      "axis": "joint_LFTibia_pitch",
+      "delta_radians": -0.02,
+      "maximum_length_error": 7.494005416219807e-16,
+      "maximum_moment_error": 3.365363543395006e-16
+    },
+    {
+      "axis": "joint_LFTibia_pitch",
+      "delta_radians": 0.02,
+      "maximum_length_error": 7.771561172376096e-16,
+      "maximum_moment_error": 3.139849491518021e-16
+    }
+  ],
+  "caveat": "Checks geometric replication, not measured homology, force calibration, contact mechanics or behavior."
+}

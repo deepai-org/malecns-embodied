@@ -1,0 +1,28 @@
+{
+  "checked": true,
+  "verifier_sha256": "63936272fa786b8bae6b6f45bdd7b4b1fc55989cc32cc8a61749debaa104b90d",
+  "maximum_control_reconstruction_error": 4.470348358154297e-08,
+  "unmapped_actuators": 12,
+  "final_up": [
+    0.9488838394542745,
+    0.9496977620955602,
+    0.9574801955513231,
+    0.9175744258859592,
+    0.9450176414186946,
+    0.9574801955513231
+  ],
+  "late_horizontal_path_mm": [
+    0.22172605395511188,
+    0.23138275245350162,
+    0.020815029332237254,
+    0.07908160221473053,
+    0.20298876886574585,
+    0.020815029332237254
+  ],
+  "feedback_vs_frozen_max_joint_difference_rad": [
+    0.12328087557452277,
+    0.5182465346484891
+  ],
+  "zero_command_peak_actuator_force": 20.30775488026231,
+  "caveat": "Checks recorded transforms, not behavioral usefulness, calibrated anatomy or complete state replay; muscle activation states were not recorded."
+}
