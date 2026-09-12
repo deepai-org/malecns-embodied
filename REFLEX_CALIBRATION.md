@@ -50,6 +50,29 @@ Thus equal pooling is not concealing large opposing responses in this assay.
 This does not establish that the upstream neural dynamics alone are defective:
 sensory transduction and network operating state remain uncalibrated.
 
+### Coverage correction and anatomical limits
+
+The preceding five-cell analysis covers **main** tibia flexors, not all tibia
+flexors. `audit_tibia_motor_coverage.py` now checks all 17 named left-foreleg
+tibia motor neurons against the actual muscle mapping and saved disturbance
+trace. `evidence/tibia-motor-coverage-001.json` records each cell and condition.
+The ten accessory-flexor neurons have no mapped actuator; their largest
+individual response is 7.07e-6 normalized rate. The two extensor neurons remain
+below 6.41e-7. No strong omitted response was found in this particular assay.
+
+The physiological slow motor neuron innervates distal flexor fibers, whereas
+the coarse main-flexor pool is not a registration of every speed class; see
+the [authors' anatomical clarification](https://elifesciences.org/articles/56754/peer-reviews).
+Consequently, interpreting our five-cell average as including an identified
+slow motor neuron was unwarranted. Accessory anatomy must be considered, but
+no specific accessory body ID is established as the recorded slow cell.
+
+Likewise, [Marin et al.](https://elifesciences.org/reviewed-preprints/97766v1)
+predict opposing effects for the two claw types using circuit anatomy. Their
+discussion does not directly measure the angle tuning of those exact types.
+It cannot by itself select one of our two angle-to-current polarities.
+Neither muscle wiring nor polarity was changed after this audit.
+
 ## Consequence for implementation
 
 Do not promote a motor-gain change or a new recruitment law yet. First obtain

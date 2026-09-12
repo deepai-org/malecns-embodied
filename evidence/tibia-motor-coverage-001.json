@@ -1,0 +1,591 @@
+{
+  "kind": "named left-foreleg tibia motor coverage; not physiological registration",
+  "source_sha256": {
+    "motor": "2fd32180d5b8a7688bc813440bf2c2f1d0a35fad635ab0d42ca4f536d11403ca",
+    "mapping": "ecd5db16c80424a06de7de486a786a3d75e0d163e5ab881d17da3f7c0db68e8e"
+  },
+  "trial_receipt_sha256": "685fc88f6cf37e80d0fcfa76ba96460c7b44ba0220443d017cc218b7b0ed8e2f",
+  "runner_sha256": "83d43cb8dada64c0e92f5983735adcabbeebdeb638b44ac666fca689d6cdf975",
+  "neurons": [
+    {
+      "body_id": 800636,
+      "cns_row": 143259,
+      "label": "Ti extensor MN",
+      "mapped_muscles": [
+        "LFTibia_extensor_93932"
+      ],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -1.4901161193847656e-07,
+          "max_rate_change": 5.066394805908203e-07
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -4.917383193969727e-07,
+          "max_rate_change": 1.341104507446289e-07
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -8.940696716308594e-08,
+          "max_rate_change": 6.109476089477539e-07
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -6.407499313354492e-07,
+          "max_rate_change": 7.450580596923828e-08
+        }
+      ]
+    },
+    {
+      "body_id": 806599,
+      "cns_row": 147938,
+      "label": "Acc. ti flexor MN",
+      "mapped_muscles": [],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -1.3709068298339844e-06,
+          "max_rate_change": 4.470348358154297e-08
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -4.470348358154297e-08,
+          "max_rate_change": 1.3560056686401367e-06
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -8.940696716308594e-08,
+          "max_rate_change": 2.518296241760254e-06
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -2.518296241760254e-06,
+          "max_rate_change": 8.940696716308594e-08
+        }
+      ]
+    },
+    {
+      "body_id": 807165,
+      "cns_row": 148412,
+      "label": "Ti flexor MN",
+      "mapped_muscles": [
+        "LFTibia_flex_93434"
+      ],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -7.867813110351562e-06,
+          "max_rate_change": 1.9371509552001953e-07
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -1.9371509552001953e-07,
+          "max_rate_change": 7.703900337219238e-06
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -3.427267074584961e-07,
+          "max_rate_change": 1.4483928680419922e-05
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -1.4320015907287598e-05,
+          "max_rate_change": 3.5762786865234375e-07
+        }
+      ]
+    },
+    {
+      "body_id": 809912,
+      "cns_row": 150721,
+      "label": "Ti flexor MN",
+      "mapped_muscles": [
+        "LFTibia_flex_93434"
+      ],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -6.511807441711426e-06,
+          "max_rate_change": 1.4901161193847656e-07
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -1.4901161193847656e-07,
+          "max_rate_change": 6.362795829772949e-06
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -2.2351741790771484e-07,
+          "max_rate_change": 1.2531876564025879e-05
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -1.2427568435668945e-05,
+          "max_rate_change": 2.8312206268310547e-07
+        }
+      ]
+    },
+    {
+      "body_id": 815246,
+      "cns_row": 154915,
+      "label": "Acc. ti flexor MN",
+      "mapped_muscles": [],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -3.5762786865234375e-07,
+          "max_rate_change": 2.9802322387695312e-08
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -2.9802322387695312e-08,
+          "max_rate_change": 2.980232238769531e-07
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -2.9802322387695312e-08,
+          "max_rate_change": 4.6193599700927734e-07
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -4.6193599700927734e-07,
+          "max_rate_change": 4.470348358154297e-08
+        }
+      ]
+    },
+    {
+      "body_id": 815344,
+      "cns_row": 154980,
+      "label": "Ti extensor MN",
+      "mapped_muscles": [
+        "LFTibia_extensor_93932"
+      ],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -1.4901161193847656e-08,
+          "max_rate_change": 4.172325134277344e-07
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -4.470348358154297e-07,
+          "max_rate_change": 1.4901161193847656e-08
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -3.129243850708008e-07,
+          "max_rate_change": 1.4901161193847656e-08
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -1.4901161193847656e-08,
+          "max_rate_change": 2.980232238769531e-07
+        }
+      ]
+    },
+    {
+      "body_id": 816215,
+      "cns_row": 155602,
+      "label": "Acc. ti flexor MN",
+      "mapped_muscles": [],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -5.662441253662109e-07,
+          "max_rate_change": 2.9802322387695312e-08
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -2.9802322387695312e-08,
+          "max_rate_change": 5.513429641723633e-07
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -4.470348358154297e-08,
+          "max_rate_change": 9.685754776000977e-07
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -9.5367431640625e-07,
+          "max_rate_change": 5.960464477539063e-08
+        }
+      ]
+    },
+    {
+      "body_id": 816404,
+      "cns_row": 155724,
+      "label": "Acc. ti flexor MN",
+      "mapped_muscles": [],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -3.129243850708008e-07,
+          "max_rate_change": 1.4901161193847656e-08
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -1.4901161193847656e-08,
+          "max_rate_change": 1.9371509552001953e-07
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -1.4901161193847656e-08,
+          "max_rate_change": 3.5762786865234375e-07
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -3.427267074584961e-07,
+          "max_rate_change": 5.960464477539063e-08
+        }
+      ]
+    },
+    {
+      "body_id": 817283,
+      "cns_row": 156258,
+      "label": "Acc. ti flexor MN",
+      "mapped_muscles": [],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -1.4901161193847656e-08,
+          "max_rate_change": 1.1920928955078125e-07
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -1.1920928955078125e-07,
+          "max_rate_change": 1.4901161193847656e-08
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -1.6391277313232422e-07,
+          "max_rate_change": 1.4901161193847656e-08
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -1.4901161193847656e-08,
+          "max_rate_change": 2.2351741790771484e-07
+        }
+      ]
+    },
+    {
+      "body_id": 818057,
+      "cns_row": 156725,
+      "label": "Ti flexor MN",
+      "mapped_muscles": [
+        "LFTibia_flex_93434"
+      ],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -1.3113021850585938e-06,
+          "max_rate_change": 4.470348358154297e-08
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -5.960464477539063e-08,
+          "max_rate_change": 1.2516975402832031e-06
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -7.450580596923828e-08,
+          "max_rate_change": 2.294778823852539e-06
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -2.205371856689453e-06,
+          "max_rate_change": 8.940696716308594e-08
+        }
+      ]
+    },
+    {
+      "body_id": 819384,
+      "cns_row": 157314,
+      "label": "Ti flexor MN",
+      "mapped_muscles": [
+        "LFTibia_flex_93434"
+      ],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -1.4901161193847656e-07,
+          "max_rate_change": 1.4901161193847656e-08
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -1.4901161193847656e-08,
+          "max_rate_change": 8.940696716308594e-08
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -1.4901161193847656e-08,
+          "max_rate_change": 8.940696716308594e-08
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -1.043081283569336e-07,
+          "max_rate_change": 1.4901161193847656e-08
+        }
+      ]
+    },
+    {
+      "body_id": 819869,
+      "cns_row": 157492,
+      "label": "Acc. ti flexor MN",
+      "mapped_muscles": [],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -2.9802322387695312e-08,
+          "max_rate_change": 2.5331974029541016e-07
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -2.384185791015625e-07,
+          "max_rate_change": 1.4901161193847656e-08
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -5.811452865600586e-07,
+          "max_rate_change": 2.9802322387695312e-08
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -2.9802322387695312e-08,
+          "max_rate_change": 5.066394805908203e-07
+        }
+      ]
+    },
+    {
+      "body_id": 825516,
+      "cns_row": 158293,
+      "label": "Acc. ti flexor MN",
+      "mapped_muscles": [],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -7.450580596923828e-08,
+          "max_rate_change": 1.1920928955078125e-07
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -2.9802322387695312e-08,
+          "max_rate_change": 1.043081283569336e-07
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -1.341104507446289e-07,
+          "max_rate_change": 2.2351741790771484e-07
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -2.5331974029541016e-07,
+          "max_rate_change": 5.960464477539063e-08
+        }
+      ]
+    },
+    {
+      "body_id": 867630,
+      "cns_row": 158857,
+      "label": "Acc. ti flexor MN",
+      "mapped_muscles": [],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -3.129243850708008e-07,
+          "max_rate_change": 2.9802322387695312e-08
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -1.4901161193847656e-08,
+          "max_rate_change": 2.384185791015625e-07
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -2.9802322387695312e-08,
+          "max_rate_change": 4.172325134277344e-07
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -3.129243850708008e-07,
+          "max_rate_change": 5.960464477539063e-08
+        }
+      ]
+    },
+    {
+      "body_id": 903298,
+      "cns_row": 159328,
+      "label": "Acc. ti flexor MN",
+      "mapped_muscles": [],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -3.635883331298828e-06,
+          "max_rate_change": 7.450580596923828e-08
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -8.940696716308594e-08,
+          "max_rate_change": 3.5017728805541992e-06
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -1.4901161193847656e-07,
+          "max_rate_change": 7.063150405883789e-06
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -7.033348083496094e-06,
+          "max_rate_change": 1.6391277313232422e-07
+        }
+      ]
+    },
+    {
+      "body_id": 909831,
+      "cns_row": 161464,
+      "label": "Ti flexor MN",
+      "mapped_muscles": [
+        "LFTibia_flex_93434"
+      ],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -4.4405460357666016e-06,
+          "max_rate_change": 1.043081283569336e-07
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -1.043081283569336e-07,
+          "max_rate_change": 4.380941390991211e-06
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -1.9371509552001953e-07,
+          "max_rate_change": 8.702278137207031e-06
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -8.687376976013184e-06,
+          "max_rate_change": 1.4901161193847656e-07
+        }
+      ]
+    },
+    {
+      "body_id": 1050115387,
+      "cns_row": 164629,
+      "label": "Acc. ti flexor MN",
+      "mapped_muscles": [],
+      "physiological_speed_class": null,
+      "responses": [
+        {
+          "polarity": 1,
+          "torque_sign": 1,
+          "min_rate_change": -2.9802322387695312e-08,
+          "max_rate_change": 4.917383193969727e-07
+        },
+        {
+          "polarity": 1,
+          "torque_sign": -1,
+          "min_rate_change": -4.6193599700927734e-07,
+          "max_rate_change": 2.9802322387695312e-08
+        },
+        {
+          "polarity": -1,
+          "torque_sign": 1,
+          "min_rate_change": -9.685754776000977e-07,
+          "max_rate_change": 5.960464477539063e-08
+        },
+        {
+          "polarity": -1,
+          "torque_sign": -1,
+          "min_rate_change": -4.470348358154297e-08,
+          "max_rate_change": 1.0281801223754883e-06
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Accessory-flexor pool has no actuator in this body; no anatomical assignment invented.",
+    "Main/accessory labels do not establish individual fast/intermediate/slow identities.",
+    "Normalized model responses cannot be compared numerically to voltage or Hz without calibration."
+  ]
+}
