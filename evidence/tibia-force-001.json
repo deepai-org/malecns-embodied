@@ -1,0 +1,253 @@
+{
+  "kind": "Static tibia tip-equivalent force relative to model body weight.\n\nOther joints ideally locked; not a reproduction of the biological force-probe\nexperiment, a calibration, or a runtime controller.\n",
+  "runner_sha256": "de3a59bd00842fa399f33fb6de002a980dbc1a2c537c6077825f9eff2cad4a89",
+  "mujoco": "3.12.0",
+  "inputs": {
+    "source_xml": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+    "xml": "51518a616e594a8a2333987326d3af592f9f0784573b7858f0d13af9d0bea1f1",
+    "poses": "ae84a860ca62c9cd804e7a12c20b11e800a0c1c0b1fdfad6a0c0479d6064fb97"
+  },
+  "results": [
+    {
+      "kind": "source",
+      "pose_index": 0,
+      "leg": "source_left_foreleg",
+      "tibia_q": 1.862,
+      "lever_model_units": 0.5103594052234169,
+      "active_torque": 1.0376789470262098,
+      "passive_actuator_torque": -0.34984660409491664,
+      "tip_equivalent_active_force": 2.033231750812844,
+      "body_weight_model_units": 24.446354755878005,
+      "force_to_body_weight": 0.08317116278139437
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 0,
+      "leg": "lf/",
+      "tibia_q": 1.8183242568376006,
+      "lever_model_units": 0.5103594052234172,
+      "active_torque": 1.036319719592138,
+      "passive_actuator_torque": -0.3159173209520222,
+      "tip_equivalent_active_force": 2.030568475834151,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.08438474082330466
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 0,
+      "leg": "lm/",
+      "tibia_q": 1.7878919840645102,
+      "lever_model_units": 0.5103594052234175,
+      "active_torque": 1.0343757495249608,
+      "passive_actuator_torque": -0.292661645417682,
+      "tip_equivalent_active_force": 2.0267594540991114,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.08422644854420798
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 0,
+      "leg": "lh/",
+      "tibia_q": 1.7502761011927732,
+      "lever_model_units": 0.5103594052234174,
+      "active_torque": 1.0309605518191682,
+      "passive_actuator_torque": -0.2644991544709361,
+      "tip_equivalent_active_force": 2.020067703793663,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.08394835813657099
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 0,
+      "leg": "rf/",
+      "tibia_q": 1.8186997670481877,
+      "lever_model_units": 0.5103594052234173,
+      "active_torque": 1.0363388203522925,
+      "passive_actuator_torque": -0.3162065114757014,
+      "tip_equivalent_active_force": 2.0306059019302682,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.08438629614707653
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 0,
+      "leg": "rm/",
+      "tibia_q": 1.8170588235959595,
+      "lever_model_units": 0.510359405223417,
+      "active_torque": 1.036254448932064,
+      "passive_actuator_torque": -0.3149431468404037,
+      "tip_equivalent_active_force": 2.0304405842749755,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.08437942600816646
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 0,
+      "leg": "rh/",
+      "tibia_q": 1.709832825535909,
+      "lever_model_units": 0.5103594052234175,
+      "active_torque": 1.026157711065044,
+      "passive_actuator_torque": -0.2351085897221635,
+      "tip_equivalent_active_force": 2.0106570008557556,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.08355727566984739
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 1,
+      "leg": "lf/",
+      "tibia_q": 1.9048197119733599,
+      "lever_model_units": 0.5103594052234167,
+      "active_torque": 1.0371530765725412,
+      "passive_actuator_torque": -0.38352058655307514,
+      "tip_equivalent_active_force": 2.03220135841038,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.08445259885155135
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 1,
+      "leg": "lm/",
+      "tibia_q": 1.9594512731583433,
+      "lever_model_units": 0.5103594052234173,
+      "active_torque": 1.0333233993787674,
+      "passive_actuator_torque": -0.42668137990654575,
+      "tip_equivalent_active_force": 2.0246974755494414,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.08414075848865561
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 1,
+      "leg": "lh/",
+      "tibia_q": 0.5727113020197495,
+      "lever_model_units": 0.5103594052234174,
+      "active_torque": 0.6281841896985779,
+      "passive_actuator_torque": 0.006084940485710835,
+      "tip_equivalent_active_force": 1.2308662939670545,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.05115135709071986
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 1,
+      "leg": "rf/",
+      "tibia_q": 1.9096450496537452,
+      "lever_model_units": 0.510359405223417,
+      "active_torque": 1.036965814608643,
+      "passive_actuator_torque": -0.3873298138763484,
+      "tip_equivalent_active_force": 2.0318344366646803,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.08443735061107988
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 1,
+      "leg": "rm/",
+      "tibia_q": 2.4668429304710418,
+      "lever_model_units": 0.5103594052234173,
+      "active_torque": 0.4600545102989499,
+      "passive_actuator_torque": -0.7517231593501584,
+      "tip_equivalent_active_force": 0.9014324132961835,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.03746100733415373
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 1,
+      "leg": "rh/",
+      "tibia_q": 2.21492338140205,
+      "lever_model_units": 0.5103594052234173,
+      "active_torque": 0.9335470251257895,
+      "passive_actuator_torque": -0.6170636728450881,
+      "tip_equivalent_active_force": 1.8291952995695566,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.0760162354071685
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 2,
+      "leg": "lf/",
+      "tibia_q": 1.774892462854557,
+      "lever_model_units": 0.5103594052234167,
+      "active_torque": 1.0333169028729252,
+      "passive_actuator_torque": -0.2828492548968491,
+      "tip_equivalent_active_force": 2.0246847462732207,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.08414022949557436
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 2,
+      "leg": "lm/",
+      "tibia_q": 1.786244880178179,
+      "lever_model_units": 0.5103594052234174,
+      "active_torque": 1.0342489216665143,
+      "passive_actuator_torque": -0.29141403817967176,
+      "tip_equivalent_active_force": 2.02651094715058,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.08421612129117803
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 2,
+      "leg": "lh/",
+      "tibia_q": 0.4881153470245679,
+      "lever_model_units": 0.5103594052234178,
+      "active_torque": 0.5859318765845921,
+      "passive_actuator_torque": 0.006420246739531368,
+      "tip_equivalent_active_force": 1.148076964170164,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.047710864331678184
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 2,
+      "leg": "rf/",
+      "tibia_q": 1.7763750285123217,
+      "lever_model_units": 0.5103594052234174,
+      "active_torque": 1.033444296282323,
+      "passive_actuator_torque": -0.2839642983460396,
+      "tip_equivalent_active_force": 2.024934361364257,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.08415060279990433
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 2,
+      "leg": "rm/",
+      "tibia_q": 2.4594744692747827,
+      "lever_model_units": 0.5103594052234174,
+      "active_torque": 0.4843623710888168,
+      "passive_actuator_torque": -0.7490439646647026,
+      "tip_equivalent_active_force": 0.9490613205742334,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.03944033137280965
+    },
+    {
+      "kind": "replicated",
+      "pose_index": 2,
+      "leg": "rh/",
+      "tibia_q": 2.19751423378429,
+      "lever_model_units": 0.5103594052234175,
+      "active_torque": 0.9471670496996529,
+      "passive_actuator_torque": -0.6052936837814159,
+      "tip_equivalent_active_force": 1.8558824232601656,
+      "body_weight_model_units": 24.063218729154002,
+      "force_to_body_weight": 0.07712527755115549
+    }
+  ],
+  "biological_reference": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7347388/",
+    "citation": "Azevedo et al. (2020), A size principle for recruitment of Drosophila leg motor neurons",
+    "observation": "Approximately 100 micronewtons at the tibial tip, approximately ten body weights.",
+    "caveat": "Observed voluntary peak across the experiment, not maximum isometric force at each modeled pose."
+  },
+  "assumptions": [
+    "Activation one of the single published tibia flexor unit; passive actuator torque subtracted.",
+    "Equivalent force tangential to tibia-tip rotation, holding all other coordinates fixed.",
+    "Ratio uses each model own total body weight and requires no SI mass conversion.",
+    "Muscle coverage, pose, probe direction and specimen differ from the experiment.",
+    "No parameter is fitted or changed, and no whole-body support or neural function is demonstrated."
+  ]
+}

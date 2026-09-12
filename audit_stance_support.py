@@ -93,7 +93,10 @@ def main():
                 arbitrary_joint_torques=None if not fit.success or recruitment is not None else fit.x[contact.shape[1]:].tolist(),
                 support_ray_weights=None if not fit.success else fit.x[:contact.shape[1]].tolist())
         capacity = {}
-        for name, recruitment in (('independent90', np.eye(m.nu)), ('named_pools', weights)):
+        missing = ~np.any(weights, axis=1)
+        for name, recruitment in (('independent90', np.eye(m.nu)), ('named_pools', weights),
+                ('mapped78_independent', np.eye(m.nu)[:, ~missing]),
+                ('named_plus_missing_independent', np.column_stack([weights, np.eye(m.nu)[:, missing]]))):
             # Minimize the largest normalized input needed for static balance.
             # Extrapolation is diagnostic only; it never changes muscle forces.
             ncontact, ninput = contact.shape[1], recruitment.shape[1]
@@ -117,7 +120,7 @@ def main():
                     objective-matrix.T@fit.eqlin.marginals-upper.T@fit.ineqlin.marginals-fit.lower.marginals).max()))
         results.append(dict(pose_index=index, maximum_penetration=worst,
             affine_error=affine_error, supports=supports, conditions=conditions, capacity=capacity))
-        print(json.dumps(dict(pose=index, capacity=capacity)), flush=True)
+        print(json.dumps(dict(pose=index, capacity={k:dict(status=v['status'],minimum_peak_input=v['minimum_peak_input']) for k,v in capacity.items()})), flush=True)
     report = dict(kind='pose-specific ideal foot-contact muscle equilibrium; not behavior',
         runner_sha256=sha(Path(__file__)),
         inputs={name: sha(getattr(a, name)) for name in ('xml', 'poses', 'motor')},
@@ -130,6 +133,8 @@ def main():
                      'Independent muscle or named-pool inputs may choose any value in [0,1]; no CNS reachability constraint.',
                      'Explicit unbounded-muscle case extrapolates the affine force law beyond physiological activation.',
                      'Arbitrary-joint-torque case tests contact/root support independent of muscle direction/capacity.',
+                     'Mapped78-independent removes shared-pool constraints while keeping the 12 unmapped units silent.',
+                     'Named-plus-missing-independent grants the missing 12 units independent diagnostic drive, not anatomical assignments.',
                      'No forces or fitted activations are installed in a runtime controller.',
                      'Infeasibility concerns these poses and point-contact assumptions, not every possible stance.'])
     with a.output.open('x') as f:

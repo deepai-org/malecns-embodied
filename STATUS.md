@@ -1,5 +1,11 @@
 # MaleCNS embodiment experiment
 
+Latest interface evidence: minimax support requires 4.70–11.58 peak independent
+muscle input (normal maximum 1). Existing named pools remain infeasible at two
+poses even without a ceiling. A tibia-force/body-weight check also warns against
+treating the source actuator strengths as physiologically calibrated. See
+[SUPPORT_CAPACITY.md](SUPPORT_CAPACITY.md). No parameters or runtime control changed.
+
 Latest mechanical gate: offline pose refinement removes gross inter-leg overlap
 without altering geometry or collision. Three feet-on-floor poses meet geometric
 tolerances, but all fail static support with bounded muscle activation; unbounded

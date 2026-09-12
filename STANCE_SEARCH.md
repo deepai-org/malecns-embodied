@@ -1,5 +1,10 @@
 # Offline initial-stance search
 
+Subsequent [capacity and recruitment audit](SUPPORT_CAPACITY.md) quantifies the
+deficit: independent units require minimum peak inputs 4.70–11.58. Existing
+named-pool recruitment is infeasible at two poses even with unlimited input.
+Thus force scaling alone does not resolve the tested interface.
+
 **Update: refinement finds three geometrically acceptable poses, but bounded
 muscle support remains infeasible in the static test.** These are saved offline
 initial conditions, not a standing fly or a controller.
