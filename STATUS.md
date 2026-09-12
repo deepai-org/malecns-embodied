@@ -1,5 +1,12 @@
 # MaleCNS embodiment experiment
 
+Latest mechanical gate: offline pose refinement removes gross inter-leg overlap
+without altering geometry or collision. Three feet-on-floor poses meet geometric
+tolerances, but all fail static support with bounded muscle activation; unbounded
+muscle-force extrapolation and arbitrary joint torques can balance them. See
+[STANCE_SEARCH.md](STANCE_SEARCH.md). These poses are not a demonstrated standing
+fly and no optimizer-derived controller has been installed.
+
 Latest gate check: the replicated body starts with 27 active inter-leg contacts
 before reaching the floor. Matched 50-ms passive collision ablations change
 joint angles by up to 0.403 rad under gravity. See [INITIALIZATION.md](INITIALIZATION.md).

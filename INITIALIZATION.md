@@ -1,5 +1,11 @@
 # Six-leg initialization: collision-confounded
 
+Update: [offline pose refinement](STANCE_SEARCH.md) removes gross initial overlap
+without modifying geometry or disabling collision. Bounded muscle support at
+those poses still fails the ideal-contact static test. The original initialization
+and its evidence below remain unchanged; the CNS trial has not been rerun from
+the new poses.
+
 The corrected single-floor body still has an invalidating initialization issue
 for interpreting its motion: copied leg assemblies intersect before touching
 the ground. This is distinct from the already repaired duplicate floor.

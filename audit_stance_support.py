@@ -75,16 +75,22 @@ def main():
         contact = np.stack(rays, axis=1)
         conditions = {}
         for name, recruitment in (('passive', np.zeros((m.nu, 0))),
-                                  ('independent90', np.eye(m.nu)), ('named_pools', weights)):
-            torque = active @ recruitment
+                                  ('independent90', np.eye(m.nu)), ('named_pools', weights),
+                                  ('independent90_unbounded', np.eye(m.nu)),
+                                  ('arbitrary_joint_torque', None)):
+            torque = (np.vstack([np.zeros((6, 42)), np.eye(42)])
+                      if recruitment is None else active @ recruitment)
             matrix = np.column_stack([contact, torque])
+            motor_bound = ((None, None) if recruitment is None else
+                           (0, None) if name.endswith('_unbounded') else (0, 1))
             fit = linprog(np.r_[np.ones(contact.shape[1]), np.zeros(torque.shape[1])],
                 A_eq=matrix, b_eq=target,
-                bounds=[(0, None)] * contact.shape[1] + [(0, 1)] * torque.shape[1], method='highs')
+                bounds=[(0, None)] * contact.shape[1] + [motor_bound] * torque.shape[1], method='highs')
             conditions[name] = dict(status=int(fit.status), message=fit.message,
                 feasible=bool(fit.success),
                 residual=None if not fit.success else float(np.abs(matrix @ fit.x - target).max()),
-                activations=None if not fit.success else (recruitment @ fit.x[contact.shape[1]:]).tolist(),
+                activations=None if not fit.success or recruitment is None else (recruitment @ fit.x[contact.shape[1]:]).tolist(),
+                arbitrary_joint_torques=None if not fit.success or recruitment is not None else fit.x[contact.shape[1]:].tolist(),
                 support_ray_weights=None if not fit.success else fit.x[:contact.shape[1]].tolist())
         results.append(dict(pose_index=index, maximum_penetration=worst,
             affine_error=affine_error, supports=supports, conditions=conditions))
@@ -99,6 +105,8 @@ def main():
                      'Conservative four-ray tangential friction cone, no adhesion or contact moments.',
                      'Ideal hard contacts; not proof of equilibrium under the runtime soft-contact solver.',
                      'Independent muscle or named-pool inputs may choose any value in [0,1]; no CNS reachability constraint.',
+                     'Explicit unbounded-muscle case extrapolates the affine force law beyond physiological activation.',
+                     'Arbitrary-joint-torque case tests contact/root support independent of muscle direction/capacity.',
                      'No forces or fitted activations are installed in a runtime controller.',
                      'Infeasibility concerns these poses and point-contact assumptions, not every possible stance.'])
     with a.output.open('x') as f:
