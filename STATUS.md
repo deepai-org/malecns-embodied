@@ -1,5 +1,11 @@
 # MaleCNS embodiment experiment
 
+Latest gate check: the replicated body starts with 27 active inter-leg contacts
+before reaching the floor. Matched 50-ms passive collision ablations change
+joint angles by up to 0.403 rad under gravity. See [INITIALIZATION.md](INITIALIZATION.md).
+A collision-consistent, feet-supported initial pose is needed before interpreting
+support feasibility or neural competence. No runtime controller or scene was changed.
+
 Latest integration: a separate free-body six-leg muscle prototype runs full-CNS
 proprioception with 90 muscle units, 78 mapped to named motor pools. The corrected
 single-floor trial completes two seconds; physical checkpoint replay is exact

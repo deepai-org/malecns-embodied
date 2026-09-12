@@ -10,6 +10,11 @@ Thorax and abdomen ground-contact forces are nonzero in every final condition.
 Nearly upright body coordinates therefore do not establish standing, and no
 useful walking, feeding, grooming or flight is demonstrated.
 
+Subsequent [initialization audit](INITIALIZATION.md) finds 27 active inter-leg
+contacts before floor contact, with penetration up to 0.1522 nominal mm.
+Self-collision materially changes passive motion in matched 50-ms tests. This
+is another mechanical confound, not evidence that CNS dynamics caused collapse.
+
 ![Recorded final pose, corrected experiment](evidence/trials/six-leg-feedback-002/final-pose.png)
 
 This is a rendered physical pose from the positive-polarity feedback condition,

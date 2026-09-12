@@ -1,5 +1,14 @@
 # Route reassessment
 
+Latest reassessment: freeze infrastructure and gate further investment on
+mechanical support feasibility and biologically grounded CNS perturbation
+responses. Do not preserve a particular simulator at the expense of the goal.
+The first concrete initialization check found substantial inter-leg intersections
+in the replicated muscle body; [matched ablations](INITIALIZATION.md) establish
+that self-collision materially changes its motion. Resolve a valid stance and
+mounting geometry before solving support or blaming CNS dynamics. Additional
+component detail without resolving these gates is not the preferred route.
+
 The goal remains a rich, biologically grounded whole fly—not an isolated reflex,
 a scripted gait, or a connectome decorating a learned behavioral policy.
 
