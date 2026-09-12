@@ -76,6 +76,30 @@ python3 verify_published_cpg.py --trial runs/published-cpg \
 
 ## Scope of the next decision
 
+### Connectivity registration: not an equation-only replacement
+
+`audit_cpg_connectome_overlap.py` compares the published matrix with the pinned
+official annotation/edge files. Its reference-file hashes match the executed
+rhythm trial. The receipt is `evidence/cpg-connectome-overlap-001.json`.
+
+- 4,309 of 4,310 reference IDs are in the official Traced set; body 825433 is not.
+- Reference: 118,920 nonzero signed-matrix entries.
+- Official edges induced by the same reference IDs: 527,288 nonzero pairs.
+- 116,382 nonzero pairs have identical absolute counts.
+- 408,526 pairs occur only in the official induced graph; 158 only in the reference.
+- Across the union, 411,064 pairs differ in absolute count or presence.
+
+This compares absolute counts, not neurotransmitter signs. The reference's
+filename explicitly specifies VNC ROIs, while the official file is whole-volume;
+filtering, ROI scope and dataset revisions are possible explanations, not yet
+isolated causes. The official induced graph here retains all reference IDs for
+comparison, including the one outside the Traced set; it is not a simulation-ready
+replacement for our curated graph.
+
+Therefore the next full-CNS candidate must explicitly separate dynamics from
+connectivity selection. Do not describe the reference as our existing MaleCNS
+graph with only a different activation function. Preserve all current pins.
+
 ### Tolerance refinement completed
 
 Trial 004 reran the same source, mean parameters, input and 1-ms maximum step
