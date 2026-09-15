@@ -1,5 +1,8 @@
 # MaleCNS embodied fly experiment
 
+**Infrastructure closed, 2026-09-15:** the experiment's Vast instance was
+destroyed at the user's request. Published code and evidence remain available.
+
 **Paused at the user's request, 2026-09-12.** See [HANDOFF.md](HANDOFF.md) for
 the current state and next experiment. No autonomous fly is demonstrated.
 The latest promising result is a [published subnetwork rhythm reference](PUBLISHED_CPG.md),

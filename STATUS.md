@@ -1,5 +1,13 @@
 # MaleCNS embodiment experiment
 
+## Infrastructure closed — 2026-09-15
+
+The user requested deletion of this specific Vast instance. Its identity was
+verified against the fly host and trial receipt before destruction. The API
+confirmed success, the instance disappeared from the account listing, and other
+instance IDs were unchanged. The remote disk is gone; this repository retains
+the published code and evidence. The scientific objective remains unachieved.
+
 ## Current stopping point — 2026-09-12
 
 Paused at the user's request; see [HANDOFF.md](HANDOFF.md). Completed results

@@ -1,5 +1,15 @@
 # Stopping point — 2026-09-12
 
+## Infrastructure closed — 2026-09-15
+
+At the user's explicit request, the specific four-RTX-3090 Vast instance was
+destroyed. Before deletion, its address/SSH mapping and saved trial checksum
+were matched to this experiment. Vast returned success and a subsequent
+account listing no longer contained the instance; other instance IDs were
+unchanged. Its remote disk is no longer available. Committed source, evidence
+and local files remain; a future restart requires a new host and environment.
+The provisioning statements below describe the earlier September 12 handoff.
+
 Paused at the user's request. The full objective remains unfinished:
 physical environment → sensory organs → MaleCNS dynamics → motor neurons →
 muscles/body → changed sensory input, producing rich fly behavior.
